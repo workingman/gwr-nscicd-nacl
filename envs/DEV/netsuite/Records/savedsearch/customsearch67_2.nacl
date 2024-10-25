@@ -1,0 +1,106 @@
+netsuite.savedsearch customsearch67_2 {
+  scriptid = "customsearch67_2"
+  definition = "b44780bc112a862f94c649109022b128821108be6a3ea172d760a49a28dbfe6f@GZC@2023.2.14@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"
+  available_filters = [
+    {
+      SEQ_NUMBER = 1
+      FIELD_NAME = "Workflow_RECORDTYPE"
+      FLAG_FOOTER = true
+      FLAG_FOOTER_MULTI_SELECT = false
+    },
+    {
+      SEQ_NUMBER = 2
+      FIELD_NAME = "Workflow_OWNER"
+      FLAG_FOOTER = true
+      FLAG_FOOTER_MULTI_SELECT = false
+    },
+    {
+      SEQ_NUMBER = 3
+      FIELD_NAME = "Workflow_RELEASESTATUS"
+      FLAG_FOOTER = true
+      FLAG_FOOTER_MULTI_SELECT = false
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Workflow_NAME"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Workflow_FROMBUNDLE"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Workflow_RECORDTYPE"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Workflow_DESCRIPTION"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Workflow_OWNER"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Workflow_RELEASESTATUS"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Workflow_RUNASADMIN"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Workflow_NAME"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch67_2"
+  FIELD_DEFAULT_NAME = "Custom Workflow Default View"
+  FIELD_SEARCH_TYPE = "Workflow"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "ANY"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = false
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "Custom Workflow Default View"
+}

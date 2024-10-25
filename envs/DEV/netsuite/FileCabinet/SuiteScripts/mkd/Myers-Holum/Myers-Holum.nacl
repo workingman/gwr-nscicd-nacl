@@ -1,0 +1,10 @@
+netsuite.folder SuiteScripts_mkd_Myers_Holum@ddb {
+  bundleable = false
+  isprivate = false
+  path = "/SuiteScripts/mkd/Myers-Holum"
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_mkd@d,
+  ]
+  _alias = "Myers-Holum"
+}

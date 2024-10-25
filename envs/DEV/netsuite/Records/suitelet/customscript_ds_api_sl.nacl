@@ -1,0 +1,26 @@
+netsuite.suitelet customscript_ds_api_sl {
+  scriptid = "customscript_ds_api_sl"
+  name = "DocuSign API Suitelet"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = "[/SuiteBundles/Bundle 351444/Docusign (2)/Scripts/ds_api_sl.js]"
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_ds_api_sl = {
+        scriptid = "customdeploy_ds_api_sl"
+        allemployees = false
+        allpartners = false
+        allroles = false
+        isdeployed = true
+        isonline = false
+        loglevel = "DEBUG"
+        status = "RELEASED"
+        title = "DocuSign API Suitelet"
+      }
+    }
+  }
+  isInactive = false
+  bundle = netsuite.bundle.instance.bundle_351444
+  _alias = "DocuSign API Suitelet"
+}

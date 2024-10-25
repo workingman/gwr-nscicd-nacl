@@ -1,0 +1,18 @@
+netsuite.bundle bundle_240841 {
+  id = "240841"
+  name = "NetSuite Approvals Workflow"
+  version = "2.00.0.a"
+  isManaged = false
+  dateInstalled = "2024-07-09T16:31:11.000Z"
+  installedFrom = "Production"
+  publisher = {
+    id = "5112204"
+    name = "NetSuite ERP Platform - NetSuite Approvals Workflow (5112204)"
+  }
+  installedBy = {
+    id = 115
+    name = "Geoffrey W Routledge"
+  }
+  isPrivate = false
+  _alias = "NetSuite Approvals Workflow"
+}

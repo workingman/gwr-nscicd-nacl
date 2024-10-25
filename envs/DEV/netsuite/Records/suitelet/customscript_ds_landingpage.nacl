@@ -1,0 +1,26 @@
+netsuite.suitelet customscript_ds_landingpage {
+  scriptid = "customscript_ds_landingpage"
+  name = "DocuSign Landing Page"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = "[/SuiteBundles/Bundle 351444/Docusign (2)/Scripts/ds_landingpage.js]"
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_ds_landingpage = {
+        scriptid = "customdeploy_ds_landingpage"
+        allemployees = false
+        allpartners = false
+        allroles = false
+        isdeployed = true
+        isonline = false
+        loglevel = "DEBUG"
+        status = "RELEASED"
+        title = "DocuSign Landing Page"
+      }
+    }
+  }
+  isInactive = false
+  bundle = netsuite.bundle.instance.bundle_351444
+  _alias = "DocuSign Landing Page"
+}

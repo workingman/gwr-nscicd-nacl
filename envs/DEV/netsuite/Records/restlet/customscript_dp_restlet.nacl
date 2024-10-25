@@ -1,0 +1,72 @@
+netsuite.restlet customscript_dp_restlet {
+  scriptid = "customscript_dp_restlet"
+  
+  name = "DP Restlet"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_dp_dp_suitelet_js@dduv.path
+  _alias = "DP Restlet"
+  scriptcustomfields = {
+    scriptcustomfield = {
+      custscript_dbrest_p1 = {
+        scriptid = "custscript_dbrest_p1"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "TEXT"
+        isformula = false
+        ismandatory = false
+        label = "DP PARAM 1"
+        searchlevel = "2"
+        storevalue = true
+        index = 0
+      }
+      custscript_dbrest_p2 = {
+        scriptid = "custscript_dbrest_p2"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "TEXT"
+        isformula = false
+        ismandatory = false
+        label = "DP PARAM 2"
+        searchlevel = "2"
+        storevalue = true
+        index = 1
+      }
+    }
+  }
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_dprest_2 = {
+        scriptid = "customdeploy_dprest_2"
+        allemployees = false
+        allpartners = false
+        allroles = true
+        custscript_dbrest_p2 = "BBX$3"
+        isdeployed = true
+        loglevel = "ERROR"
+        status = "TESTING"
+        title = "DP Restlet 2"
+      }
+      customdeploy_dprest = {
+        scriptid = "customdeploy_dprest"
+        allemployees = false
+        allpartners = false
+        allroles = true
+        custscript_dbrest_p1 = "AAABB"
+        custscript_dbrest_p2 = 2
+        isdeployed = true
+        loglevel = "ERROR"
+        status = "RELEASED"
+        title = "DP Restlet"
+      }
+    }
+  }
+  isInactive = false
+}

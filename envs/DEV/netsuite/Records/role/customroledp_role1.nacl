@@ -1,0 +1,44 @@
+netsuite.role customroledp_role1 {
+  scriptid = "customroledp_role1"
+  accountingbooksoption = "PRIMARY"
+  centertype = "SALESCENTER"
+  coreadminpermission = false
+  employeerestriction = "NONE"
+  employeeselectionunrestricted = false
+  
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = false
+  name = "DP Role 1"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "OWN"
+  subsidiaryviewingallowed = false
+  tfaduration = "0"
+  tfarequired = "OFF"
+  permissions = {
+    permission = {
+      TRAN_PURCHORDBILL = {
+        permkey = "TRAN_PURCHORDBILL"
+        permlevel = "VIEW"
+      }
+      TRAN_VENDAUTHCREDIT = {
+        permkey = "TRAN_VENDAUTHCREDIT"
+        permlevel = "VIEW"
+      }
+      TRAN_PAYMENTAUDIT = {
+        permkey = "TRAN_PAYMENTAUDIT"
+        permlevel = "VIEW"
+      }
+      GRAP_AR = {
+        permkey = "GRAP_AR"
+        permlevel = "VIEW"
+      }
+    }
+  }
+  _alias = "DP Role 1"
+  isInactive = false
+  restrictip = false
+}

@@ -1,0 +1,72 @@
+netsuite.role customrole_srd_another_test_role {
+  scriptid = "customrole_srd_another_test_role"
+  accountingbooksoption = "PRIMARY"
+  centertype = "BASIC"
+  coreadminpermission = false
+  employeerestriction = "NONE"
+  employeeselectionunrestricted = false
+  
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = false
+  name = "(SRD) Another test role"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "OWN"
+  subsidiaryviewingallowed = false
+  tfaduration = "0"
+  tfarequired = "OFF"
+  permissions = {
+    permission = {
+      TRAN_AUDIT = {
+        permkey = "TRAN_AUDIT"
+        permlevel = "VIEW"
+      }
+      TRAN_TIMEBILL = {
+        permkey = "TRAN_TIMEBILL"
+        permlevel = "VIEW"
+      }
+      REPO_RECONCILE = {
+        permkey = "REPO_RECONCILE"
+        permlevel = "VIEW"
+      }
+      LIST_OTHER_ADDRESS = {
+        permkey = "LIST_OTHER_ADDRESS"
+        permlevel = "FULL"
+      }
+      LIST_ALLOCSCHEDULE = {
+        permkey = "LIST_ALLOCSCHEDULE"
+        permlevel = "FULL"
+      }
+      LIST_CERTIFICATES = {
+        permkey = "LIST_CERTIFICATES"
+        permlevel = "FULL"
+      }
+      LIST_COMPANY = {
+        permkey = "LIST_COMPANY"
+        permlevel = "VIEW"
+      }
+      LIST_MASSUPDATES = {
+        permkey = "LIST_MASSUPDATES"
+        permlevel = "VIEW"
+      }
+      LIST_FIND = {
+        permkey = "LIST_FIND"
+        permlevel = "VIEW"
+      }
+      ADMI_ACCOUNTING = {
+        permkey = "ADMI_ACCOUNTING"
+        permlevel = "FULL"
+      }
+      customrecord_amzn_brand_auth = {
+        permkey = netsuite.customrecord_amzn_brand_auth.attr.scriptid
+        permlevel = "NONE"
+      }
+    }
+  }
+  _alias = "(SRD) Another test role"
+  isInactive = false
+  restrictip = false
+}

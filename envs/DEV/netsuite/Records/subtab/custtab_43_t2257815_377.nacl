@@ -1,0 +1,6 @@
+netsuite.subtab custtab_43_t2257815_377 {
+  scriptid = "custtab_43_t2257815_377"
+  tabtype = "TRANSACTION"
+  title = "Test Trans Tab"
+  _alias = "Test Trans Tab"
+}

@@ -1,0 +1,9 @@
+netsuite.nexus _canada_Saskatchewan {
+  country = "_canada"
+  state = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Saskatchewan)"
+  }
+  description = "SK"
+  identifier = "_canada_Saskatchewan"
+  _alias = "_canada_Saskatchewan"
+}

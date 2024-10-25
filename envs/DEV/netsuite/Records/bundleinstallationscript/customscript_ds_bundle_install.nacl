@@ -1,0 +1,21 @@
+netsuite.bundleinstallationscript customscript_ds_bundle_install {
+  scriptid = "customscript_ds_bundle_install"
+  name = "DocuSign Bundle Install"
+  notifyadmins = false
+  notifyowner = true
+  scriptfile = "[/SuiteBundles/Bundle 351444/Docusign (2)/Scripts/ds_bundle_install.js]"
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_ds_bundle_install = {
+        scriptid = "customdeploy_ds_bundle_install"
+        isdeployed = true
+        loglevel = "DEBUG"
+        status = "RELEASED"
+        title = "DocuSign Bundle Install"
+      }
+    }
+  }
+  isInactive = false
+  bundle = netsuite.bundle.instance.bundle_351444
+  _alias = "DocuSign Bundle Install"
+}

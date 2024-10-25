@@ -1,0 +1,54 @@
+netsuite.customlist customlist_gwr_bb_cat_list {
+  scriptid = "customlist_gwr_bb_cat_list"
+  ismatrixoption = false
+  isordered = true
+  name = "GWR Item Category List"
+  customvalues = {
+    customvalue = {
+      val_59007_t2257815_201 = {
+        scriptid = "val_59007_t2257815_201"
+        abbreviation = "A"
+        value = "Adder"
+        index = 0
+        isInactive = false
+      }
+      val_59008_t2257815_204 = {
+        scriptid = "val_59008_t2257815_204"
+        abbreviation = "S"
+        value = "Differtiator"
+        index = 1
+        isInactive = false
+      }
+      val_59009_t2257815_265 = {
+        scriptid = "val_59009_t2257815_265"
+        abbreviation = "M"
+        value = "Integrator"
+        index = 2
+        isInactive = false
+      }
+      val_59010_t2257815_962 = {
+        scriptid = "val_59010_t2257815_962"
+        abbreviation = "D"
+        value = "Divisor"
+        index = 3
+        isInactive = false
+      }
+      val_59052_t2257815_544 = {
+        scriptid = "val_59052_t2257815_544"
+        abbreviation = "a"
+        value = "additional 2"
+        index = 4
+        isInactive = false
+      }
+      val_59051_t2257815_626 = {
+        scriptid = "val_59051_t2257815_626"
+        abbreviation = "a"
+        value = "additional 1"
+        index = 5
+        isInactive = false
+      }
+    }
+  }
+  isInactive = false
+  _alias = "GWR Item Category List"
+}

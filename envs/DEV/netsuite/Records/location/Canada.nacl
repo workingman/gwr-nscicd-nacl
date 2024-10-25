@@ -1,0 +1,37 @@
+netsuite.location Canada {
+  name = "Canada"
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  isInactive = false
+  mainAddress = {
+    country = "_canada"
+    addressee = "GWR-location"
+    addrText = "GWR-location<br>Canada"
+    override = false
+    customFieldList = {
+      customField = [
+        {
+          value = false
+          scriptId = "custrecordsame_as_shipping_address"
+        },
+      ]
+    }
+  }
+  locationType = "_warehouse"
+  timeZone = "_americaLosAngeles"
+  useBins = true
+  makeInventoryAvailable = true
+  classTranslationList = {
+    classTranslation = {
+      German = {
+        language = "German"
+      }
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+    }
+  }
+  identifier = "Canada"
+  _alias = "Canada"
+}

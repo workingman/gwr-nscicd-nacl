@@ -1,0 +1,64 @@
+netsuite.subsidiary Parent_Company_DP_East@sus {
+  name = "DP East"
+  parent = netsuite.subsidiary.instance.Parent_Company@s
+  isInactive = false
+  showSubsidiaryName = false
+  state = "MI"
+  country = "_unitedStates"
+  mainAddress = {
+    country = "_unitedStates"
+    addressee = "DP East"
+    addr1 = "1280 Meech Rd"
+    city = "Williamston"
+    state = "MI"
+    zip = "48895"
+    addrText = "DP East<br>1280 Meech Rd<br>Williamston MI 48895<br>United States"
+    override = false
+    customFieldList = {
+      customField = [
+        {
+          value = false
+          scriptId = "custrecordsame_as_shipping_address"
+        },
+      ]
+    }
+    
+  }
+  isElimination = false
+  currency = netsuite.currency.instance.DP_Dollar@s
+  edition = "US"
+  nexusList = {
+    nexus = [
+      {
+        nexusId = netsuite.nexus.instance._unitedStates_Michigan
+        country = "US"
+      },
+    ]
+  }
+  accountingBookDetailList = {
+    subsidiaryAccountingBookDetail = [
+      {
+        accountingBook = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (DP Accounting Book)"
+        }
+        bookStatus = "_pending"
+      },
+    ]
+  }
+  checkLayout = {
+    
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Standard Check Layout)"
+  }
+  classTranslationList = {
+    classTranslation = {
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+      German = {
+        language = "German"
+      }
+    }
+  }
+  identifier = "Parent Company_DP East"
+  _alias = "DP East"
+}

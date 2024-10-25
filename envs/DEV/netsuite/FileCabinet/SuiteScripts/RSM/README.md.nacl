@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_RSM_README_md@ddv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/RSM/README.md"
+  content = file("netsuite/FileCabinet/SuiteScripts/RSM/README.md")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_RSM@d,
+  ]
+  _alias = "README.md"
+}

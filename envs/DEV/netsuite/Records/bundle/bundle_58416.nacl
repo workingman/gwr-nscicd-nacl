@@ -1,0 +1,18 @@
+netsuite.bundle bundle_58416 {
+  id = "58416"
+  name = "Enhanced Sales Center"
+  version = "2.00.0"
+  isManaged = false
+  dateInstalled = "2024-02-13T20:23:41.000Z"
+  installedFrom = "Production"
+  publisher = {
+    id = "3966833"
+    name = "NetSuite Platform Solutions Group - Enhanced Sales Center migrate"
+  }
+  installedBy = {
+    id = 115
+    name = "Geoffrey W Routledge"
+  }
+  
+  _alias = "Enhanced Sales Center"
+}

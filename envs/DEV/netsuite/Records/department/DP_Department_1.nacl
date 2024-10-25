@@ -1,0 +1,20 @@
+netsuite.department DP_Department_1@s {
+  name = "DP Department 1"
+  includeChildren = false
+  isInactive = false
+  classTranslationList = {
+    classTranslation = {
+      German = {
+        language = "German"
+      }
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+    }
+  }
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company_DP_East@sus,
+  ]
+  identifier = "DP Department 1"
+  _alias = "DP Department 1"
+}

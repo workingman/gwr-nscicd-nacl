@@ -1,0 +1,21 @@
+netsuite.location Lansing__MI@zds {
+  name = "Lansing, MI"
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company_DP_East@sus,
+  ]
+  isInactive = false
+  useBins = false
+  makeInventoryAvailable = false
+  classTranslationList = {
+    classTranslation = {
+      German = {
+        language = "German"
+      }
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+    }
+  }
+  identifier = "Lansing, MI"
+  _alias = "Lansing, MI"
+}

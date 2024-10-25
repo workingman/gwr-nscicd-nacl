@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_mkd_Myers_Holum_CUST___WO_Enhancements_WO_Issue_Automation_WMS_Open_Task_Object_Logs_lineObj_12345_json@ddbdsbssdssdssssduv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/mkd/Myers-Holum/CUST - WO Enhancements/WO Issue Automation/WMS Open Task Object Logs/lineObj_12345.json"
+  content = file("netsuite/FileCabinet/SuiteScripts/mkd/Myers-Holum/CUST - WO Enhancements/WO Issue Automation/WMS Open Task Object Logs/lineObj_12345.json")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_mkd_Myers_Holum_CUST___WO_Enhancements_WO_Issue_Automation_WMS_Open_Task_Object_Logs@ddbdsbssdssdssss,
+  ]
+  _alias = "lineObj_12345.json"
+}

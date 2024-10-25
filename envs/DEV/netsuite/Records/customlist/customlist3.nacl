@@ -1,0 +1,8 @@
+netsuite.customlist customlist3 {
+  scriptid = "customlist3"
+  ismatrixoption = false
+  isordered = true
+  name = "metal"
+  isInactive = false
+  _alias = "metal"
+}

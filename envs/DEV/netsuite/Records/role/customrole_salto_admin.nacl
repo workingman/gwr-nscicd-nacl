@@ -1,0 +1,23 @@
+netsuite.role customrole_salto_admin {
+  scriptid = "customrole_salto_admin"
+  accountingbooksoption = "ALL"
+  centertype = "ACCOUNTCENTER"
+  coreadminpermission = false
+  employeerestriction = "NONE"
+  employeeselectionunrestricted = false
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = false
+  name = "Salto Admin"
+  restrictbydevice = false
+  restrictip = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "ALL"
+  subsidiaryviewingallowed = false
+  tfaduration = "0"
+  tfarequired = "OFF"
+  isInactive = false
+  _alias = "Salto Admin"
+}

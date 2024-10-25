@@ -1,0 +1,37 @@
+netsuite.location Canada_Vancouver {
+  name = "Vancouver"
+  parent = netsuite.location.instance.Canada
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  isInactive = false
+  mainAddress = {
+    country = "_canada"
+    addressee = "Vancouver"
+    addrText = "Vancouver<br>Canada"
+    override = false
+    customFieldList = {
+      customField = [
+        {
+          value = false
+          scriptId = "custrecordsame_as_shipping_address"
+        },
+      ]
+    }
+  }
+  timeZone = "_americaLosAngeles"
+  useBins = true
+  makeInventoryAvailable = true
+  classTranslationList = {
+    classTranslation = {
+      German = {
+        language = "German"
+      }
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+    }
+  }
+  identifier = "Canada_Vancouver"
+  _alias = "Vancouver"
+}

@@ -1,0 +1,49 @@
+netsuite.scheduledscript customscript_ds_scheduler {
+  scriptid = "customscript_ds_scheduler"
+  name = "DocuSign Scheduler"
+  notifyadmins = false
+  notifyowner = true
+  scriptfile = "[/SuiteBundles/Bundle 351444/Docusign (2)/Scripts/ds_scheduler.js]"
+  scriptcustomfields = {
+    scriptcustomfield = {
+      custscript_gwr_sp = {
+        scriptid = "custscript_gwr_sp"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        defaultvalue = "{}"
+        displaytype = "NORMAL"
+        fieldtype = "TEXTAREA"
+        isformula = false
+        ismandatory = false
+        label = "GWR script parameter"
+        searchlevel = "2"
+        storevalue = true
+        index = 0
+      }
+    }
+  }
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_ds_scheduler = {
+        scriptid = "customdeploy_ds_scheduler"
+        isdeployed = true
+        loglevel = "DEBUG"
+        status = "SCHEDULED"
+        title = "DocuSign Scheduler"
+        recurrence = {
+          daily = {
+            everyxdays = 1
+            repeat = "PT4H"
+            startdate = "2020-01-08"
+            starttime = "18:00:00Z"
+          }
+        }
+      }
+    }
+  }
+  isInactive = false
+  bundle = netsuite.bundle.instance.bundle_351444
+  _alias = "DocuSign Scheduler"
+}

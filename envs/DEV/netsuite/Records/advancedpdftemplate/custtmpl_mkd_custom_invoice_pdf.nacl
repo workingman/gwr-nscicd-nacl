@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_mkd_custom_invoice_pdf {
+  scriptid = "custtmpl_mkd_custom_invoice_pdf"
+  standard = "STDTMPLCUSTINVC"
+  displaysourcecode = false
+  
+  preferred = true
+  printtype = "TRANSACTION"
+  title = "MKD Custom Invoice PDF/HTML Template"
+  trantype = "CUSTINVC"
+  content = file("netsuite/advancedpdftemplate/custtmpl_mkd_custom_invoice_pdf.xml")
+  _alias = "MKD Custom Invoice PDF/HTML Template"
+  isInactive = false
+}

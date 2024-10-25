@@ -1,0 +1,19 @@
+netsuite.customsegment cseg3 {
+  scriptid = "cseg3"
+  defaultrecordaccesslevel = "VIEW"
+  defaultsearchaccesslevel = "VIEW"
+  displaytype = "NORMAL"
+  fieldtype = "SELECT"
+  filteredby = "CLASS"
+  hasglimpact = false
+  ismandatory = false
+  label = "zgy_music"
+  recordtype = netsuite.customrecord_cseg3.attr.scriptid
+  valuesdisplayorder = "SUBLIST"
+  segmentapplication = {
+    items = {
+      subtype = "BOTH"
+    }
+  }
+  _alias = "zgy_music"
+}

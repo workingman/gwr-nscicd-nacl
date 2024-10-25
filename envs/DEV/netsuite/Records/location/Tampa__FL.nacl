@@ -1,0 +1,40 @@
+netsuite.location Tampa__FL@zds {
+  name = "Tampa, FL"
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company_eshed___co_global@susess,
+  ]
+  isInactive = false
+  mainAddress = {
+    country = "_israel"
+    addressee = "Tampa, FL"
+    addrText = "Tampa, FL<br>Israel"
+    override = false
+    customFieldList = {
+      customField = [
+        {
+          value = false
+          scriptId = "custrecordsame_as_shipping_address"
+        },
+      ]
+    }
+    
+  }
+  locationType = "_warehouse"
+  timeZone = "_americaLosAngeles"
+  latitude = -90
+  longitude = -77
+  useBins = true
+  makeInventoryAvailable = true
+  classTranslationList = {
+    classTranslation = {
+      German = {
+        language = "German"
+      }
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+    }
+  }
+  identifier = "Tampa, FL"
+  _alias = "Tampa, FL"
+}

@@ -1,0 +1,11 @@
+netsuite.usereventscript customscriptdp_userevent {
+  scriptid = "customscriptdp_userevent"
+  
+  name = "DP User Event"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_dp_userevent_script_js@duuv.path
+  _alias = "DP User Event"
+  isInactive = false
+}

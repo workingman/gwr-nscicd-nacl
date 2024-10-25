@@ -1,0 +1,27 @@
+netsuite.usereventscript customscript_ds_ui {
+  scriptid = "customscript_ds_ui"
+  name = "DocuSign UI"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = "[/SuiteBundles/Bundle 351444/Docusign (2)/Scripts/ui/ds_ui.js]"
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_ds_ui = {
+        scriptid = "customdeploy_ds_ui"
+        allemployees = false
+        alllocalizationcontexts = true
+        allpartners = false
+        allroles = true
+        executioncontext = "CLIENT|DATASETBUILDER|FIPARSER|OCRPLUGIN|USERINTERFACE|WORKBOOKBUILDER"
+        isdeployed = true
+        loglevel = "DEBUG"
+        recordtype = "RECORD"
+        status = "RELEASED"
+      }
+    }
+  }
+  isInactive = false
+  bundle = netsuite.bundle.instance.bundle_351444
+  _alias = "DocuSign UI"
+}

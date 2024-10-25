@@ -1,0 +1,46 @@
+netsuite.customlist customlist_rainbow_colors {
+  scriptid = "customlist_rainbow_colors"
+  description = "Colors of the Rainbow"
+  
+  ismatrixoption = false
+  isordered = true
+  name = "Colors of the Rainbow"
+  customvalues = {
+    customvalue = {
+      _cotr_red = {
+        scriptid = "_cotr_red"
+        abbreviation = "R"
+        
+        value = "Red"
+        index = 0
+        isInactive = false
+      }
+      val_51960_t2639457_985 = {
+        scriptid = "val_51960_t2639457_985"
+        abbreviation = "Y"
+        
+        value = "Yellow"
+        index = 1
+        isInactive = false
+      }
+      val_51961_t2639457_606 = {
+        scriptid = "val_51961_t2639457_606"
+        abbreviation = "P"
+        
+        value = "Purple"
+        index = 2
+        isInactive = false
+      }
+      val_51962_t2639457_919 = {
+        scriptid = "val_51962_t2639457_919"
+        abbreviation = "G"
+        
+        value = "Green"
+        index = 3
+        isInactive = false
+      }
+    }
+  }
+  _alias = "Colors of the Rainbow"
+  isInactive = false
+}

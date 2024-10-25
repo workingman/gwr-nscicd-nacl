@@ -1,0 +1,17 @@
+netsuite.translationcollection custcollectiontranslations_workbook_1_4fe9af2c1c1a47269ef07 {
+  scriptid = "custcollectiontranslations_workbook_1_4fe9af2c1c1a47269ef07"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_workbook_1_4fe9af2c1c1a47269ef07.strings.string.workbook_name_1_1.scriptid
+  strings = {
+    string = {
+      workbook_name_1_1 = {
+        scriptid = "workbook_name_1_1"
+        defaulttranslation = "Sales (Invoiced) Workbook"
+        description = "Name in workbook"
+        index = 0
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "Sales (Invoiced) Workbook"
+}

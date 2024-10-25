@@ -1,0 +1,20 @@
+netsuite.bundle bundle_517810 {
+  id = "517810"
+  name = "GWR Project Banner"
+  version = "1.0.4"
+  isManaged = false
+  description = "abstract"
+  dateInstalled = "2024-04-27T00:25:20.000Z"
+  dateLastUpdated = "2024-04-27T05:45:52.000Z"
+  installedFrom = "Production"
+  publisher = {
+    id = "TSTDRV2257860"
+    name = "Salto Development"
+  }
+  installedBy = {
+    id = 115
+    name = "Geoffrey W Routledge"
+  }
+  isPrivate = false
+  _alias = "GWR Project Banner"
+}

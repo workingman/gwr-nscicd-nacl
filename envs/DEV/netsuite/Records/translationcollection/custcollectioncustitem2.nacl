@@ -1,0 +1,20 @@
+netsuite.translationcollection custcollectioncustitem2 {
+  scriptid = "custcollectioncustitem2"
+  defaultlanguage = "en-US"
+  name = "eshed little key translations"
+  strings = {
+    string = {
+      trans_little_key = {
+        scriptid = "trans_little_key"
+        defaulttranslation = "the little key"
+        index = 1
+      }
+      custitem2 = {
+        scriptid = "custitem2"
+        defaulttranslation = "the little key"
+        index = 0
+      }
+    }
+  }
+  _alias = "eshed little key translations"
+}

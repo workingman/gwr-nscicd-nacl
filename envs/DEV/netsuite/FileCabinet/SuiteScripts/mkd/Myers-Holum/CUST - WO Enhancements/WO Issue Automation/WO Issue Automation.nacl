@@ -1,0 +1,10 @@
+netsuite.folder SuiteScripts_mkd_Myers_Holum_CUST___WO_Enhancements_WO_Issue_Automation@ddbdsbssdss {
+  bundleable = false
+  isprivate = false
+  path = "/SuiteScripts/mkd/Myers-Holum/CUST - WO Enhancements/WO Issue Automation"
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_mkd_Myers_Holum_CUST___WO_Enhancements@ddbdsbss,
+  ]
+  _alias = "WO Issue Automation"
+}

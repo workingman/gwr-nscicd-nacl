@@ -1,0 +1,11 @@
+netsuite.folder SuiteScripts_SRD___Scripts@dsbs {
+  bundleable = false
+  
+  isprivate = false
+  path = "/SuiteScripts/SRD - Scripts"
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "SRD - Scripts"
+  isInactive = false
+}

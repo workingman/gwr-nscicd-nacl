@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_zgy_zgy_hello_js@ddbv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/zgy/zgy-hello.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/zgy/zgy-hello.js")
+  isInactive = true
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_zgy@d,
+  ]
+  _alias = "zgy-hello.js"
+}

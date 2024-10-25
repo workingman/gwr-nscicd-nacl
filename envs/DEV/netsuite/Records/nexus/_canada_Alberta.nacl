@@ -1,0 +1,9 @@
+netsuite.nexus _canada_Alberta {
+  country = "_canada"
+  state = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Alberta)"
+  }
+  description = "AB"
+  identifier = "_canada_Alberta"
+  _alias = "_canada_Alberta"
+}

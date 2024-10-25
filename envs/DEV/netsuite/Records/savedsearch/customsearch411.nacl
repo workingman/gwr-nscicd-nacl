@@ -1,0 +1,67 @@
+netsuite.savedsearch customsearch411 {
+  scriptid = "customsearch411"
+  dependencies = {
+    dependency = [
+      netsuite.customrecord_cseg3.attr.scriptid,
+    ]
+  }
+  definition = "761b504df31ba5ae53545d14269eaca4e0f8385748426bfbd2993f9b27ef9706@GZC@2024.1.15@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"
+  return_fields = [
+    {
+      FIELD_ALIAS = "Custom_NAME"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Custom_SCRIPTID"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Custom_NAME"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch411"
+  FIELD_DEFAULT_NAME = "zgy_music Search"
+  FIELD_SEARCH_TYPE = "Custom"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  KEY_RECORD_TYPE = 216
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = false
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "zgy_music Search"
+}

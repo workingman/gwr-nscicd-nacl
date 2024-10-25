@@ -1,0 +1,63 @@
+netsuite.customlist customlist_gwr_l_rma11b {
+  scriptid = "customlist_gwr_l_rma11b"
+  description = "__"
+  
+  ismatrixoption = false
+  isordered = true
+  name = netsuite.translationcollection.instance.custcollection_slt_language_collection.strings.string.eng.scriptid
+  customvalues = {
+    customvalue = {
+      val_53897_t2257815_433 = {
+        scriptid = "val_53897_t2257815_433"
+        abbreviation = "r"
+        
+        value = "red"
+        index = 0
+        isInactive = false
+      }
+      val_53898_t2257815_265 = {
+        scriptid = "val_53898_t2257815_265"
+        abbreviation = "y"
+        
+        value = "yellow"
+        index = 1
+        isInactive = false
+      }
+      val_53899_t2257815_951 = {
+        scriptid = "val_53899_t2257815_951"
+        abbreviation = "b"
+        
+        value = "blue"
+        index = 2
+        isInactive = false
+      }
+      val_53925_t2257815_174 = {
+        scriptid = "val_53925_t2257815_174"
+        abbreviation = "g"
+        
+        value = "green"
+        index = 3
+        isInactive = false
+      }
+      val_54026_t2257815_631 = {
+        scriptid = "val_54026_t2257815_631"
+        abbreviation = "p"
+        
+        value = "purple"
+        index = 4
+        isInactive = false
+      }
+      val_53916_t2480139_519 = {
+        scriptid = "val_53916_t2480139_519"
+        abbreviation = "v"
+        
+        value = "value for caleb and fernando"
+        index = 5
+        isInactive = false
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "LANG"
+  isInactive = false
+}
