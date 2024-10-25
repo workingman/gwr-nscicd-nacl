@@ -1,0 +1,79 @@
+netsuite.savedsearch customsearch3357 {
+  scriptid = "customsearch3357"
+  dependencies = {
+    dependency = [
+      netsuite.customrecordtestrecordtype.attr.scriptid,
+    ]
+  }
+  definition = "99de5c8c0ef510e9e2c0aec4c574b7580021e53fd9fe96258644ef61c6be0da3@GZC@2023.2.14@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"
+  return_fields = [
+    {
+      FIELD_ALIAS = "Custom_NAME"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Custom_SCRIPTID"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "Custom_NAME"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Custom_SCRIPTID"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Custom_NAME"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch3357"
+  FIELD_DEFAULT_NAME = "Custom Test Record Type2 Search 2"
+  FIELD_SEARCH_TYPE = "Custom"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  KEY_RECORD_TYPE = 93
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "Custom Test Record Type2 Search 2"
+}

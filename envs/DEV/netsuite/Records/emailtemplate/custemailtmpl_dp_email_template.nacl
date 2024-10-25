@@ -1,0 +1,13 @@
+netsuite.emailtemplate custemailtmpl_dp_email_template {
+  scriptid = "custemailtmpl_dp_email_template"
+  addcompanyaddress = true
+  addunsubscribelink = true
+  
+  isprivate = false
+  name = "DP Email Template"
+  subject = "Howdy!"
+  usesmedia = false
+  content = file("netsuite/emailtemplate/custemailtmpl_dp_email_template.html")
+  _alias = "DP Email Template"
+  isInactive = false
+}

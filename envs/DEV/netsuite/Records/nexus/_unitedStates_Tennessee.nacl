@@ -1,0 +1,15 @@
+netsuite.nexus _unitedStates_Tennessee {
+  country = "_unitedStates"
+  state = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Tennessee)"
+  }
+  taxAgency = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Tax Agency TN)"
+  }
+  taxCode = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (-Not Taxable-)"
+  }
+  description = "TN"
+  identifier = "_unitedStates_Tennessee"
+  _alias = "_unitedStates_Tennessee"
+}

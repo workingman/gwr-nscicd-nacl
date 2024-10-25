@@ -1,0 +1,14 @@
+netsuite.file SuiteScripts_HQ_Employee@du {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/HQ_Employee"
+  content = file("netsuite/FileCabinet/SuiteScripts/HQ_Employee")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "HQ_Employee"
+  isInactive = false
+}

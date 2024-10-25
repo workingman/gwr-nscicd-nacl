@@ -1,0 +1,37 @@
+netsuite.customlist customlist_erp012_cr_list {
+  scriptid = "customlist_erp012_cr_list"
+  
+  ismatrixoption = false
+  isordered = true
+  name = "ERP 012 CR List"
+  customvalues = {
+    customvalue = {
+      val_56615_t2257896_319 = {
+        scriptid = "val_56615_t2257896_319"
+        abbreviation = "e"
+        
+        value = "entry one"
+        index = 0
+        isInactive = false
+      }
+      val_56616_t2257896_165 = {
+        scriptid = "val_56616_t2257896_165"
+        abbreviation = "e"
+        
+        value = "entry two"
+        index = 1
+        isInactive = false
+      }
+      val_56617_t2257896_676 = {
+        scriptid = "val_56617_t2257896_676"
+        abbreviation = "e"
+        
+        value = "entry three"
+        index = 2
+        isInactive = false
+      }
+    }
+  }
+  _alias = "ERP 012 CR List"
+  isInactive = false
+}

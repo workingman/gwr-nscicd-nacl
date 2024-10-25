@@ -1,0 +1,43 @@
+netsuite.workflow customworkflow_mkd_workflow_test {
+  scriptid = "customworkflow_mkd_workflow_test"
+  initcontexts = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+  initoncreate = true
+  initonvieworupdate = false
+  islogenabled = false
+  keephistory = "ONLYWHENTESTING"
+  name = "MKD Workflow Test"
+  recordtypes = netsuite.customrecord_mkd_custrec1.attr.scriptid
+  releasestatus = "TESTING"
+  runasadmin = false
+  initcondition = {
+    formula = "isChecked(\"Last modified by:Checkbox Field 14\") = 'F'"
+    type = "VISUAL_BUILDER"
+    parameters = {
+      parameter = {
+        Last_modified_by_Checkbox_Field_14@ssfss = {
+          name = "Last modified by:Checkbox Field 14"
+          value = "STDRECORDLASTMODIFIEDBY:[scriptid=custentity_14]"
+        }
+      }
+    }
+  }
+  workflowstates = {
+    workflowstate = {
+      workflowstate470 = {
+        scriptid = "workflowstate470"
+        donotexitworkflow = false
+        name = "State 1"
+        positionx = 243
+        positiony = 133
+        index = 0
+      }
+    }
+  }
+  isInactive = false
+  _generated_dependencies = [
+    {
+      reference = netsuite.entitycustomfield.instance.custentity_14.scriptid
+    },
+  ]
+  _alias = "MKD Workflow Test"
+}

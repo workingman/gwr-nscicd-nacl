@@ -1,0 +1,11 @@
+netsuite.folder SuiteScripts_erp012@d {
+  bundleable = false
+  
+  isprivate = false
+  path = "/SuiteScripts/erp012"
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "erp012"
+  isInactive = false
+}

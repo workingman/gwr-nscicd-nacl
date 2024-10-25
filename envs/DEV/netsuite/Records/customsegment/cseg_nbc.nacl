@@ -1,0 +1,18 @@
+netsuite.customsegment cseg_nbc {
+  scriptid = "cseg_nbc"
+  defaultrecordaccesslevel = "VIEW"
+  defaultsearchaccesslevel = "VIEW"
+  displaytype = "NORMAL"
+  fieldtype = "SELECT"
+  hasglimpact = false
+  ismandatory = false
+  label = "Nearest Big City"
+  recordtype = netsuite.customrecord_cseg_nbc.attr.scriptid
+  valuesdisplayorder = "SUBLIST"
+  segmentapplication = {
+    items = {
+      subtype = "BOTH"
+    }
+  }
+  _alias = "Nearest Big City"
+}

@@ -1,0 +1,29 @@
+netsuite.customlist customlist_gwr_list2 {
+  scriptid = "customlist_gwr_list2"
+  
+  ismatrixoption = false
+  isordered = true
+  name = "gwr list 2"
+  customvalues = {
+    customvalue = {
+      val_57873_t2257815_516 = {
+        scriptid = "val_57873_t2257815_516"
+        abbreviation = "y"
+        
+        value = "yes"
+        index = 0
+        isInactive = false
+      }
+      val_57874_t2257815_603 = {
+        scriptid = "val_57874_t2257815_603"
+        abbreviation = "n"
+        
+        value = "no"
+        index = 1
+        isInactive = false
+      }
+    }
+  }
+  _alias = "gwr list 2"
+  isInactive = false
+}

@@ -1,0 +1,11 @@
+netsuite.clientscript customscripthq_shared_script01 {
+  scriptid = "customscripthq_shared_script01"
+  
+  name = "shared_script"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_share_script_@duu.path
+  _alias = "shared_script"
+  isInactive = false
+}

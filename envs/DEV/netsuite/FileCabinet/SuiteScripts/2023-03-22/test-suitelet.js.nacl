@@ -1,0 +1,14 @@
+netsuite.file SuiteScripts_2023_03_22_test_suitelet_js@dbbdbv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/2023-03-22/test-suitelet.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/2023-03-22/test-suitelet.js")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_2023_03_22@dbb,
+  ]
+  _alias = "test-suitelet.js"
+  isInactive = false
+}

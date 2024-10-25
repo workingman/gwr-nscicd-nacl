@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_RSM_requirements_txt@ddv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/RSM/requirements.txt"
+  content = file("netsuite/FileCabinet/SuiteScripts/RSM/requirements.txt")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_RSM@d,
+  ]
+  _alias = "requirements.txt"
+}

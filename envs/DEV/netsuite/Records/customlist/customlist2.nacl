@@ -1,0 +1,8 @@
+netsuite.customlist customlist2 {
+  scriptid = "customlist2"
+  ismatrixoption = false
+  isordered = true
+  name = "shoegaze"
+  isInactive = false
+  _alias = "shoegaze"
+}

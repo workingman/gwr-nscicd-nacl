@@ -1,0 +1,50 @@
+netsuite.subsidiary Parent_Company_GWR_Co_GWR_BC@susus {
+  name = "GWR BC"
+  parent = netsuite.subsidiary.instance.Parent_Company_GWR_Co@sus
+  isInactive = false
+  showSubsidiaryName = false
+  state = "BC"
+  country = "_canada"
+  mainAddress = {
+    country = "_canada"
+    addressee = "GWR BC"
+    state = "BC"
+    addrText = "Canada<br>BC <br>GWR BC"
+    override = false
+    customFieldList = {
+      customField = [
+        {
+          value = false
+          scriptId = "custrecordsame_as_shipping_address"
+        },
+      ]
+    }
+  }
+  legalName = "GWR BC Inc."
+  isElimination = false
+  currency = netsuite.currency.instance.USA
+  edition = "CA"
+  nexusList = {
+    nexus = [
+      {
+        nexusId = netsuite.nexus.instance._canada_British_Columbia@uus
+        country = "CA"
+      },
+    ]
+  }
+  checkLayout = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Standard Cheque Layout)"
+  }
+  classTranslationList = {
+    classTranslation = {
+      German = {
+        language = "German"
+      }
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+    }
+  }
+  identifier = "Parent Company_GWR Co_GWR BC"
+  _alias = "GWR BC"
+}

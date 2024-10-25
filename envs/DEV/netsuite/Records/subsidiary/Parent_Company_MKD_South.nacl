@@ -1,0 +1,51 @@
+netsuite.subsidiary Parent_Company_MKD_South@sus {
+  name = "MKD South"
+  parent = netsuite.subsidiary.instance.Parent_Company@s
+  isInactive = false
+  showSubsidiaryName = false
+  state = "FL"
+  country = "_unitedStates"
+  mainAddress = {
+    country = "_unitedStates"
+    addressee = "MKD South"
+    state = "FL"
+    addrText = "MKD South<br>FL <br>United States"
+    override = false
+    customFieldList = {
+      customField = [
+        {
+          value = false
+          scriptId = "custrecordsame_as_shipping_address"
+        },
+      ]
+    }
+    
+  }
+  isElimination = false
+  currency = netsuite.currency.instance.USA
+  edition = "US"
+  nexusList = {
+    nexus = [
+      {
+        nexusId = netsuite.nexus.instance._unitedStates_Florida
+        country = "US"
+      },
+    ]
+  }
+  checkLayout = {
+    
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Standard Check Layout)"
+  }
+  classTranslationList = {
+    classTranslation = {
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+      German = {
+        language = "German"
+      }
+    }
+  }
+  identifier = "Parent Company_MKD South"
+  _alias = "MKD South"
+}

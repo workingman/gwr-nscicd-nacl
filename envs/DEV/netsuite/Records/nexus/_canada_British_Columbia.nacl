@@ -1,0 +1,9 @@
+netsuite.nexus _canada_British_Columbia@uus {
+  country = "_canada"
+  state = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (British Columbia)"
+  }
+  description = "BC"
+  identifier = "_canada_British Columbia"
+  _alias = "_canada_British Columbia"
+}

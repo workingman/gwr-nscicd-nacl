@@ -1,0 +1,36 @@
+netsuite.itemcustomfield custitem_mkd_custom_item_field {
+  scriptid = "custitem_mkd_custom_item_field"
+  accesslevel = "2"
+  appliestoexpense = false
+  appliestogroup = false
+  appliestoinventory = true
+  appliestoitemassembly = false
+  appliestokit = true
+  appliestononinventory = false
+  appliestoothercharge = false
+  appliestopricelist = false
+  appliestoservice = false
+  appliestospecificitems = false
+  appliestosubplan = false
+  applyformatting = false
+  checkspelling = true
+  defaultchecked = false
+  description = "Kirk Testing Stuff"
+  displaytype = "STATICTEXT"
+  encryptatrest = false
+  fieldtype = "CLOBTEXT"
+  globalsearch = false
+  includechilditems = false
+  isformula = false
+  ismandatory = false
+  isparent = false
+  itemmatrix = false
+  itemsubtype = "BOTH"
+  label = "MKD Custom Item Field"
+  searchlevel = "2"
+  showhierarchy = false
+  showinlist = false
+  storevalue = true
+  subtab = "ITEMBASIC"
+  _alias = "MKD Custom Item Field"
+}

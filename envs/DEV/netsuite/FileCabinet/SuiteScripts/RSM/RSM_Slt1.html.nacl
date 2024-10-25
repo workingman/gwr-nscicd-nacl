@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_RSM_RSM_Slt1_html@dduv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/RSM/RSM_Slt1.html"
+  content = file("netsuite/FileCabinet/SuiteScripts/RSM/RSM_Slt1.html")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_RSM@d,
+  ]
+  _alias = "RSM_Slt1.html"
+}

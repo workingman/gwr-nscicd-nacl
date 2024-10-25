@@ -1,0 +1,6 @@
+netsuite.centerlink custlink_8_t2257815_892 {
+  scriptid = "custlink_8_t2257815_892"
+  label = "View Contact Saved Searches"
+  url = "https://system.netsuite.com/app/common/search/savedsearches.nl?sortcol=title&sortdir=ASC&csv=HTML&OfficeXML=F&pdf=&showall=F&use=GENERAL&type=Contact&accesslevel=ALL&scheduled=ALL"
+  _alias = "View Contact Saved Searches"
+}

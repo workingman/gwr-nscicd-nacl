@@ -1,0 +1,33 @@
+netsuite.customlist customlist_new_list_gwr {
+  scriptid = "customlist_new_list_gwr"
+  ismatrixoption = false
+  isordered = true
+  name = "New list"
+  customvalues = {
+    customvalue = {
+      val_58518_t2257815_526 = {
+        scriptid = "val_58518_t2257815_526"
+        abbreviation = "r"
+        value = "red"
+        index = 0
+        isInactive = false
+      }
+      val_58519_t2257815_932 = {
+        scriptid = "val_58519_t2257815_932"
+        abbreviation = "b"
+        value = "blue"
+        index = 1
+        isInactive = false
+      }
+      val_58520_t2257815_859 = {
+        scriptid = "val_58520_t2257815_859"
+        abbreviation = "g"
+        value = "green"
+        index = 2
+        isInactive = false
+      }
+    }
+  }
+  isInactive = false
+  _alias = "New list"
+}

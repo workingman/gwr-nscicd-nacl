@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_gwr_1205a {
+  scriptid = "custtmpl_gwr_1205a"
+  standard = "STDTMPLSVENDBILL"
+  displaysourcecode = false
+  
+  preferred = true
+  printtype = "TRANSACTION"
+  title = "GWR Custom Vendor Bill PDF/HTML Template"
+  trantype = "VENDBILL"
+  content = file("netsuite/advancedpdftemplate/custtmpl_gwr_1205a.xml")
+  _alias = "GWR Custom Vendor Bill PDF/HTML Template"
+  isInactive = false
+}

@@ -1,0 +1,14 @@
+netsuite.file SuiteScripts_mkd_requirements_txt@ddv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/mkd/requirements.txt"
+  content = file("netsuite/FileCabinet/SuiteScripts/mkd/requirements.txt")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_mkd@d,
+  ]
+  _alias = "requirements.txt"
+  isInactive = false
+}

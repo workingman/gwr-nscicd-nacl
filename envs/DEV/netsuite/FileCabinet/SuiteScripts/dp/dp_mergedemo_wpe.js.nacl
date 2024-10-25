@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_dp_dp_mergedemo_wpe_js@dduuv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/dp/dp_mergedemo_wpe.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/dp/dp_mergedemo_wpe.js")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_dp@d,
+  ]
+  _alias = "dp_mergedemo_wpe.js"
+}

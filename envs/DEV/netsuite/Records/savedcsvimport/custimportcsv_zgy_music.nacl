@@ -1,0 +1,79 @@
+netsuite.savedcsvimport custimportcsv_zgy_music {
+  scriptid = "custimportcsv_zgy_music"
+  charencoding = "UTF_8"
+  columndelimiter = "COMMA"
+  datahandling = "ADD"
+  decimaldelimiter = "PERIOD"
+  ignorereadonly = true
+  importname = "zgy_music_segment_import"
+  logsystemnotescustfields = true
+  multiselectdelimiter = "|"
+  overwritemissingfields = true
+  overwritesublists = false
+  recordtype = "CUSTOMRECORD_CSEG3"
+  runserversuitescript = true
+  usemultithread = false
+  validatemandatorycustfields = true
+  audience = {
+    allemployees = false
+    allpartners = false
+    allroles = false
+    globaledit = false
+    ispublic = false
+  }
+  filemappings = {
+    filemapping = {
+      CUSTOMRECORD = {
+        file = "CUSTOMRECORD"
+        primarykey = "1"
+      }
+      CUSTOMRECORD_TRANSLATIONS@f = {
+        file = "CUSTOMRECORD:TRANSLATIONS"
+        foreignkey = "1"
+      }
+    }
+  }
+  recordmappings = {
+    recordmapping = {
+      CUSTOMRECORD_TRANSLATIONS@f = {
+        record = "CUSTOMRECORD:TRANSLATIONS"
+        fieldmappings = {
+          fieldmapping = {
+            LOCALE = {
+              field = "LOCALE"
+              columnreference = {
+                column = "poppunk-fr"
+                file = "CUSTOMRECORD:TRANSLATIONS"
+                type = "NAME"
+              }
+            }
+          }
+        }
+      }
+      CUSTOMRECORD = {
+        record = "CUSTOMRECORD"
+        fieldmappings = {
+          fieldmapping = {
+            EXTERNALID = {
+              field = "EXTERNALID"
+              columnreference = {
+                column = "1"
+                file = "CUSTOMRECORD"
+                type = "NAME"
+              }
+            }
+            NAME = {
+              field = "NAME"
+              columnreference = {
+                column = "poppunk"
+                file = "CUSTOMRECORD"
+                type = "NAME"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  _alias = "zgy_music_segment_import"
+}

@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_RSM_mkd_showmessage_js@dduv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/RSM/mkd_showmessage.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/RSM/mkd_showmessage.js")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_RSM@d,
+  ]
+  _alias = "mkd_showmessage.js"
+}

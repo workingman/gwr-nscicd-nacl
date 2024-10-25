@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_gwr_archive_gwr_cicd999_js@dddbv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/gwr/archive/gwr-cicd999.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/gwr/archive/gwr-cicd999.js")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_gwr_archive@d,
+  ]
+  _alias = "gwr-cicd999.js"
+}

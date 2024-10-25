@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_mkd_Deploy_Extensions_Code25_test_txt@dduddv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/mkd/Deploy_Extensions/Code25/test.txt"
+  content = file("netsuite/FileCabinet/SuiteScripts/mkd/Deploy_Extensions/Code25/test.txt")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_mkd_Deploy_Extensions_Code25@ddud,
+  ]
+  _alias = "test.txt"
+}

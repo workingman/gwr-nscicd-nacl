@@ -1,0 +1,55 @@
+netsuite.subsidiary Parent_Company_eshed___co_global@susess {
+  name = "eshed & co global"
+  parent = netsuite.subsidiary.instance.Parent_Company@s
+  isInactive = false
+  showSubsidiaryName = true
+  logo = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (eshed salto logo)"
+  }
+  pageLogo = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (eshed salto logo)"
+  }
+  country = "_israel"
+  mainAddress = {
+    country = "_unitedStates"
+    addressee = "eshed & co global"
+    addrText = "eshed & co global<br>United States"
+    override = false
+    customFieldList = {
+      customField = [
+        {
+          value = false
+          scriptId = "custrecordsame_as_shipping_address"
+        },
+      ]
+    }
+    
+  }
+  isElimination = false
+  currency = netsuite.currency.instance.USA
+  edition = "XX"
+  nexusList = {
+    nexus = [
+      {
+        nexusId = netsuite.nexus.instance._israel
+        country = "IL"
+      },
+    ]
+  }
+  checkLayout = {
+    
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Standard Check Layout)"
+  }
+  classTranslationList = {
+    classTranslation = {
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+      German = {
+        language = "German"
+      }
+    }
+  }
+  identifier = "Parent Company_eshed & co global"
+  _alias = "eshed & co global"
+}

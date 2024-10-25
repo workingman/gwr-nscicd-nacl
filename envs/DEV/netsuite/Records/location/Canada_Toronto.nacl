@@ -1,0 +1,37 @@
+netsuite.location Canada_Toronto {
+  name = "Toronto"
+  parent = netsuite.location.instance.Canada
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  isInactive = true
+  mainAddress = {
+    country = "_canada"
+    addressee = "Toronto"
+    addrText = "Toronto<br>Canada"
+    override = false
+    customFieldList = {
+      customField = [
+        {
+          value = false
+          scriptId = "custrecordsame_as_shipping_address"
+        },
+      ]
+    }
+  }
+  timeZone = "_americaLosAngeles"
+  useBins = true
+  makeInventoryAvailable = true
+  classTranslationList = {
+    classTranslation = {
+      German = {
+        language = "German"
+      }
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+    }
+  }
+  identifier = "Canada_Toronto"
+  _alias = "Toronto"
+}

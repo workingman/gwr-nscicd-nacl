@@ -1,0 +1,19 @@
+netsuite.sspapplication webapp276 {
+  scriptid = "webapp276"
+  appfolder = "[/Web Site Hosting Files/Live Hosting Files/SSP Applications/Salto Demo/NetSuite Inc. - SCA 2020.1/]"
+  
+  loglevel = "DEBUG"
+  name = "Development"
+  rootpath = "/Salto-Demo/NetSuite-Inc_-SCA-2020_1"
+  runtimeversion = "1"
+  status = "TESTING"
+  libraries = {
+    library = [
+      {
+        scriptfile = netsuite.file.instance.SuiteScripts_mkd_mkd_showmessage_js@dduv.path
+      },
+    ]
+  }
+  _alias = "Development"
+  isInactive = false
+}

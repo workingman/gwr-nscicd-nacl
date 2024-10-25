@@ -1,0 +1,84 @@
+netsuite.savedsearch customsearch367 {
+  scriptid = "customsearch367"
+  dependencies = {
+    dependency = [
+      netsuite.customrecord_mkd_custrec1.attr.scriptid,
+    ]
+  }
+  definition = "b5e755d49207bd618ee9d1d9a63d05fd6a6f9a4fa99abaa6b9f09c680a52f629@GZC@2023.2.16@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"
+  return_fields = [
+    {
+      FIELD_ALIAS = "Custom_NAME"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Custom_SCRIPTID"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Custom_NAME"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "Custom_NAME"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Custom_SCRIPTID"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Custom_NAME"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch367"
+  FIELD_DEFAULT_NAME = "Custom MKD Custom Record Type 1 Search"
+  FIELD_SEARCH_TYPE = "Custom"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  KEY_RECORD_TYPE = 132
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "Custom MKD Custom Record Type 1 Search"
+}

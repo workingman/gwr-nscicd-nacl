@@ -1,0 +1,30 @@
+netsuite.clientscript customscript_gwr_sched2 {
+  scriptid = "customscript_gwr_sched2"
+  name = "GWR scheduled 2"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_gwr_gwr2_js@ddv.path
+  scriptcustomfields = {
+    scriptcustomfield = {
+      custscript_gwr_textarea1536 = {
+        scriptid = "custscript_gwr_textarea1536"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        defaultvalue = "{}"
+        displaytype = "NORMAL"
+        fieldtype = "TEXTAREA"
+        isformula = false
+        ismandatory = false
+        label = "text area with default value"
+        searchlevel = "2"
+        storevalue = true
+        index = 0
+      }
+    }
+  }
+  isInactive = false
+  _alias = "GWR scheduled 2"
+}

@@ -1,0 +1,11 @@
+netsuite.folder SuiteScripts_RSM@d {
+  description = "Example for customer"
+  bundleable = false
+  isprivate = false
+  path = "/SuiteScripts/RSM"
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "RSM"
+}

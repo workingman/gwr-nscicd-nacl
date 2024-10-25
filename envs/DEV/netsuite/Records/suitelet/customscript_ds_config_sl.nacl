@@ -1,0 +1,118 @@
+netsuite.suitelet customscript_ds_config_sl {
+  scriptid = "customscript_ds_config_sl"
+  name = "DocuSign Configuration Suitelet"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = "[/SuiteBundles/Bundle 351444/Docusign (2)/Scripts/config/ds_config_sl.js]"
+  scriptcustomfields = {
+    scriptcustomfield = {
+      custscript_docusign_username = {
+        scriptid = "custscript_docusign_username"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "EMAIL"
+        isformula = false
+        ismandatory = false
+        label = "User Name"
+        searchlevel = "2"
+        setting = "COMPANY"
+        storevalue = true
+        index = 0
+      }
+      custscript_docusign_password = {
+        scriptid = "custscript_docusign_password"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "TEXT"
+        isformula = false
+        ismandatory = false
+        label = "Password"
+        searchlevel = "2"
+        setting = "COMPANY"
+        storevalue = true
+        index = 1
+      }
+      custscript_docusign_environment = {
+        scriptid = "custscript_docusign_environment"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "SELECT"
+        isformula = false
+        ismandatory = false
+        label = "Environment"
+        onparentdelete = "NO_ACTION"
+        searchlevel = "2"
+        selectrecordtype = netsuite.customrecord_docusign_environment.attr.scriptid
+        setting = "COMPANY"
+        storevalue = true
+        index = 2
+      }
+      custscript_docusign_account_id = {
+        scriptid = "custscript_docusign_account_id"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "TEXT"
+        isformula = false
+        ismandatory = false
+        label = "Account ID"
+        searchlevel = "2"
+        setting = "COMPANY"
+        storevalue = true
+        index = 3
+      }
+      custscript_docusign_api_account_id = {
+        scriptid = "custscript_docusign_api_account_id"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "TEXT"
+        isformula = false
+        ismandatory = false
+        label = "API Account ID"
+        searchlevel = "2"
+        setting = "COMPANY"
+        storevalue = true
+        index = 4
+      }
+    }
+  }
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_ds_config_sl = {
+        scriptid = "customdeploy_ds_config_sl"
+        allemployees = false
+        allpartners = false
+        allroles = false
+        audslctrole = "ADMINISTRATOR|[scriptid=customrole_docusign_admin]"
+        isdeployed = true
+        isonline = false
+        loglevel = "DEBUG"
+        status = "RELEASED"
+        title = "DocuSign Configuration Suitelet"
+      }
+    }
+  }
+  isInactive = false
+  bundle = netsuite.bundle.instance.bundle_351444
+  _generated_dependencies = [
+    {
+      reference = netsuite.role.instance.customrole_docusign_admin.scriptid
+    },
+  ]
+  _alias = "DocuSign Configuration Suitelet"
+}

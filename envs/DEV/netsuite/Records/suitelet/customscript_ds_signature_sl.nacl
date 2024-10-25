@@ -1,0 +1,26 @@
+netsuite.suitelet customscript_ds_signature_sl {
+  scriptid = "customscript_ds_signature_sl"
+  name = "DocuSign Signature Suitelet"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = "[/SuiteBundles/Bundle 351444/Docusign (2)/Scripts/ds_signature_sl.js]"
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_ds_signature_sl = {
+        scriptid = "customdeploy_ds_signature_sl"
+        allemployees = true
+        allpartners = false
+        allroles = true
+        isdeployed = true
+        isonline = false
+        loglevel = "DEBUG"
+        status = "RELEASED"
+        title = "DocuSign Signature Suitelet"
+      }
+    }
+  }
+  isInactive = false
+  bundle = netsuite.bundle.instance.bundle_351444
+  _alias = "DocuSign Signature Suitelet"
+}

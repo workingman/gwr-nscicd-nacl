@@ -1,0 +1,54 @@
+netsuite.savedcsvimport custimport_gwr_csv_mapping_vendor2 {
+  scriptid = "custimport_gwr_csv_mapping_vendor2"
+  charencoding = "UTF_8"
+  columndelimiter = "COMMA"
+  datahandling = "ADDUPDATE"
+  decimaldelimiter = "PERIOD"
+  description = "updated gwr csv"
+  entryform = "STANDARDVENDORFORM"
+  ignorereadonly = true
+  importname = "_gwr_csv_mapping_vendor2"
+  logsystemnotescustfields = false
+  multiselectdelimiter = "|"
+  overwritemissingfields = false
+  overwritesublists = false
+  preventduplicates = false
+  recordtype = "VENDOR"
+  runserversuitescript = false
+  usemultithread = false
+  validatemandatorycustfields = true
+  audience = {
+    allemployees = false
+    allpartners = false
+    allroles = false
+    globaledit = false
+    ispublic = false
+  }
+  filemappings = {
+    filemapping = {
+      VENDOR = {
+        file = "VENDOR"
+      }
+    }
+  }
+  recordmappings = {
+    recordmapping = {
+      VENDOR = {
+        record = "VENDOR"
+        fieldmappings = {
+          fieldmapping = {
+            COMPANYNAME = {
+              field = "COMPANYNAME"
+              columnreference = {
+                column = "Name"
+                file = "VENDOR"
+                type = "NAME"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  _alias = "_gwr_csv_mapping_vendor2"
+}

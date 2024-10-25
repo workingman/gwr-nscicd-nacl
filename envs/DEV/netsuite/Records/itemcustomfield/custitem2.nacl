@@ -1,0 +1,35 @@
+netsuite.itemcustomfield custitem2 {
+  scriptid = "custitem2"
+  accesslevel = "2"
+  appliestoexpense = false
+  appliestogroup = false
+  appliestoinventory = false
+  appliestoitemassembly = false
+  appliestokit = false
+  appliestononinventory = false
+  appliestoothercharge = false
+  appliestopricelist = false
+  appliestoservice = false
+  appliestospecificitems = false
+  appliestosubplan = false
+  applyformatting = false
+  checkspelling = false
+  defaultchecked = false
+  displaytype = "NORMAL"
+  encryptatrest = false
+  fieldtype = "TEXT"
+  globalsearch = false
+  includechilditems = false
+  isformula = false
+  ismandatory = false
+  isparent = false
+  itemmatrix = false
+  itemsubtype = "BOTH"
+  label = netsuite.translationcollection.instance.custcollection_account_translations.strings.string.the_little_key.scriptid
+  searchlevel = "2"
+  showhierarchy = false
+  showinlist = false
+  storevalue = true
+  labelTranslate = true
+  _alias = "the little key"
+}

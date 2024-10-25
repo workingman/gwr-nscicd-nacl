@@ -1,0 +1,45 @@
+netsuite.customlist customlist_gwr_list3 {
+  scriptid = "customlist_gwr_list3"
+  
+  ismatrixoption = false
+  isordered = true
+  name = "gwr3"
+  customvalues = {
+    customvalue = {
+      val_58022_t2257815_529 = {
+        scriptid = "val_58022_t2257815_529"
+        abbreviation = "R"
+        
+        value = "Rain"
+        index = 0
+        isInactive = false
+      }
+      val_58023_t2257815_980 = {
+        scriptid = "val_58023_t2257815_980"
+        abbreviation = "C"
+        
+        value = "Cloud"
+        index = 1
+        isInactive = false
+      }
+      val_58024_t2257815_486 = {
+        scriptid = "val_58024_t2257815_486"
+        abbreviation = "S"
+        
+        value = "Snow"
+        index = 2
+        isInactive = false
+      }
+      val_58025_t2257815_934 = {
+        scriptid = "val_58025_t2257815_934"
+        abbreviation = "S"
+        
+        value = "Sun"
+        index = 3
+        isInactive = false
+      }
+    }
+  }
+  _alias = "gwr3"
+  isInactive = false
+}

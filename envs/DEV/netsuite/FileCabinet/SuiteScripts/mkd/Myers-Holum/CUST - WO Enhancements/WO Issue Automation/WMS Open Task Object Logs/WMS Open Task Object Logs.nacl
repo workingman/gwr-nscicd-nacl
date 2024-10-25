@@ -1,0 +1,10 @@
+netsuite.folder SuiteScripts_mkd_Myers_Holum_CUST___WO_Enhancements_WO_Issue_Automation_WMS_Open_Task_Object_Logs@ddbdsbssdssdssss {
+  bundleable = false
+  isprivate = false
+  path = "/SuiteScripts/mkd/Myers-Holum/CUST - WO Enhancements/WO Issue Automation/WMS Open Task Object Logs"
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_mkd_Myers_Holum_CUST___WO_Enhancements_WO_Issue_Automation@ddbdsbssdss,
+  ]
+  _alias = "WMS Open Task Object Logs"
+}

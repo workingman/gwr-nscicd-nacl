@@ -1,0 +1,7 @@
+netsuite.subtab custtab_4_3368792_208 {
+  scriptid = "custtab_4_3368792_208"
+  tabtype = "ENTITY"
+  title = "Opportunities_1"
+  
+  _alias = "Opportunities_1"
+}

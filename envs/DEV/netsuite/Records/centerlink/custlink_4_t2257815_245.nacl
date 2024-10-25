@@ -1,0 +1,6 @@
+netsuite.centerlink custlink_4_t2257815_245 {
+  scriptid = "custlink_4_t2257815_245"
+  label = "Manage Customer Duplicates"
+  url = "https://system.netsuite.com/app/common/entity/manageduplicates.nl?id=&type=&sortcol=sDupMatchString&sortdir=ASC&csv=HTML&OfficeXML=F&pdf=&tname=basic&etype=custjob&mopt=and"
+  _alias = "Manage Customer Duplicates"
+}
