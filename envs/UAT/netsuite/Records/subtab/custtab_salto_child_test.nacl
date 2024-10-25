@@ -1,0 +1,7 @@
+netsuite.subtab custtab_salto_child_test {
+  scriptid = "custtab_salto_child_test"
+  parent = netsuite.subtab.instance.custtab_salto_test_tab.scriptid
+  tabtype = "ENTITY"
+  title = "test child"
+  _alias = "test child"
+}

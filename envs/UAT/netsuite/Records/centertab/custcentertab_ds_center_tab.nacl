@@ -1,0 +1,17 @@
+netsuite.centertab custcentertab_ds_center_tab {
+  scriptid = "custcentertab_ds_center_tab"
+  allcustomers = false
+  allemployees = false
+  allpartners = false
+  allroles = false
+  allvendors = false
+  audslctrole = "ADMINISTRATOR|[scriptid=customrole_docusign_admin]"
+  center = "BASIC"
+  label = "DocuSign"
+  _generated_dependencies = [
+    {
+      reference = netsuite.role.instance.customrole_docusign_admin.scriptid
+    },
+  ]
+  _alias = "DocuSign"
+}

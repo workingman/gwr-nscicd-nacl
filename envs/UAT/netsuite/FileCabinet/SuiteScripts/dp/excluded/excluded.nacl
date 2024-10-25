@@ -1,0 +1,10 @@
+netsuite.folder SuiteScripts_dp_excluded@d {
+  bundleable = false
+  isprivate = false
+  path = "/SuiteScripts/dp/excluded"
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_dp@d,
+  ]
+  _alias = "excluded"
+}

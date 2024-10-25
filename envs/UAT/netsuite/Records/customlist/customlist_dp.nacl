@@ -1,0 +1,38 @@
+netsuite.customlist customlist_dp {
+  scriptid = "customlist_dp"
+  description = "DP's Custom List for demos"
+  
+  ismatrixoption = false
+  isordered = true
+  name = "DP Custom List"
+  customvalues = {
+    customvalue = {
+      val_53656_t2257815_183 = {
+        scriptid = "val_53656_t2257815_183"
+        abbreviation = "U"
+        
+        value = "Urgent"
+        index = 0
+        isInactive = false
+      }
+      val_53657_t2257815_765 = {
+        scriptid = "val_53657_t2257815_765"
+        abbreviation = "I"
+        
+        value = "Important"
+        index = 1
+        isInactive = false
+      }
+      val_53658_t2257815_498 = {
+        scriptid = "val_53658_t2257815_498"
+        abbreviation = "U"
+        
+        value = "Forget About It"
+        index = 2
+        isInactive = false
+      }
+    }
+  }
+  _alias = "DP Custom List"
+  isInactive = false
+}

@@ -1,0 +1,14 @@
+netsuite.file SuiteScripts_SRD___Scripts_srd_disable_fields_js@dsbsduuv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/SRD - Scripts/srd_disable_fields.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/SRD - Scripts/srd_disable_fields.js")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_SRD___Scripts@dsbs,
+  ]
+  _alias = "srd_disable_fields.js"
+  isInactive = false
+}

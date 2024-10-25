@@ -1,0 +1,55 @@
+netsuite.scheduledscript customscript_dp_scheduled_script_1 {
+  scriptid = "customscript_dp_scheduled_script_1"
+  defaultfunction = "customUI_SalesOrderBeforeLoad"
+  name = "DP Scheduled Script 1"
+  notifyadmins = false
+  notifyowner = true
+  scriptfile = netsuite.file.instance.SuiteScripts_dp_userevent_script_js@duuv.path
+  scriptcustomfields = {
+    scriptcustomfield = {
+      custscriptdp_param_1 = {
+        scriptid = "custscriptdp_param_1"
+        accesslevel = "2"
+        applyformatting = true
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "INTEGER"
+        isformula = false
+        ismandatory = false
+        label = "DP Parameter 1"
+        searchlevel = "2"
+        storevalue = true
+        index = 0
+      }
+    }
+  }
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_dp_deployment_1_1 = {
+        scriptid = "customdeploy_dp_deployment_1_1"
+        custscriptdp_param_1 = 10
+        isdeployed = true
+        loglevel = "DEBUG"
+        status = "SCHEDULED"
+        title = "DP Scheduled Script 1"
+        recurrence = {
+          weekly = {
+            everyxweeks = 1
+            friday = false
+            monday = false
+            saturday = false
+            startdate = "2024-03-04"
+            starttime = "05:00:00Z"
+            sunday = true
+            thursday = false
+            tuesday = false
+            wednesday = false
+          }
+        }
+      }
+    }
+  }
+  isInactive = false
+  _alias = "DP Scheduled Script 1"
+}

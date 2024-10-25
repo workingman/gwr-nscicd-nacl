@@ -1,0 +1,37 @@
+netsuite.customlist customlist_flo_license_type {
+  scriptid = "customlist_flo_license_type"
+  
+  ismatrixoption = false
+  isordered = true
+  name = "License Type"
+  customvalues = {
+    customvalue = {
+      value_1_t1049933_417 = {
+        scriptid = "value_1_t1049933_417"
+        abbreviation = "F"
+        
+        value = "Full"
+        index = 0
+        isInactive = false
+      }
+      value_2_t1049933_417 = {
+        scriptid = "value_2_t1049933_417"
+        abbreviation = "T"
+        
+        value = "Temp"
+        index = 1
+        isInactive = false
+      }
+      value_4_t1049933_417 = {
+        scriptid = "value_4_t1049933_417"
+        abbreviation = "A"
+        
+        value = "Agency"
+        index = 2
+        isInactive = false
+      }
+    }
+  }
+  _alias = "License Type"
+  isInactive = false
+}

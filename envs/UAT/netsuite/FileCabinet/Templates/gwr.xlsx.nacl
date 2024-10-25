@@ -1,0 +1,14 @@
+netsuite.file Templates_gwr_xlsx@dv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/Templates/gwr.xlsx"
+  content = file("netsuite/FileCabinet/Templates/gwr.xlsx")
+  _parent = [
+    netsuite.folder.instance.Templates,
+  ]
+  _alias = "gwr.xlsx"
+  isInactive = false
+}

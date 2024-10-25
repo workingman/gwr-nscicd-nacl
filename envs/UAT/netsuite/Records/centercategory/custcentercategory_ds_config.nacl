@@ -1,0 +1,18 @@
+netsuite.centercategory custcentercategory_ds_config {
+  scriptid = "custcentercategory_ds_config"
+  center = "BASIC"
+  centertab = netsuite.centertab.instance.custcentertab_ds_center_tab.scriptid
+  label = "Configure"
+  links = {
+    link = {
+      customscript_ds_config_sl_customdeploy_ds_config_sl@uuuvuuu = {
+        linklabel = "Set Up DocuSign"
+        linkobject = netsuite.suitelet.instance.customscript_ds_config_sl.scriptdeployments.scriptdeployment.customdeploy_ds_config_sl.scriptid
+        linktasktype = "SCRIPT"
+        shortlist = false
+        index = 0
+      }
+    }
+  }
+  _alias = "Configure"
+}

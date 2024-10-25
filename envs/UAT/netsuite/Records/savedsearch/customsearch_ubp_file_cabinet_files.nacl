@@ -1,0 +1,110 @@
+netsuite.savedsearch customsearch_ubp_file_cabinet_files {
+  scriptid = "customsearch_ubp_file_cabinet_files"
+  definition = "edd66db25e4d8e427f32935dd864ab14a866263ec24e4b978d1e0398833389ca@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Document_FOLDER"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "-15"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "-9"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Document_NAME"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Document_FOLDER"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Document_DOCUMENTSIZE"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Document_URL"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Document_CREATED"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Document_MODIFIED"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Document_FILETYPE"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Document_NAME"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch_ubp_file_cabinet_files"
+  FIELD_DEFAULT_NAME = "ubp-file-cabinet-files"
+  FIELD_SEARCH_TYPE = "Document"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "ANY"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = false
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "ubp-file-cabinet-files"
+}

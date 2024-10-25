@@ -1,0 +1,93 @@
+netsuite.customlist customlist_rg_warehouse_type {
+  scriptid = "customlist_rg_warehouse_type"
+  
+  ismatrixoption = false
+  isordered = true
+  name = "RG - Warehouse Types"
+  customvalues = {
+    customvalue = {
+      val_3420444_6979138_680 = {
+        scriptid = "val_3420444_6979138_680"
+        abbreviation = "A"
+        
+        value = "Amazon"
+        index = 0
+        isInactive = false
+      }
+      val_3420445_6979138_744 = {
+        scriptid = "val_3420445_6979138_744"
+        abbreviation = "E"
+        
+        value = "Everstox"
+        index = 1
+        isInactive = false
+      }
+      val_3420446_6979138_364 = {
+        scriptid = "val_3420446_6979138_364"
+        abbreviation = "S"
+        
+        value = "Stord"
+        index = 2
+        isInactive = false
+      }
+      val_3420447_6979138_907 = {
+        scriptid = "val_3420447_6979138_907"
+        abbreviation = "E"
+        
+        value = "External"
+        index = 3
+        isInactive = false
+      }
+      val_3421992_6979138_568 = {
+        scriptid = "val_3421992_6979138_568"
+        abbreviation = "R"
+        
+        value = "Razor"
+        index = 4
+        isInactive = false
+      }
+      val_3422180_6979138_487 = {
+        scriptid = "val_3422180_6979138_487"
+        abbreviation = "S"
+        
+        value = "Supplier"
+        index = 5
+        isInactive = false
+      }
+      val_13183573_6979138_sb1_697 = {
+        scriptid = "val_13183573_6979138_sb1_697"
+        abbreviation = "U"
+        
+        value = "Unis"
+        index = 6
+        isInactive = false
+      }
+      val_13196530_6979138_sb1_794 = {
+        scriptid = "val_13196530_6979138_sb1_794"
+        abbreviation = "F"
+        
+        value = "Fiege"
+        index = 7
+        isInactive = false
+      }
+      val_13270783_6979138_sb1_106 = {
+        scriptid = "val_13270783_6979138_sb1_106"
+        abbreviation = "G"
+        
+        value = "GNOC"
+        index = 8
+        isInactive = false
+      }
+      val_13398629_6979138_sb1_142 = {
+        scriptid = "val_13398629_6979138_sb1_142"
+        abbreviation = "U"
+        
+        value = "Unfulfillable"
+        index = 9
+        isInactive = false
+      }
+    }
+  }
+  _alias = "RG - Warehouse Types"
+  isInactive = false
+}

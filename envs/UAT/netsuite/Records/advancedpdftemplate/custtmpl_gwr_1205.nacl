@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_gwr_1205 {
+  scriptid = "custtmpl_gwr_1205"
+  standard = "STDTMPLSVENDCRED"
+  displaysourcecode = false
+  
+  preferred = true
+  printtype = "TRANSACTION"
+  title = "Custom Vendor Credit PDF/HTML Template"
+  trantype = "VENDCRED"
+  content = file("netsuite/advancedpdftemplate/custtmpl_gwr_1205.xml")
+  _alias = "Custom Vendor Credit PDF/HTML Template"
+  isInactive = false
+}

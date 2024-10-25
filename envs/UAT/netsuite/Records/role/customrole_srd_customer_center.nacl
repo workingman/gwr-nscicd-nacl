@@ -1,0 +1,162 @@
+netsuite.role customrole_srd_customer_center {
+  scriptid = "customrole_srd_customer_center"
+  accountingbooksoption = "PRIMARY"
+  centertype = "CUSTOMER"
+  coreadminpermission = false
+  employeerestriction = "OWNONLY"
+  employeeselectionunrestricted = false
+  employeeviewingallowed = false
+  
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = false
+  name = "SRD - Customer Center Role"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "OWN"
+  subsidiaryviewingallowed = false
+  permissions = {
+    permission = {
+      TRAN_CARDHOLDERAUTHENTICATION = {
+        permkey = "TRAN_CARDHOLDERAUTHENTICATION"
+        permlevel = "EDIT"
+      }
+      TRAN_CARDHOLDERAUTHEVENT = {
+        permkey = "TRAN_CARDHOLDERAUTHEVENT"
+        permlevel = "NONE"
+      }
+      TRAN_CASHSALE = {
+        permkey = "TRAN_CASHSALE"
+        permlevel = "VIEW"
+      }
+      TRAN_CHARGE = {
+        permkey = "TRAN_CHARGE"
+        permlevel = "VIEW"
+      }
+      TRAN_GENERATECHARGES = {
+        permkey = "TRAN_GENERATECHARGES"
+        permlevel = "FULL"
+      }
+      TRAN_CHARGERULE = {
+        permkey = "TRAN_CHARGERULE"
+        permlevel = "VIEW"
+      }
+      TRAN_CUSTCRED = {
+        permkey = "TRAN_CUSTCRED"
+        permlevel = "VIEW"
+      }
+      TRAN_CUSTDEP = {
+        permkey = "TRAN_CUSTDEP"
+        permlevel = "VIEW"
+      }
+      TRAN_CUSTPYMT = {
+        permkey = "TRAN_CUSTPYMT"
+        permlevel = "EDIT"
+      }
+      TRAN_DEPAPPL = {
+        permkey = "TRAN_DEPAPPL"
+        permlevel = "CREATE"
+      }
+      TRAN_ESTIMATE = {
+        permkey = "TRAN_ESTIMATE"
+        permlevel = "VIEW"
+      }
+      TRAN_FIND = {
+        permkey = "TRAN_FIND"
+        permlevel = "FULL"
+      }
+      TRAN_SALESORDFULFILL = {
+        permkey = "TRAN_SALESORDFULFILL"
+        permlevel = "VIEW"
+      }
+      TRAN_PRICELIST = {
+        permkey = "TRAN_PRICELIST"
+        permlevel = "NONE"
+      }
+      TRAN_STATEMENT = {
+        permkey = "TRAN_STATEMENT"
+        permlevel = "CREATE"
+      }
+      TRAN_CUSTINVC = {
+        permkey = "TRAN_CUSTINVC"
+        permlevel = "VIEW"
+      }
+      TRAN_ITEMSHIP = {
+        permkey = "TRAN_ITEMSHIP"
+        permlevel = "CREATE"
+      }
+      TRAN_RTNAUTH = {
+        permkey = "TRAN_RTNAUTH"
+        permlevel = "CREATE"
+      }
+      TRAN_SALESORD = {
+        permkey = "TRAN_SALESORD"
+        permlevel = "EDIT"
+      }
+      REGT_ACCTREC = {
+        permkey = "REGT_ACCTREC"
+        permlevel = "VIEW"
+      }
+      LIST_CARDHOLDERAUTHEVENT = {
+        permkey = "LIST_CARDHOLDERAUTHEVENT"
+        permlevel = "NONE"
+      }
+      LIST_CARDHOLDERAUTHENTICATION = {
+        permkey = "LIST_CARDHOLDERAUTHENTICATION"
+        permlevel = "VIEW"
+      }
+      LIST_CONTACT = {
+        permkey = "LIST_CONTACT"
+        permlevel = "EDIT"
+      }
+      LIST_CUSTPROFILE = {
+        permkey = "LIST_CUSTPROFILE"
+        permlevel = "EDIT"
+      }
+      LIST_EXPORT = {
+        permkey = "LIST_EXPORT"
+        permlevel = "CREATE"
+      }
+      LIST_LOCATION = {
+        permkey = "LIST_LOCATION"
+        permlevel = "NONE"
+      }
+      REGT_NONPOSTING = {
+        permkey = "REGT_NONPOSTING"
+        permlevel = "VIEW"
+      }
+      LIST_FIND = {
+        permkey = "LIST_FIND"
+        permlevel = "FULL"
+      }
+      LIST_CRMMESSAGE = {
+        permkey = "LIST_CRMMESSAGE"
+        permlevel = "VIEW"
+      }
+      ADMI_LOGIN_OAUTH = {
+        permkey = "ADMI_LOGIN_OAUTH"
+        permlevel = "FULL"
+      }
+      ADMI_RESTWEBSERVICES = {
+        permkey = "ADMI_RESTWEBSERVICES"
+        permlevel = "FULL"
+      }
+      ADMI_SAMLSSO = {
+        permkey = "ADMI_SAMLSSO"
+        permlevel = "NONE"
+      }
+      ADMI_WEBSERVICES = {
+        permkey = "ADMI_WEBSERVICES"
+        permlevel = "FULL"
+      }
+      ADMI_MANAGE_OWN_OAUTH_TOKENS = {
+        permkey = "ADMI_MANAGE_OWN_OAUTH_TOKENS"
+        permlevel = "NONE"
+      }
+    }
+  }
+  _alias = "SRD - Customer Center Role"
+  isInactive = false
+}

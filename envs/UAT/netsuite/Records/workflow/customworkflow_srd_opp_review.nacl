@@ -1,0 +1,247 @@
+netsuite.workflow customworkflow_srd_opp_review {
+  scriptid = "customworkflow_srd_opp_review"
+  description = "Creates a new opportunity record"
+  initcontexts = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+  initoncreate = true
+  initonvieworupdate = false
+  initsavedsearchcondition = netsuite.savedsearch.instance.customsearch_srd_opp_search.scriptid
+  inittriggertype = "BEFORESUBMIT"
+  
+  islogenabled = false
+  keephistory = "ONLYWHENTESTING"
+  name = "SRD - Opp Review"
+  recordtypes = "OPPORTUNITY"
+  releasestatus = "NOTINITIATING"
+  runasadmin = false
+  initcondition = {
+    formula = "\"Amount\" >= 100000.0 AND \"Opportunity:SRD - Opportunity Source\" = ''"
+    type = "VISUAL_BUILDER"
+    parameters = {
+      parameter = {
+        
+        
+        
+        
+        
+        
+        Amount = {
+          name = "Amount"
+          value = "STDBODYAMOUNT"
+        }
+        Opportunity_SRD___Opportunity_Source@fsbss = {
+          name = "Opportunity:SRD - Opportunity Source"
+          value = "STDBODYOPPORTUNITY:[scriptid=custbody_srd_opp_source]"
+        }
+      }
+    }
+  }
+  workflowstates = {
+    workflowstate = {
+      workflowstate441 = {
+        scriptid = "workflowstate441"
+        donotexitworkflow = false
+        name = "Entry"
+        positionx = 243
+        positiony = 133
+        workflowactions = {
+          ONENTRY = {
+            triggertype = "ONENTRY"
+            setfieldmandatoryaction = {
+              workflowaction1304 = {
+                scriptid = "workflowaction1304"
+                contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+                field = "STDBODYTITLE"
+                
+                ismandatory = true
+                issublistfield = false
+                initcondition = {
+                  type = "VISUAL_BUILDER"
+                }
+                index = 0
+                isInactive = false
+              }
+            }
+          }
+        }
+        workflowtransitions = {
+          workflowtransition = {
+            workflowtransition286 = {
+              scriptid = "workflowtransition286"
+              contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+              tostate = netsuite.workflow.instance.customworkflow_srd_opp_review.workflowstates.workflowstate.workflowstate442.scriptid
+              triggertype = "AFTERSUBMIT"
+              initcondition = {
+                type = "VISUAL_BUILDER"
+              }
+              index = 0
+            }
+            workflowtransition551 = {
+              scriptid = "workflowtransition551"
+              contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+              tostate = netsuite.workflow.instance.customworkflow_srd_opp_review.workflowstates.workflowstate.workflowstate470.scriptid
+              initcondition = {
+                type = "VISUAL_BUILDER"
+              }
+              index = 1
+            }
+          }
+        }
+        index = 0
+      }
+      workflowstate442 = {
+        scriptid = "workflowstate442"
+        donotexitworkflow = false
+        name = "See Opportunities"
+        positionx = 793
+        positiony = 183
+        workflowactions = {
+          ONENTRY = {
+            triggertype = "ONENTRY"
+            gotopageaction = {
+              workflowaction1305 = {
+                scriptid = "workflowaction1305"
+                contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+                
+                targetpage = "LIST_TRAN_OPPRTNTY"
+                initcondition = {
+                  type = "VISUAL_BUILDER"
+                }
+                index = 0
+                isInactive = false
+              }
+            }
+          }
+        }
+        index = 1
+      }
+      workflowstate470 = {
+        scriptid = "workflowstate470"
+        donotexitworkflow = false
+        name = "record win"
+        positionx = 303
+        positiony = 243
+        workflowactions = {
+          ONENTRY = {
+            triggertype = "ONENTRY"
+            setfieldvalueaction = {
+              workflowaction1362 = {
+                scriptid = "workflowaction1362"
+                contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+                field = netsuite.transactionbodycustomfield.instance.custbody_srd_translated_field.scriptid
+                
+                schedulemode = "DELAY"
+                valuechecked = false
+                valuefield = "STDBODYDECISIONMAKER"
+                valuetype = "FIELD"
+                initcondition = {
+                  type = "VISUAL_BUILDER"
+                }
+                index = 0
+                isInactive = false
+              }
+            }
+          }
+        }
+        workflowtransitions = {
+          workflowtransition = {
+            workflowtransition552 = {
+              scriptid = "workflowtransition552"
+              contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+              tostate = netsuite.workflow.instance.customworkflow_srd_opp_review.workflowstates.workflowstate.workflowstate442.scriptid
+              initcondition = {
+                type = "VISUAL_BUILDER"
+              }
+              index = 0
+            }
+            workflowtransition553 = {
+              scriptid = "workflowtransition553"
+              contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+              tostate = netsuite.workflow.instance.customworkflow_srd_opp_review.workflowstates.workflowstate.workflowstate471.scriptid
+              initcondition = {
+                type = "VISUAL_BUILDER"
+              }
+              index = 1
+            }
+          }
+        }
+        index = 2
+      }
+      workflowstate471 = {
+        scriptid = "workflowstate471"
+        donotexitworkflow = false
+        name = "Confirm"
+        positionx = 513
+        positiony = 313
+        workflowactions = {
+          BEFOREUSERSUBMIT = {
+            triggertype = "BEFOREUSERSUBMIT"
+            confirmaction = {
+              workflowaction1363 = {
+                scriptid = "workflowaction1363"
+                contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+                
+                messagetext = "Confirm here"
+                initcondition = {
+                  type = "VISUAL_BUILDER"
+                }
+                index = 0
+                isInactive = false
+              }
+            }
+          }
+        }
+        workflowstatecustomfields = {
+          workflowstatecustomfield = {
+            custwfstate_srd_confirm_reason = {
+              scriptid = "custwfstate_srd_confirm_reason"
+              applyformatting = false
+              defaultchecked = false
+              displaytype = "NORMAL"
+              fieldtype = "TEXT"
+              label = "confirm reason"
+              storevalue = true
+              index = 0
+            }
+          }
+        }
+        workflowtransitions = {
+          workflowtransition = {
+            workflowtransition554 = {
+              scriptid = "workflowtransition554"
+              contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+              tostate = netsuite.workflow.instance.customworkflow_srd_opp_review.workflowstates.workflowstate.workflowstate442.scriptid
+              initcondition = {
+                type = "VISUAL_BUILDER"
+              }
+              index = 0
+            }
+          }
+        }
+        index = 3
+      }
+    }
+  }
+  _alias = "SRD - Opp Review"
+  _generated_dependencies = [
+    {
+      reference = netsuite.transactionbodycustomfield.instance.custbody_srd_opp_source.scriptid
+    },
+  ]
+  initeventtypes = "APPROVE"
+  workflowcustomfields = {
+    workflowcustomfield = {
+      custworkflow_srd_opp_estimation = {
+        scriptid = "custworkflow_srd_opp_estimation"
+        applyformatting = false
+        defaultchecked = false
+        defaultvalue = "25"
+        displaytype = "NORMAL"
+        fieldtype = "TEXT"
+        label = "Opp size estimation"
+        storevalue = true
+        index = 0
+      }
+    }
+  }
+  isInactive = false
+}

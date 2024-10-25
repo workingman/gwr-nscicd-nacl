@@ -1,0 +1,27 @@
+netsuite.suitelet customscript_ds_connect {
+  scriptid = "customscript_ds_connect"
+  name = "DocuSign Connect"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = "[/SuiteBundles/Bundle 351444/Docusign/Scripts/ds_connect.js]"
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_ds_connect = {
+        scriptid = "customdeploy_ds_connect"
+        allemployees = true
+        allpartners = false
+        allroles = true
+        isdeployed = true
+        isonline = true
+        loglevel = "DEBUG"
+        runasrole = "ADMINISTRATOR"
+        status = "RELEASED"
+        title = "DocuSign Connect"
+      }
+    }
+  }
+  isInactive = false
+  bundle = netsuite.bundle.instance.bundle_351444
+  _alias = "DocuSign Connect"
+}

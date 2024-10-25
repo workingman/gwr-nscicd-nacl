@@ -1,0 +1,29 @@
+netsuite.customlist customlist_erp010_cr_list {
+  scriptid = "customlist_erp010_cr_list"
+  
+  ismatrixoption = false
+  isordered = true
+  name = "ERP 010 field rec values"
+  customvalues = {
+    customvalue = {
+      val_56602_t2257896_290 = {
+        scriptid = "val_56602_t2257896_290"
+        abbreviation = "1"
+        
+        value = "entry 1"
+        index = 0
+        isInactive = false
+      }
+      val_56603_t2257896_601 = {
+        scriptid = "val_56603_t2257896_601"
+        abbreviation = "2"
+        
+        value = "entry 2"
+        index = 1
+        isInactive = false
+      }
+    }
+  }
+  _alias = "ERP 010 field rec values"
+  isInactive = false
+}

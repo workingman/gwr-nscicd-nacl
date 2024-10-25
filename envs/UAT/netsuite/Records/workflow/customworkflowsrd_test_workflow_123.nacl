@@ -1,0 +1,73 @@
+netsuite.workflow customworkflowsrd_test_workflow_123 {
+  scriptid = "customworkflowsrd_test_workflow_123"
+  initcontexts = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+  initoncreate = false
+  initonvieworupdate = false
+  
+  islogenabled = false
+  keephistory = "ONLYWHENTESTING"
+  name = "SRD - Test Workflow"
+  recordtypes = "ACCOUNT"
+  releasestatus = "TESTING"
+  runasadmin = false
+  initcondition = {
+    type = "VISUAL_BUILDER"
+  }
+  workflowstates = {
+    workflowstate = {
+      workflowstate457 = {
+        scriptid = "workflowstate457"
+        donotexitworkflow = false
+        name = "State 1"
+        positionx = 243
+        positiony = 133
+        index = 0
+        workflowactions = {
+          ONENTRY = {
+            triggertype = "ONENTRY"
+            createrecordaction = {
+              workflowaction1360 = {
+                scriptid = "workflowaction1360"
+                contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+                
+                recordtype = "EMPLOYEE"
+                schedulemode = "DELAY"
+                initcondition = {
+                  type = "VISUAL_BUILDER"
+                }
+                fieldsettings = {
+                  fieldsetting = {
+                    STDENTITYACCOUNTNUMBER = {
+                      targetfield = "STDENTITYACCOUNTNUMBER"
+                      index = 0
+                    }
+                  }
+                }
+                index = 0
+                isInactive = false
+              }
+            }
+          }
+        }
+      }
+      workflowstate458 = {
+        scriptid = "workflowstate458"
+        donotexitworkflow = false
+        name = "State 2"
+        positionx = 50
+        positiony = 110
+        index = 1
+      }
+      workflowstate466 = {
+        scriptid = "workflowstate466"
+        donotexitworkflow = false
+        name = "State 3"
+        positionx = 50
+        positiony = 184
+        index = 2
+      }
+    }
+  }
+  _alias = "SRD - Test Workflow"
+  isInactive = false
+}

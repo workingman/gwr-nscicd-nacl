@@ -1,0 +1,19 @@
+netsuite.bundle bundle_351444 {
+  id = "351444"
+  name = "DocuSign For NetSuite"
+  version = "2022.16.2"
+  isManaged = false
+  description = "DocuSign for NetSuite helps NetSuiteCRM+ users close deals faster by collecting signatures electronically, right from any object within NetSuite. With native support for Opportunities, Customers, and Estimates, DocuSign is the global standard for eSignature, DocuSign offers the fastest, most secure way to send, sign, track and store documents. "
+  dateInstalled = "2024-03-26T21:00:13.000Z"
+  installedFrom = "Production"
+  publisher = {
+    id = "TSTDRV2310056"
+    name = "Docusign HC OW Trailing - V2 Prod 2310056 (Production Publish)"
+  }
+  installedBy = {
+    id = 6
+    name = "Geoffrey W Routledge"
+  }
+  isPrivate = false
+  _alias = "DocuSign For NetSuite"
+}

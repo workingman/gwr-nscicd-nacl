@@ -1,0 +1,14 @@
+netsuite.file SuiteScripts_gwr_xls@dv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/gwr.xls"
+  content = file("netsuite/FileCabinet/SuiteScripts/gwr.xls")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "gwr.xls"
+  isInactive = false
+}

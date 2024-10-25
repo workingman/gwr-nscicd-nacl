@@ -1,0 +1,78 @@
+netsuite.role customrole1053 {
+  scriptid = "customrole1053"
+  accountingbooksoption = "PRIMARY"
+  centertype = "ACCOUNTCENTER"
+  coreadminpermission = false
+  employeerestriction = "NONE"
+  employeeselectionunrestricted = false
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = true
+  name = "Workato Integration Role - SRD"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "ALL"
+  subsidiaryviewingallowed = true
+  tfaduration = "0"
+  tfarequired = "OFF"
+  permissions = {
+    permission = {
+      TRAN_PURCHORD = {
+        permkey = "TRAN_PURCHORD"
+        permlevel = "FULL"
+      }
+      TRAN_SALESORD = {
+        permkey = "TRAN_SALESORD"
+        permlevel = "FULL"
+      }
+      REPO_AP = {
+        permkey = "REPO_AP"
+        permlevel = "VIEW"
+      }
+      REPO_AR = {
+        permkey = "REPO_AR"
+        permlevel = "VIEW"
+      }
+      LIST_ACCOUNT = {
+        permkey = "LIST_ACCOUNT"
+        permlevel = "FULL"
+      }
+      ADMI_CUSTADDRESSFORM = {
+        permkey = "ADMI_CUSTADDRESSFORM"
+        permlevel = "VIEW"
+      }
+      ADMI_CUSTBODYFIELD = {
+        permkey = "ADMI_CUSTBODYFIELD"
+        permlevel = "VIEW"
+      }
+      ADMI_LOGIN_OAUTH = {
+        permkey = "ADMI_LOGIN_OAUTH"
+        permlevel = "FULL"
+      }
+      ADMI_RESTWEBSERVICES = {
+        permkey = "ADMI_RESTWEBSERVICES"
+        permlevel = "FULL"
+      }
+      ADMI_WEBSERVICES = {
+        permkey = "ADMI_WEBSERVICES"
+        permlevel = "FULL"
+      }
+      ADMI_SETUPCOMPANY = {
+        permkey = "ADMI_SETUPCOMPANY"
+        permlevel = "VIEW"
+      }
+      ADMI_WEBSERVICESSETUP = {
+        permkey = "ADMI_WEBSERVICESSETUP"
+        permlevel = "FULL"
+      }
+      ADMI_CUSTOMSCRIPT = {
+        permkey = "ADMI_CUSTOMSCRIPT"
+        permlevel = "VIEW"
+      }
+    }
+  }
+  isInactive = false
+  _alias = "Workato Integration Role - SRD"
+}

@@ -1,0 +1,11 @@
+netsuite.location Lansing__MI@zds {
+  name = "Lansing, MI"
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company_DP_East@sus,
+  ]
+  isInactive = false
+  useBins = false
+  makeInventoryAvailable = false
+  identifier = "Lansing, MI"
+  _alias = "Lansing, MI"
+}

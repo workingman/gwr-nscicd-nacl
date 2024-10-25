@@ -1,0 +1,37 @@
+netsuite.customlist customlist_gwr_list2 {
+  scriptid = "customlist_gwr_list2"
+  
+  ismatrixoption = false
+  isordered = true
+  name = "gwr2"
+  customvalues = {
+    customvalue = {
+      val_56486_t2480139_122 = {
+        scriptid = "val_56486_t2480139_122"
+        abbreviation = "A"
+        
+        value = "Aluminum"
+        index = 0
+        isInactive = false
+      }
+      val_56487_t2480139_694 = {
+        scriptid = "val_56487_t2480139_694"
+        abbreviation = "I"
+        
+        value = "Iron"
+        index = 1
+        isInactive = false
+      }
+      val_56488_t2480139_947 = {
+        scriptid = "val_56488_t2480139_947"
+        abbreviation = "T"
+        
+        value = "Titanium"
+        index = 2
+        isInactive = false
+      }
+    }
+  }
+  _alias = "gwr2"
+  isInactive = false
+}

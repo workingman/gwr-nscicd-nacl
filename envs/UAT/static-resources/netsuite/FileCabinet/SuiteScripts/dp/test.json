@@ -1,0 +1,8 @@
+{
+    elemID: {
+        adapter": "zendesk",
+        typeName": "account_features",
+        idType: "type",
+        nameParts: []
+    }
+}

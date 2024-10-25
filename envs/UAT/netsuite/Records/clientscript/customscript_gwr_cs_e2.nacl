@@ -1,0 +1,10 @@
+netsuite.clientscript customscript_gwr_cs_e2 {
+  scriptid = "customscript_gwr_cs_e2"
+  name = "gwr empl 2"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_gwr_gwr_emp2_js@dduv.path
+  isInactive = false
+  _alias = "gwr empl 2"
+}

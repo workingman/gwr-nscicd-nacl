@@ -1,0 +1,41 @@
+netsuite.customlist customlist_crpsmbanner {
+  scriptid = "customlist_crpsmbanner"
+  description = "Select the Banner to be displayed on the Project.__"
+  ismatrixoption = false
+  isordered = true
+  name = "Project Status Banner"
+  customvalues = {
+    customvalue = {
+      val_306441_td2893563_218 = {
+        scriptid = "val_306441_td2893563_218"
+        abbreviation = "G"
+        value = "GREEN"
+        index = 0
+        isInactive = false
+      }
+      val_306442_td2893563_644 = {
+        scriptid = "val_306442_td2893563_644"
+        abbreviation = "Y"
+        value = "YELLOW"
+        index = 1
+        isInactive = false
+      }
+      val_306443_td2893563_864 = {
+        scriptid = "val_306443_td2893563_864"
+        abbreviation = "R"
+        value = "RED"
+        index = 2
+        isInactive = false
+      }
+      val_306440_td2893563_858 = {
+        scriptid = "val_306440_td2893563_858"
+        abbreviation = "B"
+        value = "BLUE"
+        index = 3
+        isInactive = false
+      }
+    }
+  }
+  isInactive = false
+  _alias = "Project Status Banner"
+}

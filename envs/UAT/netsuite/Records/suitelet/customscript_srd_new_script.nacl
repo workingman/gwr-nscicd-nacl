@@ -1,0 +1,11 @@
+netsuite.suitelet customscript_srd_new_script {
+  scriptid = "customscript_srd_new_script"
+  
+  name = "SRD - new script"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_SRD___Scripts_SRD___Update_script@dsbsdsbss.path
+  _alias = "SRD - new script"
+  isInactive = false
+}

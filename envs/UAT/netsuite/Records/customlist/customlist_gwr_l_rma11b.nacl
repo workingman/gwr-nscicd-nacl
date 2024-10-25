@@ -1,0 +1,45 @@
+netsuite.customlist customlist_gwr_l_rma11b {
+  scriptid = "customlist_gwr_l_rma11b"
+  
+  ismatrixoption = false
+  isordered = true
+  name = "GWR list RMA 11b"
+  customvalues = {
+    customvalue = {
+      val_53943_t2480139_952 = {
+        scriptid = "val_53943_t2480139_952"
+        abbreviation = "o"
+        
+        value = "orange"
+        index = 0
+        isInactive = false
+      }
+      val_53897_t2257815_433 = {
+        scriptid = "val_53897_t2257815_433"
+        abbreviation = "r"
+        
+        value = "red"
+        index = 1
+        isInactive = false
+      }
+      val_53898_t2257815_265 = {
+        scriptid = "val_53898_t2257815_265"
+        abbreviation = "y"
+        
+        value = "yellow"
+        index = 2
+        isInactive = false
+      }
+      val_53899_t2257815_951 = {
+        scriptid = "val_53899_t2257815_951"
+        abbreviation = "b"
+        
+        value = "blue"
+        index = 3
+        isInactive = false
+      }
+    }
+  }
+  _alias = "GWR list RMA 11b"
+  isInactive = false
+}

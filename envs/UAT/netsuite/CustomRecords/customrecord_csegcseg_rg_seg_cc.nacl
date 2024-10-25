@@ -1,0 +1,452 @@
+type netsuite.customrecord_csegcseg_rg_seg_cc {
+  annotations {
+    serviceid scriptid {
+    }
+    string recordname {
+    }
+    string customsegment {
+    }
+    netsuite.customrecordtype_accesstype accesstype {
+    }
+    boolean allowattachments {
+    }
+    boolean allowinlineediting {
+    }
+    boolean allowinlinedeleting {
+    }
+    boolean allowinlinedetaching {
+    }
+    boolean allowmobileaccess {
+    }
+    boolean allownumberingoverride {
+    }
+    boolean allowquickadd {
+    }
+    boolean allowquicksearch {
+    }
+    boolean allowuiaccess {
+    }
+    string description {
+    }
+    boolean enabledle {
+    }
+    boolean enablekeywords {
+    }
+    boolean enablemailmerge {
+    }
+    boolean enablenametranslation {
+    }
+    boolean enablenumbering {
+    }
+    boolean enableoptimisticlocking {
+    }
+    boolean enablesystemnotes {
+    }
+    boolean hierarchical {
+    }
+    string numberingprefix {
+    }
+    string numberingsuffix {
+    }
+    string numberingmindigits {
+    }
+    string numberinginit {
+    }
+    string icon {
+    }
+    boolean iconbuiltin {
+    }
+    netsuite.generic_custom_record_icon iconindex {
+    }
+    boolean includeinsearchmenu {
+    }
+    boolean includename {
+    }
+    boolean isordered {
+    }
+    boolean showcreationdate {
+    }
+    boolean showcreationdateonlist {
+    }
+    boolean showid {
+    }
+    boolean showlastmodified {
+    }
+    boolean showlastmodifiedonlist {
+    }
+    boolean shownotes {
+    }
+    boolean showowner {
+    }
+    boolean showownerallowchange {
+    }
+    boolean showowneronlist {
+    }
+    netsuite.customrecordtype_instances instances {
+    }
+    netsuite.customrecordtype_links links {
+    }
+    netsuite.customrecordtype_permissions permissions {
+    }
+    netsuite.customrecordtype_recordsublists recordsublists {
+    }
+    netsuite.customrecordtype_subtabs subtabs {
+    }
+    string application_id {
+    }
+    netsuite.bundle bundle {
+    }
+    hidden_string source {
+    }
+    boolean isInactive {
+    }
+    hidden_string internalId {
+    }
+  }
+  string scriptid {
+    _required = true
+  }
+  serviceid internalId {
+    _hidden_value = true
+  }
+  netsuite.customRecordTranslationsList translationsList {
+  }
+  scriptid = "customrecord_csegcseg_rg_seg_cc"
+  allowattachments = false
+  allowinlinedeleting = false
+  allowinlinedetaching = false
+  allowinlineediting = false
+  allowquickadd = false
+  allowquicksearch = false
+  customsegment = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid
+  enabledle = false
+  enablekeywords = false
+  enablemailmerge = false
+  enableoptimisticlocking = false
+  enablesystemnotes = true
+  iconbuiltin = true
+  includeinsearchmenu = false
+  showcreationdate = false
+  showcreationdateonlist = false
+  showlastmodified = false
+  showlastmodifiedonlist = false
+  shownotes = true
+  showowner = false
+  showownerallowchange = false
+  showowneronlist = false
+  instances = {
+    instance = {
+      val_64851_6979138_sb1_491 = {
+        scriptid = "val_64851_6979138_sb1_491"
+        name = "1120 Finance / FP & A"
+        index = 0
+        isInactive = false
+      }
+      val_64854_6979138_sb1_202 = {
+        scriptid = "val_64854_6979138_sb1_202"
+        name = "1130 HR"
+        index = 1
+        isInactive = false
+      }
+      val_64858_6979138_sb1_209 = {
+        scriptid = "val_64858_6979138_sb1_209"
+        name = "1140 Operations"
+        index = 2
+        isInactive = false
+      }
+      val_64861_6979138_sb1_602 = {
+        scriptid = "val_64861_6979138_sb1_602"
+        name = "1150 Supply Chain and Logistics"
+        index = 3
+        isInactive = false
+      }
+      val_64866_6979138_sb1_725 = {
+        scriptid = "val_64866_6979138_sb1_725"
+        name = "1160 Marketing"
+        index = 4
+        isInactive = false
+      }
+      val_64871_6979138_sb1_271 = {
+        scriptid = "val_64871_6979138_sb1_271"
+        name = "1170 Acquistions"
+        index = 5
+        isInactive = false
+      }
+      val_64874_6979138_sb1_690 = {
+        scriptid = "val_64874_6979138_sb1_690"
+        name = "1180 Tech and Analytics"
+        index = 6
+        isInactive = false
+      }
+      val_70257_6979138_sb1_839 = {
+        scriptid = "val_70257_6979138_sb1_839"
+        name = "0000 unknown"
+        index = 7
+        isInactive = false
+      }
+      val_9569984_6979138_186 = {
+        scriptid = "val_9569984_6979138_186"
+        name = "1100 Management"
+        index = 8
+        isInactive = false
+      }
+      val_64852_6979138_sb1_586 = {
+        scriptid = "val_64852_6979138_sb1_586"
+        name = "1121 Accounting"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64851_6979138_sb1_491.scriptid
+        index = 9
+        isInactive = false
+      }
+      val_64853_6979138_sb1_569 = {
+        scriptid = "val_64853_6979138_sb1_569"
+        name = "1122 Controlling"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64851_6979138_sb1_491.scriptid
+        index = 10
+        isInactive = false
+      }
+      val_9655562_6979138_546 = {
+        scriptid = "val_9655562_6979138_546"
+        name = "1123 Legal & Business Operations"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64851_6979138_sb1_491.scriptid
+        index = 11
+        isInactive = false
+      }
+      val_64855_6979138_sb1_584 = {
+        scriptid = "val_64855_6979138_sb1_584"
+        name = "1131 Recruiting"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64854_6979138_sb1_202.scriptid
+        index = 12
+        isInactive = false
+      }
+      val_64856_6979138_sb1_880 = {
+        scriptid = "val_64856_6979138_sb1_880"
+        name = "1132 Administration"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64854_6979138_sb1_202.scriptid
+        index = 13
+        isInactive = false
+      }
+      val_64857_6979138_sb1_988 = {
+        scriptid = "val_64857_6979138_sb1_988"
+        name = "1133 Office Management"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64854_6979138_sb1_202.scriptid
+        index = 14
+        isInactive = false
+      }
+      val_64859_6979138_sb1_761 = {
+        scriptid = "val_64859_6979138_sb1_761"
+        name = "1141 Brand Management"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64858_6979138_sb1_209.scriptid
+        index = 15
+        isInactive = false
+      }
+      val_64860_6979138_sb1_766 = {
+        scriptid = "val_64860_6979138_sb1_766"
+        name = "1142 Category Management"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64858_6979138_sb1_209.scriptid
+        index = 16
+        isInactive = false
+      }
+      val_64862_6979138_sb1_359 = {
+        scriptid = "val_64862_6979138_sb1_359"
+        name = "1151 Procurement"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64861_6979138_sb1_602.scriptid
+        index = 17
+        isInactive = false
+      }
+      val_64863_6979138_sb1_590 = {
+        scriptid = "val_64863_6979138_sb1_590"
+        name = "1152 Supply Chain, Logistics & Warehousing"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64861_6979138_sb1_602.scriptid
+        index = 18
+        isInactive = false
+      }
+      val_64864_6979138_sb1_518 = {
+        scriptid = "val_64864_6979138_sb1_518"
+        name = "1153 Inventory  Management"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64861_6979138_sb1_602.scriptid
+        index = 19
+        isInactive = false
+      }
+      val_64865_6979138_sb1_231 = {
+        scriptid = "val_64865_6979138_sb1_231"
+        name = "1154 Creative & Product Evolution"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64861_6979138_sb1_602.scriptid
+        index = 20
+        isInactive = false
+      }
+      val_64867_6979138_sb1_272 = {
+        scriptid = "val_64867_6979138_sb1_272"
+        name = "1161 Performance Marketing"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64866_6979138_sb1_725.scriptid
+        index = 21
+        isInactive = false
+      }
+      val_64868_6979138_sb1_331 = {
+        scriptid = "val_64868_6979138_sb1_331"
+        name = "1162 Channel Expansion"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64866_6979138_sb1_725.scriptid
+        index = 22
+        isInactive = false
+      }
+      val_64869_6979138_sb1_207 = {
+        scriptid = "val_64869_6979138_sb1_207"
+        name = "1163 Geo Expansion"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64866_6979138_sb1_725.scriptid
+        index = 23
+        isInactive = false
+      }
+      val_64870_6979138_sb1_480 = {
+        scriptid = "val_64870_6979138_sb1_480"
+        name = "1164 Customer Support"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64866_6979138_sb1_725.scriptid
+        index = 24
+        isInactive = false
+      }
+      val_9655571_6979138_405 = {
+        scriptid = "val_9655571_6979138_405"
+        name = "1165 Product Innovation"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64866_6979138_sb1_725.scriptid
+        index = 25
+        isInactive = false
+      }
+      val_9655572_6979138_326 = {
+        scriptid = "val_9655572_6979138_326"
+        name = "1166 Direct to Consumer"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64866_6979138_sb1_725.scriptid
+        index = 26
+        isInactive = false
+      }
+      val_64872_6979138_sb1_152 = {
+        scriptid = "val_64872_6979138_sb1_152"
+        name = "1171 Acquisitions"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64871_6979138_sb1_271.scriptid
+        index = 27
+        isInactive = false
+      }
+      val_64873_6979138_sb1_981 = {
+        scriptid = "val_64873_6979138_sb1_981"
+        name = "1172 Deal Execution"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64871_6979138_sb1_271.scriptid
+        index = 28
+        isInactive = false
+      }
+      val_9571063_6979138_855 = {
+        scriptid = "val_9571063_6979138_855"
+        name = "1173 DD expenses"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64871_6979138_sb1_271.scriptid
+        index = 29
+        isInactive = false
+      }
+      val_9655556_6979138_937 = {
+        scriptid = "val_9655556_6979138_937"
+        name = "1174 Marketing & Creative"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64871_6979138_sb1_271.scriptid
+        index = 30
+        isInactive = false
+      }
+      val_64875_6979138_sb1_587 = {
+        scriptid = "val_64875_6979138_sb1_587"
+        name = "1181 Analytics"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64874_6979138_sb1_690.scriptid
+        index = 31
+        isInactive = false
+      }
+      val_64876_6979138_sb1_331 = {
+        scriptid = "val_64876_6979138_sb1_331"
+        name = "1182 Development"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64874_6979138_sb1_690.scriptid
+        index = 32
+        isInactive = false
+      }
+      val_9571062_6979138_329 = {
+        scriptid = "val_9571062_6979138_329"
+        name = "1183 ERP"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_64874_6979138_sb1_690.scriptid
+        index = 33
+        isInactive = false
+      }
+      val_64850_6979138_sb1_675 = {
+        scriptid = "val_64850_6979138_sb1_675"
+        name = "1110 Management"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_9569984_6979138_186.scriptid
+        index = 34
+        isInactive = false
+      }
+      val_9571055_6979138_216 = {
+        scriptid = "val_9571055_6979138_216"
+        name = "1010 Management"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_9569984_6979138_186.scriptid
+        index = 35
+        isInactive = false
+      }
+      val_9571060_6979138_779 = {
+        scriptid = "val_9571060_6979138_779"
+        name = "1011 Founder"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_9569984_6979138_186.scriptid
+        index = 36
+        isInactive = false
+      }
+      val_9571061_6979138_830 = {
+        scriptid = "val_9571061_6979138_830"
+        name = "1012 C-Level"
+        parent = netsuite.customrecord_csegcseg_rg_seg_cc.attr.instances.instance.val_9569984_6979138_186.scriptid
+        index = 37
+        isInactive = false
+      }
+    }
+  }
+  links = {
+    link = {
+      BASICSETUPCOMPANY = {
+        linkcategory = "BASICSETUPCOMPANY"
+        linktasktype = "LIST"
+      }
+    }
+  }
+  metadataType = "customrecordtype"
+  _alias = "Cost Center"
+  _self_important_values = [
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "scriptid"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "isInactive"
+      highlighted = true
+      indexed = true
+    },
+    {
+      value = "bundle"
+      highlighted = true
+      indexed = true
+    },
+  ]
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "scriptid"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "isInactive"
+      highlighted = true
+      indexed = true
+    },
+    {
+      value = "bundle"
+      highlighted = true
+      indexed = true
+    },
+  ]
+}

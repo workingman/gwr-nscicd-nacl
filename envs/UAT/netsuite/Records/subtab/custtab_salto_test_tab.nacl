@@ -1,0 +1,6 @@
+netsuite.subtab custtab_salto_test_tab {
+  scriptid = "custtab_salto_test_tab"
+  tabtype = "ENTITY"
+  title = "test tab"
+  _alias = "test tab"
+}

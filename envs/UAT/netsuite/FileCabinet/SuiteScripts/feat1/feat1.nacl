@@ -1,0 +1,11 @@
+netsuite.folder SuiteScripts_feat1@d {
+  bundleable = false
+  
+  isprivate = false
+  path = "/SuiteScripts/feat1"
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "feat1"
+  isInactive = false
+}

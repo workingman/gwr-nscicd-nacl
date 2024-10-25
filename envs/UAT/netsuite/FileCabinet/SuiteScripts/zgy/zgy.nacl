@@ -1,0 +1,10 @@
+netsuite.folder SuiteScripts_zgy@d {
+  bundleable = false
+  isprivate = false
+  path = "/SuiteScripts/zgy"
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "zgy"
+}

@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_sales_order_example_js@duuv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/sales_order_example.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/sales_order_example.js")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "sales_order_example.js"
+}

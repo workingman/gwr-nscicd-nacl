@@ -1,0 +1,31 @@
+netsuite.role customrole_mkd_role_1 {
+  scriptid = "customrole_mkd_role_1"
+  accountingbooksoption = "PRIMARY"
+  centertype = "EXECUTIVE"
+  coreadminpermission = false
+  employeerestriction = "NONE"
+  employeeselectionunrestricted = false
+  
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = false
+  name = "mkd role 1"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "OWN"
+  subsidiaryviewingallowed = false
+  tfaduration = "0"
+  tfarequired = "OFF"
+  permissions = {
+    permission = {
+      customrecord_mkd_custom_record_1 = {
+        permkey = netsuite.customrecord_mkd_custom_record_1.attr.scriptid
+        permlevel = "EDIT"
+      }
+    }
+  }
+  _alias = "mkd role 1"
+  isInactive = false
+}

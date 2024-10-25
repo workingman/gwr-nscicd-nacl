@@ -1,0 +1,10 @@
+netsuite.department Technology {
+  name = "Technology"
+  includeChildren = true
+  isInactive = false
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  identifier = "Technology"
+  _alias = "Technology"
+}

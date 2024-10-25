@@ -1,0 +1,11 @@
+netsuite.folder SuiteScripts_dashboard_refresh@db {
+  bundleable = false
+  
+  isprivate = false
+  path = "/SuiteScripts/dashboard-refresh"
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "dashboard-refresh"
+  isInactive = false
+}

@@ -1,0 +1,123 @@
+netsuite.savedsearch customsearch_gwr_custom_search {
+  scriptid = "customsearch_gwr_custom_search"
+  dependencies = {
+    dependency = [
+      netsuite.entitycustomfield.instance.custentitycust_slt_conflict1.scriptid,
+    ]
+  }
+  definition = "fcdb41d9131bee629a39920ab53d227f51478378c351cedd5650e43f9bfa5f46@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Customer_STAGE"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "CUSTOMER"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Entity_ENTITYID"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_ALTNAME"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_EMAIL"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_PHONE"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_ALTPHONE"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_FAX"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Customer_CONTACT"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_ALTEMAIL"
+      FIELD_INDEX = 8
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "CUSTENTITYCUST_SLT_CONFLICT1"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Entity_ENTITYID"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch_gwr_custom_search"
+  FIELD_DEFAULT_NAME = "GWR Customer Search"
+  FIELD_SEARCH_TYPE = "Customer"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "ANY"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FIELD_EMAIL_SUBJECT = "OMG New Record 20220901"
+  FIELD_EMAIL_COMMENT = "20220901 hard to find string"
+  FLAG_TRIGGERED_ALERT = true
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = false
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "GWR Customer Search"
+}

@@ -1,0 +1,46 @@
+netsuite.customlist customlist_mkd_rag_rating {
+  scriptid = "customlist_mkd_rag_rating"
+  description = "Pick list for RAG (Red-Amber-Green) Ratings"
+  
+  ismatrixoption = false
+  isordered = true
+  name = "RAG Rating"
+  customvalues = {
+    customvalue = {
+      val_55327_t2257815_884 = {
+        scriptid = "val_55327_t2257815_884"
+        abbreviation = "R"
+        
+        value = "Red"
+        index = 0
+        isInactive = false
+      }
+      val_55328_t2257815_391 = {
+        scriptid = "val_55328_t2257815_391"
+        abbreviation = "A"
+        
+        value = "Amber"
+        index = 1
+        isInactive = false
+      }
+      val_55329_t2257815_952 = {
+        scriptid = "val_55329_t2257815_952"
+        abbreviation = "G"
+        
+        value = "Green"
+        index = 2
+        isInactive = false
+      }
+      val_55757_t2480139_260 = {
+        scriptid = "val_55757_t2480139_260"
+        abbreviation = "T"
+        
+        value = "Test"
+        index = 3
+        isInactive = false
+      }
+    }
+  }
+  _alias = "RAG Rating"
+  isInactive = false
+}

@@ -1,0 +1,10 @@
+netsuite.clientscript customscript_gwr_sched2 {
+  scriptid = "customscript_gwr_sched2"
+  name = "GWR scheduled 2"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_gwr_gwr2_js@ddv.path
+  isInactive = false
+  _alias = "GWR scheduled 2"
+}

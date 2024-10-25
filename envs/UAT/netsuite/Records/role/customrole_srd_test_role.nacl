@@ -1,0 +1,36 @@
+netsuite.role customrole_srd_test_role {
+  scriptid = "customrole_srd_test_role"
+  accountingbooksoption = "PRIMARY"
+  centertype = netsuite.center.instance.custcenter_test_center.scriptid
+  coreadminpermission = false
+  employeerestriction = "NONE"
+  employeeselectionunrestricted = false
+  
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = false
+  name = "(SRD) Test Role"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "OWN"
+  subsidiaryviewingallowed = false
+  tfaduration = "0"
+  tfarequired = "OFF"
+  permissions = {
+    permission = {
+      LIST_OTHER_ADDRESS = {
+        permkey = "LIST_OTHER_ADDRESS"
+        permlevel = "FULL"
+      }
+      
+      customrecord_srd_new_test_type = {
+        permkey = netsuite.customrecord_srd_new_test_type.attr.scriptid
+        permlevel = "VIEW"
+      }
+    }
+  }
+  _alias = "(SRD) Test Role"
+  isInactive = false
+}

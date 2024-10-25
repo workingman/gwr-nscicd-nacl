@@ -1,0 +1,10 @@
+netsuite.clientscript customscript_gwr_cs_weird1 {
+  scriptid = "customscript_gwr_cs_weird1"
+  name = "gwr weird 1"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_gwr_gwr_weird_unkown_script_js@dduuuv.path
+  isInactive = false
+  _alias = "gwr weird 1"
+}

@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_dp_excluded_dp_suitlet_js@ddduv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/dp/excluded/dp_suitlet.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/dp/excluded/dp_suitlet.js")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_dp_excluded@d,
+  ]
+  _alias = "dp_suitlet.js"
+}

@@ -1,0 +1,14 @@
+netsuite.emailtemplate custemailtmpl_po {
+  scriptid = "custemailtmpl_po"
+  addcompanyaddress = false
+  addunsubscribelink = false
+  
+  isprivate = false
+  name = "po"
+  recordtype = "TRANSACTION"
+  subject = "\${companyInformation.companyName}: \${transaction@title} #\${transaction.tranId} PO."
+  usesmedia = false
+  content = file("netsuite/emailtemplate/custemailtmpl_po.html")
+  _alias = "po"
+  isInactive = false
+}

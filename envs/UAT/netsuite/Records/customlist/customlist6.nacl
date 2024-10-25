@@ -1,0 +1,30 @@
+netsuite.customlist customlist6 {
+  scriptid = "customlist6"
+  description = "desc.."
+  
+  ismatrixoption = false
+  isordered = true
+  name = "testlist1"
+  customvalues = {
+    customvalue = {
+      "1@" = {
+        scriptid = "1"
+        abbreviation = "a"
+        
+        value = "a"
+        index = 0
+        isInactive = false
+      }
+      "2@" = {
+        scriptid = "2"
+        abbreviation = "b"
+        
+        value = "b"
+        index = 1
+        isInactive = false
+      }
+    }
+  }
+  _alias = "testlist1"
+  isInactive = false
+}

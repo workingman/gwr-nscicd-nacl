@@ -1,0 +1,14 @@
+netsuite.file Templates_Marketing_Templates_dp_email_template_html@dsduuv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/Templates/Marketing Templates/dp_email_template.html"
+  content = file("netsuite/FileCabinet/Templates/Marketing Templates/dp_email_template.html")
+  _parent = [
+    netsuite.folder.instance.Templates_Marketing_Templates@ds,
+  ]
+  _alias = "dp_email_template.html"
+  isInactive = false
+}

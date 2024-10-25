@@ -1,0 +1,14 @@
+netsuite.file SuiteScripts_feat1_feat1_ue_js@dduv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/feat1/feat1_ue.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/feat1/feat1_ue.js")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_feat1@d,
+  ]
+  _alias = "feat1_ue.js"
+  isInactive = false
+}

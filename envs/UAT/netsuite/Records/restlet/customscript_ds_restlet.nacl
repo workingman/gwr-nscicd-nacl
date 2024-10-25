@@ -1,0 +1,25 @@
+netsuite.restlet customscript_ds_restlet {
+  scriptid = "customscript_ds_restlet"
+  name = "DocuSign RESTLet"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = "[/SuiteBundles/Bundle 351444/Docusign/Scripts/ds_restlet.js]"
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_ds_restlet = {
+        scriptid = "customdeploy_ds_restlet"
+        allemployees = false
+        allpartners = false
+        allroles = true
+        isdeployed = true
+        loglevel = "DEBUG"
+        status = "RELEASED"
+        title = "DocuSign RESTLet"
+      }
+    }
+  }
+  isInactive = false
+  bundle = netsuite.bundle.instance.bundle_351444
+  _alias = "DocuSign RESTLet"
+}

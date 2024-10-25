@@ -1,0 +1,97 @@
+netsuite {
+  fetch = {
+    lockedElementsToExclude = {
+      fileCabinet = [
+      ]
+      types = [
+        {
+          name = "bundleinstallationscript"
+          ids = [
+            "customscript_nwb_bi_setup",
+          ]
+        },
+        {
+          name = "customlist"
+          ids = [
+            "customlist_vb_memo_list",
+          ]
+        },
+        {
+          name = "customrecordtype"
+          ids = [
+            "customrecord_wd_naw_workflow_excep",
+          ]
+        },
+        {
+          name = "entitycustomfield"
+          ids = [
+            "custentity_naw_trans_need_approval",
+          ]
+        },
+        {
+          name = "savedsearch"
+          ids = [
+            "customsearch_3way_vb_po_subs_qty_diff",
+            "customsearch_3way_vb_amt_vendortolerance",
+            "customsearch_3way_vb_amt_item_tolerance",
+            "customsearch_3way_vb_qty_vendor_tol",
+            "customsearch_3way_vb_po_vendor_qty_diff",
+            "customsearch_3way_vb_ir_qty_vendor_tol",
+            "customsearch_3way_vb_ir_qty_subs_tol",
+            "customsearch_3way_vb_po_item_qty_diff",
+            "customsearch_3way_vb_ir_qty_vendor_diff",
+            "customsearch_3way_vb_ir_qty_item_diff",
+            "customsearch_3way_vb_amt_subs_tolerance",
+            "customsearch_3way_vb_ir_qty_subs_diff",
+            "customsearch_3way_vb_qty_lessthan_po",
+            "customsearch_3way_vb_location_check",
+            "customsearch_3way_vb_item_recpt_qty_tol",
+            "customsearch_3way_vb_qty_subs_tolerance",
+            "customsearch_3way_vb_qty_item_tolerance",
+            "customsearch_3way_vb_term_check",
+            "customsearch_3way_vb_itemreceipt_check",
+            "customsearch_3way_vb_amt_lessthan_po",
+            "customsearch_vb_standalone_rule",
+            "customsearch_vb_po_amount_rule",
+            "customsearch_vb_po_partial_amt",
+            "customsearch_vb_po_qty_rule",
+            "customsearch_iaw_certain_customers",
+            "customsearch_vb_po_partial_rcpt",
+          ]
+        },
+        {
+          name = "suitelet"
+          ids = [
+            "customscript_wd_naw_su_showexc",
+          ]
+        },
+        {
+          name = "usereventscript"
+          ids = [
+            "customscript_naw_ue_delete_exception",
+          ]
+        },
+        {
+          name = "workflow"
+          ids = [
+            "customworkflow_3way_match_vb_approval_pr",
+            "customworkflow_vb_workflow",
+            "customworkflow_naw_iaw",
+          ]
+        },
+        {
+          name = "workflowactionscript"
+          ids = [
+            "customscript_iaw_ws_iscustomerfirstinv",
+            "customscript_3way_ws_checksubsmatchfield",
+            "customscript_naw_ws_check_feature",
+            "customscript_ws_showexceptions",
+            "customscript_naw_ws_get_user_pref",
+            "customscript_naw_ws_create_exceptionrec",
+            "customscript_naw_ws_delete_exceptionrec",
+          ]
+        },
+      ]
+    }
+  }
+}

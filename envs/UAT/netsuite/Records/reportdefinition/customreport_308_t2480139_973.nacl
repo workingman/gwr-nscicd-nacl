@@ -1,0 +1,184 @@
+netsuite.reportdefinition customreport_308_t2480139_973 {
+  scriptid = "customreport_308_t2480139_973"
+  definition = "ea5c013d0373f5e1ddd1504229d98dc23e8c599d57d2ce93b50730b79e1cf115@GZC@2023.2.14@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"
+  name = "Custom Purchases Summary"
+  components = [
+    {
+      KEY_COMPONENT = 82
+      FLAG_SECONDARY_DIM = false
+      FIELD_CLASS = "com.netledger.app.reporting.measure.NLPurchaseMeasure"
+    },
+    {
+      KEY_COMPONENT = 24
+      FLAG_SECONDARY_DIM = false
+      FIELD_CLASS = "com.netledger.app.reporting.dimension.NLVendorDimension"
+    },
+  ]
+  parameters = {
+    accounting_book_current_id = "1"
+    accounting_book_id = "1"
+  }
+  sorts = [
+    {
+      KEY_COMPONENT = "82"
+      FIELD_ALIAS = "mamount"
+      FIELD_TABLE = "tranline"
+      SEQ_NUMBER = 0
+      FLAG_DESCENDING = true
+      FLAG_SUBTOTAL = false
+    },
+  ]
+  fields = [
+    {
+      KEY_COMPONENT = 24
+      FIELD_TABLE = "ENTITY"
+      FIELD_ALIAS = "SFULLNAME"
+      FLAG_DIMENSION = false
+      FIELD_UNIT_TYPE = -1
+      FLAG_ROLLUP = true
+      FIELD_DATE_FILTER_INDEX = 0
+      FLAG_APPLY_FORWARDING = true
+      FLAG_MEASURE = false
+      SEQ_NUMBER = 1
+      FIELD_LABEL = "Name"
+      FIELD_URL = "/app/common/entity/entity.nl?id={vend,entity,nkey,x,x}"
+      FIELD_URL_TYPE = "DERIVED"
+      FLAG_DUAL_COLUMN = false
+      FLAG_PERCENT_TOTAL = false
+      FLAG_PERCENT_INCOME = false
+      FLAG_PERCENT_EXPENSE = false
+      FLAG_RUNNING_BAL = false
+      FLAG_SHOW_OPENING_BAL = false
+      FLAG_SHOW_ABS_DIFF = false
+      FLAG_SHOW_PCT_DIFF = false
+      FLAG_SUB_TOTAL = false
+      FLAG_DISPLAY = true
+      FLAG_DROP_DECIMAL = false
+      FLAG_DIV_BY_THOUSAND = false
+      FLAG_NEG_IN_RED = false
+      FIELD_NEG_VAL_FORMAT = "norm"
+      FIELD_FORMAT = "text"
+      FLAG_TOTAL_FORMULA = true
+    },
+    {
+      KEY_COMPONENT = 82
+      FIELD_TABLE = "TRANLINE"
+      FIELD_ALIAS = "MAMOUNT"
+      FLAG_DIMENSION = false
+      FIELD_UNIT_TYPE = -1
+      FLAG_ROLLUP = false
+      FIELD_DATE_FILTER_INDEX = 0
+      FLAG_APPLY_FORWARDING = true
+      FLAG_MEASURE = true
+      SEQ_NUMBER = 2
+      FIELD_LABEL = "Amount (Gross)"
+      FIELD_URL = "cr=-3"
+      FIELD_URL_TYPE = "DERIVED"
+      FLAG_DUAL_COLUMN = false
+      FLAG_PERCENT_TOTAL = false
+      FLAG_PERCENT_INCOME = false
+      FLAG_PERCENT_EXPENSE = false
+      FLAG_RUNNING_BAL = false
+      FLAG_SHOW_OPENING_BAL = false
+      FLAG_SHOW_ABS_DIFF = false
+      FLAG_SHOW_PCT_DIFF = false
+      FLAG_SUB_TOTAL = true
+      FLAG_DISPLAY = true
+      FLAG_DROP_DECIMAL = false
+      FLAG_DIV_BY_THOUSAND = false
+      FLAG_NEG_IN_RED = false
+      FIELD_NEG_VAL_FORMAT = "paren"
+      FIELD_FORMAT = "currency"
+      FLAG_TOTAL_FORMULA = true
+    },
+  ]
+  uiPreferences = {
+    PARAMETER_CASH_BASIS = false
+    PARAMETER_TAXCASH_BASIS = "F"
+    PARAMETER_SHOW_ZEROS = true
+    PARAMETER_SHOW_SINGLEROWLINES = true
+    PARAMETER_DISPLAY_TYPE = "data"
+    PARAMETER_INC_VS_EXP = false
+    PARAMETER_GRAPH_TOP = -1
+    PARAMETER_WEB_STORE = false
+    PARAMETER_ACTIVITY_ONLY = false
+    PARAMETER_ALLOW_WEBQUERY = false
+    PARAMETER_GRAPH_3D = false
+    PARAMETER_SHOW_CURRENCY_SYMBOL = true
+    PARAMETER_EXPAND_LEVEL = 100
+  }
+  criteria = [
+    {
+      descriptor = {
+        FIELD_ALIAS = "DDATE"
+        FIELD_TABLE = "TRANDOC"
+        FIELD_OP_CLASS = "BETWEEN"
+        FILED_TYPE = "DATE"
+        SEQ_NUMBER = 0
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = true
+        FLAG_CUSTOM_FOOTER = false
+        FLAG_VIRTUAL_FIELD = false
+        FIELD_DESCRIPTOR = "purch,trandoc,ddate,x,x"
+        FLAG_IS_HIDDEN = false
+      }
+      values = [
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 0
+          FIELD_VALUE = "TM"
+        },
+      ]
+    },
+    {
+      descriptor = {
+        FIELD_ALIAS = "KSUBSIDIARY"
+        FIELD_OP_CLASS = "SUBSIDCHILDRENOF"
+        FILED_TYPE = "SELECT"
+        SEQ_NUMBER = 1
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = true
+        FLAG_CUSTOM_FOOTER = false
+        FLAG_VIRTUAL_FIELD = true
+        FIELD_DESCRIPTOR = "purch,tranline,ksubsidiary,x,x"
+        FLAG_IS_HIDDEN = false
+      }
+      values = [
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 0
+          FIELD_VALUE = 1
+        },
+      ]
+    },
+  ]
+  flags = {
+    KEY_REPORT_ID = 308
+    KEY_SCRIPT_ID = "CUSTOMREPORT_308_T2480139_973"
+    FIELD_KEY = 308
+    FIELD_CODE = "QUICK_REPORT"
+    FIELD_NAME = "Custom Purchases Summary"
+    FIELD_ORIGINAL_TITLE = "Custom Purchases Summary"
+    FIELD_PERM_TYPE = "REPO_PURCHASES"
+    KEY_FEATURE = "ACCOUNTING"
+    FLAG_PERIODS_ALLOWED = true
+    FLAG_DISPLAY_TYPE = "SUMMARY"
+    FLAG_ONE_DATE = false
+    FLAG_PRIMARY_OUTER_JOIN = false
+    FLAG_CUSTOM_MODE = true
+    FLAG_CASH_BASIS = false
+    FLAG_SHOW_ZEROS = true
+    FLAG_INACTIVE = false
+    FIELD_VERSION = 8
+    FLAG_PERIODS_ON = false
+    FLAG_USE_FISCAL_YEAR_RANGE = false
+    FLAG_USE_TAX_PERIODS = false
+    KEY_ENTITY = "7"
+    FLAG_SHOW_LINK = false
+    FLAG_SUPPORTS_CONSOL_SUBSIDIARY = true
+    FIELD_TOGGLE_TYPE = "NOTHING"
+    FLAG_AFFECTED_BY_COGS = false
+    FLAG_ACTIVITY_ONLY = false
+  }
+  _alias = "Custom Purchases Summary"
+}

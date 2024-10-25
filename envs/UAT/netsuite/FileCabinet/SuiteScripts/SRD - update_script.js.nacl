@@ -1,0 +1,17 @@
+netsuite.file SuiteScripts_SRD___update_script_js@dsbsuv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/SRD - update_script.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/SRD - update_script.js")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "SRD - update_script.js"
+  
+  isInactive = false
+  
+  
+}

@@ -1,0 +1,25 @@
+netsuite.customlist customlist_ds_list_filename {
+  scriptid = "customlist_ds_list_filename"
+  ismatrixoption = false
+  isordered = false
+  name = "DocuSign File Name"
+  customvalues = {
+    customvalue = {
+      "2@" = {
+        scriptid = "2"
+        value = "Email Subject"
+        index = 0
+        isInactive = false
+      }
+      "1@" = {
+        scriptid = "1"
+        value = "Envelope Name"
+        index = 1
+        isInactive = false
+      }
+    }
+  }
+  isInactive = false
+  bundle = netsuite.bundle.instance.bundle_351444
+  _alias = "DocuSign File Name"
+}

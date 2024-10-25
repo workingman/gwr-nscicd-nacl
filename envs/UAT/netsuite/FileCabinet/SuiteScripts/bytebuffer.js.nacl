@@ -1,0 +1,14 @@
+netsuite.file SuiteScripts_bytebuffer_js@dv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/bytebuffer.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/bytebuffer.js")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "bytebuffer.js"
+  isInactive = false
+}
