@@ -1351,7 +1351,7 @@ netsuite.transactionForm custform_srd_new_form_2 {
           subList = {
             LINKS = {
               id = "LINKS"
-              label = "Receipts & Bills"
+              label = "Receipts & Bills hello hello hello hello"
               visible = true
               neverEmpty = false
               index = 0

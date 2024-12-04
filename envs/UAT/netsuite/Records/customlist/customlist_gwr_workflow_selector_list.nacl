@@ -41,6 +41,13 @@ netsuite.customlist customlist_gwr_workflow_selector_list {
         index = 4
         isInactive = false
       }
+      val_58213_t2480139_257 = {
+        scriptid = "val_58213_t2480139_257"
+        abbreviation = "C"
+        value = "Chartreuse"
+        index = 5
+        isInactive = false
+      }
     }
   }
   isInactive = false

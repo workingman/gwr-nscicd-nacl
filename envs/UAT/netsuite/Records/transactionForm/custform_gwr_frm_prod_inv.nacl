@@ -1722,7 +1722,7 @@ netsuite.transactionForm custform_gwr_frm_prod_inv {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 9
+                    index = 10
                   }
                   cseg4 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg4]"
@@ -1732,7 +1732,7 @@ netsuite.transactionForm custform_gwr_frm_prod_inv {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 10
+                    index = 11
                   }
                   cseg5 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg5]"
@@ -1742,7 +1742,7 @@ netsuite.transactionForm custform_gwr_frm_prod_inv {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 11
+                    index = 12
                   }
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
@@ -1752,7 +1752,7 @@ netsuite.transactionForm custform_gwr_frm_prod_inv {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 12
+                    index = 9
                   }
                   custbody_gwr_workflow_selector = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
