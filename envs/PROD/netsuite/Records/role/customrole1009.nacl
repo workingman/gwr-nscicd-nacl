@@ -1,0 +1,95 @@
+netsuite.role customrole1009 {
+  scriptid = "customrole1009"
+  accountingbooksoption = "PRIMARY"
+  centertype = "BASIC"
+  coreadminpermission = true
+  employeerestriction = "NONE"
+  employeeselectionunrestricted = false
+  
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = false
+  name = "workato_intg"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "ALL"
+  subsidiaryviewingallowed = false
+  tfaduration = "0"
+  tfarequired = "OFF"
+  permissions = {
+    permission = {
+      TRAN_PAYMENTAUDIT = {
+        permkey = "TRAN_PAYMENTAUDIT"
+        permlevel = "VIEW"
+      }
+      TRAN_AUDIT = {
+        permkey = "TRAN_AUDIT"
+        permlevel = "VIEW"
+      }
+      TRAN_SALESORD = {
+        permkey = "TRAN_SALESORD"
+        permlevel = "FULL"
+      }
+      REPO_BALANCESHEET = {
+        permkey = "REPO_BALANCESHEET"
+        permlevel = "VIEW"
+      }
+      REPO_BUDGET = {
+        permkey = "REPO_BUDGET"
+        permlevel = "VIEW"
+      }
+      LIST_ACCOUNT = {
+        permkey = "LIST_ACCOUNT"
+        permlevel = "VIEW"
+      }
+      LIST_OTHER_ADDRESS = {
+        permkey = "LIST_OTHER_ADDRESS"
+        permlevel = "FULL"
+      }
+      REGT_BANK = {
+        permkey = "REGT_BANK"
+        permlevel = "VIEW"
+      }
+      LIST_GIFT_CERTIFICATE = {
+        permkey = "LIST_GIFT_CERTIFICATE"
+        permlevel = "FULL"
+      }
+      ADMI_MANAGE_OAUTH_TOKENS = {
+        permkey = "ADMI_MANAGE_OAUTH_TOKENS"
+        permlevel = "FULL"
+      }
+      ADMI_ACCOUNTINGLIST = {
+        permkey = "ADMI_ACCOUNTINGLIST"
+        permlevel = "FULL"
+      }
+      ADMI_BACKUPEXPORT = {
+        permkey = "ADMI_BACKUPEXPORT"
+        permlevel = "FULL"
+      }
+      ADMI_LOGIN_OAUTH = {
+        permkey = "ADMI_LOGIN_OAUTH"
+        permlevel = "FULL"
+      }
+      ADMI_RESTWEBSERVICES = {
+        permkey = "ADMI_RESTWEBSERVICES"
+        permlevel = "FULL"
+      }
+      ADMI_WEBSERVICES = {
+        permkey = "ADMI_WEBSERVICES"
+        permlevel = "FULL"
+      }
+      ADMI_SFASETUP = {
+        permkey = "ADMI_SFASETUP"
+        permlevel = "FULL"
+      }
+      ADMI_MANAGE_OWN_OAUTH_TOKENS = {
+        permkey = "ADMI_MANAGE_OWN_OAUTH_TOKENS"
+        permlevel = "FULL"
+      }
+    }
+  }
+  _alias = "workato_intg"
+  isInactive = false
+}

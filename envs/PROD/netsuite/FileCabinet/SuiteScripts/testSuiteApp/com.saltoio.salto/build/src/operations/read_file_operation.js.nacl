@@ -1,0 +1,19 @@
+netsuite.file SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_operations_read_file_operation_js@ddvvdddduuv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/testSuiteApp/com.saltoio.salto/build/src/operations/read_file_operation.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/testSuiteApp/com.saltoio.salto/build/src/operations/read_file_operation.js")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_operations@ddvvddd,
+  ]
+  _generated_dependencies = [
+    {
+      reference = netsuite.file.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_validation_js@ddvvdddv.path
+    },
+  ]
+  _alias = "read_file_operation.js"
+  isInactive = false
+}

@@ -1,0 +1,19 @@
+netsuite.publisheddashboard custpubdashboard_6_t2257860_852 {
+  scriptid = "custpubdashboard_6_t2257860_852"
+  center = "BASIC"
+  locknewbar = false
+  lockshortcuts = false
+  name = "Admin"
+  notes = "Amazing space to create"
+  roles = {
+    role = [
+      {
+        role = "ADMINISTRATOR"
+      },
+      {
+        role = "DEVELOPER"
+      },
+    ]
+  }
+  _alias = "Admin"
+}

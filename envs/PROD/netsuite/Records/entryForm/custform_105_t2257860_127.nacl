@@ -1,0 +1,373 @@
+netsuite.entryForm custform_105_t2257860_127 {
+  scriptid = "custform_105_t2257860_127"
+  standard = "STANDARDCUSTOMRECORD2632FORM"
+  name = "Completed Ng Employee Courses Form - test"
+  recordType = netsuite.customrecord2632.attr.scriptid
+  preferred = true
+  storedWithRecord = true
+  mainFields = {
+    defaultFieldGroup = {
+      fields = {
+        MIDDLE = {
+          position = "MIDDLE"
+          field = {
+            CUSTOMFORM = {
+              id = "CUSTOMFORM"
+              label = "Custom Form"
+              visible = true
+              mandatory = true
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              quickAdd = false
+              index = 0
+            }
+            NAME = {
+              id = "NAME"
+              label = "Name"
+              visible = true
+              mandatory = true
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              quickAdd = true
+              index = 1
+            }
+            RECORDID = {
+              id = "RECORDID"
+              label = "ID"
+              visible = true
+              mandatory = true
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              quickAdd = false
+              index = 2
+            }
+            OWNER = {
+              id = "OWNER"
+              label = "Owner"
+              visible = true
+              mandatory = true
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              quickAdd = false
+              index = 3
+            }
+            CREATED = {
+              id = "CREATED"
+              label = "Date Created"
+              visible = true
+              mandatory = true
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              quickAdd = false
+              index = 4
+            }
+            LASTMODIFIED = {
+              id = "LASTMODIFIED"
+              label = "Last Modified"
+              visible = true
+              mandatory = true
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              quickAdd = false
+              index = 5
+            }
+            ISINACTIVE = {
+              id = "ISINACTIVE"
+              label = "Inactive"
+              visible = true
+              mandatory = false
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              quickAdd = false
+              index = 6
+            }
+            PARENT = {
+              id = "PARENT"
+              label = "Parent"
+              visible = true
+              mandatory = false
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              quickAdd = false
+              index = 7
+            }
+            customrecord2632_custrecord2810@v = {
+              id = netsuite.customrecord2632.field.custom_custrecord2810.scriptid
+              label = "Employee Student"
+              visible = true
+              mandatory = false
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              quickAdd = false
+              index = 8
+            }
+            customrecord2632_custrecord2811@v = {
+              id = netsuite.customrecord2632.field.custom_custrecord2811.scriptid
+              label = "Job title"
+              visible = true
+              mandatory = false
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              quickAdd = false
+              index = 9
+            }
+          }
+          index = 0
+        }
+      }
+    }
+  }
+  tabs = {
+    tab = {
+      RECORDNOTES = {
+        id = "RECORDNOTES"
+        label = "Notes"
+        visible = false
+        subItems = {
+          subList = {
+            RECORDUSERNOTES = {
+              id = "RECORDUSERNOTES"
+              label = "User Notes"
+              visible = true
+              neverEmpty = false
+              index = 0
+            }
+            RECORDSYSTEMNOTES = {
+              id = "RECORDSYSTEMNOTES"
+              label = "System Notes"
+              visible = true
+              neverEmpty = false
+              index = 1
+            }
+          }
+        }
+        index = 0
+      }
+      RECORDWORKFLOW = {
+        id = "RECORDWORKFLOW"
+        label = "Workflow"
+        visible = false
+        subItems = {
+          subList = {
+            RECORDACTIVEWORKFLOWS = {
+              id = "RECORDACTIVEWORKFLOWS"
+              label = "Active Workflows"
+              visible = true
+              neverEmpty = false
+              index = 0
+            }
+            RECORDWORKFLOWHISTORY = {
+              id = "RECORDWORKFLOWHISTORY"
+              label = "Workflow History"
+              visible = true
+              neverEmpty = false
+              index = 1
+            }
+          }
+        }
+        index = 1
+      }
+      RECORDTRANSLATION = {
+        id = "RECORDTRANSLATION"
+        label = "Translation"
+        visible = false
+        subItems = {
+          subList = {
+            RECORDTRANSLATIONS = {
+              id = "RECORDTRANSLATIONS"
+              label = "Translation"
+              visible = true
+              neverEmpty = false
+              index = 0
+            }
+          }
+        }
+        index = 2
+      }
+      RECORDCUSTOM = {
+        id = "RECORDCUSTOM"
+        label = "Custom"
+        visible = true
+        index = 3
+      }
+      customrecord2632_tab_65_t2257860_261@vuuu = {
+        id = netsuite.customrecord2632.attr.subtabs.subtab.tab_65_t2257860_261.scriptid
+        label = "courses"
+        visible = true
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  customrecord2632_custrecord2804@v = {
+                    id = netsuite.customrecord2632.field.custom_custrecord2804.scriptid
+                    label = "courses taken"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    quickAdd = false
+                    index = 0
+                  }
+                  customrecord2632_custrecord2805@v = {
+                    id = netsuite.customrecord2632.field.custom_custrecord2805.scriptid
+                    label = "Course Start Date"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    quickAdd = false
+                    index = 1
+                  }
+                  customrecord2632_custrecord2806@v = {
+                    id = netsuite.customrecord2632.field.custom_custrecord2806.scriptid
+                    label = "Course End Date"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    quickAdd = false
+                    index = 2
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
+        index = 4
+      }
+      customrecord2632_tab_66_t2257860_641@vuuu = {
+        id = netsuite.customrecord2632.attr.subtabs.subtab.tab_66_t2257860_641.scriptid
+        label = "Evaluation"
+        visible = true
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  customrecord2632_custrecord2807@v = {
+                    id = netsuite.customrecord2632.field.custom_custrecord2807.scriptid
+                    label = "Level of Difficulty"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    quickAdd = false
+                    index = 0
+                  }
+                  customrecord2632_custrecord2808@v = {
+                    id = netsuite.customrecord2632.field.custom_custrecord2808.scriptid
+                    label = "Student Rating"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    quickAdd = false
+                    index = 1
+                  }
+                  customrecord2632_custrecord2809@v = {
+                    id = netsuite.customrecord2632.field.custom_custrecord2809.scriptid
+                    label = "Instructor Comment"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    quickAdd = false
+                    index = 2
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
+        index = 5
+      }
+      RECORDMEDIA = {
+        id = "RECORDMEDIA"
+        label = "Files"
+        visible = true
+        subItems = {
+          subList = {
+            RECORDMEDIAITEM = {
+              id = "RECORDMEDIAITEM"
+              label = "Files"
+              visible = true
+              neverEmpty = false
+              index = 0
+            }
+          }
+        }
+        index = 6
+      }
+    }
+  }
+  actionbar = {
+    menu = {
+      menuitem = {
+        DELETE = {
+          id = "DELETE"
+          label = "Delete"
+          visible = true
+        }
+        MAKECOPY = {
+          id = "MAKECOPY"
+          label = "Make Copy"
+          visible = true
+        }
+        NEW = {
+          id = "NEW"
+          label = "New"
+          visible = true
+        }
+        PRINT = {
+          id = "PRINT"
+          label = "Print"
+          visible = true
+        }
+        SUBMITCOPY = {
+          id = "SUBMITCOPY"
+          label = "Save & Copy"
+          visible = true
+        }
+        SUBMITNEW = {
+          id = "SUBMITNEW"
+          label = "Save & New"
+          visible = true
+        }
+        SUBMITNEXT = {
+          id = "SUBMITNEXT"
+          label = "Save & Next"
+          visible = true
+        }
+        SUBMITAS = {
+          id = "SUBMITAS"
+          label = "Save As"
+          visible = true
+        }
+      }
+    }
+  }
+  editingInList = true
+  isInactive = false
+  _alias = "Completed Ng Employee Courses Form - test"
+}

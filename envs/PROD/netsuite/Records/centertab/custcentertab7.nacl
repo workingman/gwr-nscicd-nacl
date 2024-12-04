@@ -1,0 +1,11 @@
+netsuite.centertab custcentertab7 {
+  scriptid = "custcentertab7"
+  allcustomers = false
+  allemployees = false
+  allpartners = false
+  allroles = true
+  allvendors = false
+  center = netsuite.center.instance.custcenter1.scriptid
+  label = "Another Tabe"
+  _alias = "Another Tabe"
+}

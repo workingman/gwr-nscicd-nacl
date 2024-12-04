@@ -1,0 +1,40 @@
+netsuite.customlist customlist2633 {
+  scriptid = "customlist2633"
+  ismatrixoption = false
+  isordered = true
+  name = "courses"
+  customvalues = {
+    customvalue = {
+      val_558914_t2257860_390 = {
+        scriptid = "val_558914_t2257860_390"
+        abbreviation = "E"
+        value = "Essentials"
+        index = 0
+        isInactive = false
+      }
+      val_558915_t2257860_694 = {
+        scriptid = "val_558915_t2257860_694"
+        abbreviation = "S"
+        value = "SA: Report and Searches"
+        index = 1
+        isInactive = false
+      }
+      val_558916_t2257860_423 = {
+        scriptid = "val_558916_t2257860_423"
+        abbreviation = "S"
+        value = "SA: Suite Script"
+        index = 2
+        isInactive = false
+      }
+      val_558917_t2257860_947 = {
+        scriptid = "val_558917_t2257860_947"
+        abbreviation = "S"
+        value = "Sa: Financial report and searches"
+        index = 3
+        isInactive = false
+      }
+    }
+  }
+  isInactive = false
+  _alias = "courses"
+}

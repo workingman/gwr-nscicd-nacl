@@ -1,0 +1,14 @@
+netsuite.emailtemplate custemailtmpl_4_2239021_655 {
+  scriptid = "custemailtmpl_4_2239021_655"
+  addcompanyaddress = false
+  addunsubscribelink = false
+  
+  isprivate = false
+  name = "Custom Transaction Email Template"
+  recordtype = "TRANSACTION"
+  subject = "dont evaluate as reference"
+  usesmedia = false
+  content = file("netsuite/emailtemplate/custemailtmpl_4_2239021_655.html")
+  _alias = "Custom Transaction Email Template"
+  isInactive = false
+}

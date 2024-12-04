@@ -1,0 +1,100 @@
+netsuite.savedsearch customsearch_caseissuesummary {
+  scriptid = "customsearch_caseissuesummary"
+  definition = "6a3277d25b66de94d487727a58a296e82f325095229044a29bb5f71e751be472@GZC@2023.2.14@H4sIAAAAAAAA/+1bW2/iOBR+X2n+A8o8LymlVwSMQmJotrmN47RlX6IU3JnshoCS0NnOr187JtxpG+O2o2mlSghjn8vnc/Ox2/zy3yiq3OMkDcdxS6pVD6QKjgfjYRh/a0ke6v55Jn1pf/qjGafpeNBwcRIGUfgTD+3bf/AgU8dxFoQxTiqETJw28lkt6XuWTRqy/OPHj2qMs3QaZrg6GI/kdPAdj4JUzqdJlWk4bEnIRRq8Ojw8Pj07OWi4wT0eujhIBt8bg2majUdp/sUfBCkO03SK0+loFCQPjdrJ+fnJ0clZvV4/JELPVTio1qRKFo5wmgWjCVFpZV57psgomEyI1Cur2kREKm+Eh99wQgROcJVxJx8zvZMqW1llMpr5l6a8TLRgMcR3YRxmhHy7yWZrSyNDnA6ScJKNyfwEE15D9DDBlUEUpGlLYvPhfFxqu0CB6oUPLAT7TXmxot28DyKCSrt5RT8rdyGO8h8KIt1iQGK/taRL0PcdRb1UekCqyCUXuirUHeTrmkRl/fmzJaVZQoyFoPfYdjXlnEsJZl0dGJqvga7iGci3FJMIO8QTHA+JfT5c4oeWZIwHQYS1OZKNGUhIRwb4fLAhYUUlUlV0KlbF3U+uglPfARtsKBcOuobS8x2vY+jqnOLteBzhIJbaWTLlJWnoLtokeBdE/ELakOArmKipqBe6BYSqDoGpWxqAYiV1L+xrgqp1KVRWB4IugBBoL7Fhc9ovsnUL8js3UQz5rg3Nl6INgUvijCuMPI2VMzhmUaJspJ2DWWZhrtWVDq59xSU60f0Wi1hBuwcV5+KlSC9lFyGUPYtsL4K6ioA4yqZy40P72uXYIE13lY4BfA3qhuFr9rUlTt88PakeMWpL7ftQQTz2l0t5oWvA7+oGApBIajtUTrEOUmR3BG6QzyRn/DZyqosUiNxrHV1wmoBypehGDjqxsC4QaAc5+Z5hdxTDB5ou2N9U90osQXCjAkNwFNW6gu0XmGS3/C60zZJ2u7Ta9Tp/ARXxE+jYWp9/tWqbJqnWOfyOBKpeD9CkpBhAdPx21QugecarECdbYJoK1IG4qMHYAIui7KC+8LTNYkUuvGIYpNAjVkSPPB3BRQ1joVuq4ZEgm2c+4SXlBYl0yEaKIRieQmoHQN0mG0E2A0HFchUV6bbADMG8qeMZl77tEH/Syiaxxfr82JzXj+TkCxWTJ2l3PJKaiPKC9bMdpJv63yTHkmqPJ1zk3mBbvudoJNm/wFlH8UhWo1usi8sbNPtTuqRI2TzXr7aElOkwJD/hRm3OPYwzqX0w5yoXLRB5uatyF0YZTshottFYAREe4Thb6aywwsNtylneVZHny2cdjG45ciz09TfIrlML7oMwCm4jzEZypJ7NZFHUrLEpAGEdpHZzEiRkbUFQHUcRHtA+lFRJ8B1OKLwtqVqV87/cBkv0pNal2LM95YKvvuWZnaUqMN/vGq+Hbe0d3Q6TRhA/NOJpFG3t4PjUm/jrbxfZpk9QobXWU22rdQA/H3KEga5to22tjj0SCCPpmyTD6iTMGHk19XgAWLhiYXq/kwkevrIJklNP761ssP5hg7+kDdZf2QaVa0VHutWDwDH6b2SLR7+RLS5GdqT+BGfTJC5XCECAPGixFsrbFAHLEuxp+cxkFENXXA571V3X446Z9LrgRlDZ8UxjXwbu8/FWndiVFfdV1awS5ZHnhOfEVTDcejnWg7bn8KrS9az8jMkjFT38eYayx1IfQGgLvExixz+o5a2eTr+wePnNMtgv48Ms7wl0Yu7CjcdpTvdxGh6GZxsofp0GcRZm/Nfbj7mwansW+nDhsi68GFnN8EOckTqgXL7XAMob5B/5Xni+566veTz3/LVDRe1g/4zO4X0fTi+vunk6TjLikdNR/PyOog2Rr9qGZ1pv4/JLAgh4gZbD+IptOWO+a/vX9/kdPnBVYGnkZPzEGfMxo1gxA+K2SUbmhJOQbGK5hMDukyBQdUcHFnLXUoO8nfbqKDezHVyogpsPH+XN15HFyMwSQgrN2thDJcu3ZD26zR6RPvkSkE6irz/XJzKV28vTC23+xQ/0joF+NLMkiNMooOIS2YhuCRlkZtnGse8RCGbfitGtbw2LOfKMwiqhu8TvwsUk6gJ5UJnNkleFkDdVkddB2wljcaey9Q3u8oUL/bUmLQLMc8JFca+zb1mQ35POaNHb2FkXCUDR173LPIDpGHYfiL6yXuHhKBBZL6sGtI1tKuzR/Fohf0Uiny1SAVYCFixWpS/C/2MR9dmW/9wAsu1Ohk483B1ENhvAi0ByWD6QrPv/mwULbsjqDLI6H2T19wjZEYPsiA+yo3cA2Xq/lE463g3X6jl1AdUxd2Zf7siWSujPWP/mgJ4wQE/KA3ry3mzvlEF1Wh6q0/cG1RmD6qw8VGfcbrpogfI46e7Vbw7mOQPzvDyY5+/N7mqzk1/tkaPfLrBqHGe/10drfSg/O8tP/LNm+9Mf/wMpFJLw+DkAAA=="
+  available_filters = [
+    {
+      SEQ_NUMBER = 1
+      FIELD_NAME = "Case_DATE"
+      FLAG_FOOTER = true
+      FLAG_FOOTER_MULTI_SELECT = false
+    },
+    {
+      SEQ_NUMBER = 2
+      FIELD_NAME = "Case_STAGE"
+      FLAG_FOOTER = true
+      FLAG_FOOTER_MULTI_SELECT = false
+    },
+    {
+      SEQ_NUMBER = 3
+      FIELD_NAME = "Case_AWAITINGREPLY"
+      FLAG_FOOTER = true
+      FLAG_FOOTER_MULTI_SELECT = false
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Case_ISSUE"
+      FIELD_INDEX = 1
+      FIELD_LABEL = "Case Issue"
+      FIELD_SUMMARY_TYPE = "GROUP"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_NUMBER"
+      FIELD_INDEX = 2
+      FIELD_SUMMARY_LABEL = "Quantity"
+      FIELD_SUMMARY_TYPE = "COUNT"
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "Case_ISSUE"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Case_DATE"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = true
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch_caseissuesummary"
+  FIELD_DEFAULT_NAME = " Case Issue Summary"
+  FIELD_SEARCH_TYPE = "Case"
+  FLAG_PUBLIC = true
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = true
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = true
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = " Case Issue Summary"
+}

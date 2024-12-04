@@ -1,0 +1,6 @@
+netsuite.nexus _afghanistan {
+  country = "_afghanistan"
+  description = "Afghanistan"
+  identifier = "_afghanistan"
+  _alias = "_afghanistan"
+}

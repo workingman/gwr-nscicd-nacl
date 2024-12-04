@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_il_cashrefund {
+  scriptid = "custtmpl_il_cashrefund"
+  standard = "STDTMPLEMPTY"
+  displaysourcecode = true
+  
+  preferred = false
+  printtype = "TRANSACTION"
+  title = "IL Cash Refund PDF/HTML Template"
+  trantype = "CASHRFND"
+  content = file("netsuite/advancedpdftemplate/custtmpl_il_cashrefund.xml")
+  _alias = "IL Cash Refund PDF/HTML Template"
+  isInactive = false
+}

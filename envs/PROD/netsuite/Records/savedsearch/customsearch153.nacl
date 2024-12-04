@@ -1,0 +1,133 @@
+netsuite.savedsearch customsearch153 {
+  scriptid = "customsearch153"
+  definition = "06ad71fdb19e36d741ada3eee02c2916211dcf405d34ed99b3def737537f1928@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "TR_Transaction_DATECREATED"
+      FIELD_MODIFIER = "WITHIN"
+      FIELD_ATTRIBUTE = "TM"
+      FIELD_TYPE = "DATETIME"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "2008-11-01 07:00:00.0 UTC"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "2008-12-01 07:59:00.0 UTC"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Item_NAME"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Item_DISPLAYNAME"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Item_DESCRIPTION"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Item_TYPE"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Item_PRICE"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "TR_Transaction_AMOUNT"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "Item_NAME"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Item_DISPLAYNAME"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Item_DESCRIPTION"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Item_TYPE"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Item_PRICE"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "TR_Transaction_AMOUNT"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch153"
+  FIELD_DEFAULT_NAME = "Top 5 Items by Sales"
+  FIELD_SEARCH_TYPE = "Item"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "Top 5 Items by Sales"
+}

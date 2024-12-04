@@ -1,0 +1,20 @@
+netsuite.othercustomfield custrecord_address_field {
+  scriptid = "custrecord_address_field"
+  accesslevel = "2"
+  applyformatting = false
+  applytoallforms = true
+  checkspelling = false
+  defaultchecked = false
+  displaytype = "NORMAL"
+  encryptatrest = false
+  fieldtype = "CHECKBOX"
+  isformula = false
+  ismandatory = false
+  label = "address field"
+  rectype = "-289"
+  searchlevel = "2"
+  showhierarchy = false
+  showinlist = false
+  storevalue = true
+  _alias = "address field"
+}

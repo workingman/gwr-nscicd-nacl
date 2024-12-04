@@ -1,0 +1,66 @@
+netsuite.customsegment cseg_slt_order {
+  scriptid = "cseg_slt_order"
+  defaultrecordaccesslevel = "VIEW"
+  defaultsearchaccesslevel = "VIEW"
+  displaytype = "NORMAL"
+  fieldtype = "SELECT"
+  hasglimpact = false
+  ismandatory = false
+  label = "Test Applications Order"
+  recordtype = netsuite.customrecord_cseg_slt_order.attr.scriptid
+  valuesdisplayorder = "SUBLIST"
+  segmentapplication = {
+    transactionbody = {
+      applications = {
+        application = {
+          JOURNALENTRY = {
+            id = "JOURNALENTRY"
+            isapplied = true
+          }
+        }
+      }
+    }
+    transactionline = {
+      applications = {
+        application = {
+          PURCHASE = {
+            id = "PURCHASE"
+            isapplied = true
+          }
+          EXPENSE = {
+            id = "EXPENSE"
+            isapplied = true
+          }
+          EXPENSEREPORT = {
+            id = "EXPENSEREPORT"
+            isapplied = true
+          }
+          CUSTOMPURCHASE_SLT_EXPENSE_REPORT = {
+            id = "CUSTOMPURCHASE_SLT_EXPENSE_REPORT"
+            isapplied = true
+          }
+          ITEMFULFILLMENT = {
+            id = "ITEMFULFILLMENT"
+            isapplied = true
+          }
+          JOURNALENTRY = {
+            id = "JOURNALENTRY"
+            isapplied = true
+          }
+        }
+      }
+    }
+    items = {
+      subtype = "BOTH"
+    }
+  }
+  permissions = {
+    permission = {
+      customrole1032 = {
+        role = netsuite.role.instance.customrole1032.scriptid
+        valuemgmtaccesslevel = "NONE"
+      }
+    }
+  }
+  _alias = "Test Applications Order"
+}

@@ -1,0 +1,155 @@
+<#-- ***********************************************
+@Template:	IL CUSTOMER DEPOSIT
+@Author: 	Koby Pichkhadze (NetCloud LTD)
+************************************************ -->
+<?xml version="1.0"?><!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+<#assign tmplInclData = companyInformation.custrecord_il_advtmpl_incldata?eval>
+
+<#-- Include Functions -->
+<#if tmplInclData?has_content && tmplInclData.func?has_content><#include "${tmplInclData.func}"></#if>
+
+<#-- Include Initialize -->
+<#if tmplInclData?has_content && tmplInclData.init?has_content><#include "${tmplInclData.init}"></#if>
+
+<#assign
+	BODY_FIELDS = [
+		"custbody_il_maturity_date",
+		"custbody_il_bank_account_num",
+		"custbody_il_bank_branch_number",
+		"paymentmethod",
+		"checknum",
+		"ccnumber"
+	]
+>
+
+<head>
+	<#-- Include Head Tag -->
+	<#if tmplInclData?has_content && tmplInclData.taghead?has_content><#include "${tmplInclData.taghead}"></#if>
+</head>
+
+<body footer="nlfooter" footer-height="20pt" padding="20px 30px 20px 30px" size="A4">
+	<#-- Include Header -->
+	<#if tmplInclData?has_content && tmplInclData.header?has_content><#include "${tmplInclData.header}"></#if>
+			
+	<!--====== Start Entity Data ======-->
+	<table style="width: 100%; margin-top: 10px;" align="${align}" class="${align}" direction="${direction}" lang="${pdfLang}">
+		<tr>
+			<td style="width:33.33%;" align="${align}" valign="top">
+				<table><tr>
+					<td>
+						<b>${toCaption}</b>
+						<br/>${billAddress}
+					</td>
+				</tr></table>
+			</td>
+			
+			<td style="width:33.33%" align="center" valign="top">
+				<table><tr>
+					<#if phone?has_content || fax?has_content>
+					<td>
+						<b>${detailsCaption}</b>
+						<table>
+							<#if phone?has_content>
+								<tr>
+									<td>${getTranslatedLabel("record.entity.phone", "Phone")}:&nbsp;</td>
+									<td style="white-space: nowrap;" lang="en" direction="ltr">${phone}</td>
+								</tr>
+							</#if>
+							<#if fax?has_content>
+								<tr>
+									<td>${getTranslatedLabel("record.entity.fax", "Fax")}:&nbsp;</td>
+									<td style="white-space: nowrap;" lang="en" direction="ltr">${fax}</td>
+								</tr>
+							</#if>						
+						</table>
+					</td>
+					</#if>
+				</tr></table>
+			</td>
+			
+			<td style="width:33.33%" align="${oposAlign}" valign="top">
+				<table><tr>
+					<td>
+						<b>${otherDetailsCaption}</b>
+						<br/>${getTranslatedLabel("record.entity.date", "Date")}: ${tranDate}
+						<#if record.otherrefnum?has_content><br/>${getTranslatedLabel("record.otherrefnum", record.otherrefnum@label)}: ${record.otherrefnum}</#if>			
+						<#if record.duedate?has_content><br/>${getTranslatedLabel("record.duedate", record.duedate@label)}: ${record.duedate}</#if>			
+						<#if IS_IL_ENTITY && vatRegNum?has_content && vatRegNum != "999999999"><br/>${getTranslatedLabel("record.entity.vatregnumber", "Tax ID")}: ${vatRegNum}</#if>
+					</td>
+				</tr></table>
+			</td>
+			
+		</tr>    
+	</table>
+	<!--====== End Entity Data ======-->
+
+	<!--====== Start Transaction Status ======-->
+	<table class="tranStatus" direction="${direction}" lang="${pdfLang}">
+		<tr>
+			<td style="width:33.3%" class="status-title" align="${align}">${getTranslatedLabel(tranIdLabelFldId, record@title)}</td>
+			<td style="width:33.3%" align="center">${tranNumLblExpr} ${record.tranid}</td>
+			<td style="width:33.3%" class="status-value" align="${oposAlign}">${getPrintStatusValue()}</td>
+		</tr>
+	</table>		
+	<!--====== End Transaction Status ======-->
+	
+	
+	<!--====== Start Items ======-->
+	<table class="itemtable" cellmargin="1px" style="margin-top: 10px;width:100%;" direction="${direction}" lang="${pdfLang}">
+		<thead>
+			<tr>
+				<th style="width:12%;">${getTranslatedLabel("apply.applydate", "Date")}</th>
+				<th align="${align}" style="width:40%;">${getTranslatedLabel("apply.refnum", "Ref.Num")}</th>				
+				<th align="right" style="width:12%;">${getTranslatedLabel("apply.total", "Org. Amt")}</th>
+				<th align="right" style="width:12%;">${getTranslatedLabel("apply.due", "Amt. Due")}</th>
+				<th align="right" style="width:12%;">${getTranslatedLabel("apply.disc", "WHT")}</th>
+				<th align="right" style="width:12%;">${getTranslatedLabel("apply.amount", "Payment")}</th>
+			</tr>
+		</thead>
+		<tr>
+			<td><span lang="en" direction="ltr">${record.trandate}</span></td>
+			<td align="${align}">${getTranslatedLabel("record.description", "")}</td>
+			<td align="right">${record.payment?string(currFormat)}</td>
+			<td align="right">${record.payment?string(currFormat)}</td>
+			<td align="right">${0?string(currFormat)}</td>
+			<td align="right">${record.payment?string(currFormat)}</td>
+		</tr>
+	</table>
+	<!--====== End Items ======-->
+
+	
+	<table class="total" style=" margin-top: 10px;" align="${oposAlign}" direction="${direction}" lang="${pdfLang}">
+		<tr class="totalrow">
+			<td align="${oposAlign}" style="padding-${align}:20px;"><b>${getTranslatedLabel("record.payment", record.payment@label)}</b></td>
+			<#if displayILTotalAmounts>
+				<td align="right" style="padding-${align}:20px;">${(record.payment*ilExchangeRate)?string(ilCurrSymbolChar + currFormat)}</td>
+			<#elseif displayAdditionalCurrencyTotalAmounts>
+				<#setting locale = SB_SETTINGS.additionalCurrencyData.currency.locale>
+				<td align="right" style="padding-${align}:20px;">${(record.payment*additionalCurrencyExchangeRate)?string(additionalCurrencyFormat)}</td>
+				<#setting locale = tranLocale>
+			</#if>
+			<td align="right" style="padding-${align}:20px;">${record.payment}</td>
+		</tr>
+	</table>
+	
+	<#-- Include Body Fields -->
+	<#if tmplInclData?has_content && tmplInclData.bodyfields?has_content><#include "${tmplInclData.bodyfields}"></#if>
+
+	<!-- Start Entity Message -->
+	<#if record.message?has_content>
+		<#assign entityMessage = record.message?interpret>
+		<br/><br/><table class="body_fields" style="width:100%" direction="${direction}" lang="${pdfLang}">
+			<tr><td>
+				<span style="text-decoration:underline;">${getTranslatedLabel("record.message", record.message@label)}:</span>
+				<br/><@entityMessage/>
+			</td></tr>
+		</table>
+	</#if>
+	<!-- End Entity Message -->
+		
+	<#-- Include Signature -->
+	<#if tmplInclData?has_content && tmplInclData.sign?has_content><#include "${tmplInclData.sign}"></#if>
+
+</body>
+</pdf>

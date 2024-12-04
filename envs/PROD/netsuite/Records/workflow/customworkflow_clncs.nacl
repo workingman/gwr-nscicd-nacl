@@ -1,0 +1,81 @@
+netsuite.workflow customworkflow_clncs {
+  scriptid = "customworkflow_clncs"
+  initcontexts = "USERINTERFACE"
+  initeventtypes = "CREATE"
+  initoncreate = true
+  initonvieworupdate = false
+  inittriggertype = "AFTERSUBMIT"
+  
+  islogenabled = false
+  keephistory = "ONLYWHENTESTING"
+  name = "NC"
+  recordtypes = "CUSTOMER"
+  releasestatus = "RELEASED"
+  runasadmin = false
+  initcondition = {
+    type = "VISUAL_BUILDER"
+  }
+  workflowstates = {
+    workflowstate = {
+      workflowstate1 = {
+        scriptid = "workflowstate1"
+        donotexitworkflow = false
+        name = "State 1"
+        positionx = 243
+        positiony = 133
+        workflowactions = {
+          AFTERSUBMIT = {
+            triggertype = "AFTERSUBMIT"
+            createrecordaction = {
+              workflowaction1 = {
+                scriptid = "workflowaction1"
+                contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+                eventtypes = "CREATE"
+                
+                recordtype = "TASK"
+                schedulemode = "DELAY"
+                initcondition = {
+                  type = "VISUAL_BUILDER"
+                }
+                fieldsettings = {
+                  fieldsetting = {
+                    STDEVENTCOMPANY = {
+                      targetfield = "STDEVENTCOMPANY"
+                      valuefield = "STDENTITYCOMPANY"
+                      index = 0
+                    }
+                    STDEVENTDUEDATE = {
+                      targetfield = "STDEVENTDUEDATE"
+                      index = 1
+                    }
+                    STDEVENTTITLE = {
+                      targetfield = "STDEVENTTITLE"
+                      valueformula = "'Call '||{entityid}"
+                      index = 2
+                    }
+                    STDEVENTMESSAGE = {
+                      targetfield = "STDEVENTMESSAGE"
+                      valuetext = "Intro call"
+                      index = 3
+                    }
+                    STDEVENTASSIGNED = {
+                      targetfield = "STDEVENTASSIGNED"
+                      valuejoinfield = "STDUSERUSER"
+                      valueselect = "@CURRENTUSER@"
+                      index = 4
+                    }
+                  }
+                }
+                index = 0
+                isInactive = false
+              }
+            }
+          }
+        }
+        index = 0
+      }
+    }
+  }
+  _alias = "NC"
+  isInactive = false
+}

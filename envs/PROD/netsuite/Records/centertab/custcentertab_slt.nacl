@@ -1,0 +1,11 @@
+netsuite.centertab custcentertab_slt {
+  scriptid = "custcentertab_slt"
+  allcustomers = false
+  allemployees = false
+  allpartners = false
+  allroles = true
+  allvendors = false
+  center = "BASIC"
+  label = "Salto"
+  _alias = "Salto"
+}

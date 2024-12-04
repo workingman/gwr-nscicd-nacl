@@ -1,0 +1,10 @@
+netsuite.nexus _unitedStates_Alabama {
+  country = "_unitedStates"
+  state = {
+    
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Alabama)"
+  }
+  description = "AL"
+  identifier = "_unitedStates_Alabama"
+  _alias = "_unitedStates_Alabama"
+}

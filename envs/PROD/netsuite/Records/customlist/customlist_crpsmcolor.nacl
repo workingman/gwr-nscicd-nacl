@@ -1,0 +1,48 @@
+netsuite.customlist customlist_crpsmcolor {
+  scriptid = "customlist_crpsmcolor"
+  description = "Colors related to Project Status Metrics"
+  ismatrixoption = false
+  isordered = true
+  name = "Project Status Color"
+  customvalues = {
+    customvalue = {
+      val_305308_td2893563_798 = {
+        scriptid = "val_305308_td2893563_798"
+        abbreviation = "L"
+        value = "LIGHTGREEN"
+        index = 0
+        isInactive = false
+      }
+      val_305309_td2893563_896 = {
+        scriptid = "val_305309_td2893563_896"
+        abbreviation = "Y"
+        value = "YELLOW"
+        index = 1
+        isInactive = false
+      }
+      val_305310_td2893563_799 = {
+        scriptid = "val_305310_td2893563_799"
+        abbreviation = "P"
+        value = "PINK"
+        index = 2
+        isInactive = false
+      }
+      val_306437_td2893563_949 = {
+        scriptid = "val_306437_td2893563_949"
+        abbreviation = "P"
+        value = "PEACHPUFF"
+        index = 3
+        isInactive = false
+      }
+      val_306483_td2893563_601 = {
+        scriptid = "val_306483_td2893563_601"
+        abbreviation = "L"
+        value = "LIGHTGRAY"
+        index = 4
+        isInactive = false
+      }
+    }
+  }
+  isInactive = false
+  _alias = "Project Status Color"
+}

@@ -1,0 +1,23 @@
+netsuite.location location_101_Lagos@su {
+  name = "Lagos"
+  parent = netsuite.location.instance.location_101@s
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company_CC_Niga@sus,
+  ]
+  isInactive = false
+  makeInventoryAvailable = false
+  makeInventoryAvailableStore = false
+  allowStorePickup = false
+  classTranslationList = {
+    classTranslation = {
+      English__CA_@sjk = {
+        language = "English (CA)"
+      }
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+    }
+  }
+  identifier = "location 101_Lagos"
+  _alias = "Lagos"
+}

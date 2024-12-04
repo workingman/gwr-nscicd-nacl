@@ -1,0 +1,126 @@
+netsuite.customsegment cseg_erp_property {
+  scriptid = "cseg_erp_property"
+  defaultrecordaccesslevel = "EDIT"
+  defaultsearchaccesslevel = "EDIT"
+  displaytype = "NORMAL"
+  fieldtype = "SELECT"
+  hasglimpact = true
+  ismandatory = false
+  label = "Kavel"
+  recordtype = netsuite.customrecord_cseg_erp_property.attr.scriptid
+  valuesdisplayorder = "ALPHABETICAL"
+  segmentapplication = {
+    transactionbody = {
+      applications = {
+        application = {
+          PURCHASE = {
+            id = "PURCHASE"
+            isapplied = true
+          }
+          REVENUEARRANGEMENT = {
+            id = "REVENUEARRANGEMENT"
+            isapplied = true
+          }
+          SALE = {
+            id = "SALE"
+            isapplied = true
+          }
+          INVENTORYADJUSTMENT = {
+            id = "INVENTORYADJUSTMENT"
+            isapplied = true
+          }
+          ITEMFULFILLMENT = {
+            id = "ITEMFULFILLMENT"
+            isapplied = true
+          }
+          ITEMRECEIPT = {
+            id = "ITEMRECEIPT"
+            isapplied = true
+          }
+          customtransaction_slt_basic_test = {
+            id = netsuite.customtransactiontype.instance.customtransaction_slt_basic_test.scriptid
+            isapplied = true
+          }
+        }
+      }
+    }
+    transactionline = {
+      applications = {
+        application = {
+          SALE = {
+            id = "SALE"
+            isapplied = true
+          }
+          PURCHASE = {
+            id = "PURCHASE"
+            isapplied = true
+          }
+          EXPENSE = {
+            id = "EXPENSE"
+            isapplied = true
+          }
+          REVENUEARRANGEMENT = {
+            id = "REVENUEARRANGEMENT"
+            isapplied = true
+          }
+          INVENTORYADJUSTMENT = {
+            id = "INVENTORYADJUSTMENT"
+            isapplied = true
+          }
+          ITEMFULFILLMENT = {
+            id = "ITEMFULFILLMENT"
+            isapplied = true
+          }
+          ITEMRECEIPT = {
+            id = "ITEMRECEIPT"
+            isapplied = true
+          }
+          JOURNALENTRY = {
+            id = "JOURNALENTRY"
+            isapplied = true
+          }
+          TRANSFERORDER = {
+            id = "TRANSFERORDER"
+            isapplied = true
+          }
+        }
+      }
+    }
+    entities = {
+      applications = {
+        application = {
+          JOB = {
+            id = "JOB"
+            isapplied = true
+          }
+        }
+      }
+    }
+    items = {
+      subtype = "BOTH"
+    }
+    otherrecords = {
+      applications = {
+        application = {
+          ALLOCATIONSCHEDULEDESTINATION = {
+            id = "ALLOCATIONSCHEDULEDESTINATION"
+            isapplied = true
+          }
+          ALLOCATIONSCHEDULESOURCE = {
+            id = "ALLOCATIONSCHEDULESOURCE"
+            isapplied = true
+          }
+          REVENUEELEMENT = {
+            id = "REVENUEELEMENT"
+            isapplied = true
+          }
+          REVENUEPLAN = {
+            id = "REVENUEPLAN"
+            isapplied = true
+          }
+        }
+      }
+    }
+  }
+  _alias = "Kavel"
+}

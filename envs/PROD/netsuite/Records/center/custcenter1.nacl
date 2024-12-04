@@ -1,0 +1,5 @@
+netsuite.center custcenter1 {
+  scriptid = "custcenter1"
+  label = "Salto Center2"
+  _alias = "Salto Center2"
+}

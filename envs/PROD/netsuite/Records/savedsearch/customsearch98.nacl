@@ -1,0 +1,184 @@
+netsuite.savedsearch customsearch98 {
+  scriptid = "customsearch98"
+  definition = "61c61a2e578f97bc7a443058be62abbdbfd585fdd9b693872e93294443401fff@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Case_PRIORITY"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "1"
+        },
+      ]
+    },
+  ]
+  available_filters = [
+    {
+      SEQ_NUMBER = 1
+      FIELD_NAME = "Case_STATUS"
+      FLAG_FOOTER = false
+      FLAG_FOOTER_MULTI_SELECT = false
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Case_NUMBER"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_COMPANY"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_STATUS"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_CREATEDDATE"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_TYPE"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_PRIORITY"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "Case_NUMBER"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_GRABREF"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_TITLE"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_COMPANY"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_CONTACT"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_STAGE"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_STATUS"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_DATE"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_CREATEDDATE"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_EMAIL"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_TYPE"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_ASSIGNED"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_PRIORITY"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Case_NUMBER"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch98"
+  FIELD_DEFAULT_NAME = "High Priority Cases"
+  FIELD_SEARCH_TYPE = "Case"
+  FLAG_PUBLIC = true
+  FLAG_LIST = true
+  FLAG_PORTLET = false
+  FLAG_MACHINE = true
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = true
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "High Priority Cases"
+}

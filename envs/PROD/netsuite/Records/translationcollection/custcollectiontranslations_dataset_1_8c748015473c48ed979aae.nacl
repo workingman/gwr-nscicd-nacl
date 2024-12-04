@@ -1,0 +1,17 @@
+netsuite.translationcollection custcollectiontranslations_dataset_1_8c748015473c48ed979aae {
+  scriptid = "custcollectiontranslations_dataset_1_8c748015473c48ed979aae"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_dataset_1_8c748015473c48ed979aae.strings.string.dataset_name_26_1.scriptid
+  strings = {
+    string = {
+      dataset_name_26_1 = {
+        scriptid = "dataset_name_26_1"
+        defaulttranslation = "test for rest Dataset"
+        description = "Name in dataset"
+        index = 0
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "test for rest Dataset"
+}

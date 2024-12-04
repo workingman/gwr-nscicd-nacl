@@ -1,0 +1,16 @@
+netsuite.centercategory custcentercategory4 {
+  scriptid = "custcentercategory4"
+  center = netsuite.center.instance.custcenter1.scriptid
+  centertab = netsuite.centertab.instance.custcentertab7.scriptid
+  label = "Category D"
+  links = {
+    link = {
+      LIST_TRAN_TRANSFER = {
+        linkid = "LIST_TRAN_TRANSFER"
+        shortlist = false
+        index = 0
+      }
+    }
+  }
+  _alias = "Category D"
+}

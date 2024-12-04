@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_po {
+  scriptid = "custtmpl_po"
+  standard = "STDTMPLPURCHORD"
+  displaysourcecode = false
+  
+  preferred = true
+  printtype = "TRANSACTION"
+  title = "PO"
+  trantype = "PURCHORD"
+  content = file("netsuite/advancedpdftemplate/custtmpl_po.xml")
+  _alias = "PO"
+  isInactive = false
+}

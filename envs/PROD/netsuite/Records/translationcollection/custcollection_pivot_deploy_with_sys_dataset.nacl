@@ -1,0 +1,16 @@
+netsuite.translationcollection custcollection_pivot_deploy_with_sys_dataset {
+  scriptid = "custcollection_pivot_deploy_with_sys_dataset"
+  defaultlanguage = "en-US"
+  name = "Pivot 1"
+  strings = {
+    string = {
+      report_name_101_2 = {
+        scriptid = "report_name_101_2"
+        defaulttranslation = "Pivot 1"
+        description = "Name of pivot"
+        index = 0
+      }
+    }
+  }
+  _alias = "Pivot 1"
+}

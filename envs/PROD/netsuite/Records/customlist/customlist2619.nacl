@@ -1,0 +1,48 @@
+netsuite.customlist customlist2619 {
+  scriptid = "customlist2619"
+  description = "James requested it"
+  ismatrixoption = false
+  isordered = true
+  name = "Area"
+  customvalues = {
+    customvalue = {
+      val_557027_t2257860_240 = {
+        scriptid = "val_557027_t2257860_240"
+        abbreviation = "W"
+        value = "West Coast"
+        index = 0
+        isInactive = false
+      }
+      val_557028_t2257860_134 = {
+        scriptid = "val_557028_t2257860_134"
+        abbreviation = "S"
+        value = "South West"
+        index = 1
+        isInactive = false
+      }
+      val_557029_t2257860_247 = {
+        scriptid = "val_557029_t2257860_247"
+        abbreviation = "S"
+        value = "Southern Ontario"
+        index = 2
+        isInactive = false
+      }
+      val_557030_t2257860_205 = {
+        scriptid = "val_557030_t2257860_205"
+        abbreviation = "N"
+        value = "Northern Ontario"
+        index = 3
+        isInactive = false
+      }
+      val_557031_t2257860_856 = {
+        scriptid = "val_557031_t2257860_856"
+        abbreviation = "O"
+        value = "Oshawa"
+        index = 4
+        isInactive = false
+      }
+    }
+  }
+  isInactive = false
+  _alias = "Area"
+}

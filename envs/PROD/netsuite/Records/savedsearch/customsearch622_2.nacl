@@ -1,0 +1,84 @@
+netsuite.savedsearch customsearch622_2 {
+  scriptid = "customsearch622_2"
+  dependencies = {
+    dependency = [
+      netsuite.customlist.instance.customlist2818.scriptid,
+      netsuite.customrecord2819.field.custom_custrecord_operating_system.scriptid,
+      netsuite.customrecord2819.attr.scriptid,
+    ]
+  }
+  definition = "480257b49efeed31bae6d3a8581f1ef475c51c1620ad2f9db94b18044caea5e1@GZC@2024.1.13@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"
+  return_fields = [
+    {
+      FIELD_ALIAS = "Custom_NAME"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "CUSTRECORD_OPERATING_SYSTEM"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "CUSTRECORD_OPERATING_SYSTEM"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Custom_NAME"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch622_2"
+  FIELD_DEFAULT_NAME = "IBMCompatible Browsers Default View"
+  FIELD_SEARCH_TYPE = "Custom"
+  FLAG_PUBLIC = true
+  FLAG_LIST = true
+  FLAG_PORTLET = true
+  FLAG_MACHINE = true
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  KEY_RECORD_TYPE = 2819
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "IBMCompatible Browsers Default View"
+}

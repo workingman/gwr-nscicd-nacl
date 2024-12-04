@@ -1,0 +1,14 @@
+netsuite.file Templates_Marketing_Templates_bla_html@dsdv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/Templates/Marketing Templates/bla.html"
+  content = file("netsuite/FileCabinet/Templates/Marketing Templates/bla.html")
+  _parent = [
+    netsuite.folder.instance.Templates_Marketing_Templates@ds,
+  ]
+  _alias = "bla.html"
+  isInactive = false
+}

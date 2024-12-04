@@ -1,0 +1,12 @@
+netsuite.suitelet customscript122 {
+  scriptid = "customscript122"
+  defaultfunction = "main"
+  
+  name = "daniel"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_ApplicationConstants_js@dv.path
+  _alias = "daniel"
+  isInactive = false
+}

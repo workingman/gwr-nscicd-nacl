@@ -1,0 +1,11 @@
+netsuite.centertab custcentertab_shalom_test {
+  scriptid = "custcentertab_shalom_test"
+  allcustomers = false
+  allemployees = false
+  allpartners = true
+  allroles = true
+  allvendors = false
+  center = netsuite.center.instance.custcenter1.scriptid
+  label = "Some Center Tab2"
+  _alias = "Some Center Tab2"
+}

@@ -1,0 +1,194 @@
+netsuite.savedsearch customsearch86 {
+  scriptid = "customsearch86"
+  definition = "217f50cc65522669a05088e8b34edbde5bafad37acd2336633829a9df3e73eb4@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_TYPE"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "Estimate"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_TOTALAMOUNT"
+      FIELD_ATTRIBUTE = "GT"
+      FIELD_TYPE = "CURRENCY"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "20000.00"
+        },
+        {
+          KEY_ID = 1
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_MAINLINE"
+      FIELD_ATTRIBUTE = "T"
+      FIELD_TYPE = "CHECKBOX"
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Transaction_TRANDATE"
+      FIELD_INDEX = 1
+      FIELD_SUMMARY_TYPE = "GROUP"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_NUMBER"
+      FIELD_INDEX = 2
+      FIELD_SUMMARY_TYPE = "GROUP"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_NAME"
+      FIELD_INDEX = 3
+      FIELD_SUMMARY_TYPE = "GROUP"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "CU_Customer_CONTACT"
+      FIELD_INDEX = 4
+      FIELD_SUMMARY_TYPE = "GROUP"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_TOTALAMOUNT"
+      FIELD_INDEX = 5
+      FIELD_SUMMARY_TYPE = "GROUP"
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "Transaction_MAINLINE"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_TRANDATE"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_POSTINGPERIOD"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_TYPE"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_PAYROLLBATCH"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_NUMBER"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_NAME"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_ACCOUNT"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_MEMO"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_AMOUNT"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Transaction_TOTALAMOUNT"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = true
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch86"
+  FIELD_DEFAULT_NAME = "My Open Quotes &amp;gt; $20K"
+  FIELD_SEARCH_TYPE = "Transaction"
+  FLAG_PUBLIC = true
+  FLAG_LIST = true
+  FLAG_PORTLET = true
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = true
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = true
+  FLAG_ALERT_ALLOW_SUBSCRIBE = true
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "My Open Quotes &amp;gt; $20K"
+}

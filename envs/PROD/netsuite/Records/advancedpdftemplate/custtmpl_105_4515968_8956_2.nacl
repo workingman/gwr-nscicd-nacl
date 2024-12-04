@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_105_4515968_8956_2 {
+  scriptid = "custtmpl_105_4515968_8956_2"
+  displaysourcecode = true
+  
+  preferred = false
+  printtype = "SEARCH"
+  savedsearch = "[scriptid=customsearch_lsa_contacts]"
+  title = "ICIL Custom Credit Memo replica 2"
+  trantype = "CUSTINVC"
+  content = file("netsuite/advancedpdftemplate/custtmpl_105_4515968_8956_2.xml")
+  _alias = "ICIL Custom Credit Memo replica 2"
+  isInactive = false
+}

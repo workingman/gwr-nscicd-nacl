@@ -1,0 +1,6 @@
+netsuite.subtab custtab_64_t2257860_856 {
+  scriptid = "custtab_64_t2257860_856"
+  tabtype = "ENTITY"
+  title = "Gender Identification"
+  _alias = "Gender Identification"
+}

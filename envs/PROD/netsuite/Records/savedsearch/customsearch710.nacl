@@ -1,0 +1,134 @@
+netsuite.savedsearch customsearch710 {
+  scriptid = "customsearch710"
+  definition = "f5c20e4a4d190d1fc168978f6c3f70584d7c076c3be6cae5afcfe53c1ce3dd21@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Item_TYPE"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "InvtPart"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "Assembly"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Item_ISINACTIVE"
+      FIELD_ATTRIBUTE = "F"
+      FIELD_TYPE = "CHECKBOX"
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Item_NAME"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Item_DISPLAYNAME"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Item_COSTINGMETHOD"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Item_AVERAGECOST"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Item_LASTPURCHASEPRICE"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Item_FORMULACURRENCY"
+      FIELD_INDEX = 6
+      FIELD_LABEL = "Variance"
+      FIELD_FORMULA = "{lastpurchaseprice}-{averagecost}"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Item_FORMULAPERCENT"
+      FIELD_INDEX = 7
+      FIELD_LABEL = "Variance %"
+      FIELD_FORMULA = "({lastpurchaseprice}-{averagecost})/{averagecost}"
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Item_NAME"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch710"
+  FIELD_DEFAULT_NAME = "Cost Analysis Query"
+  FIELD_SEARCH_TYPE = "Item"
+  FLAG_PUBLIC = true
+  FLAG_LIST = true
+  FLAG_PORTLET = true
+  FLAG_MACHINE = true
+  FLAG_REMINDER = true
+  FLAG_SHOW_LINK = true
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "ANY"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = false
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "Cost Analysis Query"
+}

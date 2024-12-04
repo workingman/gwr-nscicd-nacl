@@ -1,0 +1,20 @@
+netsuite.file SuiteScripts_scipt_2_0_js@duuv {
+  description = "aaaaabbbb"
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/scipt_2_0.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/scipt_2_0.js")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _generated_dependencies = [
+    {
+      reference = netsuite.file.instance.SuiteScripts_oauth_1_js@duv.path
+    },
+  ]
+  _alias = "scipt_2_0.js"
+  isInactive = false
+}

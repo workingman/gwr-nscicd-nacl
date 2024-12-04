@@ -1,0 +1,17 @@
+netsuite.translationcollection custcollectiontranslations_dataset_27_55a834ce148445fd9a604 {
+  scriptid = "custcollectiontranslations_dataset_27_55a834ce148445fd9a604"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_dataset_27_55a834ce148445fd9a604.strings.string.dataset_name_1141_1.scriptid
+  strings = {
+    string = {
+      dataset_name_1141_1 = {
+        scriptid = "dataset_name_1141_1"
+        defaulttranslation = "Seggev Account Basic"
+        description = "Name in dataset"
+        index = 0
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "Seggev Account Basic"
+}

@@ -1,0 +1,232 @@
+netsuite.savedsearch customsearch571 {
+  scriptid = "customsearch571"
+  definition = "87ce774e4fca9fddf14f96bf06c939e254614e480ccd09e9f0c2e2524a74ef75@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Opprtnty_ENTITYSTATUS"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "9"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "8"
+        },
+        {
+          KEY_ID = 2
+          FIELD_VALUE = "11"
+        },
+        {
+          KEY_ID = 3
+          FIELD_VALUE = "7"
+        },
+        {
+          KEY_ID = 4
+          FIELD_VALUE = "10"
+        },
+        {
+          KEY_ID = 5
+          FIELD_VALUE = "12"
+        },
+        {
+          KEY_ID = 6
+          FIELD_VALUE = "15"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Opprtnty_SALESREP"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "@CURRENT@"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Opprtnty_SALESREP"
+      FIELD_INDEX = 1
+      FIELD_SUMMARY_TYPE = "GROUP"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Opprtnty_ENTITYSTATUS"
+      FIELD_INDEX = 2
+      FIELD_SUMMARY_TYPE = "GROUP"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Opprtnty_PROJECTEDAMOUNT"
+      FIELD_INDEX = 3
+      FIELD_SUMMARY_LABEL = "Total Pipe"
+      FIELD_SUMMARY_TYPE = "SUM"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Opprtnty_EXPECTEDCLOSEDATE"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_NUMBER"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_ENTITY"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_FORMULANUMERIC"
+      FIELD_INDEX = 7
+      FIELD_SUMMARY_LABEL = "THIS MONTH"
+      FIELD_SUMMARY_TYPE = "SUM"
+      FIELD_FORMULA = "CASE WHEN TO_CHAR({expectedclosedate}, &apos;MONTH&apos;)=(TO_CHAR(SYSDATE, &apos;MONTH&apos;)) THEN {projectedamount} ELSE 0 END"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_FORMULANUMERIC"
+      FIELD_INDEX = 8
+      FIELD_SUMMARY_LABEL = "NEXT MONTH"
+      FIELD_SUMMARY_TYPE = "SUM"
+      FIELD_FORMULA = "CASE WHEN TO_CHAR({expectedclosedate}, &apos;MONTH&apos;)=(TO_CHAR((ADD_MONTHS(SYSDATE,1)), &apos;MONTH&apos;)) THEN {projectedamount} ELSE 0 END"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_FORMULANUMERIC"
+      FIELD_INDEX = 9
+      FIELD_SUMMARY_LABEL = "3 MONTHS"
+      FIELD_SUMMARY_TYPE = "SUM"
+      FIELD_FORMULA = "CASE WHEN TO_CHAR({expectedclosedate}, &apos;MONTH&apos;)=(TO_CHAR((ADD_MONTHS(SYSDATE,2)), &apos;MONTH&apos;)) THEN {projectedamount} ELSE 0 END"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_FORMULANUMERIC"
+      FIELD_INDEX = 10
+      FIELD_SUMMARY_LABEL = "4 MONTHS"
+      FIELD_SUMMARY_TYPE = "SUM"
+      FIELD_FORMULA = "CASE WHEN TO_CHAR({expectedclosedate}, &apos;MONTH&apos;)=(TO_CHAR((ADD_MONTHS(SYSDATE,3)), &apos;MONTH&apos;)) THEN {projectedamount} ELSE 0 END"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_FORMULANUMERIC"
+      FIELD_INDEX = 11
+      FIELD_SUMMARY_LABEL = "5 MONTHS"
+      FIELD_SUMMARY_TYPE = "SUM"
+      FIELD_FORMULA = "CASE WHEN TO_CHAR({expectedclosedate}, &apos;MONTH&apos;)=(TO_CHAR((ADD_MONTHS(SYSDATE,4)), &apos;MONTH&apos;)) THEN {projectedamount} ELSE 0 END"
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "BaseTran_DATE"
+      FIELD_INDEX = 12
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_NUMBER"
+      FIELD_INDEX = 12
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_ENTITY"
+      FIELD_INDEX = 12
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Opprtnty_EXPECTEDCLOSEDATE"
+      FIELD_INDEX = 12
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Opprtnty_SALESREP"
+      FIELD_INDEX = 12
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Opprtnty_ENTITYSTATUS"
+      FIELD_INDEX = 12
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Opprtnty_PROJECTEDAMOUNT"
+      FIELD_INDEX = 12
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Opprtnty_PROBABILITY"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch571"
+  FIELD_DEFAULT_NAME = "Pipeline Report"
+  FIELD_SEARCH_TYPE = "Opprtnty"
+  FLAG_PUBLIC = true
+  FLAG_LIST = true
+  FLAG_PORTLET = true
+  FLAG_MACHINE = true
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = true
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = true
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "Pipeline Report"
+}

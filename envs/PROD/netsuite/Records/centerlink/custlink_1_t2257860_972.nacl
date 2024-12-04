@@ -1,0 +1,6 @@
+netsuite.centerlink custlink_1_t2257860_972 {
+  scriptid = "custlink_1_t2257860_972"
+  label = "Dummy center link"
+  url = "http://localhost:8080"
+  _alias = "Dummy center link"
+}

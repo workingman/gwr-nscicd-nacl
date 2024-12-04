@@ -1,0 +1,61 @@
+netsuite.customlist customlist322 {
+  scriptid = "customlist322"
+  
+  ismatrixoption = false
+  isordered = false
+  name = "Vendor Bill Approval Statuses"
+  customvalues = {
+    customvalue = {
+      val_134407_t2257860_546 = {
+        scriptid = "val_134407_t2257860_546"
+        abbreviation = "A"
+        
+        value = "Accapted"
+        index = 0
+        isInactive = false
+      }
+      val_47336_7091285_456 = {
+        scriptid = "val_47336_7091285_456"
+        abbreviation = "P"
+        
+        value = "Pending Bookkeeper Review"
+        index = 1
+        isInactive = false
+      }
+      val_27283_2455711_385 = {
+        scriptid = "val_27283_2455711_385"
+        abbreviation = "P"
+        
+        value = "Pending Controller"
+        index = 2
+        isInactive = false
+      }
+      val_27279_2455711_121 = {
+        scriptid = "val_27279_2455711_121"
+        abbreviation = "P"
+        
+        value = "Pending Requestor"
+        index = 3
+        isInactive = false
+      }
+      val_27280_2455711_159 = {
+        scriptid = "val_27280_2455711_159"
+        abbreviation = "R"
+        
+        value = "Rejected"
+        index = 4
+        isInactive = false
+      }
+      val_27281_2455711_553 = {
+        scriptid = "val_27281_2455711_553"
+        abbreviation = "U"
+        
+        value = "Under Review"
+        index = 5
+        isInactive = false
+      }
+    }
+  }
+  _alias = "Vendor Bill Approval Statuses"
+  isInactive = false
+}

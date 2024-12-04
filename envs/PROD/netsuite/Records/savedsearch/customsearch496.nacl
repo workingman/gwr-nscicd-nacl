@@ -1,0 +1,126 @@
+netsuite.savedsearch customsearch496 {
+  scriptid = "customsearch496"
+  definition = "0c25cc1c561fa86b82a26f8f0d7d4dca6284a93674de28e1be6a7da7c2913ece@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_ACCOUNT"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "164"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "IT_Item_COSTCATEGORY"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "6"
+        },
+      ]
+    },
+  ]
+  available_filters = [
+    {
+      SEQ_NUMBER = 1
+      FIELD_NAME = "Transaction_TRANDATE"
+      FLAG_FOOTER = false
+      FLAG_FOOTER_MULTI_SELECT = false
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "IT_Item_COSTCATEGORY"
+      FIELD_INDEX = 1
+      FIELD_LABEL = "Category"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_TRANDATE"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_AMOUNT"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_ITEM"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Transaction_TRANDATE"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch496"
+  FIELD_DEFAULT_NAME = "Purchase Price Variance KPI - RM Wood"
+  FIELD_SEARCH_TYPE = "Transaction"
+  FLAG_PUBLIC = true
+  FLAG_LIST = true
+  FLAG_PORTLET = true
+  FLAG_MACHINE = true
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = true
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "ANY"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = false
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "Purchase Price Variance KPI - RM Wood"
+}

@@ -1,0 +1,82 @@
+netsuite.role customrole1043 {
+  scriptid = "customrole1043"
+  accountingbooksoption = "PRIMARY"
+  centertype = "BASIC"
+  coreadminpermission = false
+  employeerestriction = "NONE"
+  employeeselectionunrestricted = false
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = false
+  name = "IBM Project Manager"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "OWN"
+  subsidiaryviewingallowed = false
+  tfaduration = "0"
+  tfarequired = "OFF"
+  permissions = {
+    permission = {
+      TRAN_TIMECALC = {
+        permkey = "TRAN_TIMECALC"
+        permlevel = "EDIT"
+      }
+      TRAN_CUSTDEP = {
+        permkey = "TRAN_CUSTDEP"
+        permlevel = "EDIT"
+      }
+      TRAN_EXPREPT = {
+        permkey = "TRAN_EXPREPT"
+        permlevel = "EDIT"
+      }
+      TRAN_FIND = {
+        permkey = "TRAN_FIND"
+        permlevel = "VIEW"
+      }
+      TRAN_TIMER = {
+        permkey = "TRAN_TIMER"
+        permlevel = "FULL"
+      }
+      TRAN_TIMEBILL = {
+        permkey = "TRAN_TIMEBILL"
+        permlevel = "EDIT"
+      }
+      REPO_CUSTOMIZATION = {
+        permkey = "REPO_CUSTOMIZATION"
+        permlevel = "EDIT"
+      }
+      REPO_SCHEDULE = {
+        permkey = "REPO_SCHEDULE"
+        permlevel = "FULL"
+      }
+      REPO_TIME = {
+        permkey = "REPO_TIME"
+        permlevel = "VIEW"
+      }
+      LIST_CUSTJOB = {
+        permkey = "LIST_CUSTJOB"
+        permlevel = "VIEW"
+      }
+      LIST_EMPLOYEE_RECORD = {
+        permkey = "LIST_EMPLOYEE_RECORD"
+        permlevel = "VIEW"
+      }
+      LIST_EMPLOYEE = {
+        permkey = "LIST_EMPLOYEE"
+        permlevel = "VIEW"
+      }
+      LIST_FIND = {
+        permkey = "LIST_FIND"
+        permlevel = "FULL"
+      }
+      LIST_CALL = {
+        permkey = "LIST_CALL"
+        permlevel = "EDIT"
+      }
+    }
+  }
+  isInactive = false
+  _alias = "IBM Project Manager"
+}

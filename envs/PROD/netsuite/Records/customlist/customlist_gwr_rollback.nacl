@@ -1,0 +1,22 @@
+netsuite.customlist customlist_gwr_rollback {
+  customvalues = {
+    customvalue = {
+      val_57892_t2257815_219 = {
+        scriptid = "val_57892_t2257815_219"
+        abbreviation = "r"
+        value = "rollback"
+        index = 0
+        
+        isInactive = false
+      }
+    }
+  }
+  scriptid = "customlist_gwr_rollback"
+  ismatrixoption = false
+  isordered = true
+  name = "GWR Rollback"
+  description = "20231121-085513"
+  
+  _alias = "GWR Rollback"
+  isInactive = false
+}

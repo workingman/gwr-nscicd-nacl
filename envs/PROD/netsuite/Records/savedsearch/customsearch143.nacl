@@ -1,0 +1,177 @@
+netsuite.savedsearch customsearch143 {
+  scriptid = "customsearch143"
+  definition = "193c12c3f8ac68ff2737f7d88ded0b696d11408d9235c8d9179e96d27bb0252d@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Campaign_SUBSCRIPTION"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "2"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "1"
+        },
+        {
+          KEY_ID = 2
+          FIELD_VALUE = "4"
+        },
+        {
+          KEY_ID = 3
+          FIELD_VALUE = "5"
+        },
+        {
+          KEY_ID = 4
+          FIELD_VALUE = "3"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Campaign_CAMPAIGNID"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Campaign_TITLE"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Campaign_CATEGORY"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Campaign_STARTDATE"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Campaign_ENDDATE"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Campaign_COST"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Campaign_EXPECTEDREVENUE"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Campaign_MANAGER"
+      FIELD_INDEX = 8
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "Campaign_CAMPAIGNID"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Campaign_TITLE"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Campaign_CATEGORY"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Campaign_STARTDATE"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Campaign_ENDDATE"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Campaign_COST"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Campaign_EXPECTEDREVENUE"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Campaign_MANAGER"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Campaign_CAMPAIGNID"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch143"
+  FIELD_DEFAULT_NAME = "Campaign Subscriptions"
+  FIELD_SEARCH_TYPE = "Campaign"
+  FLAG_PUBLIC = true
+  FLAG_LIST = false
+  FLAG_PORTLET = true
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = true
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "Campaign Subscriptions"
+}

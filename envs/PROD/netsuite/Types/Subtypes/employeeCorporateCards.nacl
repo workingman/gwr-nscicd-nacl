@@ -1,0 +1,12 @@
+type netsuite.employeeCorporateCards {
+  annotations {
+    hidden_string source {
+    }
+  }
+  string embossedName {
+  }
+  string expiration {
+  }
+  netsuite.recordRef corporateCardProfile {
+  }
+}

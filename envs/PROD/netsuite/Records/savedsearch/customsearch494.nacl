@@ -1,0 +1,126 @@
+netsuite.savedsearch customsearch494 {
+  scriptid = "customsearch494"
+  definition = "81e5398c89148f8a63db9b6beb1b1ddb095c3a8c98f5927f5fbd3253826e5005@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_ACCOUNT"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "164"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "IT_Item_COSTCATEGORY"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "9"
+        },
+      ]
+    },
+  ]
+  available_filters = [
+    {
+      SEQ_NUMBER = 1
+      FIELD_NAME = "Transaction_TRANDATE"
+      FLAG_FOOTER = false
+      FLAG_FOOTER_MULTI_SELECT = false
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "IT_Item_COSTCATEGORY"
+      FIELD_INDEX = 1
+      FIELD_LABEL = "Category"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_TRANDATE"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_AMOUNT"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_ITEM"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Transaction_TRANDATE"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch494"
+  FIELD_DEFAULT_NAME = "Purchase Price Variance KPI - Components"
+  FIELD_SEARCH_TYPE = "Transaction"
+  FLAG_PUBLIC = true
+  FLAG_LIST = true
+  FLAG_PORTLET = true
+  FLAG_MACHINE = true
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = true
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "ANY"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = false
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "Purchase Price Variance KPI - Components"
+}

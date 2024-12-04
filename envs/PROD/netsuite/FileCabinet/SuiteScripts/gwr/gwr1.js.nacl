@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_gwr_gwr1_js@ddv {
+  availablewithoutlogin = false
+  bundleable = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/gwr/gwr1.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/gwr/gwr1.js")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_gwr@d,
+  ]
+  _alias = "gwr1.js"
+}

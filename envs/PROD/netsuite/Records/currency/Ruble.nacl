@@ -1,0 +1,13 @@
+netsuite.currency Ruble {
+  name = "Ruble"
+  symbol = "RUB"
+  isBaseCurrency = true
+  isInactive = false
+  overrideCurrencyFormat = false
+  displaySymbol = "руб."
+  symbolPlacement = "_beforeNumber"
+  locale = "_russiaRussian"
+  formatSample = "руб.1 234,56"
+  currencyPrecision = "_two"
+  _alias = "Ruble"
+}

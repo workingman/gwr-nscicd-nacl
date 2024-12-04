@@ -1,0 +1,14 @@
+netsuite.file SuiteScripts_testSuiteApp_com_saltoio_salto_config_amdconfig_json@ddvvddv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/testSuiteApp/com.saltoio.salto/config/amdconfig.json"
+  content = file("netsuite/FileCabinet/SuiteScripts/testSuiteApp/com.saltoio.salto/config/amdconfig.json")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_config@ddvvd,
+  ]
+  _alias = "amdconfig.json"
+  isInactive = false
+}

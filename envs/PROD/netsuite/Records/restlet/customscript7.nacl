@@ -1,0 +1,11 @@
+netsuite.restlet customscript7 {
+  scriptid = "customscript7"
+  
+  name = "script with 2.0 version"
+  notifyadmins = true
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_scipt_2_0_js@duuv.path
+  _alias = "script with 2.0 version"
+  isInactive = false
+}

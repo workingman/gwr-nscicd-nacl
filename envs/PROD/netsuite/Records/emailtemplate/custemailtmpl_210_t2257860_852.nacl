@@ -1,0 +1,12 @@
+netsuite.emailtemplate custemailtmpl_210_t2257860_852 {
+  scriptid = "custemailtmpl_210_t2257860_852"
+  addcompanyaddress = true
+  addunsubscribelink = true
+  
+  isprivate = false
+  mediaitem = netsuite.file.instance.Templates_Marketing_Templates_bla_html@dsdv.path
+  name = "seggev_email_template"
+  usesmedia = true
+  _alias = "seggev_email_template"
+  isInactive = false
+}

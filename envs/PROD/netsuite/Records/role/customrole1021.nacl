@@ -1,0 +1,73 @@
+netsuite.role customrole1021 {
+  scriptid = "customrole1021"
+  accountingbooksoption = "PRIMARY"
+  centertype = "ACCOUNTCENTER"
+  coreadminpermission = false
+  employeerestriction = "NONE"
+  employeeselectionunrestricted = false
+  
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = false
+  name = "Daniel Test Role"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "OWN"
+  subsidiaryviewingallowed = false
+  tfaduration = "0"
+  tfarequired = "OFF"
+  permissions = {
+    permission = {
+      LIST_OTHER_ADDRESS = {
+        permkey = "LIST_OTHER_ADDRESS"
+        permlevel = "FULL"
+      }
+      LIST_FILECABINET = {
+        permkey = "LIST_FILECABINET"
+        permlevel = "FULL"
+      }
+      ADMI_WEBSERVICESOVERRIDESSTRIG = {
+        permkey = "ADMI_WEBSERVICESOVERRIDESSTRIG"
+        permlevel = "FULL"
+      }
+      ADMI_IMPORTOVERRIDESSTRIG = {
+        permkey = "ADMI_IMPORTOVERRIDESSTRIG"
+        permlevel = "FULL"
+      }
+      ADMI_LOGIN_OAUTH = {
+        permkey = "ADMI_LOGIN_OAUTH"
+        permlevel = "FULL"
+      }
+      ADMI_LOGIN_OAUTH2 = {
+        permkey = "ADMI_LOGIN_OAUTH2"
+        permlevel = "FULL"
+      }
+      ADMI_RESTWEBSERVICES = {
+        permkey = "ADMI_RESTWEBSERVICES"
+        permlevel = "FULL"
+      }
+      ADMI_WEBSERVICES = {
+        permkey = "ADMI_WEBSERVICES"
+        permlevel = "FULL"
+      }
+      ADMI_BUNDLERAUDITTRAIL = {
+        permkey = "ADMI_BUNDLERAUDITTRAIL"
+        permlevel = "FULL"
+      }
+      customrecord274 = {
+        permkey = netsuite.customrecord274.attr.scriptid
+        permlevel = "FULL"
+        restriction = "VIEWANDEDIT"
+      }
+      customrecord2741 = {
+        permkey = netsuite.customrecord2741.attr.scriptid
+        permlevel = "FULL"
+        restriction = "VIEWANDEDIT"
+      }
+    }
+  }
+  _alias = "Daniel Test Role"
+  isInactive = false
+}

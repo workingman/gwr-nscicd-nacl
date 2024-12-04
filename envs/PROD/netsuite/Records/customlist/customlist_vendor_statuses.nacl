@@ -1,0 +1,45 @@
+netsuite.customlist customlist_vendor_statuses {
+  scriptid = "customlist_vendor_statuses"
+  
+  ismatrixoption = false
+  isordered = true
+  name = "Vendor Status"
+  customvalues = {
+    customvalue = {
+      val_31077_7091285_sb1_147 = {
+        scriptid = "val_31077_7091285_sb1_147"
+        abbreviation = "B"
+        
+        value = "Block Payment"
+        index = 0
+        isInactive = false
+      }
+      val_31078_7091285_sb1_254 = {
+        scriptid = "val_31078_7091285_sb1_254"
+        abbreviation = "I"
+        
+        value = "Inactive"
+        index = 1
+        isInactive = false
+      }
+      val_31079_7091285_sb1_824 = {
+        scriptid = "val_31079_7091285_sb1_824"
+        abbreviation = "A"
+        
+        value = "Active"
+        index = 2
+        isInactive = false
+      }
+      val_31097_7091285_sb1_546 = {
+        scriptid = "val_31097_7091285_sb1_546"
+        abbreviation = "P"
+        
+        value = "Pending Approval"
+        index = 3
+        isInactive = false
+      }
+    }
+  }
+  _alias = "Vendor Status"
+  isInactive = false
+}

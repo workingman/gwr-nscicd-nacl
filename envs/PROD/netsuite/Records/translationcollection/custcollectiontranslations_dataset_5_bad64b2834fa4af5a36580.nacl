@@ -1,0 +1,17 @@
+netsuite.translationcollection custcollectiontranslations_dataset_5_bad64b2834fa4af5a36580 {
+  scriptid = "custcollectiontranslations_dataset_5_bad64b2834fa4af5a36580"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_dataset_5_bad64b2834fa4af5a36580.strings.string.dataset_name_46_1.scriptid
+  strings = {
+    string = {
+      dataset_name_46_1 = {
+        scriptid = "dataset_name_46_1"
+        defaulttranslation = "Account Dataset"
+        description = "Name in dataset"
+        index = 0
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "Account Dataset"
+}

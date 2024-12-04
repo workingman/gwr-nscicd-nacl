@@ -1,0 +1,6 @@
+netsuite.translationcollection custcollectiontranslations_pivot_233_b81e4aa07162409b9e6031c {
+  scriptid = "custcollectiontranslations_pivot_233_b81e4aa07162409b9e6031c"
+  defaultlanguage = "en-US"
+  name = "Pivot 1"
+  _alias = "Pivot 1"
+}

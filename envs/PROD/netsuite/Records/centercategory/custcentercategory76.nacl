@@ -1,0 +1,29 @@
+netsuite.centercategory custcentercategory76 {
+  scriptid = "custcentercategory76"
+  center = netsuite.center.instance.custcenter1_2.scriptid
+  centertab = netsuite.centertab.instance.custcentertab25.scriptid
+  label = "Tools"
+  links = {
+    link = {
+      LIST_SUPPORTCASE = {
+        linkid = "LIST_SUPPORTCASE"
+        shortlist = false
+        index = 0
+      }
+      custlink_9_t2257860_805 = {
+        linklabel = "Mass Email Cases"
+        linkobject = netsuite.centerlink.instance.custlink_9_t2257860_805.scriptid
+        linktasktype = "LINK"
+        shortlist = false
+        index = 1
+      }
+      custlink_8_t2257860_331 = {
+        linkobject = netsuite.centerlink.instance.custlink_8_t2257860_331.scriptid
+        linktasktype = "LINK"
+        shortlist = false
+        index = 2
+      }
+    }
+  }
+  _alias = "Tools"
+}

@@ -1,0 +1,32 @@
+netsuite.crmcustomfield custevent_user_operating_system {
+  scriptid = "custevent_user_operating_system"
+  accesslevel = "2"
+  appliesperkeyword = false
+  appliestocampaign = false
+  appliestocase = true
+  appliestoevent = false
+  appliestophonecall = false
+  appliestoprojecttask = false
+  appliestotask = false
+  applyformatting = false
+  availableexternally = false
+  checkspelling = false
+  defaultchecked = false
+  displaytype = "NORMAL"
+  encryptatrest = false
+  fieldtype = "SELECT"
+  globalsearch = false
+  help = "Select user operating system"
+  isformula = false
+  ismandatory = false
+  isparent = false
+  label = "user operating System"
+  onparentdelete = "NO_ACTION"
+  searchlevel = "2"
+  selectrecordtype = netsuite.customlist.instance.customlist2818.scriptid
+  showhierarchy = false
+  showinlist = false
+  storevalue = true
+  subtab = "CRMMAIN"
+  _alias = "user operating System"
+}

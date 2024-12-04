@@ -1,0 +1,132 @@
+netsuite.savedsearch customsearch91 {
+  scriptid = "customsearch91"
+  definition = "2e39d530ccb439d594a5c0350320c4050527704d1cdeb6001f201ba338ade7a5@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_TYPE"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "Estimate"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_AMOUNT"
+      FIELD_ATTRIBUTE = "GT"
+      FIELD_TYPE = "CURRENCY"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "20000.00"
+        },
+        {
+          KEY_ID = 1
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_MAINLINE"
+      FIELD_ATTRIBUTE = "T"
+      FIELD_TYPE = "CHECKBOX"
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Transaction_TRANDATE"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_NUMBER"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_NAME"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_AMOUNT"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Transaction_TRANDATE"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch91"
+  FIELD_DEFAULT_NAME = "My Open Estimates &amp;gt; $20K"
+  FIELD_SEARCH_TYPE = "Transaction"
+  FLAG_PUBLIC = true
+  FLAG_LIST = true
+  FLAG_PORTLET = true
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "My Open Estimates &amp;gt; $20K"
+}

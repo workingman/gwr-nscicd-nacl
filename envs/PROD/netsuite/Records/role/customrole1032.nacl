@@ -1,0 +1,55 @@
+netsuite.role customrole1032 {
+  scriptid = "customrole1032"
+  accountingbooksoption = "PRIMARY"
+  centertype = "ACCOUNTCENTER"
+  coreadminpermission = false
+  employeerestriction = "NONE"
+  employeeselectionunrestricted = false
+  
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = false
+  name = "testRole"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "OWN"
+  subsidiaryviewingallowed = false
+  tfaduration = "0"
+  tfarequired = "OFF"
+  permissions = {
+    permission = {
+      TRAN_PAYMENTAUDIT = {
+        permkey = "TRAN_PAYMENTAUDIT"
+        permlevel = "EDIT"
+      }
+      TRAN_AUTO_CASH = {
+        permkey = "TRAN_AUTO_CASH"
+        permlevel = "FULL"
+      }
+      TRAN_PURCHORDBILL = {
+        permkey = "TRAN_PURCHORDBILL"
+        permlevel = "VIEW"
+      }
+      TRAN_CASHRFND = {
+        permkey = "TRAN_CASHRFND"
+        permlevel = "VIEW"
+      }
+      TRAN_CUSTPYMT = {
+        permkey = "TRAN_CUSTPYMT"
+        permlevel = "VIEW"
+      }
+      ADMI_MANAGE_OAUTH_TOKENS = {
+        permkey = "ADMI_MANAGE_OAUTH_TOKENS"
+        permlevel = "FULL"
+      }
+      ADMI_ACCOUNTINGLIST = {
+        permkey = "ADMI_ACCOUNTINGLIST"
+        permlevel = "VIEW"
+      }
+    }
+  }
+  _alias = "testRole"
+  isInactive = false
+}

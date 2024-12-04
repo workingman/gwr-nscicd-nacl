@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_105_4515968_8956 {
+  scriptid = "custtmpl_105_4515968_8956"
+  standard = "STDTMPLEMPTY"
+  displaysourcecode = true
+  
+  preferred = false
+  printtype = "TRANSACTION"
+  title = "ICIL Custom Credit Memo replica"
+  trantype = "CUSTINVC"
+  content = file("netsuite/advancedpdftemplate/custtmpl_105_4515968_8956.xml")
+  _alias = "ICIL Custom Credit Memo replica"
+  isInactive = false
+}

@@ -1,0 +1,38 @@
+netsuite.role customrole1042 {
+  scriptid = "customrole1042"
+  accountingbooksoption = "PRIMARY"
+  centertype = "STOREMANAGER"
+  coreadminpermission = false
+  employeerestriction = "NONE"
+  employeeselectionunrestricted = false
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = false
+  name = "Inventory Manager Ng1"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "OWN"
+  subsidiaryviewingallowed = false
+  tfaduration = "0"
+  tfarequired = "OFF"
+  permissions = {
+    permission = {
+      TRAN_PAYMENTAUDIT = {
+        permkey = "TRAN_PAYMENTAUDIT"
+        permlevel = "VIEW"
+      }
+      TRAN_INVADJST = {
+        permkey = "TRAN_INVADJST"
+        permlevel = "FULL"
+      }
+      TRAN_AUDIT = {
+        permkey = "TRAN_AUDIT"
+        permlevel = "VIEW"
+      }
+    }
+  }
+  isInactive = false
+  _alias = "Inventory Manager Ng1"
+}

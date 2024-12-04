@@ -1,0 +1,443 @@
+netsuite.role customrole_controller1 {
+  scriptid = "customrole_controller1"
+  accountingbooksoption = "ALL"
+  centertype = "ACCOUNTCENTER"
+  coreadminpermission = false
+  employeerestriction = "NONE"
+  employeeselectionunrestricted = false
+  
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = false
+  name = "Controller"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "ALL"
+  subsidiaryviewingallowed = false
+  tfaduration = "0"
+  tfarequired = "OFF"
+  permissions = {
+    permission = {
+      TRAN_VENDBILL = {
+        permkey = "TRAN_VENDBILL"
+        permlevel = "EDIT"
+      }
+      TRAN_CASHSALE = {
+        permkey = "TRAN_CASHSALE"
+        permlevel = "EDIT"
+      }
+      TRAN_CASHRFND = {
+        permkey = "TRAN_CASHRFND"
+        permlevel = "VIEW"
+      }
+      TRAN_COPY_BUDGET = {
+        permkey = "TRAN_COPY_BUDGET"
+        permlevel = "VIEW"
+      }
+      TRAN_ALLOCSCHEDULE = {
+        permkey = "TRAN_ALLOCSCHEDULE"
+        permlevel = "VIEW"
+      }
+      TRAN_CUSTCRED = {
+        permkey = "TRAN_CUSTCRED"
+        permlevel = "VIEW"
+      }
+      TRAN_FXREVAL = {
+        permkey = "TRAN_FXREVAL"
+        permlevel = "VIEW"
+      }
+      TRAN_CUSTDEP = {
+        permkey = "TRAN_CUSTDEP"
+        permlevel = "VIEW"
+      }
+      TRAN_CUSTPYMT = {
+        permkey = "TRAN_CUSTPYMT"
+        permlevel = "VIEW"
+      }
+      TRAN_CUSTRFND = {
+        permkey = "TRAN_CUSTRFND"
+        permlevel = "VIEW"
+      }
+      TRAN_DEPOSIT = {
+        permkey = "TRAN_DEPOSIT"
+        permlevel = "VIEW"
+      }
+      TRAN_DEPAPPL = {
+        permkey = "TRAN_DEPAPPL"
+        permlevel = "VIEW"
+      }
+      TRAN_VENDCRED = {
+        permkey = "TRAN_VENDCRED"
+        permlevel = "VIEW"
+      }
+      TRAN_FIND = {
+        permkey = "TRAN_FIND"
+        permlevel = "FULL"
+      }
+      TRAN_STATEMENT = {
+        permkey = "TRAN_STATEMENT"
+        permlevel = "VIEW"
+      }
+      TRAN_CUSTINVC = {
+        permkey = "TRAN_CUSTINVC"
+        permlevel = "EDIT"
+      }
+      TRAN_CUSTINVCAPPRV = {
+        permkey = "TRAN_CUSTINVCAPPRV"
+        permlevel = "EDIT"
+      }
+      TRAN_JOURNALAPPRV = {
+        permkey = "TRAN_JOURNALAPPRV"
+        permlevel = "VIEW"
+      }
+      TRAN_JOURNAL = {
+        permkey = "TRAN_JOURNAL"
+        permlevel = "VIEW"
+      }
+      TRAN_VENDPYMT = {
+        permkey = "TRAN_VENDPYMT"
+        permlevel = "VIEW"
+      }
+      TRAN_PURCHORD = {
+        permkey = "TRAN_PURCHORD"
+        permlevel = "VIEW"
+      }
+      TRAN_PURCHORDRECEIVE = {
+        permkey = "TRAN_PURCHORDRECEIVE"
+        permlevel = "VIEW"
+      }
+      TRAN_TRANSFER = {
+        permkey = "TRAN_TRANSFER"
+        permlevel = "VIEW"
+      }
+      TRAN_VENDBILLAPPRV = {
+        permkey = "TRAN_VENDBILLAPPRV"
+        permlevel = "FULL"
+      }
+      TRAN_VENDPYMTAPPRV = {
+        permkey = "TRAN_VENDPYMTAPPRV"
+        permlevel = "VIEW"
+      }
+      TRAN_VENDAUTHAPPRV = {
+        permkey = "TRAN_VENDAUTHAPPRV"
+        permlevel = "VIEW"
+      }
+      TRAN_VENDAUTH = {
+        permkey = "TRAN_VENDAUTH"
+        permlevel = "VIEW"
+      }
+      TRAN_VENDAUTHRETURN = {
+        permkey = "TRAN_VENDAUTHRETURN"
+        permlevel = "VIEW"
+      }
+      REPO_ACCOUNTDETAIL = {
+        permkey = "REPO_ACCOUNTDETAIL"
+        permlevel = "VIEW"
+      }
+      REPO_AP = {
+        permkey = "REPO_AP"
+        permlevel = "VIEW"
+      }
+      REPO_AR = {
+        permkey = "REPO_AR"
+        permlevel = "VIEW"
+      }
+      REPO_UNBILLED = {
+        permkey = "REPO_UNBILLED"
+        permlevel = "VIEW"
+      }
+      REPO_BALANCESHEET = {
+        permkey = "REPO_BALANCESHEET"
+        permlevel = "VIEW"
+      }
+      REPO_BUDGET = {
+        permkey = "REPO_BUDGET"
+        permlevel = "VIEW"
+      }
+      REPO_CASHFLOW = {
+        permkey = "REPO_CASHFLOW"
+        permlevel = "VIEW"
+      }
+      REPO_FINANCIALS = {
+        permkey = "REPO_FINANCIALS"
+        permlevel = "VIEW"
+      }
+      REPO_1099 = {
+        permkey = "REPO_1099"
+        permlevel = "VIEW"
+      }
+      REPO_GL = {
+        permkey = "REPO_GL"
+        permlevel = "VIEW"
+      }
+      REPO_PANDL = {
+        permkey = "REPO_PANDL"
+        permlevel = "VIEW"
+      }
+      REPO_PURCHASEORDER = {
+        permkey = "REPO_PURCHASEORDER"
+        permlevel = "VIEW"
+      }
+      REPO_PURCHASES = {
+        permkey = "REPO_PURCHASES"
+        permlevel = "VIEW"
+      }
+      REPO_CUSTOMIZATION = {
+        permkey = "REPO_CUSTOMIZATION"
+        permlevel = "VIEW"
+      }
+      REPO_SALES = {
+        permkey = "REPO_SALES"
+        permlevel = "VIEW"
+      }
+      REPO_ANALYTICS = {
+        permkey = "REPO_ANALYTICS"
+        permlevel = "EDIT"
+      }
+      REPO_TRAN = {
+        permkey = "REPO_TRAN"
+        permlevel = "VIEW"
+      }
+      REPO_TRIALBALANCE = {
+        permkey = "REPO_TRIALBALANCE"
+        permlevel = "VIEW"
+      }
+      LIST_ACCOUNT = {
+        permkey = "LIST_ACCOUNT"
+        permlevel = "VIEW"
+      }
+      REGT_ACCTREC = {
+        permkey = "REGT_ACCTREC"
+        permlevel = "VIEW"
+      }
+      LIST_OTHER_ADDRESS = {
+        permkey = "LIST_OTHER_ADDRESS"
+        permlevel = "FULL"
+      }
+      LIST_ALLOCSCHEDULE = {
+        permkey = "LIST_ALLOCSCHEDULE"
+        permlevel = "EDIT"
+      }
+      REGT_BANK = {
+        permkey = "REGT_BANK"
+        permlevel = "VIEW"
+      }
+      LIST_BILLINGSCHEDULE = {
+        permkey = "LIST_BILLINGSCHEDULE"
+        permlevel = "EDIT"
+      }
+      LIST_BULK_PROCESSING = {
+        permkey = "LIST_BULK_PROCESSING"
+        permlevel = "VIEW"
+      }
+      LIST_CLASS = {
+        permkey = "LIST_CLASS"
+        permlevel = "VIEW"
+      }
+      REGT_COGS = {
+        permkey = "REGT_COGS"
+        permlevel = "VIEW"
+      }
+      REGT_CREDCARD = {
+        permkey = "REGT_CREDCARD"
+        permlevel = "VIEW"
+      }
+      LIST_CURRENCY = {
+        permkey = "LIST_CURRENCY"
+        permlevel = "VIEW"
+      }
+      REGT_DEFEREXPENSE = {
+        permkey = "REGT_DEFEREXPENSE"
+        permlevel = "VIEW"
+      }
+      REGT_DEFERREVENUE = {
+        permkey = "REGT_DEFERREVENUE"
+        permlevel = "VIEW"
+      }
+      LIST_DEPARTMENT = {
+        permkey = "LIST_DEPARTMENT"
+        permlevel = "VIEW"
+      }
+      LIST_FILECABINET = {
+        permkey = "LIST_FILECABINET"
+        permlevel = "FULL"
+      }
+      LIST_EMPLOYEE_RECORD = {
+        permkey = "LIST_EMPLOYEE_RECORD"
+        permlevel = "VIEW"
+      }
+      LIST_EMPLOYEE = {
+        permkey = "LIST_EMPLOYEE"
+        permlevel = "VIEW"
+      }
+      LIST_ENTITYSUBSIDIARYRELATION = {
+        permkey = "LIST_ENTITYSUBSIDIARYRELATION"
+        permlevel = "VIEW"
+      }
+      REGT_EQUITY = {
+        permkey = "REGT_EQUITY"
+        permlevel = "VIEW"
+      }
+      REGT_EXPENSE = {
+        permkey = "REGT_EXPENSE"
+        permlevel = "VIEW"
+      }
+      LIST_EXPORT = {
+        permkey = "LIST_EXPORT"
+        permlevel = "CREATE"
+      }
+      LIST_FINHISTORY = {
+        permkey = "LIST_FINHISTORY"
+        permlevel = "VIEW"
+      }
+      REGT_FIXEDASSET = {
+        permkey = "REGT_FIXEDASSET"
+        permlevel = "VIEW"
+      }
+      REGT_INCOME = {
+        permkey = "REGT_INCOME"
+        permlevel = "VIEW"
+      }
+      LIST_ITEM = {
+        permkey = "LIST_ITEM"
+        permlevel = "VIEW"
+      }
+      LIST_LOCATION = {
+        permkey = "LIST_LOCATION"
+        permlevel = "VIEW"
+      }
+      REGT_LONGTERMLIAB = {
+        permkey = "REGT_LONGTERMLIAB"
+        permlevel = "VIEW"
+      }
+      LIST_MASSUPDATES = {
+        permkey = "LIST_MASSUPDATES"
+        permlevel = "FULL"
+      }
+      REGT_NONPOSTING = {
+        permkey = "REGT_NONPOSTING"
+        permlevel = "VIEW"
+      }
+      LIST_HISTORY = {
+        permkey = "LIST_HISTORY"
+        permlevel = "FULL"
+      }
+      REGT_OTHASSET = {
+        permkey = "REGT_OTHASSET"
+        permlevel = "VIEW"
+      }
+      REGT_OTHCURRASSET = {
+        permkey = "REGT_OTHCURRASSET"
+        permlevel = "VIEW"
+      }
+      REGT_OTHCURRLIAB = {
+        permkey = "REGT_OTHCURRLIAB"
+        permlevel = "VIEW"
+      }
+      REGT_OTHEXPENSE = {
+        permkey = "REGT_OTHEXPENSE"
+        permlevel = "VIEW"
+      }
+      REGT_OTHINCOME = {
+        permkey = "REGT_OTHINCOME"
+        permlevel = "VIEW"
+      }
+      LIST_FIND = {
+        permkey = "LIST_FIND"
+        permlevel = "FULL"
+      }
+      LIST_BIG_SEARCH = {
+        permkey = "LIST_BIG_SEARCH"
+        permlevel = "CREATE"
+      }
+      LIST_QUANTITYPRICINGSCHEDULE = {
+        permkey = "LIST_QUANTITYPRICINGSCHEDULE"
+        permlevel = "VIEW"
+      }
+      LIST_SUBSIDIARY = {
+        permkey = "LIST_SUBSIDIARY"
+        permlevel = "VIEW"
+      }
+      LIST_TAXITEM = {
+        permkey = "LIST_TAXITEM"
+        permlevel = "VIEW"
+      }
+      REGT_UNBILLEDREC = {
+        permkey = "REGT_UNBILLEDREC"
+        permlevel = "VIEW"
+      }
+      LIST_UNIT = {
+        permkey = "LIST_UNIT"
+        permlevel = "VIEW"
+      }
+      LIST_VENDOR = {
+        permkey = "LIST_VENDOR"
+        permlevel = "VIEW"
+      }
+      ADMI_CREDITCARD = {
+        permkey = "ADMI_CREDITCARD"
+        permlevel = "FULL"
+      }
+      ADMI_IMPORTCSVFILE = {
+        permkey = "ADMI_IMPORTCSVFILE"
+        permlevel = "FULL"
+      }
+      ADMI_KPIREPORT = {
+        permkey = "ADMI_KPIREPORT"
+        permlevel = "FULL"
+      }
+      ADMI_ACCTPERIODS = {
+        permkey = "ADMI_ACCTPERIODS"
+        permlevel = "VIEW"
+      }
+      ADMI_MOBILE_ACCESS = {
+        permkey = "ADMI_MOBILE_ACCESS"
+        permlevel = "FULL"
+      }
+      ADMI_PERIODCLOSING = {
+        permkey = "ADMI_PERIODCLOSING"
+        permlevel = "FULL"
+      }
+      ADMI_RESTWEBSERVICES = {
+        permkey = "ADMI_RESTWEBSERVICES"
+        permlevel = "FULL"
+      }
+      ADMI_WEBSERVICES = {
+        permkey = "ADMI_WEBSERVICES"
+        permlevel = "FULL"
+      }
+      ADMI_SFASETUP = {
+        permkey = "ADMI_SFASETUP"
+        permlevel = "FULL"
+      }
+      ADMI_SUBSIDIARYHIERARCHYMOD = {
+        permkey = "ADMI_SUBSIDIARYHIERARCHYMOD"
+        permlevel = "FULL"
+      }
+      ADMI_SUBSIDIARYSETTINGSMANAGER = {
+        permkey = "ADMI_SUBSIDIARYSETTINGSMANAGER"
+        permlevel = "VIEW"
+      }
+      ADMI_SWAPPRICES = {
+        permkey = "ADMI_SWAPPRICES"
+        permlevel = "FULL"
+      }
+      ADMI_UPDATEPRICES = {
+        permkey = "ADMI_UPDATEPRICES"
+        permlevel = "FULL"
+      }
+      cseg2 = {
+        permkey = netsuite.customsegment.instance.cseg2.scriptid
+        permlevel = "FULL"
+      }
+      cseg1 = {
+        permkey = netsuite.customsegment.instance.cseg1.scriptid
+        permlevel = "FULL"
+      }
+    }
+  }
+  _alias = "Controller"
+  isInactive = false
+}

@@ -1,0 +1,19 @@
+netsuite.othercustomfield custrecord_is_capex {
+  scriptid = "custrecord_is_capex"
+  accesslevel = "1"
+  applyformatting = false
+  checkspelling = false
+  defaultchecked = false
+  displaytype = "NORMAL"
+  encryptatrest = false
+  fieldtype = "CHECKBOX"
+  isformula = false
+  ismandatory = false
+  label = "Is Capex?"
+  rectype = "-112"
+  searchlevel = "2"
+  showhierarchy = false
+  showinlist = false
+  storevalue = true
+  _alias = "Is Capex?"
+}

@@ -1,0 +1,227 @@
+netsuite.savedsearch customsearch573 {
+  scriptid = "customsearch573"
+  definition = "b62f2e0964aee8941e7abc74808fd7c1cf5dc2e1b7cc8a4734f1752a35ec3e02@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Opprtnty_ENTITYSTATUS"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "9"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "8"
+        },
+        {
+          KEY_ID = 2
+          FIELD_VALUE = "11"
+        },
+        {
+          KEY_ID = 3
+          FIELD_VALUE = "7"
+        },
+        {
+          KEY_ID = 4
+          FIELD_VALUE = "10"
+        },
+        {
+          KEY_ID = 5
+          FIELD_VALUE = "12"
+        },
+        {
+          KEY_ID = 6
+          FIELD_VALUE = "15"
+        },
+      ]
+    },
+  ]
+  available_filters = [
+    {
+      SEQ_NUMBER = 1
+      FIELD_NAME = "Opprtnty_SALESREP"
+      FLAG_FOOTER = true
+      FLAG_FOOTER_MULTI_SELECT = true
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Opprtnty_SALESREP"
+      FIELD_INDEX = 1
+      FIELD_SUMMARY_TYPE = "GROUP"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Opprtnty_ENTITYSTATUS"
+      FIELD_INDEX = 2
+      FIELD_SUMMARY_TYPE = "GROUP"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Opprtnty_PROJECTEDAMOUNT"
+      FIELD_INDEX = 3
+      FIELD_SUMMARY_LABEL = "Total Pipe"
+      FIELD_SUMMARY_TYPE = "SUM"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Opprtnty_EXPECTEDCLOSEDATE"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_NUMBER"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_ENTITY"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_FORMULANUMERIC"
+      FIELD_INDEX = 7
+      FIELD_SUMMARY_LABEL = "THIS MONTH"
+      FIELD_SUMMARY_TYPE = "SUM"
+      FIELD_FORMULA = "CASE WHEN TO_CHAR({expectedclosedate}, &apos;MONTH&apos;)=(TO_CHAR(SYSDATE, &apos;MONTH&apos;)) THEN {projectedamount} ELSE 0 END"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_FORMULANUMERIC"
+      FIELD_INDEX = 8
+      FIELD_SUMMARY_LABEL = "NEXT MONTH"
+      FIELD_SUMMARY_TYPE = "SUM"
+      FIELD_FORMULA = "CASE WHEN TO_CHAR({expectedclosedate}, &apos;MONTH&apos;)=(TO_CHAR((ADD_MONTHS(SYSDATE,1)), &apos;MONTH&apos;)) THEN {projectedamount} ELSE 0 END"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_FORMULANUMERIC"
+      FIELD_INDEX = 9
+      FIELD_SUMMARY_LABEL = "3 MONTHS"
+      FIELD_SUMMARY_TYPE = "SUM"
+      FIELD_FORMULA = "CASE WHEN TO_CHAR({expectedclosedate}, &apos;MONTH&apos;)=(TO_CHAR((ADD_MONTHS(SYSDATE,2)), &apos;MONTH&apos;)) THEN {projectedamount} ELSE 0 END"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_FORMULANUMERIC"
+      FIELD_INDEX = 10
+      FIELD_SUMMARY_LABEL = "4 MONTHS"
+      FIELD_SUMMARY_TYPE = "SUM"
+      FIELD_FORMULA = "CASE WHEN TO_CHAR({expectedclosedate}, &apos;MONTH&apos;)=(TO_CHAR((ADD_MONTHS(SYSDATE,3)), &apos;MONTH&apos;)) THEN {projectedamount} ELSE 0 END"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_FORMULANUMERIC"
+      FIELD_INDEX = 11
+      FIELD_SUMMARY_LABEL = "5 MONTHS"
+      FIELD_SUMMARY_TYPE = "SUM"
+      FIELD_FORMULA = "CASE WHEN TO_CHAR({expectedclosedate}, &apos;MONTH&apos;)=(TO_CHAR((ADD_MONTHS(SYSDATE,4)), &apos;MONTH&apos;)) THEN {projectedamount} ELSE 0 END"
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "BaseTran_DATE"
+      FIELD_INDEX = 12
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_NUMBER"
+      FIELD_INDEX = 12
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BaseTran_ENTITY"
+      FIELD_INDEX = 12
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Opprtnty_EXPECTEDCLOSEDATE"
+      FIELD_INDEX = 12
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Opprtnty_SALESREP"
+      FIELD_INDEX = 12
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Opprtnty_ENTITYSTATUS"
+      FIELD_INDEX = 12
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Opprtnty_PROJECTEDAMOUNT"
+      FIELD_INDEX = 12
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Opprtnty_SALESREP"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+    {
+      KEY_FIELD = "Opprtnty_PROBABILITY"
+      FILELD_ORDER = 2
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch573"
+  FIELD_DEFAULT_NAME = "ESC - Pipeline Report - MGR"
+  FIELD_SEARCH_TYPE = "Opprtnty"
+  FLAG_PUBLIC = true
+  FLAG_LIST = true
+  FLAG_PORTLET = true
+  FLAG_MACHINE = true
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = true
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "ESC - Pipeline Report - MGR"
+}

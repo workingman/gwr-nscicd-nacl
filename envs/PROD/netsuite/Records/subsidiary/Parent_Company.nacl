@@ -1,0 +1,128 @@
+netsuite.subsidiary Parent_Company@s {
+  name = "Parent Company"
+  isInactive = false
+  showSubsidiaryName = false
+  state = "CA"
+  country = "_unitedStates"
+  mainAddress = {
+    country = "_unitedStates"
+    state = "CA"
+    addrText = "CA <br>United States"
+    override = true
+    
+    customFieldList = {
+      customField = [
+        {
+          value = false
+          scriptId = "custrecord_address_field"
+        },
+        {
+          value = false
+          scriptId = "custrecord_scs"
+        },
+      ]
+    }
+  }
+  legalName = "Demo: Blank US OneWorld Account"
+  isElimination = false
+  email = "omri.litvak@salto.io"
+  currency = netsuite.currency.instance.USA
+  edition = "US"
+  nexusList = {
+    nexus = [
+      {
+        nexusId = netsuite.nexus.instance._unitedStates_California
+        country = "US"
+      },
+    ]
+  }
+  checkLayout = {
+    
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Standard Check Layout)"
+  }
+  classTranslationList = {
+    classTranslation = {
+      German = {
+        language = "German"
+        name = "Konsolidierte Muttergesellschaft"
+      }
+      Danish = {
+        language = "Danish"
+        name = "Konsolideret moderselskab"
+      }
+      Russian = {
+        language = "Russian"
+        name = "Сводная материнская компания"
+      }
+      Chinese__Traditional_@sjk = {
+        language = "Chinese (Traditional)"
+        name = "合併的母公司"
+      }
+      Spanish = {
+        language = "Spanish"
+        name = "Empresa matriz consolidada"
+      }
+      French__France_@sjk = {
+        language = "French (France)"
+        name = "Société Parent Consolidée."
+      }
+      Thai = {
+        language = "Thai"
+        name = "บริษัทแม่ที่รวมกิจการ"
+      }
+      Chinese__Simplified_@sjk = {
+        language = "Chinese (Simplified)"
+        name = "合并的母公司"
+      }
+      Korean = {
+        language = "Korean"
+        name = "통합 모회사"
+      }
+      Japanese = {
+        language = "Japanese"
+        name = "親会社"
+      }
+      English__CA_@sjk = {
+        language = "English (CA)"
+      }
+    }
+  }
+  identifier = "Parent Company"
+  _alias = "Parent Company"
+  shippingAddress = {
+    country = "_unitedStates"
+    addressee = "CA  United States"
+    addrText = "CA  United States<br>United States"
+    override = false
+    customFieldList = {
+      customField = [
+        {
+          value = false
+          scriptId = "custrecord_address_field"
+        },
+        {
+          value = false
+          scriptId = "custrecord_scs"
+        },
+      ]
+    }
+  }
+  returnAddress = {
+    country = "_unitedStates"
+    addressee = "CA  United States"
+    addrText = "CA  United States<br>United States"
+    override = false
+    customFieldList = {
+      customField = [
+        {
+          value = false
+          scriptId = "custrecord_address_field"
+        },
+        {
+          value = false
+          scriptId = "custrecord_scs"
+        },
+      ]
+    }
+  }
+}

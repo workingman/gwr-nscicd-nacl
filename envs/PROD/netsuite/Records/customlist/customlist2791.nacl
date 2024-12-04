@@ -1,0 +1,18 @@
+netsuite.customlist customlist2791 {
+  scriptid = "customlist2791"
+  ismatrixoption = false
+  isordered = true
+  name = "Annual Revenue"
+  customvalues = {
+    customvalue = {
+      val_607312_t2257860_658 = {
+        scriptid = "val_607312_t2257860_658"
+        value = "Annual Revenue Forcast"
+        index = 0
+        isInactive = false
+      }
+    }
+  }
+  isInactive = false
+  _alias = "Annual Revenue"
+}

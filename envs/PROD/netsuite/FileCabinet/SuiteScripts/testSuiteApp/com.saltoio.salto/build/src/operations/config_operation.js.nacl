@@ -1,0 +1,19 @@
+netsuite.file SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_operations_config_operation_js@ddvvdddduv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/testSuiteApp/com.saltoio.salto/build/src/operations/config_operation.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/testSuiteApp/com.saltoio.salto/build/src/operations/config_operation.js")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_operations@ddvvddd,
+  ]
+  _generated_dependencies = [
+    {
+      reference = netsuite.file.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_validation_js@ddvvdddv.path
+    },
+  ]
+  _alias = "config_operation.js"
+  isInactive = false
+}

@@ -1,0 +1,139 @@
+netsuite.savedsearch customsearch17 {
+  scriptid = "customsearch17"
+  definition = "d7c76af106b32b085818bf9ba0c53aabb1d52fd19ea1dcbe02ed51a6cc9bad19@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Customer_ITEMSBOUGHT"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "MULTISELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "81"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "5"
+        },
+        {
+          KEY_ID = 2
+          FIELD_VALUE = "20"
+        },
+        {
+          KEY_ID = 3
+          FIELD_VALUE = "6"
+        },
+        {
+          KEY_ID = 4
+          FIELD_VALUE = "21"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Entity_ENTITYID"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Customer_CONTACT"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_PHONE"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_EMAIL"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_FAX"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "Entity_ENTITYID"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Customer_CONTACT"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_PHONE"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_EMAIL"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_FAX"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Entity_ENTITYID"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch17"
+  FIELD_DEFAULT_NAME = "Impressivo Customers"
+  FIELD_SEARCH_TYPE = "Customer"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = true
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "Impressivo Customers"
+}

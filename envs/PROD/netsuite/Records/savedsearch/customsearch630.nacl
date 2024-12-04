@@ -1,0 +1,166 @@
+netsuite.savedsearch customsearch630 {
+  scriptid = "customsearch630"
+  dependencies = {
+    dependency = [
+      "[scriptid=customlist_sw_sah_document_type]",
+      "[scriptid=customrecord_sw_sah_help_document.custrecord_sw_sah_document_type]",
+      "[scriptid=customrecord_sw_sah_help_document.custrecord_sw_sah_employees]",
+      "[scriptid=customrecord_sw_sah_help_document.custrecord_sw_sah_form_name]",
+      "[scriptid=customrecord_sw_sah_help_document.custrecord_sw_sah_record_type_name]",
+      "[scriptid=customrecord_sw_sah_help_document.custrecord_sw_sah_roles]",
+      "[scriptid=customrecord_sw_sah_help_document]",
+    ]
+  }
+  definition = "a5d25015b278a984be40d9ab1448fdfa0d38fe121aa6d767f41984edc4ae6644@GZC@2024.1.15@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "CUSTRECORD_SW_SAH_EMPLOYEES"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "MULTISELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "@HIERARCHY@"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "CUSTRECORD_SW_SAH_DOCUMENT_TYPE"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "SW_SAH_PDF_FC"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "CUSTRECORD_SW_SAH_RECORD_TYPE_NAME"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "CUSTRECORD_SW_SAH_DOCUMENT_TYPE"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "CUSTRECORD_SW_SAH_ROLES"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "CUSTRECORD_SW_SAH_EMPLOYEES"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "CUSTRECORD_SW_SAH_FORM_NAME"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Custom_CREATED"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "CUSTRECORD_SW_SAH_RECORD_TYPE_NAME"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "CUSTRECORD_SW_SAH_DOCUMENT_TYPE"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "CUSTRECORD_SW_SAH_ROLES"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "CUSTRECORD_SW_SAH_EMPLOYEES"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "CUSTRECORD_SW_SAH_FORM_NAME"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "CUSTRECORD_SW_SAH_RECORD_TYPE_NAME"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch630"
+  FIELD_DEFAULT_NAME = "Custom SAH Help Document Default View"
+  FIELD_SEARCH_TYPE = "Custom"
+  FLAG_PUBLIC = true
+  FLAG_LIST = true
+  FLAG_PORTLET = true
+  FLAG_MACHINE = true
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  KEY_RECORD_TYPE = 3214
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "Custom SAH Help Document Default View"
+}

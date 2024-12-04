@@ -1,0 +1,54 @@
+netsuite.subsidiary Parent_Company_shalomTest@su {
+  name = "shalomTest"
+  parent = netsuite.subsidiary.instance.Parent_Company@s
+  isInactive = false
+  showSubsidiaryName = false
+  state = "Jerusalem"
+  country = "_israel"
+  mainAddress = {
+    country = "_unitedStates"
+    addressee = "shalomTest"
+    addrText = "shalomTest<br>United States"
+    override = false
+    
+    customFieldList = {
+      customField = [
+        {
+          value = false
+          scriptId = "custrecord_address_field"
+        },
+        {
+          value = false
+          scriptId = "custrecord_scs"
+        },
+      ]
+    }
+  }
+  isElimination = false
+  currency = netsuite.currency.instance.USA
+  edition = "XX"
+  nexusList = {
+    nexus = [
+      {
+        nexusId = netsuite.nexus.instance._israel
+        country = "IL"
+      },
+    ]
+  }
+  checkLayout = {
+    
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Standard Check Layout)"
+  }
+  classTranslationList = {
+    classTranslation = {
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+      English__CA_@sjk = {
+        language = "English (CA)"
+      }
+    }
+  }
+  identifier = "Parent Company_shalomTest"
+  _alias = "shalomTest"
+}

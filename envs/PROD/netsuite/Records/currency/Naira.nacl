@@ -1,0 +1,13 @@
+netsuite.currency Naira {
+  name = "Naira"
+  symbol = "NGN"
+  isBaseCurrency = true
+  isInactive = false
+  overrideCurrencyFormat = false
+  displaySymbol = "NGN"
+  symbolPlacement = "_beforeNumber"
+  locale = "_nigeriaEnglish"
+  formatSample = "NGN1,234.56"
+  currencyPrecision = "_two"
+  _alias = "Naira"
+}

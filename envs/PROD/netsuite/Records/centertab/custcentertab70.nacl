@@ -1,0 +1,85 @@
+netsuite.centertab custcentertab70 {
+  scriptid = "custcentertab70"
+  allcustomers = false
+  allemployees = false
+  allpartners = false
+  allroles = true
+  allvendors = false
+  center = "EXECUTIVE"
+  label = "Statistical Analysis"
+  portlets = {
+    portlet = {
+      portlet_239_t1441298_749 = {
+        scriptid = "portlet_239_t1441298_749"
+        isportletshown = false
+        portlet = "SEARCHRESULTS"
+        portletcolumn = "1"
+        index = 0
+      }
+      portlet_238_t1441298_749 = {
+        scriptid = "portlet_238_t1441298_749"
+        isportletshown = false
+        portlet = "SEARCHRESULTS"
+        portletcolumn = "1"
+        index = 1
+      }
+      portlet_245_t1441298_749 = {
+        scriptid = "portlet_245_t1441298_749"
+        isportletshown = false
+        portlet = "SEARCHRESULTS"
+        portletcolumn = "1"
+        index = 2
+      }
+      portlet_242_t1441298_749 = {
+        scriptid = "portlet_242_t1441298_749"
+        isportletshown = false
+        portlet = "KPIREPORT"
+        portletcolumn = "1"
+        index = 3
+      }
+      portlet_236_t1441298_749 = {
+        scriptid = "portlet_236_t1441298_749"
+        isportletshown = false
+        portlet = "KPIREPORT"
+        portletcolumn = "1"
+        index = 4
+      }
+      portlet_237_t1441298_749 = {
+        scriptid = "portlet_237_t1441298_749"
+        isportletshown = false
+        portlet = "KPIREPORT"
+        portletcolumn = "1"
+        index = 5
+      }
+      portlet_241_t1441298_749 = {
+        scriptid = "portlet_241_t1441298_749"
+        isportletshown = false
+        portlet = "KPIREPORT"
+        portletcolumn = "1"
+        index = 6
+      }
+      portlet_240_t1441298_749 = {
+        scriptid = "portlet_240_t1441298_749"
+        isportletshown = true
+        portlet = "KPIREPORT"
+        portletcolumn = "2"
+        index = 7
+      }
+      portlet_244_t1441298_749 = {
+        scriptid = "portlet_244_t1441298_749"
+        isportletshown = true
+        portlet = "KPIREPORT"
+        portletcolumn = "2"
+        index = 8
+      }
+      portlet_243_t1441298_749 = {
+        scriptid = "portlet_243_t1441298_749"
+        isportletshown = true
+        portlet = "KPIREPORT"
+        portletcolumn = "2"
+        index = 9
+      }
+    }
+  }
+  _alias = "Statistical Analysis"
+}

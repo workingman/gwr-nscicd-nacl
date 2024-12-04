@@ -1,0 +1,137 @@
+netsuite.savedsearch customsearch40 {
+  scriptid = "customsearch40"
+  definition = "ea587b2b8dd8c38a10d9b19d0f19076025558919263bc714e08b4340767af705@GZC@2023.2.15@H4sIAAAAAAAA/+1cW3PiOBZ+n6r5D5T7uTGQOwVMGVsEb3xhZDlp5sXlBmXau8ZQtune9K+fIxuDDSQdGxFqN6lKFSBL5xx9Ojcdyen88d+ZX/tOw8ibB12hWW8INRpM5lMv+Lsr2GTw+Vr4o/f7b50giuaTtkVDz/W9n3Rqfv03ncTyPIhdL6BhDcgEUTvp1RW+xfGiLYo/fvyoBzSOll5M65P5TIwm3+jMjcSkm1BbetOuQCyi4PtW6+Lq+rLRttzvdGpRN5x8a0+WUTyfRcmP80a7edVonbVumlfQE6Rcy9yoN4Va7M1oFLuzBcyh0K+3knzmLhYgZmFUD2RiAvp0+jcNQcKQ1lN28LGaaFhPR9ZTofTkR0fME81YTOmjF3gxkO910t5KrmVKo0noLeI59A8p8JqSpwWtTXw3irpC2h+v24WehSQsDx1kEDzuiJsRvc5311/SqNe5Z5+1R4/6yYOMyCBrENJnXeEOjZ2RJN9Jt0ioiSUHWjJWR8RRFYHJ+vNnV4jiELQD0CusT0dMyJagPlCRpjgKGki2RhxD0kG6KV3QYAoa+HRHn7qCNp+4PlXW0LVXqBCVaOhTY0ckORGpZj1FMZ3VjHlMayn32nVV+TKO4xHaYZfyYWwqUNekW2dk9zVVXtP9Op/71A2EXhwuq5LUVIvsEnx0/aiykCYGtDkT1SV5qBqIL1GMdNVQEOZL1RqaDwCrcccZVowGCGOkHGPJ1rSPsngb8kdZxg35gYn1Y9HGyAK/Y/Elf6+iB0eygDgD/ji0b7E0Gh6LdM7Pc6FsG4AzwapMED/KuvTFweaDVS6aJfIoqiX1NeQoWNU0RzEfDH7zTeKFbIN2GfLYwRJBq7BRWsqhqiBnoGoEYZDUHDE5+WkqC+tZ2CXoC3FSyVN+u0GOSJhYDyoZVlQB6V5StQR00LAB4qgHCflbzexLmoMUlbO9ydY9X4Loi4w0zu5MGXDWX6TDajkDbOol9TY32rL7/0IyqU6gbyrj6qNlU9chb65gd+Cobm8Riw6Shnj7b0seIsXW3oQ4LIGuS1hFnOObhQyG8oiMjxM/U+ElTYOUC7SIbT76nLOLlIVqyJoNTjaJfPuTuwOS8CF4OmISSeMMTyb1CGHVhIWAxSBYMixJJqrJMUKk1tS3tTvHHIE9KWWD2GZ8soFNEjnYg2JJrxK0+zaEJpg85/mZI6Lq6l8QYyGHreIuEmswDcceKRDsj7DrkGyIamyJVX5xg0V/RheSlN0Nd7EaIy2nHjyi7eaauxfEQq/ZOF/zFbNyhJivcDx6fkxDaI13ihzIpzMaxIUqR5p6WB0xLlQ4sikwWr3Owg1hXEZMnvs+nbDailAL6SMNmaBdoV4Xk79kNSvWXEBPQWuHyALdyNKiA0swae6ZZISqjkBxZNPgnAexkJ3LtbayOS4sDJNz1DI5CpiaNHZkTbItgJhIxN54xMk3NxR6RlW6hq07GhqQVDesojlUrn0xqpBxDDmTXW0c9lbUvk7Dths8tYOl779Qz0p0tTJ/cPa2JlUJGbqpqPBtdxfC9h9q5eWTCGR2fTvno9cVQ9sipl6V7t6qIIOOWfkvXGTWWMZDOveSZqMdP5n6sCoe8kCvmMrDoTydKzscpvuJQGtaUzeGCbQarebnxtXn5kWtcd1uNOCv3qjZRN6zQhmU/3+QNo8BaatVa9y8EtJNy/pLMcBv2tfpQ7SczdzwaVAunUg3P+OPtOIjrfhIK06fVsimbRAnl1xg0FOsnDS9KD/2+RwC/WlLGtcUAraj6JZ5h48M4sQZRLYiZx+5QgnwxAPj/3bYd7+7nu9+9WnaknB/teJvB6/TKP+2FAeumoX+ZH6+n4vFh63cQbtFSDvYQVL1MzO2CXMAHnY+8qs7INtIfmpVKN0NTJN7HpPSdCA4ERVyMS05AnmZwUtW8ozShzRehkE5E8CI2NhIz/lOo/55CQ5NetNwrKmSVVlhD8tA2CWTL5zs7pVKn8fv01mV/CXbFFVheH4Iwwpn4GmeZxvJsUalsdVzxNVQB2F8hH2Ekpwu9seZ/u6NlO/RIg8pOO6xx9Zb2uPFW9vj5Yc9vqU9blqKwXdKYwjR5UKxgkhyweIjFB8rFJ+9pelfvbXpX3+Y/mlMv2js0TyMwS6Xs+D1VWkTE9gpabZunMbwcwJwqBkkMJ7A6rX16h2egSflc2TJyFBU4/aQzVpBH8B8wxj6eAsPVrNktSK5ngTwqCMVGcQ6ZaTYLwuXmHFQuQGb2r7T1T1b6L0LUWytvDLZkog79FZ1rfzrP+LuO0JZywoCj0m81fZUixMst0PC6t2pX74ewzqxd6C2O6ZT7uW7Z7P5D31itVP20YlDN4h8l4kLssHcQmhM16NHA8cGCFa/stYXX8DJ+oorSkWCj6EzwJtOTAcSl7zqJRaFEXenJG6D9yyc2b2mva+g5S89sadNYWNtr7Gd7G4Vj6O9jBa7EbmqkiHM+8plngfSR5o5RvuujR5wHbLAYiRhYhx3Fsw/HHEG9xAuTJ4TSLPojEVR+sz9veTvXq34r/Uj+0qsrGPreV+yW9/e+JNWeX+ybf4n8xWvhWy7QMc6nT0PV3ETtoHq7L1BdZ5CdV4eqvP3BtVFCtVFeagu3htUlylUl+WhunxvUF2lUF2Vh+rqvUF1nUJ1XR6q6/9hqNI0AzZoO2jtedK+STG6WWfNhccrmGD7pJJxHqCbFUDi3kF7hN1uSrZP4i/+TUXv99/+ARhMMfnyQgAA"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "SystemNote_DATE"
+      FIELD_MODIFIER = "WITHIN"
+      FIELD_ATTRIBUTE = "CUSTOM"
+      FIELD_TYPE = "DATETIME"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "2021-07-15 08:00:00.0 UTC"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "2021-07-22 09:00:00.0 UTC"
+        },
+      ]
+    },
+  ]
+  search_summary_filters = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "COUNT_SystemNote_RECORD"
+      FIELD_ATTRIBUTE = "EQUAL"
+      FIELD_TYPE = "INTEGER"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "3"
+        },
+        {
+          KEY_ID = 1
+        },
+      ]
+    },
+  ]
+  available_filters = [
+    {
+      SEQ_NUMBER = 1
+      FIELD_NAME = "SystemNote_CONTEXT"
+      FLAG_FOOTER = false
+      FLAG_FOOTER_MULTI_SELECT = false
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "SystemNote_RECORD"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SystemNote_DATE"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "SystemNote_RECORD"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "SystemNote_RECORD"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = true
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  alert_recipients = [
+    {
+      FIELD_NAME = "SystemNote_ROLE"
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch40"
+  FIELD_DEFAULT_NAME = "Custom System Note Search 8"
+  FIELD_SEARCH_TYPE = "SystemNote"
+  FLAG_PUBLIC = true
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 104
+  _alias = "Custom System Note Search 8"
+}

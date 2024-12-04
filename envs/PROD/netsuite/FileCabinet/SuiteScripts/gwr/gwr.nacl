@@ -1,0 +1,11 @@
+netsuite.folder SuiteScripts_gwr@d {
+  bundleable = false
+  
+  isprivate = false
+  path = "/SuiteScripts/gwr"
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "gwr"
+  isInactive = false
+}

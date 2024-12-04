@@ -1,0 +1,127 @@
+netsuite.savedsearch customsearch89 {
+  scriptid = "customsearch89"
+  definition = "6e78fc374a201410f84b6b87ca5ce5aa18e28e39de61417d247b95d28a8c4122@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_ENDDATE"
+      FIELD_MODIFIER = "BEFORE"
+      FIELD_ATTRIBUTE = "TODAY"
+      FIELD_TYPE = "DATE"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "2005-10-12 07:00:00.0 UTC"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_STATUS"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "SalesOrd:A"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "SalesOrd:B"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Transaction_TRANDATE"
+      FIELD_INDEX = 1
+      FIELD_SUMMARY_TYPE = "GROUP"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "CU_Entity_ENTITYID"
+      FIELD_INDEX = 2
+      FIELD_SUMMARY_TYPE = "GROUP"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_TOTALAMOUNT"
+      FIELD_INDEX = 3
+      FIELD_SUMMARY_TYPE = "GROUP"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_ENDDATE"
+      FIELD_INDEX = 4
+      FIELD_LABEL = "Requested Ship Date"
+      FIELD_SUMMARY_TYPE = "GROUP"
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Transaction_TRANDATE"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch89"
+  FIELD_DEFAULT_NAME = "Overdue Shipments"
+  FIELD_SEARCH_TYPE = "Transaction"
+  FLAG_PUBLIC = true
+  FLAG_LIST = true
+  FLAG_PORTLET = true
+  FLAG_MACHINE = true
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = true
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = true
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "Overdue Shipments"
+}

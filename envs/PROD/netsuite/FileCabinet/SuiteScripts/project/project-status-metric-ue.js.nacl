@@ -1,0 +1,21 @@
+netsuite.file SuiteScripts_project_project_status_metric_ue_js@ddbbbv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/project/project-status-metric-ue.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/project/project-status-metric-ue.js")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_project@d,
+  ]
+  _generated_dependencies = [
+    {
+      reference = netsuite.entitycustomfield.instance.custentity_crpsm.scriptid
+    },
+    {
+      reference = netsuite.entitycustomfield.instance.custentity_crpsm_notes.scriptid
+    },
+  ]
+  _alias = "project-status-metric-ue.js"
+}

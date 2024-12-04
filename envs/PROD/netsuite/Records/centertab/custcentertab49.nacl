@@ -1,0 +1,43 @@
+netsuite.centertab custcentertab49 {
+  scriptid = "custcentertab49"
+  allcustomers = false
+  allemployees = false
+  allpartners = false
+  allroles = true
+  allvendors = false
+  center = "EXECUTIVE"
+  label = "KPI Scorecard"
+  portlets = {
+    portlet = {
+      portlet_14_t1441298_749 = {
+        scriptid = "portlet_14_t1441298_749"
+        isportletshown = true
+        portlet = "KPIREPORT"
+        portletcolumn = "1"
+        index = 0
+      }
+      portlet_1_t1441298_749 = {
+        scriptid = "portlet_1_t1441298_749"
+        isportletshown = true
+        portlet = "KPIREPORT"
+        portletcolumn = "2"
+        index = 1
+      }
+      portlet_2_t1441298_749 = {
+        scriptid = "portlet_2_t1441298_749"
+        isportletshown = true
+        portlet = "SNAPSHOTS"
+        portletcolumn = "2"
+        index = 2
+      }
+      portlet_3_t1441298_749 = {
+        scriptid = "portlet_3_t1441298_749"
+        isportletshown = true
+        portlet = "KPIMETER"
+        portletcolumn = "2"
+        index = 3
+      }
+    }
+  }
+  _alias = "KPI Scorecard"
+}

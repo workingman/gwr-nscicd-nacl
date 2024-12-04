@@ -1,0 +1,46 @@
+netsuite.suitelet customscript235 {
+  scriptid = "customscript235"
+  defaultfunction = "edfv"
+  
+  name = "seggev2"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_ApplicationConstants_js@dv.path
+  scriptcustomfields = {
+    scriptcustomfield = {
+      custscript3 = {
+        scriptid = "custscript3"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "TEXT"
+        isformula = false
+        ismandatory = false
+        label = "param3"
+        searchlevel = "2"
+        storevalue = true
+        index = 0
+      }
+      custscript4 = {
+        scriptid = "custscript4"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "TEXT"
+        isformula = false
+        ismandatory = false
+        label = "param4"
+        searchlevel = "2"
+        storevalue = true
+        index = 1
+      }
+    }
+  }
+  _alias = "seggev2"
+  isInactive = false
+}

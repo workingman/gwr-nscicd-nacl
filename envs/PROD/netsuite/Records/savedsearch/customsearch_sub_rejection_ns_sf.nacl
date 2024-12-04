@@ -1,0 +1,56 @@
+netsuite.savedsearch customsearch_sub_rejection_ns_sf {
+  scriptid = "customsearch_sub_rejection_ns_sf"
+  dependencies = {
+    dependency = [
+      netsuite.customrecordzab_subscription.attr.scriptid,
+    ]
+  }
+  definition = "6a02d963de16b9f0903d510ae6574a90c7ffc06025d35db1b25829aa57264f59@GZC@2023.2.14@H4sIAAAAAAAA/71Z33ObOBB+70z/B4abubczSXrNtS6mI4Mcc+GHRwgn7gtDjNJyxdgDOLl07o+/RRjb2M41JvI9eGyE9O23q9Xuaq1+/nuWSA8sy+N52pPPO2eyxNLpPIrTrz3Zp4PfPsiftbdv1DTP59Oux7I4TOIfLHLv/mLTQp+nRRinLJMAJs27fFZP/lYUi66iPD4+dlJW5Mu4YJ3pfKbk029sFuYKnyZLyzjqydSjBhlfXLz/48PlWdcLH1jksTCbfutOl3kxn+X8IciXd0HGSplANEjzIL/vnl9+/Hj5++WHd5fn7z7KGy3OOueyVMQzlhfhbAFaNeZpK11m4WIBxBurNGBZUk5Y9JVlwDljnYoAfK1UzzrVyk5F0+YPqrINWouI2H2cxiVjTa1mG1sjEcunWbwo5jA/YyArok8LJk2TMM97cjWfrMdlzcOI6MMAO5RMVGWzQlMfwmTJck0dl9/SfcwS/qIGGdQDcvWuJ1/jSTBC+jW6wrKkHLnQ04k5ooFpyCXXHz96cl5k4C9gvZ/smKpwQUfIG5jYMgIDD5Bv0cBBNvCN2IKlEXjp0zV76snWfBomzFgbs7uyEzWphX852yM57Ev/SI4n/Qq+8an8fC0+Sd5AIjVXaXzRlmgtejLCe3J1bpwWyBa6CkZ+3zL1NebdfJ6wMJW1IluylpCW6dF9wPswydsijlwCJhcMaiN9aDpYLCjBtukYmIhF9YbuDZjVuRZsVoIHmBBsnGLL1tgn2bwN/Em2cQM/cIl9KmyCPQg+njD4MoYSrLvEWAWKnYBWBYoq8m+FNd33qGtXC7+gfuD5/SoSm66z5hanhaxdvG+p89jENwHygF3pDWLtWWNfETQangp6KycJQfYd2HxKTJ1iccg2ug2Ie+Mdl3k5H8P0UN/CgUFMywoM98YRpy9PYLoPLu/o4KCI4pV7Hs1yaBo4GJgWxQSYuqOSp9jjUxcEFN/SoGJeydvLuh5FhHo3Jh22dAE0RqbFjQ4eNsAC/YDDX1luH1kBNkzB5033xmIB8a2OLcEx1hgI9l9sw24FA+LaR/rt1moIrH9inbYH6LvGpP1q3bVtqPFbnDsIVFdXuExZyMKi47enD7HhW/8LOGyBbSNiYnFRoxKDndLKIzoRntSrWMHJI8uCOnCVnvuCS55KhOnolg9Blme+wxXnK24GQ4h01KXIEmyemvUIE9OFjYDNoAQ5HtLLGkagMH6a+r51HbgjOE/GsUlss55ftnl1Cfdlguw2SbvvQ2oC5QXr50LlZ5tfIMdCYd0mXPDT4DqBPzIg2Z/gKoR8yGrlFpvi8kaZ/UtcKFL2K+dmLwktoxhese5Fszw+W0tV6saJst2LuY+TgmUwWuy1Y3DCZiwtGv2YqvDwVKXgvRhlvTxfzmZh9jQ4Dq4KfZM92F208CGMk/AuYdUIt9SLhWyKml0xz8BmrFhm6XFCCKY+carybCOgiRSxAuQdh2tgypN8E7eJlM+zQp8ny1n6csPDlQeCheXbzpbVt3HChGUF3MviBfhVcaTFedyG25s5At+l3i79w9jN0dbCnpFSOv5+W1LZ713WI6vDFpdHZmfsSSr4ud3txq26vD9t0pWTzmRN3Z1YqaxtT6+1+c6eyrNcfqlFFqZ5EpZ0gRvolsFgdQfQWBr4YILVUz36sjZgvUhZQTaR7zMoNTeT0mWSlGG4nqw0WSn7uim7VnzWroebAivrtuoYlAvPweKHF4OO/JcZaf8FA8rX09TvFQZvP9S/VeU5+JerXsfxg38YbAf58u0FaFTLfklTvc4lr2yoV7XZCqusAIPKahBaBdd/2zKglLXcCRZdJjdkQNlDndOqQVzrkAqvqGAb8GOoc1yRCvDyay2iyb7uOxyoMdZHYt/zd4d4hFV+8p+b9vbNvzyAxBy/GwAA"
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch_sub_rejection_ns_sf"
+  FIELD_DEFAULT_NAME = "HB | NS &amp;gt; SF Rejection V2"
+  FIELD_SEARCH_TYPE = "Custom"
+  FLAG_PUBLIC = true
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  KEY_RECORD_TYPE = 25
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "HB | NS &amp;gt; SF Rejection V2"
+}

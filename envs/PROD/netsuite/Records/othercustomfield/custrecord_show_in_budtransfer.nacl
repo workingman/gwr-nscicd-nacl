@@ -1,0 +1,19 @@
+netsuite.othercustomfield custrecord_show_in_budtransfer {
+  scriptid = "custrecord_show_in_budtransfer"
+  accesslevel = "0"
+  applyformatting = false
+  checkspelling = false
+  defaultchecked = false
+  displaytype = "NORMAL"
+  encryptatrest = false
+  fieldtype = "CHECKBOX"
+  isformula = false
+  ismandatory = false
+  label = "Display in Budget Transfer"
+  rectype = "-112"
+  searchlevel = "2"
+  showhierarchy = false
+  showinlist = false
+  storevalue = true
+  _alias = "Display in Budget Transfer"
+}

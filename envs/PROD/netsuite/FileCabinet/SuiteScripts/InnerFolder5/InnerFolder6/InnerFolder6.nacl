@@ -1,0 +1,12 @@
+netsuite.folder SuiteScripts_InnerFolder5_InnerFolder6@d {
+  description = "created by oss e2e - 9172066"
+  bundleable = false
+  
+  isprivate = false
+  path = "/SuiteScripts/InnerFolder5/InnerFolder6"
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_InnerFolder5@d,
+  ]
+  _alias = "InnerFolder6"
+  isInactive = false
+}

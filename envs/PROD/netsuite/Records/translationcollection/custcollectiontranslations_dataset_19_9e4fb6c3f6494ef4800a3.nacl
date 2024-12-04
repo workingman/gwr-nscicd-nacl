@@ -1,0 +1,17 @@
+netsuite.translationcollection custcollectiontranslations_dataset_19_9e4fb6c3f6494ef4800a3 {
+  scriptid = "custcollectiontranslations_dataset_19_9e4fb6c3f6494ef4800a3"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_dataset_19_9e4fb6c3f6494ef4800a3.strings.string.dataset_name_52_2.scriptid
+  strings = {
+    string = {
+      dataset_name_52_2 = {
+        scriptid = "dataset_name_52_2"
+        defaulttranslation = "Seggev restlet without workbook"
+        description = "Name in dataset"
+        index = 0
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "Seggev restlet without workbook"
+}

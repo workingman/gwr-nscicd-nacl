@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_101_7091285_601 {
+  scriptid = "custtmpl_101_7091285_601"
+  standard = "STDTMPLCUSTINVC"
+  displaysourcecode = false
+  
+  preferred = true
+  printtype = "TRANSACTION"
+  title = "Israeli Invoice PDF/HTML Template-dont delete"
+  trantype = "CUSTINVC"
+  content = file("netsuite/advancedpdftemplate/custtmpl_101_7091285_601.xml")
+  _alias = "Israeli Invoice PDF/HTML Template-dont delete"
+  isInactive = false
+}

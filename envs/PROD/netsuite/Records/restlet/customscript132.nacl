@@ -1,0 +1,25 @@
+netsuite.restlet customscript132 {
+  scriptid = "customscript132"
+  
+  name = "shalom2"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_salto_restlet_js@ddvvddduv.path
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy1 = {
+        scriptid = "customdeploy1"
+        allemployees = false
+        allpartners = false
+        allroles = false
+        isdeployed = true
+        loglevel = "DEBUG"
+        status = "TESTING"
+        title = "shalom2"
+      }
+    }
+  }
+  _alias = "shalom2"
+  isInactive = false
+}

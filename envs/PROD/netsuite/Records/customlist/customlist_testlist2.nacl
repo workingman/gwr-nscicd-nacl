@@ -1,0 +1,39 @@
+netsuite.customlist customlist_testlist2 {
+  scriptid = "customlist_testlist2"
+  description = "desc2.. (change for audit2!)"
+  
+  ismatrixoption = false
+  isordered = true
+  name = netsuite.translationcollection.instance.custcollection1.strings.string.testlist2.scriptid
+  customvalues = {
+    customvalue = {
+      "12@" = {
+        scriptid = "12"
+        abbreviation = "a"
+        
+        value = "a2"
+        index = 0
+        isInactive = false
+      }
+      "22@" = {
+        scriptid = "22"
+        abbreviation = "b"
+        
+        value = "b2"
+        index = 1
+        isInactive = false
+      }
+      "32@" = {
+        scriptid = "32"
+        abbreviation = "c"
+        
+        value = "c2"
+        index = 2
+        isInactive = false
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "testlist2"
+  isInactive = false
+}

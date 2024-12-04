@@ -1,0 +1,45 @@
+netsuite.usereventscript customscript237 {
+  scriptid = "customscript237"
+  
+  name = "seggev3"
+  notifyadmins = false
+  notifyowner = false
+  notifyuser = false
+  scriptfile = "[/SuiteBundles/Bundle 53195/src/lsa_date_ss.js]"
+  scriptcustomfields = {
+    scriptcustomfield = {
+      custscript5 = {
+        scriptid = "custscript5"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "TEXT"
+        isformula = false
+        ismandatory = false
+        label = "param5"
+        searchlevel = "2"
+        storevalue = true
+        index = 0
+      }
+      custscript6 = {
+        scriptid = "custscript6"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "TEXT"
+        isformula = false
+        ismandatory = false
+        label = "param6"
+        searchlevel = "2"
+        storevalue = true
+        index = 1
+      }
+    }
+  }
+  _alias = "seggev3"
+  isInactive = false
+}

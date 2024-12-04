@@ -1,0 +1,44 @@
+netsuite.crmcustomfield custevent_user_browser {
+  scriptid = "custevent_user_browser"
+  accesslevel = "2"
+  appliesperkeyword = false
+  appliestocampaign = false
+  appliestocase = true
+  appliestoevent = false
+  appliestophonecall = false
+  appliestoprojecttask = false
+  appliestotask = false
+  applyformatting = false
+  availableexternally = false
+  checkspelling = false
+  defaultchecked = false
+  displaytype = "NORMAL"
+  encryptatrest = false
+  fieldtype = "SELECT"
+  globalsearch = false
+  help = "Select User's Browser"
+  isformula = false
+  ismandatory = false
+  isparent = false
+  label = "User's Browser"
+  onparentdelete = "NO_ACTION"
+  searchlevel = "2"
+  selectrecordtype = netsuite.customrecord2819.attr.scriptid
+  showhierarchy = false
+  showinlist = true
+  storevalue = true
+  subtab = "CRMMAIN"
+  customfieldfilters = {
+    customfieldfilter = {
+      customrecord2819_custrecord_operating_system@vuu = {
+        fldcomparefield = netsuite.crmcustomfield.instance.custevent_user_operating_system.scriptid
+        fldfilter = netsuite.customrecord2819.field.custom_custrecord_operating_system.scriptid
+        fldfiltercomparetype = "EQ"
+        fldfilternotnull = false
+        fldfilternull = false
+        index = 0
+      }
+    }
+  }
+  _alias = "User's Browser"
+}

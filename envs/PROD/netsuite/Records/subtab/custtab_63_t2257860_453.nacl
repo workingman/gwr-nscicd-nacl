@@ -1,0 +1,6 @@
+netsuite.subtab custtab_63_t2257860_453 {
+  scriptid = "custtab_63_t2257860_453"
+  tabtype = "ENTITY"
+  title = "Geography"
+  _alias = "Geography"
+}

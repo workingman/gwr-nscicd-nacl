@@ -1,0 +1,54 @@
+netsuite.transactionbodycustomfield custbody_must_ship_by {
+  scriptid = "custbody_must_ship_by"
+  accesslevel = "2"
+  applyformatting = false
+  bodycustomerpayment = false
+  bodydeposit = false
+  bodydepositapplication = false
+  bodyexpensereport = false
+  bodyinventoryadjustment = false
+  bodyitemfulfillment = false
+  bodyitemfulfillmentorder = false
+  bodyitemreceipt = false
+  bodyitemreceiptorder = false
+  bodyjournal = false
+  bodyopportunity = false
+  bodyothertransaction = false
+  bodypickingticket = true
+  bodyprintflag = false
+  bodyprintpackingslip = false
+  bodyprintstatement = false
+  bodypurchase = false
+  bodysale = true
+  bodystore = false
+  bodytransferorder = false
+  bodyvendorpayment = false
+  checkspelling = false
+  defaultchecked = false
+  description = "Field to capture the date and time good must be ready for shipping from location."
+  displaytype = "NORMAL"
+  encryptatrest = false
+  fieldtype = "DATETIMETZ"
+  globalsearch = false
+  help = '''
+Please enter the date and time that the equipment must be ready to ship by.
+
+Date format is aligned to the user preference i.e. dd/mm/yy or mm/dd/yy
+
+Time format is 24hr i.e. 16:00 and not 4pm
+'''
+  isformula = false
+  ismandatory = false
+  isparent = false
+  label = "Must be Shipped By"
+  searchlevel = "2"
+  showhierarchy = false
+  showinlist = true
+  storevalue = true
+  subtab = "TRANSACTIONMAIN"
+  _alias = "Must be Shipped By"
+  bodypaycheck = false
+  bodybtegata = false
+  bodyfulfillmentrequest = false
+  bodystorepickup = false
+}

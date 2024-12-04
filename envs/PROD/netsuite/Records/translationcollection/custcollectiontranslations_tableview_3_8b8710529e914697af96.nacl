@@ -1,0 +1,17 @@
+netsuite.translationcollection custcollectiontranslations_tableview_3_8b8710529e914697af96 {
+  scriptid = "custcollectiontranslations_tableview_3_8b8710529e914697af96"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_tableview_3_8b8710529e914697af96.strings.string.tableview_name_92_3.scriptid
+  strings = {
+    string = {
+      tableview_name_92_3 = {
+        scriptid = "tableview_name_92_3"
+        defaulttranslation = "Account Workbook2"
+        description = "Name in tableView"
+        index = 0
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "Account Workbook2"
+}

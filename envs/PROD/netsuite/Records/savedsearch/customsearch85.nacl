@@ -1,0 +1,127 @@
+netsuite.savedsearch customsearch85 {
+  scriptid = "customsearch85"
+  definition = "88d7c32c4d0eb4e3125a8e5cde512bf8b1654b446f2f00dfbe9beef58bdbb88e@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_VOIDED"
+      FIELD_ATTRIBUTE = "F"
+      FIELD_TYPE = "CHECKBOX"
+    },
+  ]
+  available_filters = [
+    {
+      SEQ_NUMBER = 1
+      FIELD_NAME = "Transaction_BILLINGSTATUS"
+      FLAG_FOOTER = true
+      FLAG_FOOTER_MULTI_SELECT = false
+    },
+    {
+      SEQ_NUMBER = 2
+      FIELD_NAME = "Transaction_TYPE"
+      FLAG_FOOTER = true
+      FLAG_FOOTER_MULTI_SELECT = false
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Transaction_TRANDATE"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_NUMBER"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_NAME"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_AMOUNT"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_STATUS"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_SHIPMETHOD"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_SHIPDATE"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_TRACKINGNUMBERS"
+      FIELD_INDEX = 8
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Transaction_TRANDATE"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = true
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch85"
+  FIELD_DEFAULT_NAME = "Order Tracking"
+  FIELD_SEARCH_TYPE = "Transaction"
+  FLAG_PUBLIC = true
+  FLAG_LIST = true
+  FLAG_PORTLET = true
+  FLAG_MACHINE = true
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = true
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "Order Tracking"
+}

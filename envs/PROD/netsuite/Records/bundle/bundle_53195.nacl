@@ -1,0 +1,19 @@
+netsuite.bundle bundle_53195 {
+  id = "53195"
+  name = "Last Sales Activity"
+  version = "1.11.5"
+  isManaged = false
+  dateInstalled = "2020-07-10T10:14:17.000Z"
+  dateLastUpdated = "2020-12-11T19:03:41.000Z"
+  installedFrom = "Production"
+  publisher = {
+    id = "3912261"
+    name = "NetSuite Platform Solutions Group - Last Sales Activity"
+  }
+  installedBy = {
+    id = -5
+    name = "Omri Litvak"
+  }
+  isPrivate = false
+  _alias = "Last Sales Activity"
+}

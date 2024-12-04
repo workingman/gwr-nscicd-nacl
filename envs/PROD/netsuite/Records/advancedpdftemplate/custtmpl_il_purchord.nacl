@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_il_purchord {
+  scriptid = "custtmpl_il_purchord"
+  standard = "STDTMPLEMPTY"
+  displaysourcecode = true
+  
+  preferred = false
+  printtype = "TRANSACTION"
+  title = "IL Purchase Order PDF/HTML Template"
+  trantype = "PURCHORD"
+  content = file("netsuite/advancedpdftemplate/custtmpl_il_purchord.xml")
+  _alias = "IL Purchase Order PDF/HTML Template"
+  isInactive = false
+}

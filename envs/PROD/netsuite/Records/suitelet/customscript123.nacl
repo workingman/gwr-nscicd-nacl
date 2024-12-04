@@ -1,0 +1,12 @@
+netsuite.suitelet customscript123 {
+  scriptid = "customscript123"
+  defaultfunction = "main"
+  
+  name = "daniel3"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_operations_config_operation_js@ddvvdddduv.path
+  _alias = "daniel3"
+  isInactive = false
+}

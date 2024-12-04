@@ -1,0 +1,45 @@
+netsuite.location location_101@s {
+  name = "location 101"
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  isInactive = false
+  mainAddress = {
+    country = "_unitedStates"
+    addressee = "location 1 and deployment"
+    addr1 = "TLV"
+    addr2 = "Bristol"
+    city = "test"
+    state = "test"
+    zip = "test"
+    addrText = "location 1 and deployment<br>TLV<br>Bristol<br>test test test<br>United States"
+    override = false
+    customFieldList = {
+      customField = [
+        {
+          value = false
+          scriptId = "custrecord_address_field"
+        },
+        {
+          value = false
+          scriptId = "custrecord_scs"
+        },
+      ]
+    }
+  }
+  makeInventoryAvailable = false
+  makeInventoryAvailableStore = false
+  allowStorePickup = false
+  classTranslationList = {
+    classTranslation = {
+      English__CA_@sjk = {
+        language = "English (CA)"
+      }
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+    }
+  }
+  identifier = "location 101"
+  _alias = "location 101"
+}

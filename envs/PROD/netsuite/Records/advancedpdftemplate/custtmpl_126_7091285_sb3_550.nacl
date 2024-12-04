@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_126_7091285_sb3_550 {
+  scriptid = "custtmpl_126_7091285_sb3_550"
+  standard = "STDTMPLEMPTY"
+  displaysourcecode = true
+  
+  preferred = true
+  printtype = "TRANSACTION"
+  title = "IL Credit Memo PDF/HTML Template"
+  trantype = "CUSTCRED"
+  content = file("netsuite/advancedpdftemplate/custtmpl_126_7091285_sb3_550.xml")
+  _alias = "IL Credit Memo PDF/HTML Template"
+  isInactive = false
+}
