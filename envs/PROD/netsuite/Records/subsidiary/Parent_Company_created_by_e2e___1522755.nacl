@@ -1,5 +1,5 @@
-netsuite.subsidiary Parent_Company_created_by_oss_e2e___4443803@sussssbs {
-  name = "created by oss e2e - 4443803d"
+netsuite.subsidiary Parent_Company_created_by_e2e___1522755@susssbs {
+  name = "created by e2e - 1522755"
   parent = netsuite.subsidiary.instance.Parent_Company@s
   isInactive = false
   showSubsidiaryName = false
@@ -9,9 +9,8 @@ netsuite.subsidiary Parent_Company_created_by_oss_e2e___4443803@sussssbs {
     country = "_unitedStatesMinorOutlyingIslands"
     addressee = "testSub"
     state = "AZ"
-    addrText = "testSub<br>AZ <br>US Minor Outlying Islands"
+    addrText = "testSub<br>AZ <br>United States Minor Outlying Islands"
     override = false
-    
     customFieldList = {
       customField = [
         {
@@ -37,19 +36,18 @@ netsuite.subsidiary Parent_Company_created_by_oss_e2e___4443803@sussssbs {
     ]
   }
   checkLayout = {
-    
     id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Standard Check Layout)"
   }
   classTranslationList = {
     classTranslation = {
-      French__France_@sjk = {
-        language = "French (France)"
-      }
       English__CA_@sjk = {
         language = "English (CA)"
       }
+      French__France_@sjk = {
+        language = "French (France)"
+      }
     }
   }
-  identifier = "Parent Company_created by oss e2e - 4443803d"
-  _alias = "created by oss e2e - 4443803d"
+  identifier = "Parent Company_created by e2e - 1522755"
+  _alias = "created by e2e - 1522755"
 }

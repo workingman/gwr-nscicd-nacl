@@ -35,8 +35,8 @@ netsuite.customsegment cseg_slt_order {
             id = "EXPENSEREPORT"
             isapplied = true
           }
-          custompurchase_slt_expense_report = {
-            id = netsuite.customtransactiontype.instance.custompurchase_slt_expense_report.scriptid
+          CUSTOMPURCHASE_SLT_EXPENSE_REPORT = {
+            id = "CUSTOMPURCHASE_SLT_EXPENSE_REPORT"
             isapplied = true
           }
           ITEMFULFILLMENT = {

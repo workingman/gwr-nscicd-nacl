@@ -194,8 +194,8 @@ type netsuite.customrecord1234567 {
     },
   ]
   isInactive = false
-  netsuite.emailtemplateReference custom_custrecord_email_template {
-    scriptid = "custrecord_email_template"
+  string custom_custrecord_text {
+    scriptid = "custrecord_text"
     accesslevel = "2"
     allowquickadd = false
     applyformatting = false
@@ -203,17 +203,167 @@ type netsuite.customrecord1234567 {
     defaultchecked = false
     displaytype = "NORMAL"
     encryptatrest = false
-    fieldtype = "SELECT"
+    fieldtype = "TEXT"
     globalsearch = false
     isformula = false
     ismandatory = false
     isparent = false
-    label = "email template"
+    label = "text"
     rolerestrict = false
     searchlevel = "2"
-    selectrecordtype = "-120"
+    showinlist = false
+    storevalue = true
+    index = 0
+  }
+  number custom_custrecord_number {
+    scriptid = "custrecord_number"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = true
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "INTEGER"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "number"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = false
+    storevalue = true
+    index = 1
+  }
+  string custom_custrecord_url {
+    scriptid = "custrecord_url"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "URL"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "url"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = false
+    storevalue = true
+    index = 2
+  }
+  string custom_custrecord_textarea {
+    scriptid = "custrecord_textarea"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "TEXTAREA"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "text area"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = false
+    storevalue = true
+    index = 3
+  }
+  string custom_custrecord_date {
+    scriptid = "custrecord_date"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "DATE"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "date"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = false
+    storevalue = true
+    index = 4
+  }
+  string custom_custrecord_formula_url {
+    scriptid = "custrecord_formula_url"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    defaultvalue = "'<a href=\\\"/app/common/custom/custrecordentry.nl?id='||{id}||'\\\" TARGET=''_self''>View</a>'"
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "URL"
+    globalsearch = false
+    isformula = true
+    ismandatory = false
+    isparent = false
+    label = "formula_url"
+    rolerestrict = false
+    searchlevel = "2"
     showinlist = false
     storevalue = false
-    index = 0
+    index = 5
+  }
+  number custom_custrecord_formula_number {
+    scriptid = "custrecord_formula_number"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = true
+    checkspelling = false
+    defaultchecked = false
+    defaultvalue = "{id}"
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "INTEGER"
+    globalsearch = false
+    isformula = true
+    ismandatory = false
+    isparent = false
+    label = "formula number"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = false
+    storevalue = false
+    index = 6
+  }
+  netsuite.customrecord1000 custom_custrecord_parent {
+    scriptid = "custrecord_parent"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "STATICTEXT"
+    encryptatrest = false
+    fieldtype = "SELECT"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = true
+    label = "parent"
+    onparentdelete = "NO_ACTION"
+    rolerestrict = false
+    searchlevel = "2"
+    selectrecordtype = netsuite.customrecord1000.attr.scriptid
+    showinlist = false
+    storevalue = true
+    index = 7
   }
 }

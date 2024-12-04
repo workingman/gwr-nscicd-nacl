@@ -1,0 +1,10 @@
+netsuite.folder Templates_E_mail_Templates_addedFolder7@dbsd {
+  bundleable = false
+  isprivate = false
+  path = "/Templates/E-mail Templates/addedFolder7"
+  isInactive = true
+  _parent = [
+    netsuite.folder.instance.Templates_E_mail_Templates@dbs,
+  ]
+  _alias = "addedFolder7"
+}

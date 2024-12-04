@@ -280,6 +280,18 @@ netsuite.role customrole1016 {
         permkey = netsuite.customrecord267.attr.scriptid
         permlevel = "FULL"
       }
+      customrecord_fp_documentation_change = {
+        permkey = netsuite.customrecord_fp_documentation_change.attr.scriptid
+        permlevel = "FULL"
+      }
+      customrecord_fp_documentation_object = {
+        permkey = netsuite.customrecord_fp_documentation_object.attr.scriptid
+        permlevel = "FULL"
+      }
+      customrecord_fp_object_type_list = {
+        permkey = netsuite.customrecord_fp_object_type_list.attr.scriptid
+        permlevel = "FULL"
+      }
       customrecord274 = {
         permkey = netsuite.customrecord274.attr.scriptid
         permlevel = "FULL"

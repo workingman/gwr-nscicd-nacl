@@ -1,4 +1,4 @@
-type netsuite.customrecord324 {
+type netsuite.customrecord_fp_object_type_list {
   annotations {
     serviceid scriptid {
     }
@@ -62,7 +62,6 @@ type netsuite.customrecord324 {
     }
     boolean includename {
     }
-    
     boolean isordered {
     }
     boolean showcreationdate {
@@ -95,11 +94,11 @@ type netsuite.customrecord324 {
     }
     string application_id {
     }
+    netsuite.bundle bundle {
+    }
     hidden_string source {
     }
     hidden_string internalId {
-    }
-    netsuite.bundle bundle {
     }
     boolean isInactive {
     }
@@ -112,31 +111,126 @@ type netsuite.customrecord324 {
   }
   netsuite.customRecordTranslationsList translationsList {
   }
-  scriptid = "customrecord324"
-  accesstype = "CUSTRECORDENTRYPERM"
-  allowattachments = true
+  string custom_custrecord_fp_ns_objectname {
+    scriptid = "custrecord_fp_ns_objectname"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "This field holds NetSuite's object name for use in the User Event script."
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "TEXT"
+    globalsearch = false
+    help = "Enter the NetSuite Object Name for this object type."
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "NetSuite Search Type"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    storevalue = true
+    index = 0
+  }
+  string custom_custrecord_fp_dd_mandatoryfields {
+    scriptid = "custrecord_fp_dd_mandatoryfields"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = '''
+29/01/2024
+This field holds a string value of required Documentation Details fields for this Object type.
+'''
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "TEXT"
+    globalsearch = false
+    help = '''
+Enter the names of the fields that you wish to make Mandatory when this Object type is selected for a Documentation Details record. 
+Field IDs should be separated by a comma without any spaces.
+For example:
+"custrecord_fp_dd_triggers,custrecord_fp_dd_script_parameters,custrecord_fp_dd_script_deployments".
+'''
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "Documentation Details Mandatory Fields"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    storevalue = true
+    index = 1
+  }
+  string custom_custrecord_fp_ns_searchmethod {
+    scriptid = "custrecord_fp_ns_searchmethod"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    defaultvalue = "None"
+    description = '''
+Used to hold which method of searching that will be used in the autofill script.
+Search = Search
+SQL = SuiteQL
+None = Unsupported
+a.sanderson-external@francotyp.com
+'''
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "TEXT"
+    globalsearch = false
+    help = '''
+Enter the method to be used to get information for this type of Object.
+"Search" will use the Saved Search functionality.
+"SQL" will use a SuiteQL query.
+"None" means this object type is not exposed to Search or SQL.
+'''
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "Search Method"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    storevalue = true
+    index = 2
+  }
+  scriptid = "customrecord_fp_object_type_list"
+  accesstype = "USEPERMISSIONLIST"
+  allowattachments = false
   allowinlinedeleting = false
   allowinlinedetaching = true
   allowinlineediting = false
   allowmobileaccess = false
   allownumberingoverride = false
-  allowquickadd = true
+  allowquickadd = false
   allowquicksearch = false
   allowuiaccess = true
+  description = '''
+FP
+g.alexander-extern@francotyp.com
+11/01/2024
+1.0
+Stores NetSuite object types as a list.
+'''
   enabledle = true
   enablekeywords = true
   enablemailmerge = false
-  enablenametranslation = false
+  enablenametranslation = true
   enablenumbering = false
-  enableoptimisticlocking = true
+  enableoptimisticlocking = false
   enablesystemnotes = true
   hierarchical = false
   iconbuiltin = true
   includeinsearchmenu = true
   includename = true
-  
   isordered = false
-  recordname = "abcde"
+  recordname = "FP Object Type List"
   showcreationdate = false
   showcreationdateonlist = false
   showid = false
@@ -146,28 +240,9 @@ type netsuite.customrecord324 {
   showowner = false
   showownerallowchange = false
   showowneronlist = false
-  subtabs = {
-    subtab = {
-      tab_3_t2480649_919 = {
-        scriptid = "tab_3_t2480649_919"
-        tabtitle = "SubtabA"
-        index = 0
-      }
-      tab_4_t2480649_277 = {
-        scriptid = "tab_4_t2480649_277"
-        tabtitle = "SubtabB"
-        index = 1
-      }
-      tab_7_t2480649_306 = {
-        scriptid = "tab_7_t2480649_306"
-        tabparent = netsuite.customrecord324.attr.subtabs.subtab.tab_4_t2480649_277.scriptid
-        tabtitle = "SubtabC"
-        index = 2
-      }
-    }
-  }
   metadataType = "customrecordtype"
-  _alias = "abcde"
+  isInactive = false
+  _alias = "FP Object Type List"
   _self_important_values = [
     {
       value = "description"
@@ -212,5 +287,4 @@ type netsuite.customrecord324 {
       indexed = true
     },
   ]
-  isInactive = false
 }

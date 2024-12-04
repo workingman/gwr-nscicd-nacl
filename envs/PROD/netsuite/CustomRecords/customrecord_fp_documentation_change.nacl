@@ -1,0 +1,687 @@
+type netsuite.customrecord_fp_documentation_change {
+  annotations {
+    serviceid scriptid {
+    }
+    string recordname {
+    }
+    string customsegment {
+    }
+    netsuite.customrecordtype_accesstype accesstype {
+    }
+    boolean allowattachments {
+    }
+    boolean allowinlineediting {
+    }
+    boolean allowinlinedeleting {
+    }
+    boolean allowinlinedetaching {
+    }
+    boolean allowmobileaccess {
+    }
+    boolean allownumberingoverride {
+    }
+    boolean allowquickadd {
+    }
+    boolean allowquicksearch {
+    }
+    boolean allowuiaccess {
+    }
+    string description {
+    }
+    boolean enabledle {
+    }
+    boolean enablekeywords {
+    }
+    boolean enablemailmerge {
+    }
+    boolean enablenametranslation {
+    }
+    boolean enablenumbering {
+    }
+    boolean enableoptimisticlocking {
+    }
+    boolean enablesystemnotes {
+    }
+    boolean hierarchical {
+    }
+    string numberingprefix {
+    }
+    string numberingsuffix {
+    }
+    string numberingmindigits {
+    }
+    string numberinginit {
+    }
+    string icon {
+    }
+    boolean iconbuiltin {
+    }
+    netsuite.generic_custom_record_icon iconindex {
+    }
+    boolean includeinsearchmenu {
+    }
+    boolean includename {
+    }
+    boolean isordered {
+    }
+    boolean showcreationdate {
+    }
+    boolean showcreationdateonlist {
+    }
+    boolean showid {
+    }
+    boolean showlastmodified {
+    }
+    boolean showlastmodifiedonlist {
+    }
+    boolean shownotes {
+    }
+    boolean showowner {
+    }
+    boolean showownerallowchange {
+    }
+    boolean showowneronlist {
+    }
+    netsuite.customrecordtype_instances instances {
+    }
+    netsuite.customrecordtype_links links {
+    }
+    netsuite.customrecordtype_permissions permissions {
+    }
+    netsuite.customrecordtype_recordsublists recordsublists {
+    }
+    netsuite.customrecordtype_subtabs subtabs {
+    }
+    string application_id {
+    }
+    netsuite.bundle bundle {
+    }
+    hidden_string source {
+    }
+    hidden_string internalId {
+    }
+    boolean isInactive {
+    }
+  }
+  string scriptid {
+    _required = true
+  }
+  serviceid internalId {
+    _hidden_value = true
+  }
+  netsuite.customRecordTranslationsList translationsList {
+  }
+  string custom_custrecord_fp_dc_view {
+    scriptid = "custrecord_fp_dc_view"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    defaultvalue = "'<a href=\"/app/common/custom/custrecordentry.nl?rectype='||{custrecord_fp_dc_rectypeid}||'&id='||{internalid}||'\" TARGET=''_self''>View</a>'"
+    description = "Used to provide a View link on the sublist"
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "URL"
+    globalsearch = false
+    help = "Used to provide a View link on the sublist"
+    isformula = true
+    ismandatory = false
+    isparent = false
+    label = "View"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    storevalue = false
+    index = 0
+  }
+  netsuite.customrecord_fp_object_type_list custom_custrecord_fp_dc_object_type {
+    scriptid = "custrecord_fp_dc_object_type"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "Stores the object type that has been created / changed."
+    displaytype = "STATICTEXT"
+    encryptatrest = false
+    fieldtype = "SELECT"
+    globalsearch = false
+    help = "Choose the object type from the list provided."
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "Object Type"
+    onparentdelete = "NO_ACTION"
+    rolerestrict = false
+    searchlevel = "2"
+    selectrecordtype = netsuite.customrecord_fp_object_type_list.attr.scriptid
+    showinlist = true
+    sourcefrom = netsuite.customrecord_fp_documentation_object.field.custom_custrecord_fp_do_object_type.scriptid
+    sourcelist = netsuite.customrecord_fp_documentation_change.field.custom_custrecord_fp_dc_netsuite_object_id.scriptid
+    storevalue = true
+    index = 1
+  }
+  netsuite.customrecord_fp_documentation_object custom_custrecord_fp_dc_netsuite_object_id {
+    scriptid = "custrecord_fp_dc_netsuite_object_id"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "Stores the ID of the actual NetSuite object being created / changed."
+    displaytype = "STATICTEXT"
+    encryptatrest = false
+    fieldtype = "SELECT"
+    globalsearch = false
+    help = "Enter the NetSuite ID of the object you're creating / changing."
+    isformula = false
+    ismandatory = false
+    isparent = true
+    label = "NetSuite Object ID"
+    onparentdelete = "NO_ACTION"
+    parentsubtab = netsuite.customrecord_fp_documentation_object.attr.subtabs.subtab._fp_do_documentation_change.scriptid
+    rolerestrict = false
+    searchlevel = "2"
+    selectrecordtype = netsuite.customrecord_fp_documentation_object.attr.scriptid
+    showinlist = true
+    storevalue = true
+    index = 2
+  }
+  string custom_custrecord_fp_dc_netsuite_object_name {
+    scriptid = "custrecord_fp_dc_netsuite_object_name"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "This is the name of the object in NetSuite, hopefully populated based on the ID provided for NetSuite Object ID."
+    displaytype = "STATICTEXT"
+    encryptatrest = false
+    fieldtype = "TEXT"
+    globalsearch = false
+    help = "Enter the name of the object in NetSuite.  In the future, this should be populated based on the ID you provided for NetSuite Object ID."
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "NetSuite Object Name"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    sourcefrom = netsuite.customrecord_fp_documentation_object.field.custom_custrecord_fp_do_netsuite_object_name.scriptid
+    sourcelist = netsuite.customrecord_fp_documentation_change.field.custom_custrecord_fp_dc_netsuite_object_id.scriptid
+    storevalue = true
+    index = 3
+  }
+  number custom_custrecord_fp_dc_copyfromid {
+    scriptid = "custrecord_fp_dc_copyfromid"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = '''
+This field is used to hold the Internal ID of the Documentation Change that the user wants to copy values from.
+by Adam Sanderson
+22/01/2024
+'''
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "INTEGER"
+    globalsearch = false
+    help = "Enter the Internal ID of the existing Documentation Change record you would like to copy fields from."
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "Copy from Change ID"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = false
+    storevalue = true
+    index = 4
+  }
+  string custom_custrecord_fp_dc_devops_id {
+    scriptid = "custrecord_fp_dc_devops_id"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "The ticket number from DevOps for this addition / change."
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "TEXT"
+    globalsearch = false
+    help = "Enter the DevOps ticket number that requested this change.  This should be the PBI number."
+    isformula = false
+    ismandatory = true
+    isparent = false
+    label = "DevOps ID"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    storevalue = true
+    index = 5
+  }
+  string custom_custrecord_fp_dc_devops_link {
+    scriptid = "custrecord_fp_dc_devops_link"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "Enter the link to the DevOps ticket that requested this change."
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "URL"
+    globalsearch = false
+    help = "Enter the link to the DevOps ticket that requested this change."
+    isformula = false
+    ismandatory = true
+    isparent = false
+    label = "DevOps Link"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    storevalue = true
+    index = 6
+  }
+  string custom_custrecord_fp_dc_service_desk_id {
+    scriptid = "custrecord_fp_dc_service_desk_id"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "This is the ID of the Fresh Service ticket if applicable."
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "TEXT"
+    globalsearch = false
+    help = "Enter the ID of the Fresh Service ticket if applicable to this addition / change."
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "Service Desk ID"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    storevalue = true
+    index = 7
+  }
+  string custom_custrecord_fp_dc_short_description {
+    scriptid = "custrecord_fp_dc_short_description"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "A short description for the addition / change."
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "TEXTAREA"
+    globalsearch = false
+    help = "Enter a brief description for the addition / change."
+    isformula = false
+    ismandatory = true
+    isparent = false
+    label = "Short Description"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = false
+    storevalue = true
+    index = 8
+  }
+  string custom_custrecord_fp_dc_request_date {
+    scriptid = "custrecord_fp_dc_request_date"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "The date that the addition / change was requested"
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "DATE"
+    globalsearch = false
+    help = "Enter the date that this addition / change was requested."
+    isformula = false
+    ismandatory = true
+    isparent = false
+    label = "Request Date"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    storevalue = true
+    index = 9
+  }
+  string custom_custrecord_fp_dc_requestor_name {
+    scriptid = "custrecord_fp_dc_requestor_name"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "The name of the person who requested the addition / change."
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "TEXT"
+    globalsearch = false
+    help = "Enter the name of the person who requested this addition / change."
+    isformula = false
+    ismandatory = true
+    isparent = false
+    label = "Requestor Name"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    storevalue = true
+    index = 10
+  }
+  string custom_custrecord_fp_dc_fulfiller_name {
+    scriptid = "custrecord_fp_dc_fulfiller_name"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "The name of the person fulfilling the addition / change request."
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "TEXT"
+    globalsearch = false
+    help = "Enter the name of the person (you) who is completing the addition / change request."
+    isformula = false
+    ismandatory = true
+    isparent = false
+    label = "Fulfiller Name"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    storevalue = true
+    index = 11
+  }
+  string custom_custrecord_fp_dc_tester_name {
+    scriptid = "custrecord_fp_dc_tester_name"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "The name of the person who tested the change in UAT."
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "TEXT"
+    globalsearch = false
+    help = "Enter the name of the person who tested this change in UAT."
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "Tester Name"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    storevalue = true
+    index = 12
+  }
+  string custom_custrecord_fp_dc_uat_deployment_date {
+    scriptid = "custrecord_fp_dc_uat_deployment_date"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "The date the addition / change was deployed to UAT."
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "DATE"
+    globalsearch = false
+    help = "Enter the date that the addition / change was deployed to UAT."
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "UAT Deployment Date"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    storevalue = true
+    index = 13
+  }
+  string custom_custrecord_fp_dc_salto_deployment_id_uat {
+    scriptid = "custrecord_fp_dc_salto_deployment_id_uat"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "The deployment ID from Salto that was used to deploy additions / changes to UAT."
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "TEXT"
+    globalsearch = false
+    help = "Enter the deployment ID from Salto that was used to deploy the additions / changes to UAT."
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "Salto Deployment ID (UAT)"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    storevalue = true
+    index = 14
+  }
+  string custom_custrecord_fp_dc_prod_deployment_date {
+    scriptid = "custrecord_fp_dc_prod_deployment_date"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "The date the addition / change was deployed to Production."
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "DATE"
+    globalsearch = false
+    help = "Enter the date that the addition / change was deployed to Production."
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "Production Deployment Date"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    storevalue = true
+    index = 15
+  }
+  string custom_custrecord_fp_dc_salto_deployment_id_pro {
+    scriptid = "custrecord_fp_dc_salto_deployment_id_pro"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "The deployment ID from Salto that was used to deploy additions / changes to Production."
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "TEXT"
+    globalsearch = false
+    help = "Enter the deployment ID from Salto that was used to deploy the additions / changes to Production."
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "Salto Deployment ID (Production)"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    storevalue = true
+    index = 16
+  }
+  unknown custom_custrecord_fp_dc_manual_changes {
+    scriptid = "custrecord_fp_dc_manual_changes"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "Are manual changes included in the addition / change?"
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "SELECT"
+    globalsearch = false
+    help = "If manual changes are required in the destination environment AFTER deployment, select Yes."
+    isformula = false
+    ismandatory = true
+    isparent = false
+    label = "Additional Manual Changes Included"
+    onparentdelete = "NO_ACTION"
+    rolerestrict = false
+    searchlevel = "2"
+    selectrecordtype = netsuite.customlist.instance.customlist_fp_yes_no.scriptid
+    showinlist = true
+    storevalue = true
+    index = 17
+  }
+  number custom_custrecord_fp_dc_rectypeid {
+    scriptid = "custrecord_fp_dc_rectypeid"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = true
+    checkspelling = false
+    defaultchecked = false
+    defaultvalue = "1820"
+    description = "Used to hold the internal ID of the record type for generating the View link to work across deployments."
+    displaytype = "HIDDEN"
+    encryptatrest = false
+    fieldtype = "INTEGER"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "Record Type ID"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = false
+    storevalue = true
+    index = 18
+  }
+  number custom_custrecord_fp_dc_internalid {
+    scriptid = "custrecord_fp_dc_internalid"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = true
+    checkspelling = false
+    defaultchecked = false
+    defaultvalue = "{id}"
+    description = "Used to display this record's Internal ID to any users who do not have the Show Internal ID option enabled."
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "INTEGER"
+    globalsearch = false
+    help = "This is the record's Internal ID. You can use this in another Change Record's 'Copy from Change ID' field."
+    isformula = true
+    ismandatory = false
+    isparent = false
+    label = "DC Internal ID"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = false
+    storevalue = false
+    index = 19
+  }
+  scriptid = "customrecord_fp_documentation_change"
+  accesstype = "USEPERMISSIONLIST"
+  allowattachments = true
+  allowinlinedeleting = false
+  allowinlinedetaching = false
+  allowinlineediting = false
+  allowmobileaccess = false
+  allownumberingoverride = false
+  allowquickadd = true
+  allowquicksearch = false
+  allowuiaccess = true
+  description = '''
+FP
+g.alexander-extern@francotyp.com
+11/01/2024
+1.0
+For maintaining documentation of changes in NetSuite
+'''
+  enabledle = true
+  enablekeywords = true
+  enablemailmerge = false
+  enablenametranslation = false
+  enablenumbering = false
+  enableoptimisticlocking = true
+  enablesystemnotes = true
+  hierarchical = false
+  iconbuiltin = true
+  includeinsearchmenu = true
+  includename = false
+  isordered = false
+  recordname = "FP Documentation Change"
+  showcreationdate = true
+  showcreationdateonlist = false
+  showid = false
+  showlastmodified = false
+  showlastmodifiedonlist = false
+  shownotes = true
+  showowner = true
+  showownerallowchange = false
+  showowneronlist = false
+  subtabs = {
+    subtab = {
+      _fp_dc_documentation_details = {
+        scriptid = "_fp_dc_documentation_details"
+        tabtitle = "Documentation Details"
+        index = 0
+      }
+    }
+  }
+  metadataType = "customrecordtype"
+  isInactive = false
+  _alias = "FP Documentation Change"
+  _self_important_values = [
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "scriptid"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "isInactive"
+      highlighted = true
+      indexed = true
+    },
+    {
+      value = "bundle"
+      highlighted = true
+      indexed = true
+    },
+  ]
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "scriptid"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "isInactive"
+      highlighted = true
+      indexed = true
+    },
+    {
+      value = "bundle"
+      highlighted = true
+      indexed = true
+    },
+  ]
+}

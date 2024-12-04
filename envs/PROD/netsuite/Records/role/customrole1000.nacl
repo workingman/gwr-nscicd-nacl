@@ -252,6 +252,18 @@ netsuite.role customrole1000 {
         permkey = netsuite.customrecord2671.attr.scriptid
         permlevel = "EDIT"
       }
+      customrecord_fp_documentation_change = {
+        permkey = netsuite.customrecord_fp_documentation_change.attr.scriptid
+        permlevel = "EDIT"
+      }
+      customrecord_fp_documentation_object = {
+        permkey = netsuite.customrecord_fp_documentation_object.attr.scriptid
+        permlevel = "EDIT"
+      }
+      customrecord_fp_object_type_list = {
+        permkey = netsuite.customrecord_fp_object_type_list.attr.scriptid
+        permlevel = "EDIT"
+      }
       cseg2 = {
         permkey = netsuite.customsegment.instance.cseg2.scriptid
         permlevel = "FULL"

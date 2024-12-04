@@ -1,0 +1,26 @@
+netsuite.customlist customlist_fp_yes_no {
+  scriptid = "customlist_fp_yes_no"
+  ismatrixoption = false
+  isordered = true
+  name = "Yes/No/Blank"
+  customvalues = {
+    customvalue = {
+      val_212580_7395974_sb3_599 = {
+        scriptid = "val_212580_7395974_sb3_599"
+        abbreviation = "Y"
+        value = "Yes"
+        index = 0
+        isInactive = false
+      }
+      val_212581_7395974_sb3_302 = {
+        scriptid = "val_212581_7395974_sb3_302"
+        abbreviation = "N"
+        value = "No"
+        index = 1
+        isInactive = false
+      }
+    }
+  }
+  isInactive = false
+  _alias = "Yes/No/Blank"
+}

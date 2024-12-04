@@ -4,11 +4,11 @@ netsuite.emailtemplate custemailtmpl_slt_e2e_test {
   addunsubscribelink = false
   
   isprivate = false
-  name = "created by e2e - 2630832"
+  name = "created by e2e - 4330622"
   recordtype = "TRANSACTION"
   subject = "email subject"
   usesmedia = false
   content = file("netsuite/emailtemplate/custemailtmpl_slt_e2e_test.html")
-  _alias = "created by e2e - 2630832"
+  _alias = "created by e2e - 4330622"
   isInactive = false
 }
