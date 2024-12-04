@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_102_7091285_104 {
+  scriptid = "custtmpl_102_7091285_104"
+  standard = "STDTMPLCUSTCRED"
+  displaysourcecode = false
+  
+  preferred = false
+  printtype = "TRANSACTION"
+  title = "Israeli Credit Memo PDF/HTML Template-dont delete"
+  trantype = "CUSTCRED"
+  content = file("netsuite/advancedpdftemplate/custtmpl_102_7091285_104.xml")
+  _alias = "Israeli Credit Memo PDF/HTML Template-dont delete"
+  isInactive = false
+}

@@ -1,0 +1,14 @@
+netsuite.file SuiteScripts_testSuiteApp_com_saltoio_salto_config_version_txt@ddvvddv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/testSuiteApp/com.saltoio.salto/config/version.txt"
+  content = file("netsuite/FileCabinet/SuiteScripts/testSuiteApp/com.saltoio.salto/config/version.txt")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_config@ddvvd,
+  ]
+  _alias = "version.txt"
+  isInactive = false
+}

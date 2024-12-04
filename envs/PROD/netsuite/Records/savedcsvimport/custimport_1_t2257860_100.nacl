@@ -1,0 +1,54 @@
+netsuite.savedcsvimport custimport_1_t2257860_100 {
+  scriptid = "custimport_1_t2257860_100"
+  charencoding = "windows-1252"
+  columndelimiter = "COMMA"
+  datahandling = "ADD"
+  decimaldelimiter = "PERIOD"
+  ignorereadonly = true
+  importname = "test"
+  logsystemnotescustfields = false
+  multiselectdelimiter = "|"
+  overwritemissingfields = false
+  overwritesublists = false
+  recordtype = "ACCOUNT"
+  runserversuitescript = false
+  usemultithread = false
+  validatemandatorycustfields = true
+  audience = {
+    allemployees = false
+    allpartners = false
+    allroles = false
+    globaledit = false
+    ispublic = false
+  }
+  filemappings = {
+    filemapping = {
+      ACCOUNT = {
+        file = "ACCOUNT"
+      }
+    }
+  }
+  recordmappings = {
+    recordmapping = {
+      ACCOUNT = {
+        record = "ACCOUNT"
+        fieldmappings = {
+          fieldmapping = {
+            ACCTNAME = {
+              field = "ACCTNAME"
+              value = "aaa"
+            }
+            ACCTTYPE = {
+              field = "ACCTTYPE"
+            }
+            SUBSIDIARY = {
+              field = "SUBSIDIARY"
+              value = "1"
+            }
+          }
+        }
+      }
+    }
+  }
+  _alias = "test"
+}

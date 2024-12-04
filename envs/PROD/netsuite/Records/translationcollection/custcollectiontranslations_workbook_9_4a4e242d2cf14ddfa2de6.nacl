@@ -1,0 +1,17 @@
+netsuite.translationcollection custcollectiontranslations_workbook_9_4a4e242d2cf14ddfa2de6 {
+  scriptid = "custcollectiontranslations_workbook_9_4a4e242d2cf14ddfa2de6"
+  defaultlanguage = "en-US"
+  description = "Collection of workbook #9"
+  name = "Translations for workbook: 9"
+  strings = {
+    string = {
+      workbook_name_14_1 = {
+        scriptid = "workbook_name_14_1"
+        defaulttranslation = "test for rest workbooks"
+        description = "Name in workbook"
+        index = 0
+      }
+    }
+  }
+  _alias = "Translations for workbook: 9"
+}

@@ -1,0 +1,101 @@
+netsuite.savedsearch customsearch6 {
+  scriptid = "customsearch6"
+  definition = "ea3f93d8b0b1c00231027054c5ee4b16a760ca5de2fef2821c306419b9fe8008@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Employee_HIREDATE"
+      FIELD_MODIFIER = "WITHIN"
+      FIELD_ATTRIBUTE = "CUSTOM"
+      FIELD_TYPE = "DATE"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "2001-01-01 08:00:00.0 UTC"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "2001-12-31 08:00:00.0 UTC"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Entity_ENTITYID"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_PHONE"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_EMAIL"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Employee_SUPERVISOR"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Employee_GIVEACCESS"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Entity_ENTITYID"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch6"
+  FIELD_DEFAULT_NAME = "Employees Hired in FY2001"
+  FIELD_SEARCH_TYPE = "Employee"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = true
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "Employees Hired in FY2001"
+}

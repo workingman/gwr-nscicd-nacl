@@ -1,0 +1,37 @@
+netsuite.file SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_salto_restlet_js@ddvvddduv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/testSuiteApp/com.saltoio.salto/build/src/salto_restlet.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/testSuiteApp/com.saltoio.salto/build/src/salto_restlet.js")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_build_src@ddvvdd,
+  ]
+  _generated_dependencies = [
+    {
+      reference = netsuite.file.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_operations_config_operation_js@ddvvdddduv.path
+    },
+    {
+      reference = netsuite.file.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_operations_get_sys_info_operation_js@ddvvdddduuuv.path
+    },
+    {
+      reference = netsuite.file.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_operations_list_bundles_operation_js@ddvvdddduuv.path
+    },
+    {
+      reference = netsuite.file.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_operations_read_file_operation_js@ddvvdddduuv.path
+    },
+    {
+      reference = netsuite.file.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_operations_search_operation_js@ddvvdddduv.path
+    },
+    {
+      reference = netsuite.file.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_salto_auth_js@ddvvddduv.path
+    },
+    {
+      reference = netsuite.file.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_validation_js@ddvvdddv.path
+    },
+  ]
+  _alias = "salto_restlet.js"
+  isInactive = false
+}

@@ -1,0 +1,22 @@
+netsuite.sublist custsublisttest {
+  scriptid = "custsublisttest"
+  assemblybuild = false
+  deposit = false
+  depositapplication = false
+  expensereport = false
+  fulfillmentrequest = false
+  inventoryadjustment = false
+  itemfulfillment = false
+  itemreceipt = false
+  journal = false
+  label = "test_sublist"
+  opportunity = false
+  payment = false
+  purchase = false
+  sale = false
+  savedsearch = netsuite.savedsearch.instance.customsearch75.scriptid
+  storepickup = false
+  sublisttype = "TRANSACTION"
+  vendorpayment = false
+  _alias = "test_sublist"
+}

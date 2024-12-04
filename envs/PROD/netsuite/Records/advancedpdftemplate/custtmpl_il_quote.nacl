@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_il_quote {
+  scriptid = "custtmpl_il_quote"
+  standard = "STDTMPLEMPTY"
+  displaysourcecode = true
+  
+  preferred = false
+  printtype = "TRANSACTION"
+  title = "IL Quote PDF/HTML Template"
+  trantype = "ESTIMATE"
+  content = file("netsuite/advancedpdftemplate/custtmpl_il_quote.xml")
+  _alias = "IL Quote PDF/HTML Template"
+  isInactive = false
+}

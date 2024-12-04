@@ -1,0 +1,20 @@
+netsuite.bundle bundle_450079 {
+  id = "450079"
+  name = "SQW Automate: Advanced Help"
+  version = "2024.2.1"
+  isManaged = false
+  description = "SquareWorks Automate Advanced Document Management (Advanced Help): Easy access to internally managed help documentation directly within NetSuite."
+  dateInstalled = "2024-06-05T02:57:08.000Z"
+  dateLastUpdated = "2024-08-20T03:47:43.000Z"
+  installedFrom = "Production"
+  publisher = {
+    id = "TSTDRV2135883"
+    name = "SquareWorks Add-Ons (Release)"
+  }
+  installedBy = {
+    id = 7
+    name = "Salto User"
+  }
+  isPrivate = true
+  _alias = "SQW Automate: Advanced Help"
+}

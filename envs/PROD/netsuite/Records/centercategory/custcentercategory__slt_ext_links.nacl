@@ -1,0 +1,17 @@
+netsuite.centercategory custcentercategory__slt_ext_links {
+  scriptid = "custcentercategory__slt_ext_links"
+  center = "BASIC"
+  centertab = netsuite.centertab.instance.custcentertab_slt.scriptid
+  label = "External Links"
+  links = {
+    link = {
+      custlink_12_t2257860_991 = {
+        linkobject = netsuite.centerlink.instance.custlink_12_t2257860_991.scriptid
+        linktasktype = "LINK"
+        shortlist = true
+        index = 0
+      }
+    }
+  }
+  _alias = "External Links"
+}

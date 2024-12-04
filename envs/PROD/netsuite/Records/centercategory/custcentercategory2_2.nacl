@@ -1,0 +1,36 @@
+netsuite.centercategory custcentercategory2_2 {
+  scriptid = "custcentercategory2_2"
+  center = netsuite.center.instance.custcenter1_2.scriptid
+  centertab = netsuite.centertab.instance.custcentertab7_2.scriptid
+  label = "Tools"
+  links = {
+    link = {
+      LIST_CRMGROUP = {
+        linkid = "LIST_CRMGROUP"
+        shortlist = false
+        index = 0
+      }
+      customsearch_esc_contact_grp_search = {
+        linklabel = "Contact Groups"
+        linkobject = "[scriptid=customsearch_esc_contact_grp_search]"
+        linktasktype = "SRCH_RSLT"
+        shortlist = false
+        index = 1
+      }
+      customsearch_esc_customer_group_search = {
+        linklabel = "Customer Groups"
+        linkobject = "[scriptid=customsearch_esc_customer_group_search]"
+        linktasktype = "SRCH_RSLT"
+        shortlist = false
+        index = 2
+      }
+      custlink_6_t2257860_221 = {
+        linkobject = netsuite.centerlink.instance.custlink_6_t2257860_221.scriptid
+        linktasktype = "LINK"
+        shortlist = false
+        index = 3
+      }
+    }
+  }
+  _alias = "Tools"
+}

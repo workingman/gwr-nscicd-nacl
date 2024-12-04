@@ -1,0 +1,35 @@
+netsuite.entitycustomfield custentity_slt_employee_info {
+  scriptid = "custentity_slt_employee_info"
+  accesslevel = "1"
+  appliestocontact = false
+  appliestocustomer = true
+  appliestoemployee = false
+  appliestogroup = false
+  appliestoothername = false
+  appliestopartner = false
+  appliestopricelist = false
+  appliestoproject = false
+  appliestoprojecttemplate = false
+  appliestostatement = false
+  appliestovendor = false
+  appliestowebsite = false
+  applyformatting = false
+  availableexternally = false
+  checkspelling = false
+  defaultchecked = false
+  description = "descriptio12"
+  displaytype = "NORMAL"
+  encryptatrest = false
+  fieldtype = "CHECKBOX"
+  globalsearch = false
+  isformula = false
+  ismandatory = false
+  isparent = false
+  label = "Checkbox Field 14"
+  searchlevel = "2"
+  showhierarchy = false
+  showinlist = false
+  storevalue = true
+  _alias = "Checkbox Field 14"
+  appliestogenericrsrc = false
+}

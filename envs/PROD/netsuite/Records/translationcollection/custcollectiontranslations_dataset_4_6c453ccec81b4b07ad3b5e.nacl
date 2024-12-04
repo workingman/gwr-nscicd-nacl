@@ -1,0 +1,23 @@
+netsuite.translationcollection custcollectiontranslations_dataset_4_6c453ccec81b4b07ad3b5e {
+  scriptid = "custcollectiontranslations_dataset_4_6c453ccec81b4b07ad3b5e"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_dataset_4_6c453ccec81b4b07ad3b5e.strings.string.dataset_name_10_1.scriptid
+  strings = {
+    string = {
+      dataset_name_10_1 = {
+        scriptid = "dataset_name_10_1"
+        defaulttranslation = "test for rest Dataset"
+        description = "Name in dataset"
+        index = 1
+      }
+      dataset_formula_10_2 = {
+        scriptid = "dataset_formula_10_2"
+        defaulttranslation = "testFormula"
+        description = "Formula field in dataset"
+        index = 0
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "test for rest Dataset"
+}

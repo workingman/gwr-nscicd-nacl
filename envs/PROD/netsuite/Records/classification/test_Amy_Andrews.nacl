@@ -1,0 +1,21 @@
+netsuite.classification test_Amy_Andrews@us {
+  name = "Amy Andrews"
+  includeChildren = true
+  parent = netsuite.classification.instance.test
+  isInactive = false
+  classTranslationList = {
+    classTranslation = {
+      English__CA_@sjk = {
+        language = "English (CA)"
+      }
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+    }
+  }
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  identifier = "test_Amy Andrews"
+  _alias = "Amy Andrews"
+}

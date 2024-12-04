@@ -1,0 +1,30 @@
+netsuite.role customrole1037_0 {
+  scriptid = "customrole1037_0"
+  accountingbooksoption = "PRIMARY"
+  centertype = "SHIPPINGCENTER"
+  coreadminpermission = true
+  employeerestriction = "NONE"
+  employeeselectionunrestricted = true
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = true
+  iswebserviceonlyrole = false
+  name = "Inventory manager cc"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "SELECTED"
+  subsidiaryviewingallowed = false
+  tfaduration = "0"
+  tfarequired = "OFF"
+  permissions = {
+    permission = {
+      TRAN_VENDPYMTAPPRV = {
+        permkey = "TRAN_VENDPYMTAPPRV"
+        permlevel = "FULL"
+      }
+    }
+  }
+  isInactive = false
+  _alias = "Inventory manager cc"
+}

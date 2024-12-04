@@ -1,0 +1,19 @@
+netsuite.file SuiteScripts_InnerFolder_empty_txt@ddv {
+  description = '''
+Hello!
+this is
+description
+'''
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/InnerFolder/empty.txt"
+  content = file("netsuite/FileCabinet/SuiteScripts/InnerFolder/empty.txt")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_InnerFolder@d,
+  ]
+  _alias = "empty.txt"
+  isInactive = false
+}

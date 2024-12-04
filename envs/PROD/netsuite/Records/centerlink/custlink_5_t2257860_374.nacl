@@ -1,0 +1,6 @@
+netsuite.centerlink custlink_5_t2257860_374 {
+  scriptid = "custlink_5_t2257860_374"
+  label = "Create Target Group for Campaigns"
+  url = "https://system.netsuite.com/app/crm/common/crmgroup.nl"
+  _alias = "Create Target Group for Campaigns"
+}

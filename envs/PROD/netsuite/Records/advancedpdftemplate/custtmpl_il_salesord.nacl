@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_il_salesord {
+  scriptid = "custtmpl_il_salesord"
+  standard = "STDTMPLEMPTY"
+  displaysourcecode = true
+  
+  preferred = false
+  printtype = "TRANSACTION"
+  title = "IL Sales Order PDF/HTML Template"
+  trantype = "SALESORD"
+  content = file("netsuite/advancedpdftemplate/custtmpl_il_salesord.xml")
+  _alias = "IL Sales Order PDF/HTML Template"
+  isInactive = false
+}

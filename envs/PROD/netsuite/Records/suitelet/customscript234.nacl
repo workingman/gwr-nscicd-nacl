@@ -1,0 +1,46 @@
+netsuite.suitelet customscript234 {
+  scriptid = "customscript234"
+  defaultfunction = "adc"
+  
+  name = "seggev1"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = "[/SuiteApps/com.saltoio.salto/lib/ajv.min.js]"
+  scriptcustomfields = {
+    scriptcustomfield = {
+      custscript1 = {
+        scriptid = "custscript1"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "TEXT"
+        isformula = false
+        ismandatory = false
+        label = "param1"
+        searchlevel = "2"
+        storevalue = true
+        index = 0
+      }
+      custscript2 = {
+        scriptid = "custscript2"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "TEXT"
+        isformula = false
+        ismandatory = false
+        label = "param2"
+        searchlevel = "2"
+        storevalue = true
+        index = 1
+      }
+    }
+  }
+  _alias = "seggev1"
+  isInactive = false
+}

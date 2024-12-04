@@ -1,0 +1,6 @@
+netsuite.subtab custtab_67_t2257860_548 {
+  scriptid = "custtab_67_t2257860_548"
+  tabtype = "ENTITY"
+  title = "Company Profile"
+  _alias = "Company Profile"
+}

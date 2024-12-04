@@ -1,0 +1,26 @@
+netsuite.customsegment cseg_test2 {
+  scriptid = "cseg_test2"
+  defaultrecordaccesslevel = "VIEW"
+  defaultsearchaccesslevel = "VIEW"
+  displaytype = "NORMAL"
+  fieldtype = "SELECT"
+  hasglimpact = false
+  ismandatory = false
+  label = "test2sss1"
+  recordtype = netsuite.customrecord_cseg_test2.attr.scriptid
+  valuesdisplayorder = "SUBLIST"
+  segmentapplication = {
+    items = {
+      subtype = "BOTH"
+    }
+  }
+  permissions = {
+    permission = {
+      customrole1016 = {
+        role = netsuite.role.instance.customrole1016.scriptid
+        valuemgmtaccesslevel = "EDIT"
+      }
+    }
+  }
+  _alias = "test2sss1"
+}

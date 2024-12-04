@@ -1,0 +1,33 @@
+netsuite.customlist customlist_zgy_list1 {
+  scriptid = "customlist_zgy_list1"
+  ismatrixoption = false
+  isordered = true
+  name = "Zalary List 1"
+  customvalues = {
+    customvalue = {
+      val_651001_t2257860_833 = {
+        scriptid = "val_651001_t2257860_833"
+        abbreviation = "g"
+        value = "green"
+        index = 0
+        isInactive = false
+      }
+      val_651002_t2257860_714 = {
+        scriptid = "val_651002_t2257860_714"
+        abbreviation = "r"
+        value = "red"
+        index = 1
+        isInactive = false
+      }
+      val_651003_t2257860_720 = {
+        scriptid = "val_651003_t2257860_720"
+        abbreviation = "b"
+        value = "blue"
+        index = 2
+        isInactive = false
+      }
+    }
+  }
+  isInactive = false
+  _alias = "Zalary List 1"
+}

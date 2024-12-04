@@ -1,0 +1,11 @@
+netsuite.folder SuiteScripts_testSuiteApp_com_saltoio_salto_build_src@ddvvdd {
+  bundleable = false
+  
+  isprivate = false
+  path = "/SuiteScripts/testSuiteApp/com.saltoio.salto/build/src"
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_build@ddvvd,
+  ]
+  _alias = "src"
+  isInactive = false
+}

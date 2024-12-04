@@ -1,0 +1,131 @@
+netsuite.savedsearch customsearch16 {
+  scriptid = "customsearch16"
+  definition = "89aada9eb39f74248a242292aff393f775d21b5d6b586a7820bb1518e00e3baf@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Customer_CUSTSTAGE"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "PROSPECT"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Entity_ENTITYID"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Customer_CONTACT"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_PHONE"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_EMAIL"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_FAX"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "Entity_ENTITYID"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Customer_CONTACT"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_PHONE"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_EMAIL"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_FAX"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Entity_ENTITYID"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch16"
+  FIELD_DEFAULT_NAME = "All Prospects"
+  FIELD_SEARCH_TYPE = "Customer"
+  FLAG_PUBLIC = true
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = true
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "All Prospects"
+}

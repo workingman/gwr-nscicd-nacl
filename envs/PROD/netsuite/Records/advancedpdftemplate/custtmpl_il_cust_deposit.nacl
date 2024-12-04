@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_il_cust_deposit {
+  scriptid = "custtmpl_il_cust_deposit"
+  standard = "STDTMPLEMPTY"
+  displaysourcecode = true
+  
+  preferred = false
+  printtype = "TRANSACTION"
+  title = "IL Customer Deposit PDF/HTML Template"
+  trantype = "CUSTDEP"
+  content = file("netsuite/advancedpdftemplate/custtmpl_il_cust_deposit.xml")
+  _alias = "IL Customer Deposit PDF/HTML Template"
+  isInactive = false
+}

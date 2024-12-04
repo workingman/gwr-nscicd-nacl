@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_il_cash_sale {
+  scriptid = "custtmpl_il_cash_sale"
+  standard = "STDTMPLEMPTY"
+  displaysourcecode = true
+  
+  preferred = false
+  printtype = "TRANSACTION"
+  title = "IL Cash Sale PDF/HTML Template"
+  trantype = "CASHSALE"
+  content = file("netsuite/advancedpdftemplate/custtmpl_il_cash_sale.xml")
+  _alias = "IL Cash Sale PDF/HTML Template"
+  isInactive = false
+}

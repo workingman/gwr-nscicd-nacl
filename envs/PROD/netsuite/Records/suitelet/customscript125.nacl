@@ -1,0 +1,30 @@
+netsuite.suitelet customscript125 {
+  scriptid = "customscript125"
+  
+  name = "daniel6"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_fvr_sl_btr_handler_js@duuuv.path
+  scriptcustomfields = {
+    scriptcustomfield = {
+      custscript_test = {
+        scriptid = "custscript_test"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "TEXT"
+        isformula = false
+        ismandatory = false
+        label = "test"
+        searchlevel = "2"
+        storevalue = true
+        index = 0
+      }
+    }
+  }
+  _alias = "daniel6"
+  isInactive = false
+}

@@ -1,0 +1,56 @@
+netsuite.workflow customworkflow6 {
+  scriptid = "customworkflow6"
+  initcontexts = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+  initoncreate = false
+  initonvieworupdate = false
+  
+  islogenabled = false
+  keephistory = "ONLYWHENTESTING"
+  name = "daniel3"
+  recordtypes = "ACCOUNT"
+  releasestatus = "TESTING"
+  runasadmin = false
+  initcondition = {
+    type = "VISUAL_BUILDER"
+  }
+  workflowcustomfields = {
+    workflowcustomfield = {
+      custworkflow13 = {
+        scriptid = "custworkflow13"
+        applyformatting = false
+        defaultchecked = false
+        description = "sTest2"
+        displaytype = "NORMAL"
+        fieldtype = "TEXT"
+        label = "sTest2"
+        storevalue = true
+        index = 0
+      }
+      custworkflow31 = {
+        scriptid = "custworkflow31"
+        applyformatting = false
+        defaultchecked = false
+        description = "test seggev"
+        displaytype = "NORMAL"
+        fieldtype = "TEXT"
+        label = "field1"
+        storevalue = true
+        index = 1
+      }
+    }
+  }
+  workflowstates = {
+    workflowstate = {
+      workflowstate69 = {
+        scriptid = "workflowstate69"
+        donotexitworkflow = false
+        name = "State 1"
+        positionx = 243
+        positiony = 133
+        index = 0
+      }
+    }
+  }
+  _alias = "daniel3"
+  isInactive = false
+}

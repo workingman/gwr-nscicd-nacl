@@ -1,0 +1,14 @@
+netsuite.emailtemplate custemailtmpl_208_t2257860_363 {
+  scriptid = "custemailtmpl_208_t2257860_363"
+  addcompanyaddress = true
+  addunsubscribelink = true
+  
+  isprivate = false
+  name = "short name"
+  recordtype = "TRANSACTION"
+  subject = "short name"
+  usesmedia = false
+  content = file("netsuite/emailtemplate/custemailtmpl_208_t2257860_363.html")
+  _alias = "short name"
+  isInactive = false
+}

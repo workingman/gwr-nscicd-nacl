@@ -1,0 +1,12 @@
+netsuite.suitelet customscript121 {
+  scriptid = "customscript121"
+  defaultfunction = "main2"
+  
+  name = "daniel"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = "[/SuiteApps/com.saltoio.salto/lib/ajv.min.js]"
+  _alias = "daniel"
+  isInactive = false
+}

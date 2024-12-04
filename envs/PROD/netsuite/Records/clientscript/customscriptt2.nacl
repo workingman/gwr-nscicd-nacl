@@ -1,0 +1,12 @@
+netsuite.clientscript customscriptt2 {
+  scriptid = "customscriptt2"
+  description = "abcd"
+  
+  name = "test"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_clientScript_2_0_js@duuv.path
+  _alias = "test"
+  isInactive = false
+}

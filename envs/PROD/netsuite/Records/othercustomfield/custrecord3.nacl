@@ -1,0 +1,19 @@
+netsuite.othercustomfield custrecord3 {
+  scriptid = "custrecord3"
+  accesslevel = "2"
+  applyformatting = false
+  checkspelling = false
+  defaultchecked = false
+  displaytype = "NORMAL"
+  encryptatrest = false
+  fieldtype = "TEXT"
+  isformula = false
+  ismandatory = false
+  label = "Critical notes"
+  rectype = "-303"
+  searchlevel = "2"
+  showhierarchy = false
+  showinlist = false
+  storevalue = true
+  _alias = "Critical notes"
+}

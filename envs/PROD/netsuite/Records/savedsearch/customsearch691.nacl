@@ -1,0 +1,184 @@
+netsuite.savedsearch customsearch691 {
+  scriptid = "customsearch691"
+  definition = "e281471e3b2fc282cb98dae935a548811b7bc1673c4571e00bf5103f146c9df7@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_TYPE"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "PurchOrd"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_MAINLINE"
+      FIELD_ATTRIBUTE = "F"
+      FIELD_TYPE = "CHECKBOX"
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_STATUS"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "PurchOrd:D"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "PurchOrd:E"
+        },
+        {
+          KEY_ID = 2
+          FIELD_VALUE = "PurchOrd:B"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_EXPECTEDRECEIPTDATE"
+      FIELD_MODIFIER = "ONORBEFORE"
+      FIELD_ATTRIBUTE = "WANTD"
+      FIELD_TYPE = "DATE"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "2013-04-14 07:00:00.0 UTC"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "2013-04-15 07:00:00.0 UTC"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "VE_Entity_ENTITYID"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "VE_Entity_ALTPHONE"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_EXPECTEDRECEIPTDATE"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_NUMBER"
+      FIELD_INDEX = 4
+      FIELD_LABEL = "PO #"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_ITEM"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_MEMO"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_AMOUNT"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_FORMULANUMERIC"
+      FIELD_INDEX = 8
+      FIELD_LABEL = "Days Late"
+      FIELD_FORMULA = "ROUND({today}-{expectedreceiptdate},0)"
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Transaction_EXPECTEDRECEIPTDATE"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch691"
+  FIELD_DEFAULT_NAME = "Expedite List"
+  FIELD_SEARCH_TYPE = "Transaction"
+  FLAG_PUBLIC = true
+  FLAG_LIST = true
+  FLAG_PORTLET = true
+  FLAG_MACHINE = true
+  FLAG_REMINDER = true
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FIELD_CURRENCY_RATE_TYPE = "ACCTTYPE"
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "ANY"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = false
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "Expedite List"
+}

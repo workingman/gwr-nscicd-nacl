@@ -1,0 +1,344 @@
+netsuite.role customrole1030 {
+  scriptid = "customrole1030"
+  accountingbooksoption = "PRIMARY"
+  centertype = "ACCOUNTCENTER"
+  coreadminpermission = true
+  employeerestriction = "UNASSIGNED"
+  employeeselectionunrestricted = false
+  
+  ispartnerrole = false
+  issalesrole = true
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = false
+  name = "Emmum Administrator"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "OWN"
+  subsidiaryviewingallowed = true
+  tfaduration = "0"
+  tfarequired = "OFF"
+  permissions = {
+    permission = {
+      LIST_OTHER_ADDRESS = {
+        permkey = "LIST_OTHER_ADDRESS"
+        permlevel = "FULL"
+      }
+      TRAN_AUDIT = {
+        permkey = "TRAN_AUDIT"
+        permlevel = "FULL"
+      }
+      TRAN_PURCHORDBILL = {
+        permkey = "TRAN_PURCHORDBILL"
+        permlevel = "FULL"
+      }
+      TRAN_VENDBILL = {
+        permkey = "TRAN_VENDBILL"
+        permlevel = "FULL"
+      }
+      TRAN_CARDCHRG = {
+        permkey = "TRAN_CARDCHRG"
+        permlevel = "FULL"
+      }
+      TRAN_STATEMENT = {
+        permkey = "TRAN_STATEMENT"
+        permlevel = "FULL"
+      }
+      TRAN_CUSTINVC = {
+        permkey = "TRAN_CUSTINVC"
+        permlevel = "FULL"
+      }
+      TRAN_PURCHORD = {
+        permkey = "TRAN_PURCHORD"
+        permlevel = "FULL"
+      }
+      TRAN_RTNAUTH = {
+        permkey = "TRAN_RTNAUTH"
+        permlevel = "FULL"
+      }
+      REPO_ACCOUNTDETAIL = {
+        permkey = "REPO_ACCOUNTDETAIL"
+        permlevel = "VIEW"
+      }
+      REPO_BALANCESHEET = {
+        permkey = "REPO_BALANCESHEET"
+        permlevel = "VIEW"
+      }
+      REPO_PANDL = {
+        permkey = "REPO_PANDL"
+        permlevel = "VIEW"
+      }
+      REPO_PURCHASES = {
+        permkey = "REPO_PURCHASES"
+        permlevel = "VIEW"
+      }
+      REPO_SALES = {
+        permkey = "REPO_SALES"
+        permlevel = "VIEW"
+      }
+      REPO_SFA = {
+        permkey = "REPO_SFA"
+        permlevel = "VIEW"
+      }
+      REPO_TIME = {
+        permkey = "REPO_TIME"
+        permlevel = "VIEW"
+      }
+      REPO_WEBSITE = {
+        permkey = "REPO_WEBSITE"
+        permlevel = "VIEW"
+      }
+      LIST_TRANNUMBERAUDITLOG = {
+        permkey = "LIST_TRANNUMBERAUDITLOG"
+        permlevel = "FULL"
+      }
+      LIST_ACCOUNT = {
+        permkey = "LIST_ACCOUNT"
+        permlevel = "FULL"
+      }
+      LIST_ALLOCSCHEDULE = {
+        permkey = "LIST_ALLOCSCHEDULE"
+        permlevel = "FULL"
+      }
+      LIST_BILLINGSCHEDULE = {
+        permkey = "LIST_BILLINGSCHEDULE"
+        permlevel = "FULL"
+      }
+      LIST_BIN = {
+        permkey = "LIST_BIN"
+        permlevel = "FULL"
+      }
+      LIST_CRMGROUP = {
+        permkey = "LIST_CRMGROUP"
+        permlevel = "FULL"
+      }
+      LIST_CALENDAR = {
+        permkey = "LIST_CALENDAR"
+        permlevel = "FULL"
+      }
+      LIST_CERTIFICATES = {
+        permkey = "LIST_CERTIFICATES"
+        permlevel = "FULL"
+      }
+      LIST_COMPANY = {
+        permkey = "LIST_COMPANY"
+        permlevel = "FULL"
+      }
+      LIST_COMPANY_FEATURE_SETUP = {
+        permkey = "LIST_COMPANY_FEATURE_SETUP"
+        permlevel = "VIEW"
+      }
+      LIST_CONTACTROLE = {
+        permkey = "LIST_CONTACTROLE"
+        permlevel = "FULL"
+      }
+      LIST_CONTACTSUBSIDIARYRELATION = {
+        permkey = "LIST_CONTACTSUBSIDIARYRELATION"
+        permlevel = "VIEW"
+      }
+      LIST_CONTACT = {
+        permkey = "LIST_CONTACT"
+        permlevel = "FULL"
+      }
+      REGT_COGS = {
+        permkey = "REGT_COGS"
+        permlevel = "FULL"
+      }
+      REGT_CREDCARD = {
+        permkey = "REGT_CREDCARD"
+        permlevel = "FULL"
+      }
+      LIST_CURRENCY = {
+        permkey = "LIST_CURRENCY"
+        permlevel = "FULL"
+      }
+      LIST_CUSTRECORDENTRY = {
+        permkey = "LIST_CUSTRECORDENTRY"
+        permlevel = "FULL"
+      }
+      LIST_CUSTPROFILE = {
+        permkey = "LIST_CUSTPROFILE"
+        permlevel = "FULL"
+      }
+      LIST_CUSTJOB = {
+        permkey = "LIST_CUSTJOB"
+        permlevel = "FULL"
+      }
+      LIST_DEPARTMENT = {
+        permkey = "LIST_DEPARTMENT"
+        permlevel = "FULL"
+      }
+      LIST_FILECABINET = {
+        permkey = "LIST_FILECABINET"
+        permlevel = "FULL"
+      }
+      LIST_EMAILTEMPLATE = {
+        permkey = "LIST_EMAILTEMPLATE"
+        permlevel = "FULL"
+      }
+      LIST_EMPLOYEE_RECORD = {
+        permkey = "LIST_EMPLOYEE_RECORD"
+        permlevel = "FULL"
+      }
+      LIST_ENTITYSUBSIDIARYRELATION = {
+        permkey = "LIST_ENTITYSUBSIDIARYRELATION"
+        permlevel = "VIEW"
+      }
+      LIST_EXPORT = {
+        permkey = "LIST_EXPORT"
+        permlevel = "CREATE"
+      }
+      LIST_ITEM = {
+        permkey = "LIST_ITEM"
+        permlevel = "FULL"
+      }
+      LIST_MASSUPDATES = {
+        permkey = "LIST_MASSUPDATES"
+        permlevel = "FULL"
+      }
+      LIST_FIND = {
+        permkey = "LIST_FIND"
+        permlevel = "FULL"
+      }
+      LIST_PROMOTIONCODE = {
+        permkey = "LIST_PROMOTIONCODE"
+        permlevel = "FULL"
+      }
+      LIST_INFOITEMFORM = {
+        permkey = "LIST_INFOITEMFORM"
+        permlevel = "FULL"
+      }
+      LIST_RECORDCUSTFIELD = {
+        permkey = "LIST_RECORDCUSTFIELD"
+        permlevel = "FULL"
+      }
+      LIST_RESOURCE = {
+        permkey = "LIST_RESOURCE"
+        permlevel = "FULL"
+      }
+      LIST_STORETAB = {
+        permkey = "LIST_STORETAB"
+        permlevel = "FULL"
+      }
+      LIST_SUBSIDIARY = {
+        permkey = "LIST_SUBSIDIARY"
+        permlevel = "FULL"
+      }
+      LIST_LOCATION = {
+        permkey = "LIST_LOCATION"
+        permlevel = "FULL"
+      }
+      ADMI_ACCOUNTINGBOOK = {
+        permkey = "ADMI_ACCOUNTINGBOOK"
+        permlevel = "FULL"
+      }
+      ADMI_ACCOUNTING = {
+        permkey = "ADMI_ACCOUNTING"
+        permlevel = "FULL"
+      }
+      ADMI_ACCTSETUP = {
+        permkey = "ADMI_ACCTSETUP"
+        permlevel = "FULL"
+      }
+      ADMI_ANALYTICS = {
+        permkey = "ADMI_ANALYTICS"
+        permlevel = "FULL"
+      }
+      ADMI_NUMBERING = {
+        permkey = "ADMI_NUMBERING"
+        permlevel = "FULL"
+      }
+      ADMI_BANK_CONNECTIVITY_CONFIG = {
+        permkey = "ADMI_BANK_CONNECTIVITY_CONFIG"
+        permlevel = "FULL"
+      }
+      ADMI_BILLINGINFO = {
+        permkey = "ADMI_BILLINGINFO"
+        permlevel = "FULL"
+      }
+      ADMI_COMPANY = {
+        permkey = "ADMI_COMPANY"
+        permlevel = "FULL"
+      }
+      ADMI_CUSTADDRESSFORM = {
+        permkey = "ADMI_CUSTADDRESSFORM"
+        permlevel = "FULL"
+      }
+      ADMI_CUSTBODYFIELD = {
+        permkey = "ADMI_CUSTBODYFIELD"
+        permlevel = "FULL"
+      }
+      ADMI_CUSTTASKS = {
+        permkey = "ADMI_CUSTTASKS"
+        permlevel = "FULL"
+      }
+      ADMI_CUSTSECTION = {
+        permkey = "ADMI_CUSTSECTION"
+        permlevel = "FULL"
+      }
+      ADMI_CUSTCENTER = {
+        permkey = "ADMI_CUSTCENTER"
+        permlevel = "FULL"
+      }
+      ADMI_CUSTCOLUMNFIELD = {
+        permkey = "ADMI_CUSTCOLUMNFIELD"
+        permlevel = "FULL"
+      }
+      ADMI_CUSTENTITYFIELD = {
+        permkey = "ADMI_CUSTENTITYFIELD"
+        permlevel = "FULL"
+      }
+      ADMI_CUSTENTRYFORM = {
+        permkey = "ADMI_CUSTENTRYFORM"
+        permlevel = "FULL"
+      }
+      ADMI_CUSTFIELD = {
+        permkey = "ADMI_CUSTFIELD"
+        permlevel = "FULL"
+      }
+      ADMI_CUSTLIST = {
+        permkey = "ADMI_CUSTLIST"
+        permlevel = "FULL"
+      }
+      ADMI_CUSTRECORD = {
+        permkey = "ADMI_CUSTRECORD"
+        permlevel = "FULL"
+      }
+      ADMI_SUBLIST = {
+        permkey = "ADMI_SUBLIST"
+        permlevel = "FULL"
+      }
+      ADMI_CUSTOMSUBLIST = {
+        permkey = "ADMI_CUSTOMSUBLIST"
+        permlevel = "FULL"
+      }
+      ADMI_CUSTFIELDTAB = {
+        permkey = "ADMI_CUSTFIELDTAB"
+        permlevel = "FULL"
+      }
+      ADMI_CUSTTRANFIELD = {
+        permkey = "ADMI_CUSTTRANFIELD"
+        permlevel = "FULL"
+      }
+      ADMI_CUSTFORM = {
+        permkey = "ADMI_CUSTFORM"
+        permlevel = "FULL"
+      }
+      ADMI_ENABLEFEATURES = {
+        permkey = "ADMI_ENABLEFEATURES"
+        permlevel = "FULL"
+      }
+      ADMI_SAVEDASHBOARD = {
+        permkey = "ADMI_SAVEDASHBOARD"
+        permlevel = "FULL"
+      }
+      ADMI_EMPLCATEGORY = {
+        permkey = "ADMI_EMPLCATEGORY"
+        permlevel = "FULL"
+      }
+    }
+  }
+  _alias = "Emmum Administrator"
+  isInactive = false
+  employeeviewingallowed = true
+}

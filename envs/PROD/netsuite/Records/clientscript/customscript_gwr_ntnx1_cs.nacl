@@ -1,0 +1,10 @@
+netsuite.clientscript customscript_gwr_ntnx1_cs {
+  scriptid = "customscript_gwr_ntnx1_cs"
+  name = "GWR Ntnx testing 1"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_gwr_gwr_ntnx1_js@dduv.path
+  isInactive = false
+  _alias = "GWR Ntnx testing 1"
+}

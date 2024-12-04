@@ -1,0 +1,48 @@
+netsuite.suitelet customscript_sl_btr_handler {
+  scriptid = "customscript_sl_btr_handler"
+  
+  name = "FVR SL Budget Transfer Request Handler"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_fvr_sl_btr_handler_js@duuuv.path
+  scriptcustomfields = {
+    scriptcustomfield = {
+      custscript_budget_transfer_req_search = {
+        scriptid = "custscript_budget_transfer_req_search"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "SELECT"
+        isformula = false
+        ismandatory = false
+        label = "Saved Search"
+        onparentdelete = "NO_ACTION"
+        searchlevel = "2"
+        selectrecordtype = "-119"
+        storevalue = true
+        index = 0
+      }
+    }
+  }
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_sl_btr_handler = {
+        scriptid = "customdeploy_sl_btr_handler"
+        allemployees = true
+        allpartners = false
+        allroles = true
+        isdeployed = true
+        isonline = true
+        loglevel = "DEBUG"
+        runasrole = "ADMINISTRATOR"
+        status = "RELEASED"
+        title = "FVR SL Budget Transfer Request Handler"
+      }
+    }
+  }
+  _alias = "FVR SL Budget Transfer Request Handler"
+  isInactive = false
+}

@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_115_7091285_sb1_278 {
+  scriptid = "custtmpl_115_7091285_sb1_278"
+  standard = "STDTMPLEMPTY"
+  displaysourcecode = true
+  
+  preferred = false
+  printtype = "TRANSACTION"
+  title = "Purchase Order PDF/HTML Template"
+  trantype = "PURCHORD"
+  content = file("netsuite/advancedpdftemplate/custtmpl_115_7091285_sb1_278.xml")
+  _alias = "Purchase Order PDF/HTML Template"
+  isInactive = false
+}

@@ -1,0 +1,20 @@
+netsuite.file SuiteScripts_shalomTest_js@dv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/shalomTest.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/shalomTest.js")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _generated_dependencies = [
+    {
+      reference = netsuite.customrecord328.field.custom_custrecord2801.scriptid
+    },
+  ]
+  _alias = "shalomTest.js"
+  description = "some test changes wow "
+  isInactive = false
+}

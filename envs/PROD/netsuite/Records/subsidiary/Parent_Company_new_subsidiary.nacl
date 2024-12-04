@@ -1,0 +1,53 @@
+netsuite.subsidiary Parent_Company_new_subsidiary@sus {
+  name = "new subsidiary"
+  parent = netsuite.subsidiary.instance.Parent_Company@s
+  isInactive = false
+  showSubsidiaryName = false
+  state = "AZ"
+  country = "_unitedStates"
+  mainAddress = {
+    country = "_unitedStates"
+    addressee = "testSub"
+    state = "AZ"
+    addrText = "testSub<br>AZ <br>United States"
+    override = false
+    customFieldList = {
+      customField = [
+        {
+          value = true
+          scriptId = "custrecord_address_field"
+        },
+        {
+          value = true
+          scriptId = "custrecord_scs"
+        },
+      ]
+    }
+  }
+  isElimination = false
+  currency = netsuite.currency.instance.Shekel
+  edition = "US"
+  nexusList = {
+    nexus = [
+      {
+        nexusId = netsuite.nexus.instance._unitedStates_Arizona
+        country = "US"
+      },
+    ]
+  }
+  checkLayout = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Standard Check Layout)"
+  }
+  classTranslationList = {
+    classTranslation = {
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+      English__CA_@sjk = {
+        language = "English (CA)"
+      }
+    }
+  }
+  identifier = "Parent Company_new subsidiary"
+  _alias = "new subsidiary"
+}

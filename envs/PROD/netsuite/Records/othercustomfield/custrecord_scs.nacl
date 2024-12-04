@@ -1,0 +1,21 @@
+netsuite.othercustomfield custrecord_scs {
+  scriptid = "custrecord_scs"
+  accesslevel = "2"
+  applyformatting = false
+  applytoallforms = true
+  checkspelling = false
+  defaultchecked = false
+  description = "Check this box if the address should display in the Customer's Address Book in their My Account portal."
+  displaytype = "NORMAL"
+  encryptatrest = false
+  fieldtype = "CHECKBOX"
+  isformula = false
+  ismandatory = false
+  label = "Show Address in Customer's Portal Account"
+  rectype = "-289"
+  searchlevel = "2"
+  showhierarchy = false
+  showinlist = false
+  storevalue = true
+  _alias = "Show Address in Customer's Portal Account"
+}

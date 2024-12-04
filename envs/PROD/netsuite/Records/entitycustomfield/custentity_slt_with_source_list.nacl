@@ -1,0 +1,41 @@
+netsuite.entitycustomfield custentity_slt_with_source_list {
+  scriptid = "custentity_slt_with_source_list"
+  accesslevel = "2"
+  appliestocontact = true
+  appliestocustomer = false
+  appliestoemployee = false
+  appliestogroup = false
+  appliestoothername = false
+  appliestopartner = false
+  appliestopricelist = false
+  appliestoproject = false
+  appliestoprojecttemplate = false
+  appliestostatement = false
+  appliestovendor = false
+  appliestowebsite = false
+  applyformatting = false
+  availableexternally = false
+  checkspelling = false
+  defaultchecked = false
+  displaytype = "NORMAL"
+  encryptatrest = false
+  fieldtype = "TEXT"
+  globalsearch = false
+  isformula = false
+  ismandatory = false
+  isparent = false
+  label = "With Source List"
+  searchlevel = "2"
+  showhierarchy = false
+  showinlist = false
+  sourcefrom = "STDRECORDCUSTOMFORM"
+  sourcelist = "[type=entitycustomfield, scriptid=cseg1]"
+  storevalue = true
+  _generated_dependencies = [
+    {
+      reference = netsuite.customsegment.instance.cseg1.scriptid
+    },
+  ]
+  _alias = "With Source List"
+  appliestogenericrsrc = false
+}

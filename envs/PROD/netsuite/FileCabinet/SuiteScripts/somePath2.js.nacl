@@ -1,0 +1,14 @@
+netsuite.file SuiteScripts_somePath2_js@dv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/somePath2.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/somePath2.js")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "somePath2.js"
+  isInactive = true
+}

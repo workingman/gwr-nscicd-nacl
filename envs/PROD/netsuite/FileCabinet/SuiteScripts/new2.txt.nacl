@@ -1,0 +1,15 @@
+netsuite.file SuiteScripts_new2_txt@dv {
+  description = "test"
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/new2.txt"
+  content = file("netsuite/FileCabinet/SuiteScripts/new2.txt")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "new2.txt"
+  isInactive = false
+}

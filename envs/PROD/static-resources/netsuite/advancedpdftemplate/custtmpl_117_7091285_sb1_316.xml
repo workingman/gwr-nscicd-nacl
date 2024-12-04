@@ -1,0 +1,224 @@
+<?xml version="1.0"?><!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+<head>
+	<link name="NotoSans" type="font" subtype="truetype" src="${nsfont.NotoSans_Regular}" src-bold="${nsfont.NotoSans_Bold}" src-italic="${nsfont.NotoSans_Italic}" src-bolditalic="${nsfont.NotoSans_BoldItalic}" bytes="2" />
+	<#if .locale == "zh_CN">
+		<link name="NotoSansCJKsc" type="font" subtype="opentype" src="${nsfont.NotoSansCJKsc_Regular}" src-bold="${nsfont.NotoSansCJKsc_Bold}" bytes="2" />
+	<#elseif .locale == "zh_TW">
+		<link name="NotoSansCJKtc" type="font" subtype="opentype" src="${nsfont.NotoSansCJKtc_Regular}" src-bold="${nsfont.NotoSansCJKtc_Bold}" bytes="2" />
+	<#elseif .locale == "ja_JP">
+		<link name="NotoSansCJKjp" type="font" subtype="opentype" src="${nsfont.NotoSansCJKjp_Regular}" src-bold="${nsfont.NotoSansCJKjp_Bold}" bytes="2" />
+	<#elseif .locale == "ko_KR">
+		<link name="NotoSansCJKkr" type="font" subtype="opentype" src="${nsfont.NotoSansCJKkr_Regular}" src-bold="${nsfont.NotoSansCJKkr_Bold}" bytes="2" />
+	<#elseif .locale == "th_TH">
+		<link name="NotoSansThai" type="font" subtype="opentype" src="${nsfont.NotoSansThai_Regular}" src-bold="${nsfont.NotoSansThai_Bold}" bytes="2" />
+	</#if>
+    <macrolist>
+        <macro id="nlheader">
+            <table class="header" style="width:100%"><tr>
+	<td horizontal-align="middle" style="width: 100px; height: 79px;" vertical-align="middle">
+	<div><img src="http://7091285-sb1.shop.netsuite.com/core/media/media.nl?id=16472&amp;c=7091285_SB1&amp;h=ux-7TF6_-i8FN-YRld-_4zArBrdlPtPc6nFoYc7rcI-XLNK5" style="width: 100px; height: 100px;" /></div>
+	</td>
+	<td align="right" padding-bottom="5px" style="width: 483px; height: 79px;">
+	<p text-align="right"><span style="font-size: 14px; font-weight: bold;"><#if preferences.subsidiaries> <#if subsidiary.legalname?length != 0> ${subsidiary.legalname} <#else> ${subsidiary.name}<#if companyinformation.legalname?length != 0> ${companyinformation.legalname} <#else> ${companyinformation.companyname} </#if> </#if> </span><br /><span style="font-size: 12px;"><#if preferences.subsidiaries> ${subsidiary.mainaddress_text} <#else> ${companyinformation.addresstext} </#if> </span></p>
+	</td>
+	</tr>
+	<#if !paymentlinktext.printinginhtml><#else></#if></table>
+        </macro>
+        <macro id="nlfooter">
+            <#if !paymentlinktext.printinginhtml><#assign br_string="<br />"><#assign comma_space_string=", ">
+<table width="100%"><tr>
+	<td width="75%">&nbsp;</td>
+	<td width="25%">&nbsp;</td>
+	</tr>
+	<tr>
+	<td style="vertical-align: top;">
+	<p class="small-block-of-text"><span style="font-weight: bold;">${paymentlinktext.contactinfoheader}</span><br />${paymentlinktext.emaillabel}${(preferences.subsidiaries)?then(subsidiary.email, companyinformation.email)}<br />${paymentlinktext.phonelabel}${(preferences.subsidiaries)?then(subsidiary.fax, companyinformation.fax)}</p>
+	</td>
+	<td style="vertical-align: top;"><#if record.paymentlink?length != 0>
+	<p class="small-block-of-text"><span style="font-weight: bold;">${paymentlinktext.paymentlinkheader}</span><br />${paymentlinktext.paymentlinkfootertext}</p>
+	</#if></td>
+	</tr>
+	<tr>
+	<td colspan="10">&nbsp;</td>
+	</tr>
+	<tr class="solid-border-top">
+	<td colspan="8" style="font-size: 8px; color: #767676;"><#if preferences.subsidiaries><#if subsidiary.legalname?length != 0>${subsidiary.legalname},&nbsp; <#else> ${subsidiary.name},&nbsp; </#if> <#if subsidiary.mainaddress_text?has_content> ${subsidiary.mainaddress_text?replace(br_string, comma_space_string)},&nbsp; </#if> <#else> ${companyinformation.companyname},&nbsp; <#if companyinformation.addresstext?has_content> ${companyinformation.addresstext?replace(br_string, comma_space_string)},&nbsp; </#if> </#if> <#if record.subsidiarytaxregnum?has_content && record.subsidiarytaxregnum?length != 0> <#list subsidiary.taxregistration as taxreg> <#if taxreg?is_first> ${taxreg.taxregistrationnumber@label} <#break> </#if> </#list> : ${record.subsidiarytaxregnum} <#else> <#if preferences.subsidiaries> ${subsidiary.federalidnumber@label}: ${subsidiary.federalidnumber} <#else> ${companyinformation.employerid@label}: ${companyinformation.employerid} </#if> </#if></td>
+	<td align="right" colspan="2" style="font-size: 12px;"><pagenumber/>/<totalpages/></td>
+	</tr></table>
+</#if>
+        </macro>
+    </macrolist>
+    <style type="text/css">* {
+			<#if .locale == "zh_CN">
+				font-family: NotoSans, NotoSansCJKsc, sans-serif;
+			<#elseif .locale == "zh_TW">
+				font-family: NotoSans, NotoSansCJKtc, sans-serif;
+			<#elseif .locale == "ja_JP">
+				font-family: NotoSans, NotoSansCJKjp, sans-serif;
+			<#elseif .locale == "ko_KR">
+				font-family: NotoSans, NotoSansCJKkr, sans-serif;
+			<#elseif .locale == "th_TH">
+				font-family: NotoSans, NotoSansThai, sans-serif;
+			<#else>
+				font-family: NotoSans, sans-serif;
+			</#if>
+		}
+		td p {
+			align:left;
+			line-height: 16px;
+		}
+		img {
+			height: 30px;
+			width: 114px;
+		}
+		a {
+			color: blue;
+		}
+		.header {
+			border-collapse: collapse;
+			width: 100%
+		}
+		.document-header-row {
+			vertical-align: top;
+		}
+		.small-block-of-text {
+			font-size: 10px;
+			line-height: 14px;
+		}
+		.item-line-height {
+			line-height: 11px;
+		}
+		.breakdown tr {
+			font-size: 8px;
+			height: 20px;
+		}
+		.breakdown td {
+			vertical-align: middle;
+		}
+		.light-border {
+			border-top: 1px solid #CCCCCC;
+			border-bottom: 1px solid #CCCCCC;
+		}
+		.light-border-bottom {
+			border-bottom: 1px solid #CCCCCC;
+		}
+		.solid-border {
+			border-top: 1px solid;
+			border-bottom: 1px solid;
+		}
+		.solid-border-top {
+			border-top: 1px solid;
+		}
+		.background {
+			z-index: -100;
+			position: absolute;
+			top: -6;
+			left: 27;
+		}
+		.foreground {
+			z-index: 100;
+		}
+		.url {
+			color: blue;
+		}
+</style>
+</head>
+<body header="nlheader" header-height="11%" footer="nlfooter" footer-height="95pt" padding="0.5in 0.5in 0.5in 0.5in" size="A4">
+    <#assign br_string="<br />"><#assign comma_space_string=", "><#assign number_format="#,##0.00">
+<table style="width: 100%; margin-bottom: 5px; border-collapse: collapse;"><tr>
+	<td vertical-align="top" width="25%"><p>
+      Invoice No: ${record.tranid}
+      </p></td>
+  	<td vertical-align="top" width="25%">
+	<p class="small-block-of-text"><br /></#if>${record.trandate@label}: ${nsformat_date(record.trandate)}<br />${record.duedate@label}: ${nsformat_date(record.duedate)}<br />${record.terms@label}: ${record.terms}</p>
+	</td>
+	<td vertical-align="top" width="25%">
+	<p style="font-weight: bold;"><span style="font-size: 14px; line-height: 20px;">${record.total@label}</span><br /><span style="font-size: 18px; line-height: 20px;">${record.currencysymbol} ${record.total?string[number_format]}</span></p>
+	</td>
+	<td align="right" rowspan="2" vertical-align="top"><#if !paymentlinktext.printinginhtml && record.paymentlink?length != 0><barcode codetype="qrcode" value="${record.paymentlink}" height="120" width="120" class="background"></barcode>
+	<p class="foreground" style="font-size: 8px; line-height: 10px;" text-align="right"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />${paymentlinktext.qrcodetext}</p>
+	</#if></td>
+	</tr>
+	<tr class="document-header-row" height="75px">
+	<td width="38%"><span style="font-weight: bold; font-size: 12px; line-height: 17px;">${record.billaddress@label}:<br /><#if !record.entity.isperson> ${record.entity.companyname} <#else> <#if record.entity.salutation?has_content>${record.entity.salutation} </#if> <#if record.entity.firstname?has_content>${record.entity.firstname} </#if> <#if record.entity.lastname?has_content>${record.entity.lastname}</#if> </#if></span><br /><span class="small-block-of-text">${record.billaddress}</span></td>
+	<td width="38%"><span style="font-weight: bold; font-size: 12px; line-height: 17px;">${record.shipaddress@label}:</span><br /><span class="small-block-of-text">${record.shipaddress}</span></td>
+	</tr></table>
+<#if record.item?has_content>
+
+<table class="breakdown light-border-bottom" style="width: 100%; margin-top: 10px; border-collapse: collapse; table-layout: fixed;">
+<thead>
+	<tr border-bottom="1px solid #CCCCCC" border-top="1px solid #CCCCCC" class="light-border" style="height: 20px; font-weight: bold;"><#list record.item as item><#if item?is_first>
+	<td align="left" vertical-align="middle" width="20%">${item.item@label}</td>
+	<td align="left" vertical-align="middle" width="30%">${item.description@label}</td>
+	<td align="right" vertical-align="middle" width="12%">${item.quantity@label}</td>
+	<td align="right" vertical-align="middle" width="19%">${item.rate@label}</td>
+	<td align="right" vertical-align="middle" width="19%">${item.amount@label}</td>
+	<#break></#if></#list></tr>
+</thead>
+<!-- start items --><#list record.item as item><tr cellpadding="0px">
+	<td><span class="item-line-height">${item.item}</span></td>
+	<td><span class="item-line-height">${item.description}</span></td>
+	<td align="right">${nsformat_number(item.quantity)}</td>
+	<td align="right">${item.rate?string[number_format]}</td>
+	<td align="right">${item.amount?string[number_format]}</td>
+	</tr>
+	</#list><!-- end items --></table>
+
+<table class="breakdown" style="width: 100%; border-collapse: collapse; table-layout: fixed;"><tr>
+	<td colspan="2">${record.subtotal@label}</td>
+	<td align="right" colspan="3">${record.subtotal?string[number_format]}</td>
+	</tr>
+	<#if !record.discounttotal?is_nan && record.discounttotal != 0>
+	<tr>
+	<td colspan="2">${record.discounttotal@label}</td>
+	<td align="right" colspan="3">${record.discounttotal?string[number_format]}</td>
+	</tr>
+	</#if><#attempt><#if record.shippingcost?has_content && !record.shippingcost?is_nan && record.shippingcost gt 0>
+	<tr>
+	<td colspan="2">${record.shippingcost@label}</td>
+	<td align="right" colspan="3">${record.shippingcost?string[number_format]}</td>
+	</tr>
+	</#if><#recover><!-- do nothing --></#attempt><#attempt><#if record.tax2total?has_content && !record.tax2total?is_nan && record.tax2total gt 0>
+	<tr>
+	<td colspan="2">${record.tax2total@label}</td>
+	<td align="right" colspan="3">${record.tax2total?string[number_format]}</td>
+	</tr>
+	</#if><#recover><!-- do nothing --></#attempt>
+	<tr>
+	<td colspan="2">${record.taxtotal@label}</td>
+	<td align="right" colspan="3">${record.taxtotal?string[number_format]}</td>
+	</tr>
+	<#attempt><#if record.giftcertapplied?has_content && !record.giftcertapplied?is_nan && record.giftcertapplied lt 0>
+	<tr>
+	<td colspan="2">${record.giftcertapplied@label}</td>
+	<td align="right" colspan="3">${record.giftcertapplied?string[number_format]}</td>
+	</tr>
+	</#if><#recover><!-- do nothing --></#attempt>
+	<tr border-bottom="1px solid" border-top="1px solid" class="solid-border" style="font-size: 10px; font-weight: bold; line-height: 20px;">
+	<td colspan="2">${record.total@label}</td>
+	<td align="right" colspan="3">${record.currencysymbol} ${record.total?string[number_format]}</td>
+	</tr></table>
+</#if><#if paymentlinktext.printinginhtml>
+
+<table width="100%"><tr>
+	<td width="75%">&nbsp;</td>
+	<td width="25%">&nbsp;</td>
+	</tr>
+	<tr>
+	<td style="vertical-align: top;">
+	<p class="small-block-of-text"><span style="font-weight: bold;">${paymentlinktext.contactinfoheader}</span><br />${paymentlinktext.emaillabel}${(preferences.subsidiaries)?then(subsidiary.email, companyinformation.email)}<br />${paymentlinktext.phonelabel}${(preferences.subsidiaries)?then(subsidiary.fax, companyinformation.fax)}</p>
+	</td>
+	<td style="vertical-align: top;"><#if record.paymentlink?length != 0>
+	<p class="small-block-of-text"><span style="font-weight: bold;">${paymentlinktext.paymentlinkheader}</span><br />${paymentlinktext.paymentlinkfootertext}</p>
+	</#if></td>
+	</tr>
+	<tr>
+	<td colspan="2">&nbsp;</td>
+	</tr>
+	<tr>
+	<td class="solid-border-top" colspan="2" style="font-size: 8px; color: #767676;"><#if preferences.subsidiaries><#if subsidiary.legalname?length != 0>${subsidiary.legalname},&nbsp; <#else> ${subsidiary.name},&nbsp; </#if> <#if subsidiary.mainaddress_text?has_content> ${subsidiary.mainaddress_text?replace(br_string, comma_space_string)},&nbsp; </#if> <#else> ${companyinformation.companyname},&nbsp; <#if companyinformation.addresstext?has_content> ${companyinformation.addresstext?replace(br_string, comma_space_string)},&nbsp; </#if> </#if> <#if record.subsidiarytaxregnum?has_content && record.subsidiarytaxregnum?length != 0> <#list subsidiary.taxregistration as taxreg> <#if taxreg?is_first> ${taxreg.taxregistrationnumber@label} <#break> </#if> </#list> : ${record.subsidiarytaxregnum} <#else> <#if preferences.subsidiaries> ${subsidiary.federalidnumber@label}: ${subsidiary.federalidnumber} <#else> ${companyinformation.employerid@label}: ${companyinformation.employerid} </#if> </#if></td>
+	</tr></table>
+</#if>
+</body>
+</pdf>

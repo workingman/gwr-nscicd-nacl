@@ -1,0 +1,44 @@
+netsuite.crmcustomfield custevent_slt_severity {
+  scriptid = "custevent_slt_severity"
+  accesslevel = "1"
+  appliestoevent = true
+  appliestophonecall = false
+  appliestotask = true
+  applyformatting = false
+  availableexternally = false
+  checkspelling = false
+  defaultchecked = true
+  displaytype = "NORMAL"
+  encryptatrest = false
+  fieldtype = "CHECKBOX"
+  globalsearch = false
+  isformula = false
+  ismandatory = false
+  isparent = false
+  label = "Severity"
+  searchlevel = "2"
+  showhierarchy = false
+  showinlist = false
+  sourcefrom = "STDRECORDISINACTIVE"
+  sourcelist = "[type=crmcustomfield, scriptid=cseg1]"
+  storevalue = true
+  roleaccesses = {
+    roleaccess = {
+      customrole1030 = {
+        accesslevel = "2"
+        role = netsuite.role.instance.customrole1030.scriptid
+        searchlevel = "2"
+      }
+    }
+  }
+  _generated_dependencies = [
+    {
+      reference = netsuite.customsegment.instance.cseg1.scriptid
+    },
+  ]
+  _alias = "Severity"
+  appliesperkeyword = false
+  appliestocampaign = false
+  appliestoprojecttask = false
+  appliestocase = false
+}

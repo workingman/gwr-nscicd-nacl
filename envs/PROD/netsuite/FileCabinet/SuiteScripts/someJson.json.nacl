@@ -1,0 +1,14 @@
+netsuite.file SuiteScripts_someJson_json@dv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/someJson.json"
+  content = file("netsuite/FileCabinet/SuiteScripts/someJson.json")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "someJson.json"
+  isInactive = false
+}

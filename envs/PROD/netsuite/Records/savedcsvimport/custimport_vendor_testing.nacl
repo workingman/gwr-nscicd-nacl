@@ -1,0 +1,149 @@
+netsuite.savedcsvimport custimport_vendor_testing {
+  scriptid = "custimport_vendor_testing"
+  charencoding = "windows-1252"
+  columndelimiter = "COMMA"
+  datahandling = "ADD"
+  decimaldelimiter = "PERIOD"
+  description = "My first attempt to import CSV file into NetSuite"
+  entryform = "STANDARDVENDORFORM"
+  ignorereadonly = true
+  importname = "Vendor Record Testing"
+  logsystemnotescustfields = false
+  multiselectdelimiter = "|"
+  overwritemissingfields = false
+  overwritesublists = false
+  preventduplicates = false
+  recordtype = "VENDOR"
+  runserversuitescript = false
+  usemultithread = false
+  validatemandatorycustfields = true
+  audience = {
+    allemployees = false
+    allpartners = false
+    allroles = false
+    globaledit = false
+    ispublic = false
+  }
+  filemappings = {
+    filemapping = {
+      VENDOR = {
+        file = "VENDOR"
+      }
+    }
+  }
+  recordmappings = {
+    recordmapping = {
+      VENDOR = {
+        record = "VENDOR"
+        fieldmappings = {
+          fieldmapping = {
+            COMPANYNAME = {
+              field = "COMPANYNAME"
+              columnreference = {
+                column = "Company Name"
+                file = "VENDOR"
+                type = "NAME"
+              }
+            }
+            custentity_cust_priority = {
+              field = netsuite.entitycustomfield.instance.custentity_cust_priority.scriptid
+              columnreference = {
+                column = "Priority"
+                file = "VENDOR"
+                type = "NAME"
+              }
+            }
+            EMAIL = {
+              field = "EMAIL"
+              columnreference = {
+                column = "Email"
+                file = "VENDOR"
+                type = "NAME"
+              }
+            }
+            ISPERSON = {
+              field = "ISPERSON"
+              columnreference = {
+                column = "Individual"
+                file = "VENDOR"
+                type = "NAME"
+              }
+            }
+            PHONE = {
+              field = "PHONE"
+              columnreference = {
+                column = "Phone"
+                file = "VENDOR"
+                type = "NAME"
+              }
+            }
+            SUBSIDIARY = {
+              field = "SUBSIDIARY"
+              columnreference = {
+                column = "Primary Subsidiary"
+                file = "VENDOR"
+                type = "NAME"
+              }
+            }
+            TAXIDNUM = {
+              field = "TAXIDNUM"
+              columnreference = {
+                column = "Tax ID"
+                file = "VENDOR"
+                type = "NAME"
+              }
+            }
+            WORKCALENDAR = {
+              field = "WORKCALENDAR"
+              value = "2"
+            }
+          }
+        }
+      }
+      VENDOR_ADDRESSBOOK_ADDRESSBOOKADDRESS@f = {
+        record = "VENDOR:ADDRESSBOOK:ADDRESSBOOKADDRESS"
+        fieldmappings = {
+          fieldmapping = {
+            ADDRTEXT = {
+              field = "ADDRTEXT"
+              columnreference = {
+                column = "Address"
+                file = "VENDOR"
+                type = "NAME"
+              }
+            }
+            CITY = {
+              field = "CITY"
+              columnreference = {
+                column = "City"
+                file = "VENDOR"
+                type = "NAME"
+              }
+            }
+            COUNTRY = {
+              field = "COUNTRY"
+              value = "US"
+            }
+            STATE = {
+              field = "STATE"
+              columnreference = {
+                column = "State"
+                file = "VENDOR"
+                type = "NAME"
+              }
+            }
+            ZIP = {
+              field = "ZIP"
+              columnreference = {
+                column = "Zip Code"
+                file = "VENDOR"
+                type = "NAME"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  _alias = "Vendor Record Testing"
+}

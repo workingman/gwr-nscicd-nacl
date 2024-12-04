@@ -1,0 +1,165 @@
+netsuite.savedsearch customsearch704 {
+  scriptid = "customsearch704"
+  definition = "bf52dba8eb2a3beca083579f6530dfd8b4988fb1c4a223639d10f6b8df1285ba@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "MfgOperationTask_STATUS"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "PROGRESS"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "NOTSTART"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "MfgOperationTask_MANUFACTURINGWORKCENTER"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "1581"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "1576"
+        },
+        {
+          KEY_ID = 2
+          FIELD_VALUE = "1578"
+        },
+        {
+          KEY_ID = 3
+          FIELD_VALUE = "1577"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "MfgOperationTask_WORKORDER"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "MfgOperationTask_SEQUENCE"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "MfgOperationTask_STATUS"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "MfgOperationTask_STARTDATE"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "MfgOperationTask_NAME"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "MfgOperationTask_ESTIMATEDWORK"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "MfgOperationTask_COMPLETEDQUANTITY"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "MfgOperationTask_REMAININGQUANTITY"
+      FIELD_INDEX = 8
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "MfgOperationTask_FORMULANUMERIC"
+      FIELD_INDEX = 9
+      FIELD_LABEL = "Time Left"
+      FIELD_FORMULA = "({actualruntime}+{actualsetuptime})-{estimatedwork}"
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "MfgOperationTask_STATUS"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+    {
+      KEY_FIELD = "MfgOperationTask_STARTDATE"
+      FILELD_ORDER = 2
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch704"
+  FIELD_DEFAULT_NAME = "Machine Shop Dispatch List"
+  FIELD_SEARCH_TYPE = "MfgOperationTask"
+  FLAG_PUBLIC = true
+  FLAG_LIST = true
+  FLAG_PORTLET = true
+  FLAG_MACHINE = true
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = true
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = false
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "Machine Shop Dispatch List"
+}

@@ -1,0 +1,21 @@
+netsuite.bundleinstallationscript customscript_sw_sah_bundle_installation {
+  scriptid = "customscript_sw_sah_bundle_installation"
+  name = "SAH Bundle Installation"
+  notifyadmins = false
+  notifyowner = true
+  scriptfile = "[/SuiteBundles/Bundle 450079/com.squareworks.advancedhelp/SW_SAH_Bundle_Install.js]"
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_sw_sah_bundle_installation = {
+        scriptid = "customdeploy_sw_sah_bundle_installation"
+        isdeployed = true
+        loglevel = "AUDIT"
+        runasrole = "ADMINISTRATOR"
+        status = "RELEASED"
+        title = "SAH Bundle Installation"
+      }
+    }
+  }
+  isInactive = false
+  _alias = "SAH Bundle Installation"
+}

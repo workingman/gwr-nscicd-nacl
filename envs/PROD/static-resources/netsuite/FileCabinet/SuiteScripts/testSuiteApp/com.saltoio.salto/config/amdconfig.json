@@ -1,0 +1,6 @@
+{
+  "paths": {
+    "ajv": "../../lib/ajv.min.js",
+    "jsrsasign": "../../lib/jsrsasign-all-min.js"
+  }
+}

@@ -1,0 +1,30 @@
+netsuite.customlist customlist23 {
+  scriptid = "customlist23"
+  
+  ismatrixoption = false
+  isordered = true
+  name = netsuite.translationcollection.instance.custcollection1.strings.string.audit_test.scriptid
+  customvalues = {
+    customvalue = {
+      val_125032_t2257860_912 = {
+        scriptid = "val_125032_t2257860_912"
+        abbreviation = "a"
+        
+        value = "a"
+        index = 0
+        isInactive = false
+      }
+      val_125033_t2257860_382 = {
+        scriptid = "val_125033_t2257860_382"
+        abbreviation = "b"
+        
+        value = "b"
+        index = 1
+        isInactive = false
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "audit-test"
+  isInactive = false
+}

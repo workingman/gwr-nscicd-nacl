@@ -1,0 +1,21 @@
+netsuite.department test_Security {
+  name = "Security"
+  includeChildren = false
+  parent = netsuite.department.instance.test
+  isInactive = false
+  classTranslationList = {
+    classTranslation = {
+      English__CA_@sjk = {
+        language = "English (CA)"
+      }
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+    }
+  }
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  identifier = "test_Security"
+  _alias = "Security"
+}

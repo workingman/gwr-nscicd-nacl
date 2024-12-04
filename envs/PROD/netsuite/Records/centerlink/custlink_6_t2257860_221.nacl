@@ -1,0 +1,6 @@
+netsuite.centerlink custlink_6_t2257860_221 {
+  scriptid = "custlink_6_t2257860_221"
+  label = "Mass Email Groups"
+  url = "https://system.netsuite.com/app/crm/common/merge/mailmerge.nl?templatetype=EMAIL"
+  _alias = "Mass Email Groups"
+}

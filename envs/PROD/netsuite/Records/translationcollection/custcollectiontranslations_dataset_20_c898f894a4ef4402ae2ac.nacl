@@ -1,0 +1,17 @@
+netsuite.translationcollection custcollectiontranslations_dataset_20_c898f894a4ef4402ae2ac {
+  scriptid = "custcollectiontranslations_dataset_20_c898f894a4ef4402ae2ac"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_dataset_20_c898f894a4ef4402ae2ac.strings.string.dataset_name_54_2.scriptid
+  strings = {
+    string = {
+      dataset_name_54_2 = {
+        scriptid = "dataset_name_54_2"
+        defaulttranslation = "Seggev usage without workbook"
+        description = "Name in dataset"
+        index = 0
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "Seggev usage without workbook"
+}

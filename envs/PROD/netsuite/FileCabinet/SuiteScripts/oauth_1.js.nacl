@@ -1,0 +1,14 @@
+netsuite.file SuiteScripts_oauth_1_js@duv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/oauth_1.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/oauth_1.js")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "oauth_1.js"
+  isInactive = false
+}

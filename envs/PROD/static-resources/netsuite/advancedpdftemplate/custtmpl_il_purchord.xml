@@ -1,0 +1,252 @@
+<#-- ***********************************************
+@Template:	IL PURCHASE ORDER
+@Author: 	Koby Pichkhadze (NetCloud LTD)
+************************************************ -->
+<?xml version="1.0"?><!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+<#assign tmplInclData = companyInformation.custrecord_il_advtmpl_incldata?eval>
+
+<#-- Include Functions -->
+<#if tmplInclData?has_content && tmplInclData.func?has_content><#include "${tmplInclData.func}"></#if>
+
+<#-- Include Initialize -->
+<#if tmplInclData?has_content && tmplInclData.init?has_content><#include "${tmplInclData.init}"></#if>
+
+<#assign
+	showDraftStatus 	= true
+	showDraftWatermark 	= true
+	isDraft 			= record.approvalstatus.internalid == "1" || record.status?matches("^pending(.)*Approval$", "i")
+	
+	BODY_FIELDS = [
+		 "duedate",
+		 "custbody_il_shipping_num",
+		 "shipdate",
+		 "custbody_il_vat_import_number",
+		 "custbody_il_vat_import_date"
+	]
+>
+
+<#assign showDraftStatus 	= showDraftStatus && isDraft>
+<#assign showDraftWatermark = showDraftWatermark && isDraft>
+
+<head>
+	<#-- Include Head Tag -->
+	<#if tmplInclData?has_content && tmplInclData.taghead?has_content><#include "${tmplInclData.taghead}"></#if>
+</head>
+
+<body footer="nlfooter" footer-height="20pt" padding="20px 30px 20px 30px" size="A4" 
+		<#if showDraftWatermark>background-macro="ncWatermark"</#if> >
+		
+	<#-- Include Header -->
+	<#if tmplInclData?has_content && tmplInclData.header?has_content><#include "${tmplInclData.header}"></#if>
+			
+	<!--====== Start Entity Data ======-->
+	<table style="width: 100%; margin-top: 10px;" align="${align}" class="${align}" direction="${direction}" lang="${pdfLang}">
+		<tr>
+			<td style="width:33.33%;" align="${align}" valign="top">
+				<table><tr>
+					<td>
+						<#if billAddress?has_content>
+							<b>${getTranslatedLabel("record.billaddress", record.billaddress@label)}</b>
+							<br/>${billAddress}	
+						</#if>				
+					</td>
+				</tr></table>
+			</td>
+			
+			<#if isDropShip && contact?has_content && contact.entityid?has_content>
+				<td valign="top">
+					<b>${getTranslatedLabel("record.contact", "Contact")}</b>
+					<#if contact.attention?has_content><br/>${contact.attention}</#if>
+					<#if contact.entityid?has_content><br/>${contact.entityid}</#if>
+					<table>
+						<#if contact.phone?has_content>
+							<tr><td style="white-space: nowrap;" lang="en" direction="ltr">${contact.phone}</td></tr>							
+						</#if>
+						<#if contact.email?has_content><tr><td>${contact.email}</td></tr></#if>
+					</table>				
+				</td>
+			</#if>
+			
+			<td style="width:33.33%" align="center" valign="top">
+				<table><tr>
+					<td>
+						<#if record.shipaddress?has_content>
+							<b>${getTranslatedLabel("record.shipaddress", record.shipaddress@label)}</b>
+							<#if record.location?has_content>
+								<br/>${record.location}
+							</#if>
+							<br/>${record.shipaddress}
+							<#if isDropShip && contact?has_content>
+							</#if>
+						</#if>	
+					</td>
+				</tr></table>
+			</td>
+			
+			<td style="width:33.33%" align="${oposAlign}" valign="top">
+				<table><tr>
+					<td>
+						<b>${otherDetailsCaption}</b>
+						<br/>${getTranslatedLabel("record.entity.date", "Date")}: ${tranDate}
+						<#if record.duedate?has_content><br/>${getTranslatedLabel("record.duedate", record.duedate@label)}: ${record.duedate}</#if>			
+						<#if IS_IL_ENTITY && vatRegNum?has_content && vatRegNum != "999999999"><br/>${getTranslatedLabel("record.entity.vatregnumber", "Tax ID")}: ${vatRegNum}</#if>
+						<#if record.currency?has_content><br/>${getTranslatedLabel("record.currency", record.currency@label)}: ${record.currency}</#if>			
+						<#if record.terms?has_content><br/>${getTranslatedLabel("record.terms", record.terms@label)}: ${record.terms}</#if>			
+					</td>
+				</tr></table>
+			</td>
+			
+		</tr>    
+	</table>
+	<!--====== End Entity Data ======-->
+
+	<!--====== Start Transaction Status ======-->
+	<table class="tranStatus" direction="${direction}" lang="${pdfLang}">
+		<tr>
+			<td style="width:33.3%" class="status-title" align="${align}">${getTranslatedLabel(tranIdLabelFldId, record@title)}</td>
+			<td style="width:33.3%" align="center">${tranNumLblExpr} ${record.tranid}</td>
+			<td style="width:33.3%" class="status-value" align="${oposAlign}">
+				<#if showDraftStatus>${getTranslatedLabel("label_draft", "DRAFT")}<#else>${getPrintStatusValue()}</#if>
+			</td>
+		</tr>
+	</table>		
+	<!--====== End Transaction Status ======-->
+	
+	
+	<!--====== Start Items ======-->
+	<#if record.item?has_content>
+	<table class="itemtable" cellmargin="1px" style="margin-top: 10px;width:100%;" direction="${direction}" lang="${pdfLang}">
+		<#list record.item as item>
+			<#assign itemUnit = customUnitExpr>
+			<#if item.units?has_content && UNIT_NAMES[item.units]??>
+				<#assign itemUnit = UNIT_NAMES[item.units][pdfLang]>
+			</#if>
+			<#if !item.quantity?? || !item.quantity?has_content>
+				<#assign itemUnit = "">
+			</#if>
+			
+			<#if item_index==0>
+			<thead>
+				<tr>
+					<th class="${align}" style="width:50%;">${getTranslatedLabel("item.displayname", item.item@label)}</th>
+					<th align="center" style="width:12.5%;">${getTranslatedLabel("item.quantity", item.quantity@label)}</th>
+					<th align="right" style="width:12.5%;">${getTranslatedLabel("item.rate", item.rate@label)}</th>
+					<th class="${align}" style="width:12.5%;">${getTranslatedLabel("item.units", item.units@label)}</th>
+					<th align="right" style="width:12.5%;">${getTranslatedLabel("item.amount", item.amount@label)}</th>
+				</tr>
+			</thead>
+			</#if>
+			<tr>
+				<td class="${align}"><span class="itemname">${item.item}</span><br />${item.description}</td>
+				<td align="center">${item.quantity}</td>
+				<td align="right">${item.rate?string(currFormat)}</td>
+				<td class="${align}">${itemUnit}</td>
+				<td align="right">${item.amount?string(currFormat)}</td>
+			</tr>
+		</#list>	
+	</table>
+	</#if>
+	<!--====== End Items ======-->
+	
+	<!--====== Start Expenses ======-->
+	<#if record.expense?has_content>
+	<table class="itemtable" cellmargin="1px" style="margin-top: 10px;width:100%;" direction="${direction}" lang="${pdfLang}">
+		<#list record.expense as expense>
+			<#if expense_index==0>
+			<thead>
+				<tr>
+					<th class="${align}" style="width:60%;">${getTranslatedLabel("expense.memo", "Description")}</th>
+					<th align="right" style="width:40%;">${getTranslatedLabel("expense.amount", expense.amount@label)}</th>
+				</tr>
+			</thead>
+			</#if>
+			<tr>
+				<td class="${align}">${expense.memo}</td>
+				<td align="right">${expense.amount?string(currFormat)}</td>
+			</tr>
+		</#list>	
+	</table>
+	</#if>
+	<!--====== End Expenses ======-->
+	
+	<table class="total" style=" margin-top: 10px;" align="${oposAlign}" direction="${direction}" lang="${pdfLang}">
+		<#if record.subtotal?has_content>
+		<tr>
+			<td align="${oposAlign}" style="padding-${align}:20px;"><b>${getTranslatedLabel("record.subtotal", record.subtotal@label)}</b></td>
+			<#if displayILTotalAmounts>
+				<td align="right" style="padding-${align}:20px;">${(record.subtotal*ilExchangeRate)?string(ilCurrSymbolChar + currFormat)}</td>
+			<#elseif displayAdditionalCurrencyTotalAmounts>
+				<#setting locale = SB_SETTINGS.additionalCurrencyData.currency.locale>
+				<td align="right" style="padding-${align}:20px;">${(record.subtotal*additionalCurrencyExchangeRate)?string(additionalCurrencyFormat)}</td>
+				<#setting locale = tranLocale>
+			</#if>
+			<td align="right" style="padding-${align}:20px;">${record.subtotal}</td>
+		</tr>
+		</#if>
+		
+		<#if record.taxtotal?has_content>
+		<tr>
+			<td align="${oposAlign}" style="padding-${align}:20px;"><b>${getTranslatedLabel("record.taxtotal", record.taxtotal@label)}<#if IS_IL_SUBSIDIARY> (${taxRate?string(currFormat)}%)</#if></b></td>
+			<#if displayILTotalAmounts>
+				<td align="right" style="padding-${align}:20px;">${(record.taxtotal*ilExchangeRate)?string(ilCurrSymbolChar + currFormat)}</td>
+			<#elseif displayAdditionalCurrencyTotalAmounts>
+				<#setting locale = SB_SETTINGS.additionalCurrencyData.currency.locale>
+				<td align="right" style="padding-${align}:20px;">${(record.taxtotal*additionalCurrencyExchangeRate)?string(additionalCurrencyFormat)}</td>
+				<#setting locale = tranLocale>
+			</#if>
+			<td align="right" style="padding-${align}:20px;">${record.taxtotal}</td>
+		</tr>
+		</#if>
+		
+		<tr class="totalrow">
+			<td align="${oposAlign}" style="padding-${align}:20px;"><b>${getTranslatedLabel("record.total", record.total@label)}</b></td>
+			<#if displayILTotalAmounts>
+				<td align="right" style="padding-${align}:20px;">${(record.total*ilExchangeRate)?string(ilCurrSymbolChar + currFormat)}</td>
+			<#elseif displayAdditionalCurrencyTotalAmounts>
+				<#setting locale = SB_SETTINGS.additionalCurrencyData.currency.locale>
+				<td align="right" style="padding-${align}:20px;">${(record.total*additionalCurrencyExchangeRate)?string(additionalCurrencyFormat)}</td>
+				<#setting locale = tranLocale>
+			</#if>
+			<td align="right" style="padding-${align}:20px;">${record.total}</td>
+		</tr>
+	</table>	
+
+	<#-- Include Body Fields -->
+	<#if tmplInclData?has_content && tmplInclData.bodyfields?has_content><#include "${tmplInclData.bodyfields}"></#if>
+
+	<!-- Start Entity Message -->
+	<#if record.message?has_content>
+		<#assign entityMessage = record.message?interpret>
+		<br/><br/><table class="body_fields" style="width:100%" direction="${direction}" lang="${pdfLang}">
+			<tr><td>
+				<span style="text-decoration:underline;">${getTranslatedLabel("record.message", record.message@label)}:</span>
+				<br/><@entityMessage/>
+			</td></tr>
+		</table>
+	</#if>
+	<!-- End Entity Message -->
+	
+	<!-- Start Subsidiary Disclaimer -->
+	<#if SB_SETTINGS.purchaseFormDisclaimer?has_content>
+		<#assign subsidiaryDisclaimer = resolveCurlyBrackets(SB_SETTINGS.purchaseFormDisclaimer)?interpret>
+		<br/><br/><table class="body_fields" style="width:100%" direction="${direction}" lang="${pdfLang}">
+			<tr><td><@subsidiaryDisclaimer/></td></tr>
+		</table>
+	</#if>
+	<!-- End Subsidiary Disclaimer -->
+			
+	<!-- Start Company Disclaimer -->
+	<#if (IL_SETTINGS.purchaseFormDisclaimer?has_content)>
+		<#assign companyDisclaimer = resolveCurlyBrackets(IL_SETTINGS.purchaseFormDisclaimer)?interpret>
+		<br/><br/><table class="body_fields" style="width:100%" direction="${direction}" lang="${pdfLang}">
+			<tr><td><@companyDisclaimer/></td></tr>
+		</table>
+	</#if>
+	<!-- End Company Disclaimer -->
+	
+	<#-- Include Signature -->
+	<#if tmplInclData?has_content && tmplInclData.sign?has_content><#include "${tmplInclData.sign}"></#if>
+
+</body>
+</pdf>

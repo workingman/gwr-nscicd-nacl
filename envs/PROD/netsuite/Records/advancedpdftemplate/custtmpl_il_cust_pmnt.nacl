@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_il_cust_pmnt {
+  scriptid = "custtmpl_il_cust_pmnt"
+  standard = "STDTMPLEMPTY"
+  displaysourcecode = true
+  
+  preferred = false
+  printtype = "TRANSACTION"
+  title = "IL Customer Payment PDF/HTML Template"
+  trantype = "CUSTPYMT"
+  content = file("netsuite/advancedpdftemplate/custtmpl_il_cust_pmnt.xml")
+  _alias = "IL Customer Payment PDF/HTML Template"
+  isInactive = false
+}

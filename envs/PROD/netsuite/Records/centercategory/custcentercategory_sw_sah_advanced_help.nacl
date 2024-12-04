@@ -1,0 +1,25 @@
+netsuite.centercategory custcentercategory_sw_sah_advanced_help {
+  scriptid = "custcentercategory_sw_sah_advanced_help"
+  center = "BASIC"
+  centertab = "BASICCENTERSETUP"
+  label = "Advanced Help"
+  links = {
+    link = {
+      customscript_sw_sah_settings_sl_customdeploy_sw_sah_settings_sl@uuuuvuuuu = {
+        linklabel = "Settings"
+        linkobject = "[scriptid=customscript_sw_sah_settings_sl.customdeploy_sw_sah_settings_sl]"
+        linktasktype = "SCRIPT"
+        shortlist = false
+        index = 0
+      }
+      customrecord_sw_sah_help_document = {
+        linklabel = "Help Document"
+        linkobject = "[scriptid=customrecord_sw_sah_help_document]"
+        linktasktype = "LIST"
+        shortlist = false
+        index = 1
+      }
+    }
+  }
+  _alias = "Advanced Help"
+}

@@ -1,0 +1,68 @@
+netsuite.savedsearch customsearch236 {
+  scriptid = "customsearch236"
+  definition = "054c055dbbef99bd832cda4331aa15d20c52c5a83f729a577259f0e315f2cc1a@GZC@2023.2.14@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"
+  return_fields = [
+    {
+      FIELD_ALIAS = "AccountingPeriod_PERIODNAME"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "UN_UserNote_AUTHOR"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "AccountingPeriod_PERIODNAME"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "AccountingPeriod_PERIODNAME"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch236"
+  FIELD_DEFAULT_NAME = "Custom Accounting Period Search"
+  FIELD_SEARCH_TYPE = "AccountingPeriod"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "Custom Accounting Period Search"
+}

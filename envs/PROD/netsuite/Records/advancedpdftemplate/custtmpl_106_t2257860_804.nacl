@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_106_t2257860_804 {
+  scriptid = "custtmpl_106_t2257860_804"
+  standard = "STDTMPLSVENDBILL"
+  displaysourcecode = false
+  
+  preferred = true
+  printtype = "TRANSACTION"
+  title = "Custom Vendor Bill PDF/HTML Template"
+  trantype = "VENDBILL"
+  content = file("netsuite/advancedpdftemplate/custtmpl_106_t2257860_804.xml")
+  _alias = "Custom Vendor Bill PDF/HTML Template"
+  isInactive = false
+}

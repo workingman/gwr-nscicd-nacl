@@ -1,0 +1,14 @@
+netsuite.file Templates_Fax_Templates_stam_txt@dsdv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/Templates/Fax Templates/stam.txt"
+  content = file("netsuite/FileCabinet/Templates/Fax Templates/stam.txt")
+  _parent = [
+    netsuite.folder.instance.Templates_Fax_Templates@ds,
+  ]
+  _alias = "stam.txt"
+  isInactive = false
+}

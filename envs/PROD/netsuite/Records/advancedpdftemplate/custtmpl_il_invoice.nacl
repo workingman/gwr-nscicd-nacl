@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_il_invoice {
+  scriptid = "custtmpl_il_invoice"
+  standard = "STDTMPLEMPTY"
+  displaysourcecode = true
+  
+  preferred = false
+  printtype = "TRANSACTION"
+  title = "IL Invoice PDF/HTML Template (2)"
+  trantype = "CUSTINVC"
+  content = file("netsuite/advancedpdftemplate/custtmpl_il_invoice.xml")
+  _alias = "IL Invoice PDF/HTML Template (2)"
+  isInactive = false
+}

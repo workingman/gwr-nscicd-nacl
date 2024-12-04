@@ -1,0 +1,11 @@
+netsuite.folder SuiteScripts_new@d {
+  bundleable = false
+  
+  isprivate = false
+  path = "/SuiteScripts/new"
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "new"
+  isInactive = false
+}

@@ -1,0 +1,153 @@
+netsuite.savedsearch customsearch33 {
+  scriptid = "customsearch33"
+  definition = "3f2bae7d38d8992a4e57b9b0b1a781f415c410740b8a1c35194f02f0ebb80d2c@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "SC_Script_INTERNALID"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "15"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "ScriptNote_VIEW"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "ScriptNote_TITLE"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "ScriptNote_TYPE"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "ScriptNote_DATE"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "ScriptNote_TIME"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "ScriptNote_USER"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "ScriptNote_SCRIPTTYPE"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "ScriptNote_DETAIL"
+      FIELD_INDEX = 8
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "ScriptNote_VIEW"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "ScriptNote_TITLE"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "ScriptNote_TYPE"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "ScriptNote_DATE"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "ScriptNote_TIME"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "ScriptNote_USER"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "ScriptNote_SCRIPTTYPE"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "ScriptNote_DETAIL"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "ScriptNote_VIEW"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch33"
+  FIELD_DEFAULT_NAME = "testSavedSearch"
+  FIELD_SEARCH_TYPE = "ScriptNote"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "testSavedSearch"
+}

@@ -1,0 +1,37 @@
+netsuite.entitycustomfield custentity_yearestablished {
+  scriptid = "custentity_yearestablished"
+  accesslevel = "2"
+  appliestocontact = false
+  appliestocustomer = true
+  appliestoemployee = false
+  appliestogenericrsrc = false
+  appliestogroup = false
+  appliestoothername = false
+  appliestopartner = false
+  appliestopricelist = false
+  appliestoproject = false
+  appliestoprojecttemplate = false
+  appliestostatement = false
+  appliestovendor = false
+  appliestowebsite = false
+  applyformatting = false
+  availableexternally = false
+  checkspelling = false
+  defaultchecked = false
+  description = "1223"
+  displaytype = "NORMAL"
+  encryptatrest = false
+  fieldtype = "INTEGER"
+  globalsearch = false
+  help = "Enter the year this company began doing business."
+  isformula = false
+  ismandatory = false
+  isparent = false
+  label = "Year Established"
+  searchlevel = "2"
+  showhierarchy = false
+  showinlist = true
+  storevalue = true
+  subtab = netsuite.subtab.instance.custtab_67_t2257860_548.scriptid
+  _alias = "Year Established"
+}

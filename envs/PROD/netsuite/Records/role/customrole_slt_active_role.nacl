@@ -1,0 +1,40 @@
+netsuite.role customrole_slt_active_role {
+  scriptid = "customrole_slt_active_role"
+  accountingbooksoption = "PRIMARY"
+  centertype = "ACCOUNTCENTER"
+  coreadminpermission = false
+  custrecord_slt_role_note = "sasda"
+  employeerestriction = "NONE"
+  employeeselectionunrestricted = false
+  
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = false
+  name = "active2"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "SELECTED"
+  subsidiaryviewingallowed = false
+  tfaduration = "0"
+  tfarequired = "OFF"
+  permissions = {
+    permission = {
+      LIST_OTHER_ADDRESS = {
+        permkey = "LIST_OTHER_ADDRESS"
+        permlevel = "FULL"
+      }
+    }
+  }
+  recordrestrictions = {
+    recordrestriction = {
+      CLASS = {
+        restriction = "DEFAULTTOOWN"
+        segment = "CLASS"
+      }
+    }
+  }
+  _alias = "active2"
+  isInactive = false
+}

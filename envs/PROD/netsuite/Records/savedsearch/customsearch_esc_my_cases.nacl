@@ -1,0 +1,126 @@
+netsuite.savedsearch customsearch_esc_my_cases {
+  scriptid = "customsearch_esc_my_cases"
+  definition = "f5f3b89cca87ecb2cb2bca518051d54b07affa842d2bbbfb415be29c4790a68f@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Case_ASSIGNED"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "@CURRENT@"
+        },
+      ]
+    },
+  ]
+  available_filters = [
+    {
+      SEQ_NUMBER = 1
+      FIELD_NAME = "Case_STATUS"
+      FLAG_FOOTER = true
+      FLAG_FOOTER_MULTI_SELECT = false
+    },
+    {
+      SEQ_NUMBER = 2
+      FIELD_NAME = "Case_ASSIGNED"
+      FLAG_FOOTER = true
+      FLAG_FOOTER_MULTI_SELECT = false
+    },
+    {
+      SEQ_NUMBER = 3
+      FIELD_NAME = "Case_AWAITINGREPLY"
+      FLAG_FOOTER = true
+      FLAG_FOOTER_MULTI_SELECT = false
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Case_NUMBER"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_GRABREF"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_COMPANY"
+      FIELD_INDEX = 3
+      FIELD_LABEL = "Customer Name"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_TITLE"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_ASSIGNED"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Case_CREATEDDATE"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = true
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch_esc_my_cases"
+  FIELD_DEFAULT_NAME = "My Cases"
+  FIELD_SEARCH_TYPE = "Case"
+  FLAG_PUBLIC = true
+  FLAG_LIST = true
+  FLAG_PORTLET = true
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "My Cases"
+  
+}

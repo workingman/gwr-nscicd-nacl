@@ -1,0 +1,11 @@
+netsuite.restlet customscript124 {
+  scriptid = "customscript124"
+  
+  name = "daniel5"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = "[/SuiteApps/com.saltoio.salto/build/src/operations/get_sys_info_operation.js]"
+  _alias = "daniel5"
+  isInactive = false
+}

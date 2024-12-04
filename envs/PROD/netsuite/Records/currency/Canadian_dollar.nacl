@@ -1,0 +1,12 @@
+netsuite.currency Canadian_dollar@s {
+  name = "Canadian dollar"
+  symbol = "CAD"
+  isBaseCurrency = false
+  isInactive = false
+  overrideCurrencyFormat = false
+  symbolPlacement = "_beforeNumber"
+  locale = "_canadaEnglish"
+  formatSample = "$1,234.56"
+  currencyPrecision = "_two"
+  _alias = "Canadian dollar"
+}

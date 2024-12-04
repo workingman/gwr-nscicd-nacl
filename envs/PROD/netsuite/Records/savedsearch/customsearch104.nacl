@@ -1,0 +1,94 @@
+netsuite.savedsearch customsearch104 {
+  scriptid = "customsearch104"
+  definition = "99ef71057754936319df488dfde27b58131686c66889a0c56464708d643857a6@GZC@2023.2.14@H4sIAAAAAAAA/+1cW3PaOBR+35n+B8bd2bfF5EYSSugIW4A2vjCynMu+eFwQjbfGMLZpN/31e2xjwEAmsXFou2EmGYKQPh19OjcdmTQ//jt2K1+5HzgT70o4qtaECvcGk6Hjfb4STNb580L42Hr3W9MLgsmgYXDfsV3nOx/qn/7hg1CaeKHteNyvAIwXNOJeV8JDGE4bovjt27eqx8Ng5oS8OpiMxWDwwMd2IMbdhMrMGV4JzGAyvTk+Pju/qNcahv2VDw1u+4OHxmAWhJNxEL85qp02juqXl/XT+sVx/fziXFgKXaseCZXQGfMgtMdTWESmX2su+tieTkHOzKgWCBVJ6PLhZ+6DiD6vJvPBy3ylfjUZWU2kUuM3TXEVNJ1iyEeO54QA32omveWVliEPBr4zDSfQ3+cw15A9Tnll4NpBcCUk/emiXWgZGFGpZ2GN0fumuBzRan613RkPWs2b6LUycrgbf5CCdNIGIfnsSrjG91YfSdeoi4WKmHOgIVHSZxaRhUjW79+vhCD0QT2AvewGNcUYNwd8h2BFtmTcQabCLA2pIN6QT7k3BB18vOaPV4IyGdgulxfcNea0MMIU/L62IVPXGYUVifuhM3IGdsiDyh+gFB+i38/hh9/PahVj4g6LippOft/HW2dembjAFArqWn2zrRBpAf5pMnG57Qmtke0GRTEVYrBNxNCfFRZSp8D+FsxdpFSR1CMaLheUYpVoMqbloho9/RZY1a7LZZXiDqYUy09s2C4SL7FfZe+W8K+yi0v4jk7V18Km2AA3ZJQLf0PwrYUMAI+Ifx3sLkX93mtBr/j9UpBNDXhmlEgMl4esojuL6rdGvugWyyMTA7UVbMmUKIol67daeeuNY4ZkgnZp0r1FEcPz0JFbyh6RsdUhCsMUJNX7kZzlaWoU5tMozPAdsxLJk/k2Ap3BEGXGLWG9giqAbhBRYtJBwzq4RD2I4buK3kaKhWVSsr1Jxk25gPhOwkrJ7kzulKy/WIXdsjpUV3Pq7cpow2z/hSVWHKCty/fFR0u6qkIeXcDuwFF1uziKDkjBZftvQ+ph2VT2Ag5boKqIElxyfDOwFrHcZ/dPx88dcqJEdqQokHCBEkVnkXbJyUUyBdEkxQQfGwe+0lO7Hjg6pjOklMx+KnUfU6LDPsBeMIo0A0mM6CUGiMSY2qZybel9MCc5bwxbjo/Ps3EeB0dSitQiMbttQmSCxZe8Pr3PiEr+hhALKWwRbxEbg65ZZl+GWP8KZw5kQlCLtpg8GzbEtEogrhYeRo4bch9aw43aA3b5mHthpviQZABGUwwzhYdU0Air1ZzaPoxLwaSJ6/JBVPIQKj4fcfhsAGurVsX4J2a1YCkE9AW0p4cN2KM0O9mxMpKkgHFiRlQMGyjpWsnpSBQ5V1KetaSqlCk0veTgoZcoYGJa1JIUZBpAMUPMXHqmwYPtCy2tKK5mqpaCOyzRjSWs44VCq7YLKgT+Xsmw8/x9a53r09Bv2N5jw5u57nOlJWCTdJGqmxorLAr4X1NBRby4qssE/qJFxiIGCVXbXPGNiyUyXHQtW6tx6anrGX+YNuZxh9YNUky84RQTh1XEHe7oAhN5SigRrxz1d1P0WKCNLTmrVWu1LfuREvf/I/BoRwLFbTQtWxZ/ZOPxsn0R7YPZeGz7j5180T85MtyvZwHiOpr91XZc+5PLk5Z4US+eZD0yLqd5Atbn4cz38k1CMTOplpQ1fozhrkqwa86SuFKFIGO3MBIFoqIaGlXV70rSdtj+qAzy3M3PKoXvj4qEn1Shi0x4vMuEBap+SZg2tfgkV2hs8RA/H2phSl8hE5Tjekr7PlXhrV7uzRolvosPjyXa5fE+7fJk33Z5erDLg13uwS4Jw2qJRnmyT6M827dR1g9GeTDKPRglUll8fijRMAs/xlTETs73bZgXB8Pcp2EuW7Kn1iEP4Wyb7wwrYxZfxGbOsGIWKZj4IZj9bOy9/JCvU2ZJumKq2o85Ga8IUEIJJqZnN6cSFeyL6IWyUIzdz8XxtQQ2JKzJROu+/K5nU/EyKgGewQ+hjzN1YENzFmrie1KKJdInWGPGuiZux862Fp7siVkA78H5/ODCbwh7+VL0Hun2lKi+D9xuv9vqpahFlN/xRpNcJrCQp5S4Gj/BAwalbz66MxrVarXCZd02kq67VDc1OYXP75SJGj+EvP4k8QMffFFt/0tBU2nrypZbu4IX9pmHkiMjpM8H2cUOQkrR0d9frsWDRCMOl6/bvNzh8vVw+bqO+jNfvu5SNf/prl13epbz6dvXKAQdbl5/mpvXcDJ+Ua748gtFcSNNWnbKZmTznqvfhBI3vy6VtszN0omA1toeK2FMwHrsnX+P7NkvCkWdakKrud4xUcHWavdUwb7wx2gropdm6Nte4NqRuCAb6JkPjQnBLe5ZJmjl/F3a+tKvIqXDxDloFnvkQxBbdopcVJxbzHuJWbnEzdWJ6zzuzOz6RVzU6ehpZrOFoyWzR/mZXV/9r0XVcULVcX6qjt8aVScJVSf5qTp5a1SdJlSd5qfq9K1RdZZQdZafqrO3RlU9oaqen6r6W6PqPKHqPD9V52+NqouEqov8VF28Aao2i0hRt8unycoOWKXr8lega70pzvrFZ/7TROvdb/8BoeBFdbVCAAA="
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "GiftCertificate_ORIGAMOUNT"
+      FIELD_ATTRIBUTE = "GTE"
+      FIELD_TYPE = "CURRENCY"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "50.00"
+        },
+        {
+          KEY_ID = 1
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "GiftCertificate_NAME"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "GiftCertificate_EXPDATE"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "GiftCertificate_ITEM"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "GiftCertificate_AMTAVAIL"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "GiftCertificate_FROM"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch104"
+  FIELD_DEFAULT_NAME = "Gift Certificates &amp;gt;$50 Sold"
+  FIELD_SEARCH_TYPE = "GiftCertificate"
+  FLAG_PUBLIC = false
+  FLAG_LIST = true
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = true
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = true
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "Gift Certificates &amp;gt;$50 Sold"
+}

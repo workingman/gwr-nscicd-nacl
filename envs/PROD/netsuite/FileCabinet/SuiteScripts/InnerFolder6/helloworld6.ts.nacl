@@ -1,0 +1,14 @@
+netsuite.file SuiteScripts_InnerFolder6_helloworld6_ts@ddv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/InnerFolder6/helloworld6.ts"
+  content = file("netsuite/FileCabinet/SuiteScripts/InnerFolder6/helloworld6.ts")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_InnerFolder6@d,
+  ]
+  _alias = "helloworld6.ts"
+  isInactive = false
+}

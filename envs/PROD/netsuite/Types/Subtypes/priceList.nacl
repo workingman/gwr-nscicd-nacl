@@ -1,0 +1,12 @@
+type netsuite.priceList {
+  annotations {
+    hidden_string source {
+    }
+  }
+  "List<netsuite.price>" price {
+  }
+  unknown custom_custentity_seggev {
+    select_type_id = netsuite.customrecord2823.attr.scriptid
+    field_instance = netsuite.entitycustomfield.instance.custentity_seggev.scriptid
+  }
+}

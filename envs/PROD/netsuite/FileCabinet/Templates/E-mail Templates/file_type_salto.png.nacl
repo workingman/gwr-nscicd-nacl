@@ -1,0 +1,14 @@
+netsuite.file Templates_E_mail_Templates_file_type_salto_png@dbsduuv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/Templates/E-mail Templates/file_type_salto.png"
+  content = file("netsuite/FileCabinet/Templates/E-mail Templates/file_type_salto.png")
+  _parent = [
+    netsuite.folder.instance.Templates_E_mail_Templates@dbs,
+  ]
+  _alias = "file_type_salto.png"
+  isInactive = false
+}

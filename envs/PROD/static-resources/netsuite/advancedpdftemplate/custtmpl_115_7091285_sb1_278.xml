@@ -1,0 +1,314 @@
+<#-- ***********************************************
+@Template:	IL PURCHASE ORDER
+@Author: 	Koby Pichkhadze (NetCloud LTD)
+************************************************ -->
+<?xml version="1.0"?><!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+<#assign tmplInclData = companyInformation.custrecord_il_advtmpl_incldata?eval>
+
+<#-- Include Functions -->
+<#if tmplInclData?has_content && tmplInclData.func?has_content><#include "${tmplInclData.func}"></#if>
+
+<#-- Include Initialize -->
+<#if tmplInclData?has_content && tmplInclData.init?has_content><#include "${tmplInclData.init}"></#if>
+
+<#assign
+	showDraftStatus 	= true
+	showDraftWatermark 	= true
+	isDraft 			= record.approvalstatus.internalid == "1" || record.status?matches("^pending(.)*Approval$", "i")
+	
+	BODY_FIELDS = [
+		 "duedate",
+		 "custbody_il_shipping_num",
+		 "shipdate",
+		 "custbody_il_vat_import_number",
+		 "custbody_il_vat_import_date"
+	]
+>
+
+<#assign showDraftStatus 	= showDraftStatus && isDraft>
+<#assign showDraftWatermark = showDraftWatermark && isDraft>
+<#assign diffrentStartEndDates = false>
+
+<head>
+	<#-- Include Head Tag -->
+	<#if tmplInclData?has_content && tmplInclData.taghead?has_content><#include "${tmplInclData.taghead}"></#if>
+</head>
+
+<body footer="nlfooter" footer-height="20pt" padding="20px 30px 20px 30px" size="A4" 
+		<#if showDraftWatermark>background-macro="ncWatermark"</#if> >
+
+	<#-- Include Header -->
+	<#if tmplInclData?has_content && tmplInclData.header?has_content><#include "${tmplInclData.header}"></#if>
+
+
+	<!--====== Start Entity Data ======-->
+	<table style="width: 100%; margin-top: 10px;" align="${align}" class="${align}" direction="${direction}" lang="${pdfLang}">
+		<tr>
+			<td style="width:33.33%;" align="${align}" valign="top">
+				<table><tr>
+					<td>
+						<#if billAddress?has_content>
+							<b>${getTranslatedLabel("record.billaddress", record.billaddress@label)}</b>
+							<br/>${billAddress}
+						</#if>
+					</td>
+				</tr></table>
+			</td>
+
+			<#if isDropShip && contact?has_content && contact.entityid?has_content>
+				<td valign="top">
+					<b>${getTranslatedLabel("record.contact", "Contact")}</b>
+					<#if contact.attention?has_content><br/>${contact.attention}</#if>
+					<#if contact.entityid?has_content><br/>${contact.entityid}</#if>
+					<table>
+						<#if contact.phone?has_content>
+							<tr><td style="white-space: nowrap;" lang="en" direction="ltr">${contact.phone}</td></tr>							
+						</#if>
+						<#if contact.email?has_content><tr><td>${contact.email}</td></tr></#if>
+					</table>
+				</td>
+			</#if>
+			
+			<td style="width:33.33%" align="center" valign="top">
+				<table><tr>
+					<td>
+						
+					</td>
+				</tr></table>
+			</td>
+			
+			<td style="width:33.33%" align="${oposAlign}" valign="top">
+				<table><tr>
+					<td>
+						<b>${getTranslatedLabel("record.entity.date", "Date")}</b>
+						<br/>${tranDate?string.long}
+					</td>
+				</tr></table>
+			</td>
+			
+		</tr>    
+	</table>
+	<!--====== End Entity Data ======-->
+
+	<!--====== Start Transaction Status ======-->
+	<table align="center" direction="${direction}" lang="${pdfLang}">
+		<tr>
+			<td style="width:100%" align="center"><b>${getTranslatedLabel(tranIdLabelFldId, record@title)} ${tranNumLblExpr} ${record.tranid}</b></td>
+		</tr>
+	</table>		
+	<!--====== End Transaction Status ======-->
+	
+	
+	<!--====== Start Items ======-->
+	<#if record.item?has_content>
+    <#assign line_index = 1 >
+	<table class="itemtable" cellmargin="1px" style="margin-top: 10px;width:100%;" direction="${direction}" lang="${pdfLang}">
+		<#list record.item as itemToCheck>
+          <#if itemToCheck.custcol_atlas_contract_start_date != itemToCheck.custcol_atlas_contract_end_date>
+            <#assign diffrentStartEndDates = true></#if>
+        </#list>
+        
+        <#if record.entity.custentity__switch_qty_amount>
+          <!--====== vendor switch quantity and amount checkbox is checked ======-->
+          <#list record.item as item>
+			<#assign itemUnit = customUnitExpr>
+			<#if item.units?has_content && UNIT_NAMES[item.units]??>
+				<#assign itemUnit = UNIT_NAMES[item.units][pdfLang]>
+			</#if>
+			<#if !item.quantity?? || !item.quantity?has_content>
+				<#assign itemUnit = "">
+			</#if>
+			<#if item_index==0>
+			<thead>
+				<tr>
+                  	<th class="center" style="width:5%;">${getTranslatedLabel("item.line", 'Line')}</th>
+					<th class="center" style="width:45%;">${getTranslatedLabel("item.displayname", item.item@label)}</th>
+                  	<#if !diffrentStartEndDates>
+                      <th class="center" style="width:30%;">${getTranslatedLabel("item.custcol_atlas_contract_start_date", "Due Date")}</th>
+                  	<#else>  
+                  	<th class="center" style="width:15%;">${getTranslatedLabel("item.custcol_atlas_contract_start_date", "Start Date")}</th>
+                  	<th class="center" style="width:15%;">${getTranslatedLabel("item.custcol_atlas_contract_end_date", "End Date")}</th>
+                  	</#if>
+					<th align="center" style="width:20%;">${getTranslatedLabel("item.amount", item.amount@label)}</th>
+				</tr>
+			</thead>
+			</#if>
+			<tr>
+              	<#if item.custcol_atlas_contract_start_date?has_content><#assign startDate = item.custcol_atlas_contract_start_date?string.medium><#else><#assign startDate = item.custcol_atlas_contract_start_date></#if>
+                <#if item.custcol_atlas_contract_end_date?has_content><#assign endDate = item.custcol_atlas_contract_end_date?string.medium><#else><#assign endDate = item.custcol_atlas_contract_end_date></#if>
+              	<td class="center">${line_index}</td>
+                <#assign line_index += 1 >
+				<td class="center"><span class="itemname">${item.description}</span></td>
+              	<#if !diffrentStartEndDates>
+                  <td align="center">${startDate}</td>
+                <#else>
+                <td align="center">${startDate}</td>
+              	<td align="center">${endDate}</td>
+              	</#if>
+				<td align="center">${item.amount?string(currFormat)}</td>
+			</tr>
+		</#list>
+        <#else>
+          <!--====== vendor switch quantity and amount checkbox is unchecked ======-->
+      	<#list record.item as item>
+			<#assign itemUnit = customUnitExpr>
+			<#if item.units?has_content && UNIT_NAMES[item.units]??>
+				<#assign itemUnit = UNIT_NAMES[item.units][pdfLang]>
+			</#if>
+			<#if !item.quantity?? || !item.quantity?has_content>
+				<#assign itemUnit = "">
+			</#if>
+			<#if item_index==0>
+			<thead>
+				<tr>
+                  	<th class="center" style="width:5%;">${getTranslatedLabel("item.line", 'Line')}</th>
+					<th class="center" style="width:35%;">${getTranslatedLabel("item.displayname", item.item@label)}</th>
+                  	<#if !diffrentStartEndDates>
+                      <th class="center" style="width:30%;">${getTranslatedLabel("item.custcol_atlas_contract_start_date", "Due Date")}</th>
+                  	<#else>  
+                  	<th class="center" style="width:15%;">${getTranslatedLabel("item.custcol_atlas_contract_start_date", "Start Date")}</th>
+                  	<th class="center" style="width:15%;">${getTranslatedLabel("item.custcol_atlas_contract_end_date", "End Date")}</th>
+                  	</#if>
+					<th align="center" style="width:10%;">${getTranslatedLabel("item.quantity", item.quantity@label)}</th>
+					<th align="center" style="width:10%;">${getTranslatedLabel("item.rate", item.rate@label)}</th>
+					<th align="center" style="width:10%;">${getTranslatedLabel("item.amount", item.amount@label)}</th>
+				</tr>
+			</thead>
+			</#if>
+			<tr>
+              	<#if item.custcol_atlas_contract_start_date?has_content><#assign startDate = item.custcol_atlas_contract_start_date?string.medium><#else><#assign startDate = item.custcol_atlas_contract_start_date></#if>
+                <#if item.custcol_atlas_contract_end_date?has_content><#assign endDate = item.custcol_atlas_contract_end_date?string.medium><#else><#assign endDate = item.custcol_atlas_contract_end_date></#if>
+              	<td class="center">${line_index}</td>
+                <#assign line_index += 1 >
+				<td class="center"><span class="itemname">${item.description}</span></td>
+              	<#if !diffrentStartEndDates>
+                  <td align="center">${startDate}</td>
+                <#else>
+                <td align="center">${startDate}</td>
+              	<td align="center">${endDate}</td>
+              	</#if>
+              	<td align="center">${item.quantity}</td>
+				<td align="center">${item.rate?string(currFormat)}</td>
+				<td align="center">${item.amount?string(currFormat)}</td>
+			</tr>
+		</#list>
+       </#if>
+	</table>
+	</#if>
+	<!--====== End Items ======-->
+	
+	<!--====== Start Expenses ======-->
+	<#if record.expense?has_content>
+	<table class="itemtable" cellmargin="1px" style="margin-top: 10px;width:100%;" direction="${direction}" lang="${pdfLang}">
+		<#list record.expense as expense>
+			<#if expense_index==0>
+			<thead>
+				<tr>
+					<th class="${align}" style="width:60%;">${getTranslatedLabel("expense.memo", "Description")}</th>
+					<th align="right" style="width:40%;">${getTranslatedLabel("expense.amount", expense.amount@label)}</th>
+				</tr>
+			</thead>
+			</#if>
+			<tr>
+				<td class="${align}">${expense.memo}</td>
+				<td align="right">${expense.amount?string(currFormat)}</td>
+			</tr>
+		</#list>	
+	</table>
+	</#if>
+	<!--====== End Expenses ======-->
+	
+	<table class="total" style=" margin-top: 10px;" align="${oposAlign}" direction="${direction}" lang="${pdfLang}">
+		<#if record.subtotal?has_content>
+		<tr>
+			<td align="${oposAlign}" style="padding-${align}:20px;"><b>${getTranslatedLabel("record.subtotal", record.subtotal@label)}</b></td>
+			<!-- The section below is in a comment so it will not diplay SubTotal in different currency
+          	<#if displayILTotalAmounts>
+				<td align="right" style="padding-${align}:20px;">${(record.subtotal*ilExchangeRate)?string(ilCurrSymbolChar + currFormat)}</td>
+			<#elseif displayAdditionalCurrencyTotalAmounts>
+				<#setting locale = SB_SETTINGS.additionalCurrencyData.currency.locale>
+				<td align="right" style="padding-${align}:20px;">${(record.subtotal*additionalCurrencyExchangeRate)?string(additionalCurrencyFormat)}</td>
+				<#setting locale = tranLocale>
+			</#if>
+			-->
+			<td align="right" style="padding-${align}:20px;">${record.subtotal}</td>
+		</tr>
+		</#if>
+		
+		<#if record.taxtotal?has_content>
+		<tr>
+			<td align="${oposAlign}" style="padding-${align}:20px;"><b>${getTranslatedLabel("record.taxtotal", record.taxtotal@label)}<#if IS_IL_SUBSIDIARY> (${taxRate?string(currFormat)}%)</#if></b></td>
+			<!-- The section below is in a comment so it will not diplay Tax Total in different currency
+          	<#if displayILTotalAmounts>
+				<td align="right" style="padding-${align}:20px;">${(record.taxtotal*ilExchangeRate)?string(ilCurrSymbolChar + currFormat)}</td>
+			<#elseif displayAdditionalCurrencyTotalAmounts>
+				<#setting locale = SB_SETTINGS.additionalCurrencyData.currency.locale>
+				<td align="right" style="padding-${align}:20px;">${(record.taxtotal*additionalCurrencyExchangeRate)?string(additionalCurrencyFormat)}</td>
+				<#setting locale = tranLocale>
+			</#if>
+			-->
+			<td align="right" style="padding-${align}:20px;">${record.taxtotal}</td>
+		</tr>
+		</#if>
+		
+		<tr class="totalrow">
+			<td align="${oposAlign}" style="padding-${align}:20px;"><b>${getTranslatedLabel("record.total", record.total@label)}</b></td>
+			<!-- The section below is in a comment so it will not diplay Total in different currency
+          	<#if displayILTotalAmounts>
+				<td align="right" style="padding-${align}:20px;">${(record.total*ilExchangeRate)?string(ilCurrSymbolChar + currFormat)}</td>
+			<#elseif displayAdditionalCurrencyTotalAmounts>
+				<#setting locale = SB_SETTINGS.additionalCurrencyData.currency.locale>
+				<td align="right" style="padding-${align}:20px;">${(record.total*additionalCurrencyExchangeRate)?string(additionalCurrencyFormat)}</td>
+				<#setting locale = tranLocale>
+			</#if>
+			-->
+			<td align="right" style="padding-${align}:20px;">${record.total}</td>
+		</tr>
+	</table>	
+
+	<#-- Include Body Fields -->
+	<br/><b>Payment Terms:</b> ${record.entity.terms}
+
+	<!-- Start Entity Message -->
+	<#if record.custbody__bizdoc_remarks?has_content>
+		<#assign entityMessage = record.custbody__bizdoc_remarks?interpret>
+		<br/><br/><table class="body_fields" style="width:100%" direction="${direction}" lang="${pdfLang}">
+			<tr><td>
+				
+				<br/><@entityMessage/>
+			</td></tr>
+		</table>
+	</#if>
+	<!-- End Entity Message -->
+	
+	<!-- Start Subsidiary Disclaimer -->
+	<#if SB_SETTINGS.purchaseFormDisclaimer?has_content>
+		<#assign subsidiaryDisclaimer = resolveCurlyBrackets(SB_SETTINGS.purchaseFormDisclaimer)?interpret>
+		<br/><br/><table class="body_fields" style="width:100%" direction="${direction}" lang="${pdfLang}">
+			<tr><td><@subsidiaryDisclaimer/></td></tr>
+		</table>
+	</#if>
+	<!-- End Subsidiary Disclaimer -->
+			
+	
+	<!-- Start Company Disclaimer 
+	<#if (IL_SETTINGS.purchaseFormDisclaimer?has_content)>
+		<#assign companyDisclaimer = resolveCurlyBrackets(IL_SETTINGS.purchaseFormDisclaimer)?interpret>
+		<br/><br/><table class="body_fields" style="width:100%" direction="${direction}" lang="${pdfLang}">
+			<tr><td><@companyDisclaimer/></td></tr>
+		</table>
+	</#if>
+	 End Company Disclaimer -->
+    
+	
+	<#-- Include Signature -->
+
+      <p align="right">
+        <br/>${record.custbody__bizdoc_buyer_name.firstname} ${record.custbody__bizdoc_buyer_name.lastname}
+      	<br/>${record.custbody__bizdoc_buyer_name.email}
+      </p>
+
+
+</body>
+</pdf>

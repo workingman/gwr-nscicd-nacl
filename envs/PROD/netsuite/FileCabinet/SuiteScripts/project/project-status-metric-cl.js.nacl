@@ -1,0 +1,24 @@
+netsuite.file SuiteScripts_project_project_status_metric_cl_js@ddbbbv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/project/project-status-metric-cl.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/project/project-status-metric-cl.js")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_project@d,
+  ]
+  _generated_dependencies = [
+    {
+      reference = netsuite.customrecord_crpsm.attr.scriptid
+    },
+    {
+      reference = netsuite.customrecord_crpsm.field.custom_custrecord_crpsm_color.scriptid
+    },
+    {
+      reference = netsuite.entitycustomfield.instance.custentity_crpsm.scriptid
+    },
+  ]
+  _alias = "project-status-metric-cl.js"
+}

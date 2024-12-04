@@ -1,0 +1,6 @@
+netsuite.centerlink custlink_12_t2257860_991 {
+  scriptid = "custlink_12_t2257860_991"
+  label = "Google"
+  url = "https://www.google.com"
+  _alias = "Google"
+}

@@ -1,0 +1,14 @@
+netsuite.emailtemplate custemailtmpl_slt_test_demo {
+  scriptid = "custemailtmpl_slt_test_demo"
+  addcompanyaddress = true
+  addunsubscribelink = true
+  
+  isprivate = false
+  name = "Email template test"
+  recordtype = "ENTITY"
+  subject = "Mail to\${customer.custentitycust_active}"
+  usesmedia = false
+  content = file("netsuite/emailtemplate/custemailtmpl_slt_test_demo.html")
+  _alias = "Email template test"
+  isInactive = false
+}

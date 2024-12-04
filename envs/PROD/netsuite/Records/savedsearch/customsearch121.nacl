@@ -1,0 +1,130 @@
+netsuite.savedsearch customsearch121 {
+  scriptid = "customsearch121"
+  definition = "1af6b41f1747b0c6be69e1634f3a54b33e961826503005b07d303de5326b645a@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "SC_ShoppingCart_SUBTOTAL"
+      FIELD_ATTRIBUTE = "GT"
+      FIELD_TYPE = "CURRENCY"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "0.00"
+        },
+        {
+          KEY_ID = 1
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "SC_ShoppingCart_DATEMODIFIED"
+      FIELD_MODIFIER = "WITHIN"
+      FIELD_ATTRIBUTE = "RELATIVE"
+      FIELD_TYPE = "DATETIME"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "DAGO365"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "DAGO0"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Customer_DASHBOARD"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_ENTITYID"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_EMAIL"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SC_ShoppingCart_ITEM"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SC_ShoppingCart_SUBTOTAL"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "SC_ShoppingCart_SUBTOTAL"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch121"
+  FIELD_DEFAULT_NAME = "Cart Abandonment"
+  FIELD_SEARCH_TYPE = "Customer"
+  FLAG_PUBLIC = true
+  FLAG_LIST = false
+  FLAG_PORTLET = true
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "ANY"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "Cart Abandonment"
+}

@@ -1,0 +1,19 @@
+netsuite.file SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_operations_get_sys_info_operation_js@ddvvdddduuuv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/testSuiteApp/com.saltoio.salto/build/src/operations/get_sys_info_operation.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/testSuiteApp/com.saltoio.salto/build/src/operations/get_sys_info_operation.js")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_operations@ddvvddd,
+  ]
+  _generated_dependencies = [
+    {
+      reference = netsuite.file.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_config_version_txt@ddvvddv.path
+    },
+  ]
+  _alias = "get_sys_info_operation.js"
+  isInactive = false
+}

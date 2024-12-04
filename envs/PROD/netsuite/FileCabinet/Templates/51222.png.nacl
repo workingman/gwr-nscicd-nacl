@@ -1,0 +1,15 @@
+netsuite.file Templates_51222_png@dv {
+  description = "bbbbbbb"
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/Templates/51222.png"
+  content = file("netsuite/FileCabinet/Templates/51222.png")
+  _parent = [
+    netsuite.folder.instance.Templates,
+  ]
+  _alias = "51222.png"
+  isInactive = true
+}

@@ -1,0 +1,127 @@
+netsuite.savedsearch customsearch135 {
+  scriptid = "customsearch135"
+  definition = "787f7aceefd0d6cd44ccfcd272778798abad5a8dd01d7889d19255d719779af6@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Case_STATUS"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "6"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Case_ASSIGNED"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "@CURRENT@"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Case_NUMBER"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_COMPANY"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_TITLE"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_STATUS"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_ASSIGNED"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Case_ISSUE"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Case_NUMBER"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch135"
+  FIELD_DEFAULT_NAME = "My Cases On Hold"
+  FIELD_SEARCH_TYPE = "Case"
+  FLAG_PUBLIC = true
+  FLAG_LIST = false
+  FLAG_PORTLET = true
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = true
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "My Cases On Hold"
+}

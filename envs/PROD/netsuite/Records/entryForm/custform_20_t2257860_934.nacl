@@ -1,0 +1,434 @@
+netsuite.entryForm custform_20_t2257860_934 {
+  scriptid = "custform_20_t2257860_934"
+  standard = "STANDARDDISCOUNTFORM"
+  name = "Custom Discount Form2"
+  recordType = "DISCOUNTITEM"
+  
+  preferred = true
+  storedWithRecord = false
+  mainFields = {
+    fieldGroup = {
+      primaryinformation = {
+        scriptid = "primaryinformation"
+        label = "Primary Information"
+        visible = true
+        showTitle = true
+        singleColumn = false
+        fields = {
+          MIDDLE = {
+            position = "MIDDLE"
+            field = {
+              CUSTOMFORM = {
+                id = "CUSTOMFORM"
+                label = "Custom Form"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 0
+              }
+              ITEMID = {
+                id = "ITEMID"
+                label = "Item Name/Number"
+                visible = true
+                mandatory = true
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 1
+              }
+              RATE = {
+                id = "RATE"
+                label = "Rate"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 2
+              }
+              UPCCODE = {
+                id = "UPCCODE"
+                label = "UPC Code"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 3
+              }
+              DISPLAYNAME = {
+                id = "DISPLAYNAME"
+                label = "Display Name/Code"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 4
+              }
+              VENDORNAME = {
+                id = "VENDORNAME"
+                label = "Vendor Name/Code"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 5
+              }
+              PARENT = {
+                id = "PARENT"
+                label = "Subitem of"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 6
+              }
+              DESCRIPTION = {
+                id = "DESCRIPTION"
+                label = "Description"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 7
+              }
+            }
+            index = 0
+          }
+        }
+        index = 0
+      }
+      classification = {
+        scriptid = "classification"
+        label = "Classification"
+        visible = true
+        showTitle = true
+        singleColumn = false
+        fields = {
+          MIDDLE = {
+            position = "MIDDLE"
+            field = {
+              SUBSIDIARY = {
+                id = "SUBSIDIARY"
+                label = "Subsidiary"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 0
+              }
+              DEPARTMENT = {
+                id = "DEPARTMENT"
+                label = "Department"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 1
+              }
+              CLASS = {
+                id = "CLASS"
+                label = "Class"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 2
+              }
+              LOCATION = {
+                id = "LOCATION"
+                label = "Location"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 3
+              }
+            }
+            index = 0
+          }
+        }
+        index = 1
+      }
+    }
+  }
+  tabs = {
+    tab = {
+      ITEMRELRECORDS = {
+        id = "ITEMRELRECORDS"
+        label = "Related Records"
+        visible = true
+        subItems = {
+          subList = {
+            ITEMTRANSACTIONS = {
+              id = "ITEMTRANSACTIONS"
+              label = "Transactions"
+              visible = true
+              neverEmpty = false
+              index = 0
+            }
+          }
+        }
+        index = 0
+      }
+      ITEMCOMMUNICATION = {
+        id = "ITEMCOMMUNICATION"
+        label = "Communication"
+        visible = true
+        subItems = {
+          subList = {
+            ITEMUSERNOTES = {
+              id = "ITEMUSERNOTES"
+              label = "User Notes"
+              visible = true
+              neverEmpty = false
+              index = 0
+            }
+          }
+        }
+        index = 1
+      }
+      ITEMACCOUNTING = {
+        id = "ITEMACCOUNTING"
+        label = "Accounting"
+        visible = true
+        fieldGroups = {
+          fieldGroup = {
+            accounts = {
+              scriptid = "accounts"
+              label = "Accounts"
+              visible = true
+              showTitle = true
+              singleColumn = false
+              fields = {
+                MIDDLE = {
+                  position = "MIDDLE"
+                  field = {
+                    ACCOUNT = {
+                      id = "ACCOUNT"
+                      label = "Account"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 0
+                    }
+                  }
+                  index = 0
+                }
+              }
+              index = 0
+            }
+            tax = {
+              scriptid = "tax"
+              label = "Tax"
+              visible = true
+              showTitle = true
+              singleColumn = false
+              fields = {
+                MIDDLE = {
+                  position = "MIDDLE"
+                  field = {
+                    TAXSCHEDULE = {
+                      id = "TAXSCHEDULE"
+                      label = "Tax Schedule"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 0
+                    }
+                    ISPRETAX = {
+                      id = "ISPRETAX"
+                      label = "Apply Before Sales Tax"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 1
+                    }
+                  }
+                  index = 0
+                }
+              }
+              index = 1
+            }
+          }
+        }
+        index = 2
+      }
+      ITEMPREFERENCES = {
+        id = "ITEMPREFERENCES"
+        label = "Preferences"
+        visible = true
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  AVAILABLETOPARTNERS = {
+                    id = "AVAILABLETOPARTNERS"
+                    label = "Available to Adv. Partners"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 0
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
+        index = 3
+      }
+      ITEMSYSTEMINFORMATION = {
+        id = "ITEMSYSTEMINFORMATION"
+        label = "System Information"
+        visible = true
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  ISINACTIVE = {
+                    id = "ISINACTIVE"
+                    label = "Inactive"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 0
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
+        subItems = {
+          subList = {
+            ITEMSYSTEMNOTES = {
+              id = "ITEMSYSTEMNOTES"
+              label = "System Notes"
+              visible = true
+              neverEmpty = false
+              index = 0
+            }
+            ITEMACTIVEWORKFLOWS = {
+              id = "ITEMACTIVEWORKFLOWS"
+              label = "Active Workflows"
+              visible = true
+              neverEmpty = false
+              index = 1
+            }
+            ITEMWORKFLOWHISTORY = {
+              id = "ITEMWORKFLOWHISTORY"
+              label = "Workflow History"
+              visible = true
+              neverEmpty = false
+              index = 2
+            }
+          }
+        }
+        index = 4
+      }
+      ITEMCUSTOM = {
+        id = "ITEMCUSTOM"
+        label = "Custom"
+        visible = true
+        index = 5
+      }
+    }
+  }
+  quickViewFields = {
+    field = {
+      ITEMID = {
+        id = "ITEMID"
+        index = 0
+      }
+      DISPLAYNAME = {
+        id = "DISPLAYNAME"
+        index = 1
+      }
+      DESCRIPTION = {
+        id = "DESCRIPTION"
+        index = 2
+      }
+      PARENT = {
+        id = "PARENT"
+        index = 3
+      }
+      RATE = {
+        id = "RATE"
+        index = 4
+      }
+    }
+  }
+  actionbar = {
+    buttons = {
+      button = {
+        SEARCH = {
+          id = "SEARCH"
+          label = "Search"
+          visible = true
+        }
+      }
+    }
+    menu = {
+      menuitem = {
+        DELETE = {
+          id = "DELETE"
+          label = "Delete"
+          visible = false
+        }
+        MAKECOPY = {
+          id = "MAKECOPY"
+          label = "Make Copy"
+          visible = true
+        }
+        NEW = {
+          id = "NEW"
+          label = "New"
+          visible = true
+        }
+        SUBMITNEW = {
+          id = "SUBMITNEW"
+          label = "Save & New"
+          visible = true
+        }
+        SUBMITAS = {
+          id = "SUBMITAS"
+          label = "Save As"
+          visible = true
+        }
+        VIEWALLTRANSACTIONS = {
+          id = "VIEWALLTRANSACTIONS"
+          label = "View All Transactions"
+          visible = true
+        }
+      }
+    }
+  }
+  editingInList = true
+  _alias = "Custom Discount Form2"
+  isInactive = false
+}

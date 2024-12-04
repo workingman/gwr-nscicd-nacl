@@ -1,0 +1,33 @@
+netsuite.customlist customlist2636 {
+  scriptid = "customlist2636"
+  ismatrixoption = false
+  isordered = true
+  name = "Student Rating"
+  customvalues = {
+    customvalue = {
+      val_558930_t2257860_378 = {
+        scriptid = "val_558930_t2257860_378"
+        abbreviation = "N"
+        value = "Needs to Repeat"
+        index = 0
+        isInactive = false
+      }
+      val_558931_t2257860_695 = {
+        scriptid = "val_558931_t2257860_695"
+        abbreviation = "P"
+        value = "Passed"
+        index = 1
+        isInactive = false
+      }
+      val_558932_t2257860_404 = {
+        scriptid = "val_558932_t2257860_404"
+        abbreviation = "C"
+        value = "Certified"
+        index = 2
+        isInactive = false
+      }
+    }
+  }
+  isInactive = false
+  _alias = "Student Rating"
+}

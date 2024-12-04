@@ -1,0 +1,14 @@
+netsuite.file Templates_E_mail_Templates_5122_png@dbsdv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/Templates/E-mail Templates/5122.png"
+  content = file("netsuite/FileCabinet/Templates/E-mail Templates/5122.png")
+  _parent = [
+    netsuite.folder.instance.Templates_E_mail_Templates@dbs,
+  ]
+  _alias = "5122.png"
+  isInactive = false
+}

@@ -1,0 +1,40 @@
+netsuite.customlist customlist2634 {
+  scriptid = "customlist2634"
+  ismatrixoption = false
+  isordered = true
+  name = "Level"
+  customvalues = {
+    customvalue = {
+      val_558923_t2257860_774 = {
+        scriptid = "val_558923_t2257860_774"
+        abbreviation = "B"
+        value = "Beginner"
+        index = 0
+        isInactive = false
+      }
+      val_558924_t2257860_432 = {
+        scriptid = "val_558924_t2257860_432"
+        abbreviation = "I"
+        value = "Intermediate"
+        index = 1
+        isInactive = false
+      }
+      val_558925_t2257860_780 = {
+        scriptid = "val_558925_t2257860_780"
+        abbreviation = "A"
+        value = "Advance"
+        index = 2
+        isInactive = false
+      }
+      val_558926_t2257860_398 = {
+        scriptid = "val_558926_t2257860_398"
+        abbreviation = "C"
+        value = "Certification"
+        index = 3
+        isInactive = false
+      }
+    }
+  }
+  isInactive = false
+  _alias = "Level"
+}

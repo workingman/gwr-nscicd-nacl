@@ -1,0 +1,33 @@
+netsuite.customlist customlist2818 {
+  scriptid = "customlist2818"
+  ismatrixoption = false
+  isordered = true
+  name = "Operating System"
+  customvalues = {
+    customvalue = {
+      val_607041_t2257860_922 = {
+        scriptid = "val_607041_t2257860_922"
+        abbreviation = "W"
+        value = "Windows"
+        index = 0
+        isInactive = false
+      }
+      val_607042_t2257860_519 = {
+        scriptid = "val_607042_t2257860_519"
+        abbreviation = "M"
+        value = "Mac"
+        index = 1
+        isInactive = false
+      }
+      val_607043_t2257860_927 = {
+        scriptid = "val_607043_t2257860_927"
+        abbreviation = "L"
+        value = "Linux"
+        index = 2
+        isInactive = false
+      }
+    }
+  }
+  isInactive = false
+  _alias = "Operating System"
+}

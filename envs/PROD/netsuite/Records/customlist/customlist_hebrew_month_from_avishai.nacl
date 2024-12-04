@@ -1,0 +1,133 @@
+netsuite.customlist customlist_hebrew_month_from_avishai {
+  scriptid = "customlist_hebrew_month_from_avishai"
+  
+  ismatrixoption = false
+  isordered = true
+  name = "Hebrew month list"
+  customvalues = {
+    customvalue = {
+      val_52788_t1546227_345 = {
+        scriptid = "val_52788_t1546227_345"
+        abbreviation = "0"
+        
+        value = "ינואר"
+        index = 0
+        isInactive = false
+      }
+      val_52789_t1546227_346 = {
+        scriptid = "val_52789_t1546227_346"
+        abbreviation = "0"
+        
+        value = "פברואר"
+        index = 1
+        isInactive = false
+      }
+      val_52790_t1546227_139 = {
+        scriptid = "val_52790_t1546227_139"
+        abbreviation = "0"
+        
+        value = "מרץ"
+        index = 2
+        isInactive = false
+      }
+      val_52791_t1546227_781 = {
+        scriptid = "val_52791_t1546227_781"
+        abbreviation = "0"
+        
+        value = "אפריל"
+        index = 3
+        isInactive = false
+      }
+      val_52792_t1546227_511 = {
+        scriptid = "val_52792_t1546227_511"
+        abbreviation = "0"
+        
+        value = "מאי"
+        index = 4
+        isInactive = false
+      }
+      val_52793_t1546227_497 = {
+        scriptid = "val_52793_t1546227_497"
+        abbreviation = "0"
+        
+        value = "יוני"
+        index = 5
+        isInactive = false
+      }
+      val_52794_t1546227_734 = {
+        scriptid = "val_52794_t1546227_734"
+        abbreviation = "0"
+        
+        value = "יולי"
+        index = 6
+        isInactive = false
+      }
+      val_52795_t1546227_828 = {
+        scriptid = "val_52795_t1546227_828"
+        abbreviation = "0"
+        
+        value = "אוגוסט"
+        index = 7
+        isInactive = false
+      }
+      val_52796_t1546227_705 = {
+        scriptid = "val_52796_t1546227_705"
+        abbreviation = "0"
+        
+        value = "ספטמבר"
+        index = 8
+        isInactive = false
+      }
+      val_52797_t1546227_471 = {
+        scriptid = "val_52797_t1546227_471"
+        abbreviation = "1"
+        
+        value = "אוקטובר"
+        index = 9
+        isInactive = false
+      }
+      val_52798_t1546227_428 = {
+        scriptid = "val_52798_t1546227_428"
+        abbreviation = "1"
+        
+        value = "נובמבר"
+        index = 10
+        isInactive = false
+      }
+      val_52799_t1546227_770 = {
+        scriptid = "val_52799_t1546227_770"
+        abbreviation = "1"
+        
+        value = "דצמבר"
+        index = 11
+        isInactive = false
+      }
+      val_52799_t1546227_771 = {
+        scriptid = "val_52799_t1546227_771"
+        abbreviation = "1"
+        
+        value = "test1"
+        index = 12
+        isInactive = false
+      }
+      val_52799_t1546227_772 = {
+        scriptid = "val_52799_t1546227_772"
+        abbreviation = "1"
+        
+        value = "test2"
+        index = 13
+        isInactive = false
+      }
+      val_52799_t1546227_773 = {
+        scriptid = "val_52799_t1546227_773"
+        abbreviation = "1"
+        
+        value = "test3"
+        index = 14
+        isInactive = false
+      }
+    }
+  }
+  _alias = "Hebrew month list"
+  isInactive = false
+}

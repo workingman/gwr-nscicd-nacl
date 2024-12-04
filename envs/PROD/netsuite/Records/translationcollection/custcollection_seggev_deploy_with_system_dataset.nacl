@@ -1,0 +1,16 @@
+netsuite.translationcollection custcollection_seggev_deploy_with_system_dataset {
+  scriptid = "custcollection_seggev_deploy_with_system_dataset"
+  defaultlanguage = "en-US"
+  name = "Seggev deploy with system dataset"
+  strings = {
+    string = {
+      workbook_name_101_1 = {
+        scriptid = "workbook_name_101_1"
+        defaulttranslation = "Seggev deploy with system dataset"
+        description = "Name in workbook"
+        index = 0
+      }
+    }
+  }
+  _alias = "Seggev deploy with system dataset"
+}

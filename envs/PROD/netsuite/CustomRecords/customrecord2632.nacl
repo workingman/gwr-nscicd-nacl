@@ -1,0 +1,405 @@
+type netsuite.customrecord2632 {
+  annotations {
+    serviceid scriptid {
+    }
+    string recordname {
+    }
+    string customsegment {
+    }
+    netsuite.customrecordtype_accesstype accesstype {
+    }
+    boolean allowattachments {
+    }
+    boolean allowinlineediting {
+    }
+    boolean allowinlinedeleting {
+    }
+    boolean allowinlinedetaching {
+    }
+    boolean allowmobileaccess {
+    }
+    boolean allownumberingoverride {
+    }
+    boolean allowquickadd {
+    }
+    boolean allowquicksearch {
+    }
+    boolean allowuiaccess {
+    }
+    string description {
+    }
+    boolean enabledle {
+    }
+    boolean enablekeywords {
+    }
+    boolean enablemailmerge {
+    }
+    boolean enablenametranslation {
+    }
+    boolean enablenumbering {
+    }
+    boolean enableoptimisticlocking {
+    }
+    boolean enablesystemnotes {
+    }
+    boolean hierarchical {
+    }
+    string numberingprefix {
+    }
+    string numberingsuffix {
+    }
+    string numberingmindigits {
+    }
+    string numberinginit {
+    }
+    string icon {
+    }
+    boolean iconbuiltin {
+    }
+    netsuite.generic_custom_record_icon iconindex {
+    }
+    boolean includeinsearchmenu {
+    }
+    boolean includename {
+    }
+    boolean isordered {
+    }
+    boolean showcreationdate {
+    }
+    boolean showcreationdateonlist {
+    }
+    boolean showid {
+    }
+    boolean showlastmodified {
+    }
+    boolean showlastmodifiedonlist {
+    }
+    boolean shownotes {
+    }
+    boolean showowner {
+    }
+    boolean showownerallowchange {
+    }
+    boolean showowneronlist {
+    }
+    netsuite.customrecordtype_instances instances {
+    }
+    netsuite.customrecordtype_links links {
+    }
+    netsuite.customrecordtype_permissions permissions {
+    }
+    netsuite.customrecordtype_recordsublists recordsublists {
+    }
+    netsuite.customrecordtype_subtabs subtabs {
+    }
+    string application_id {
+    }
+    netsuite.bundle bundle {
+    }
+    hidden_string source {
+    }
+    boolean isInactive {
+    }
+    hidden_string internalId {
+    }
+  }
+  string scriptid {
+    _required = true
+  }
+  serviceid internalId {
+    _hidden_value = true
+  }
+  netsuite.customRecordTranslationsList translationsList {
+  }
+  netsuite.employee custom_custrecord2810 {
+    scriptid = "custrecord2810"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "SELECT"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = true
+    label = "Employee Student"
+    onparentdelete = "SET_NULL"
+    parentsubtab = "ENTITYHUMANRESOURCES"
+    rolerestrict = false
+    searchlevel = "2"
+    selectrecordtype = "-4"
+    showinlist = false
+    storevalue = true
+    index = 0
+  }
+  unknown custom_custrecord2804 {
+    scriptid = "custrecord2804"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "SELECT"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "courses taken"
+    onparentdelete = "NO_ACTION"
+    rolerestrict = false
+    searchlevel = "2"
+    selectrecordtype = netsuite.customlist.instance.customlist2633.scriptid
+    showinlist = false
+    storevalue = true
+    subtab = netsuite.customrecord2632.attr.subtabs.subtab.tab_65_t2257860_261.scriptid
+    index = 1
+  }
+  string custom_custrecord2805 {
+    scriptid = "custrecord2805"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "DATE"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "Course Start Date"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    storevalue = true
+    subtab = netsuite.customrecord2632.attr.subtabs.subtab.tab_65_t2257860_261.scriptid
+    index = 2
+  }
+  string custom_custrecord2806 {
+    scriptid = "custrecord2806"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "DATE"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "Course End Date"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = true
+    storevalue = true
+    subtab = netsuite.customrecord2632.attr.subtabs.subtab.tab_65_t2257860_261.scriptid
+    index = 3
+  }
+  unknown custom_custrecord2807 {
+    scriptid = "custrecord2807"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "SELECT"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "Level of Difficulty"
+    onparentdelete = "NO_ACTION"
+    rolerestrict = false
+    searchlevel = "2"
+    selectrecordtype = netsuite.customlist.instance.customlist2634.scriptid
+    showinlist = true
+    storevalue = true
+    subtab = netsuite.customrecord2632.attr.subtabs.subtab.tab_66_t2257860_641.scriptid
+    index = 4
+  }
+  unknown custom_custrecord2808 {
+    scriptid = "custrecord2808"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "SELECT"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "Student Rating"
+    onparentdelete = "NO_ACTION"
+    rolerestrict = false
+    searchlevel = "2"
+    selectrecordtype = netsuite.customlist.instance.customlist2636.scriptid
+    showinlist = true
+    storevalue = true
+    subtab = netsuite.customrecord2632.attr.subtabs.subtab.tab_66_t2257860_641.scriptid
+    index = 5
+  }
+  string custom_custrecord2809 {
+    scriptid = "custrecord2809"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "TEXT"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "Instructor Comment"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = false
+    storevalue = true
+    subtab = netsuite.customrecord2632.attr.subtabs.subtab.tab_66_t2257860_641.scriptid
+    index = 6
+  }
+  string custom_custrecord2811 {
+    scriptid = "custrecord2811"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "STATICTEXT"
+    encryptatrest = false
+    fieldtype = "TEXT"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "Job title"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = false
+    sourcefrom = "STDENTITYTITLE"
+    sourcelist = netsuite.customrecord2632.field.custom_custrecord2810.scriptid
+    storevalue = true
+    index = 7
+  }
+  scriptid = "customrecord2632"
+  accesstype = "CUSTRECORDENTRYPERM"
+  allowattachments = true
+  allowinlinedeleting = false
+  allowinlinedetaching = true
+  allowinlineediting = false
+  allowmobileaccess = false
+  allownumberingoverride = false
+  allowquickadd = true
+  allowquicksearch = false
+  allowuiaccess = true
+  enabledle = true
+  enablekeywords = true
+  enablemailmerge = false
+  enablenametranslation = false
+  enablenumbering = false
+  enableoptimisticlocking = true
+  enablesystemnotes = true
+  hierarchical = false
+  iconbuiltin = true
+  includeinsearchmenu = true
+  includename = false
+  isordered = false
+  recordname = "Ng Employee Courses"
+  showcreationdate = true
+  showcreationdateonlist = true
+  showid = false
+  showlastmodified = true
+  showlastmodifiedonlist = false
+  shownotes = true
+  showowner = false
+  showownerallowchange = false
+  showowneronlist = false
+  links = {
+    link = {
+      BASICLISTSCUSTOM = {
+        linkcategory = "BASICLISTSCUSTOM"
+        linktasktype = "LIST"
+      }
+      EMPLOYEEHOMECUSTOM = {
+        linkcategory = "EMPLOYEEHOMECUSTOM"
+        linktasktype = "LIST"
+      }
+    }
+  }
+  subtabs = {
+    subtab = {
+      tab_65_t2257860_261 = {
+        scriptid = "tab_65_t2257860_261"
+        tabtitle = "courses"
+        index = 0
+      }
+      tab_66_t2257860_641 = {
+        scriptid = "tab_66_t2257860_641"
+        tabtitle = "Evaluation"
+        index = 1
+      }
+    }
+  }
+  metadataType = "customrecordtype"
+  isInactive = false
+  _alias = "Ng Employee Courses"
+  _self_important_values = [
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "scriptid"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "isInactive"
+      highlighted = true
+      indexed = true
+    },
+    {
+      value = "bundle"
+      highlighted = true
+      indexed = true
+    },
+  ]
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "scriptid"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "isInactive"
+      highlighted = true
+      indexed = true
+    },
+    {
+      value = "bundle"
+      highlighted = true
+      indexed = true
+    },
+  ]
+}

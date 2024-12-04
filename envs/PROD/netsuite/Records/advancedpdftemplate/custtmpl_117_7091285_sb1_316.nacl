@@ -1,0 +1,13 @@
+netsuite.advancedpdftemplate custtmpl_117_7091285_sb1_316 {
+  scriptid = "custtmpl_117_7091285_sb1_316"
+  standard = "STDTMPLEMPTY"
+  displaysourcecode = true
+  
+  preferred = false
+  printtype = "TRANSACTION"
+  title = "ClearVioce Payment Link Invoice PDF/HTML Template"
+  trantype = "CUSTINVC"
+  content = file("netsuite/advancedpdftemplate/custtmpl_117_7091285_sb1_316.xml")
+  _alias = "ClearVioce Payment Link Invoice PDF/HTML Template"
+  isInactive = false
+}

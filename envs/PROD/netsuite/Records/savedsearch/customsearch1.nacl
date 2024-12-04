@@ -1,0 +1,140 @@
+netsuite.savedsearch customsearch1 {
+  scriptid = "customsearch1"
+  definition = "c402886882cdf20edb8741cecc87e8c71eaca1badc7d8e17d1dd4b121a65cc22@GZC@2023.2.15@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Customer_CATEGORY"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "1"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Customer_SALESREP"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "19"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Entity_STATE"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "CA"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Entity_ENTITYID"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Customer_CONTACT"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_PHONE"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_EMAIL"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_FAX"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Entity_ENTITYID"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch1"
+  FIELD_DEFAULT_NAME = "Corporate Accounts"
+  FIELD_SEARCH_TYPE = "Customer"
+  FLAG_PUBLIC = true
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "Corporate Accounts"
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_AUDIENCE = 0
+}

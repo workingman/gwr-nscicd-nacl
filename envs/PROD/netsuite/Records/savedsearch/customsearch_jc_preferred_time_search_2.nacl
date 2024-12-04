@@ -1,0 +1,123 @@
+netsuite.savedsearch customsearch_jc_preferred_time_search_2 {
+  scriptid = "customsearch_jc_preferred_time_search_2"
+  definition = "bc43fe20c1348e9f7ae06965872b04fd509afcce0c6a30a458b80eab5f95fcd9@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Time_DATECREATED"
+      FIELD_MODIFIER = "AFTER"
+      FIELD_ATTRIBUTE = "CUSTOM"
+      FIELD_TYPE = "DATETIME"
+      RECORDS = [
+        {
+          KEY_ID = 0
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "2011-07-14 06:59:00.0 UTC"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Time_DATE"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Time_EMPLOYEE"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Time_CUSTOMER"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Time_ITEM"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Time_NOTE"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Time_DURATION"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Time_TYPE"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Time_BILLABLE"
+      FIELD_INDEX = 8
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Time_DATE"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch_jc_preferred_time_search_2"
+  FIELD_DEFAULT_NAME = "Ramsey Preferred Time Search"
+  FIELD_SEARCH_TYPE = "Time"
+  FLAG_PUBLIC = true
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = true
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = true
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = false
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "Ramsey Preferred Time Search"
+}

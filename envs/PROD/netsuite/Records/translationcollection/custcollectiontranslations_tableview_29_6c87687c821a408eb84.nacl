@@ -1,0 +1,17 @@
+netsuite.translationcollection custcollectiontranslations_tableview_29_6c87687c821a408eb84 {
+  scriptid = "custcollectiontranslations_tableview_29_6c87687c821a408eb84"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_tableview_29_6c87687c821a408eb84.strings.string.tableview_name_56_3.scriptid
+  strings = {
+    string = {
+      tableview_name_56_3 = {
+        scriptid = "tableview_name_56_3"
+        defaulttranslation = "Table 1"
+        description = "Name in tableView"
+        index = 0
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "Table 1"
+}

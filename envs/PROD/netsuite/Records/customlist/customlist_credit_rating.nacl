@@ -1,0 +1,26 @@
+netsuite.customlist customlist_credit_rating {
+  scriptid = "customlist_credit_rating"
+  ismatrixoption = false
+  isordered = true
+  name = "Creddit Rating"
+  customvalues = {
+    customvalue = {
+      val_606203_t2257860_240 = {
+        scriptid = "val_606203_t2257860_240"
+        abbreviation = "R"
+        value = "Risky"
+        index = 0
+        isInactive = false
+      }
+      val_606204_t2257860_849 = {
+        scriptid = "val_606204_t2257860_849"
+        abbreviation = "W"
+        value = "Worthy"
+        index = 1
+        isInactive = false
+      }
+    }
+  }
+  isInactive = false
+  _alias = "Creddit Rating"
+}

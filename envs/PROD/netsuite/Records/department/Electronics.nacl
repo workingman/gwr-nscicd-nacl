@@ -1,0 +1,20 @@
+netsuite.department Electronics {
+  name = "Electronics"
+  includeChildren = false
+  isInactive = false
+  classTranslationList = {
+    classTranslation = {
+      English__CA_@sjk = {
+        language = "English (CA)"
+      }
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+    }
+  }
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  identifier = "Electronics"
+  _alias = "Electronics"
+}

@@ -1,0 +1,40 @@
+netsuite.location location_2222@s {
+  name = "location 2222"
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  isInactive = false
+  mainAddress = {
+    country = "_unitedStates"
+    addressee = "location 2"
+    addrText = "location 2<br>United States"
+    override = false
+    customFieldList = {
+      customField = [
+        {
+          value = false
+          scriptId = "custrecord_address_field"
+        },
+        {
+          value = false
+          scriptId = "custrecord_scs"
+        },
+      ]
+    }
+  }
+  makeInventoryAvailable = false
+  makeInventoryAvailableStore = false
+  allowStorePickup = false
+  classTranslationList = {
+    classTranslation = {
+      English__CA_@sjk = {
+        language = "English (CA)"
+      }
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+    }
+  }
+  identifier = "location 2222"
+  _alias = "location 2222"
+}

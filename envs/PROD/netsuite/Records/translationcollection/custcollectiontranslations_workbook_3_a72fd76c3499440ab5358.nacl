@@ -1,0 +1,17 @@
+netsuite.translationcollection custcollectiontranslations_workbook_3_a72fd76c3499440ab5358 {
+  scriptid = "custcollectiontranslations_workbook_3_a72fd76c3499440ab5358"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_workbook_3_a72fd76c3499440ab5358.strings.string.workbook_name_92_1.scriptid
+  strings = {
+    string = {
+      workbook_name_92_1 = {
+        scriptid = "workbook_name_92_1"
+        defaulttranslation = "Account Workbook2"
+        description = "Name in workbook"
+        index = 0
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "Account Workbook2"
+}

@@ -1,0 +1,308 @@
+netsuite.reportdefinition customreport_310_t2257860_977 {
+  scriptid = "customreport_310_t2257860_977"
+  definition = "fe847f5c3c1cd90224e84cd7f07eab5b33d1f82bf99cfb38f7e3fca46acb7684@GZC@2024.2.14@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"
+  name = "ShalomTest - Custom Cost Summary"
+  audience = {
+    allpartners = true
+    allroles = true
+  }
+  accessaudience = {
+    audslctrole = "AR_CLERK"
+  }
+  components = [
+    {
+      KEY_COMPONENT = 6
+      FLAG_SECONDARY_DIM = false
+      FIELD_CLASS = "com.netledger.app.reporting.measure.NLCostMeasure"
+    },
+    {
+      KEY_COMPONENT = 14
+      FLAG_SECONDARY_DIM = false
+      FIELD_CLASS = "com.netledger.app.reporting.dimension.NLInventoryItemDimension"
+    },
+  ]
+  parameters = {
+    accounting_book_current_id = "1"
+    accounting_book_id = "1"
+  }
+  sorts = [
+    {
+      KEY_COMPONENT = "6"
+      FIELD_ALIAS = "cost"
+      FIELD_TABLE = "tranline"
+      SEQ_NUMBER = 0
+      FLAG_DESCENDING = true
+      FLAG_SUBTOTAL = false
+    },
+    {
+      KEY_COMPONENT = "14"
+      FIELD_ALIAS = "raveragecost"
+      FIELD_TABLE = "invtitem"
+      SEQ_NUMBER = 1
+      FLAG_DESCENDING = true
+      FLAG_SUBTOTAL = false
+    },
+    {
+      KEY_COMPONENT = "14"
+      FIELD_ALIAS = "ronhandvalue"
+      FIELD_TABLE = "invtitem"
+      SEQ_NUMBER = 2
+      FLAG_DESCENDING = false
+      FLAG_SUBTOTAL = false
+    },
+  ]
+  fields = [
+    {
+      KEY_COMPONENT = 14
+      FIELD_TABLE = "INVTITEM"
+      FIELD_ALIAS = "SPREFERENCECRITERION"
+      FLAG_DIMENSION = false
+      FIELD_UNIT_TYPE = -1
+      FLAG_ROLLUP = true
+      FIELD_DATE_FILTER_INDEX = 0
+      FLAG_APPLY_FORWARDING = true
+      FLAG_MEASURE = false
+      SEQ_NUMBER = 1
+      FIELD_LABEL = "Preference Criterion"
+      FLAG_DUAL_COLUMN = false
+      FLAG_PERCENT_TOTAL = false
+      FLAG_PERCENT_INCOME = false
+      FLAG_PERCENT_EXPENSE = false
+      FLAG_RUNNING_BAL = false
+      FLAG_SHOW_OPENING_BAL = false
+      FLAG_SHOW_ABS_DIFF = false
+      FLAG_SHOW_PCT_DIFF = false
+      FLAG_SUB_TOTAL = false
+      FLAG_DISPLAY = true
+      FLAG_DROP_DECIMAL = false
+      FLAG_DIV_BY_THOUSAND = false
+      FLAG_NEG_IN_RED = false
+      FIELD_NEG_VAL_FORMAT = "norm"
+      FIELD_FORMAT = "select"
+      FLAG_TOTAL_FORMULA = true
+    },
+    {
+      KEY_COMPONENT = 6
+      FIELD_TABLE = "TRANLINE"
+      FIELD_ALIAS = "COST"
+      FLAG_DIMENSION = false
+      FIELD_UNIT_TYPE = -1
+      FLAG_ROLLUP = false
+      FIELD_DATE_FILTER_INDEX = 1
+      FLAG_APPLY_FORWARDING = true
+      FIELD_ALT_DATE_SEGMENT = "WEEK"
+      FLAG_MEASURE = true
+      SEQ_NUMBER = 2
+      FIELD_LABEL = "Cost"
+      FIELD_NEG_LABEL = "% of Cost"
+      FIELD_URL = "cr=-3"
+      FIELD_URL_TYPE = "DERIVED"
+      FLAG_DUAL_COLUMN = false
+      FLAG_PERCENT_TOTAL = true
+      FLAG_PERCENT_INCOME = false
+      FLAG_PERCENT_EXPENSE = false
+      FLAG_RUNNING_BAL = false
+      FLAG_SHOW_OPENING_BAL = false
+      FLAG_SHOW_ABS_DIFF = false
+      FLAG_SHOW_PCT_DIFF = false
+      FLAG_SUB_TOTAL = true
+      FLAG_DISPLAY = true
+      FIELD_SUMMARY = " MAX"
+      FLAG_DROP_DECIMAL = true
+      FLAG_DIV_BY_THOUSAND = true
+      FLAG_NEG_IN_RED = true
+      FIELD_NEG_VAL_FORMAT = "norm"
+      FIELD_FORMAT = "currency"
+      FLAG_TOTAL_FORMULA = true
+    },
+    {
+      KEY_COMPONENT = 6
+      FIELD_ALIAS = "FORMULAFIELD3"
+      FLAG_DIMENSION = false
+      FIELD_UNIT_TYPE = -1
+      FLAG_ROLLUP = false
+      FIELD_DATE_FILTER_INDEX = 0
+      FIELD_COMPARISON_TYPE = "VARPCT2"
+      FLAG_APPLY_FORWARDING = true
+      FLAG_MEASURE = true
+      SEQ_NUMBER = 3
+      FIELD_LABEL = "testLabel"
+      FIELD_URL = "cr=-3"
+      FIELD_URL_TYPE = "DERIVED"
+      FLAG_DUAL_COLUMN = false
+      FLAG_PERCENT_TOTAL = false
+      FLAG_PERCENT_INCOME = false
+      FLAG_PERCENT_EXPENSE = false
+      FLAG_RUNNING_BAL = false
+      FLAG_SHOW_OPENING_BAL = false
+      FLAG_SHOW_ABS_DIFF = false
+      FLAG_SHOW_PCT_DIFF = false
+      FLAG_SUB_TOTAL = false
+      FLAG_DISPLAY = true
+      FLAG_DROP_DECIMAL = false
+      FLAG_DIV_BY_THOUSAND = false
+      FLAG_NEG_IN_RED = false
+      FIELD_NEG_VAL_FORMAT = "norm"
+      FIELD_FORMAT = "percent"
+      FIELD_FORMULA = "IF {cost,tranline,cost_c01,x,x} = 0 THEN 0 ELSE 100 * ({cost,tranline,cost_c01,x,x}-{cost,tranline,cost_c01,x,x}) / {cost,tranline,cost_c01,x,x}"
+      FIELD_FORMULA_BY_SEQ = "IF {2} = 0 THEN 0 ELSE 100 * ({2}-{2}) / {2}"
+      FLAG_TOTAL_FORMULA = true
+    },
+  ]
+  uiPreferences = {
+    PARAMETER_CASH_BASIS = false
+    PARAMETER_TAXCASH_BASIS = "F"
+    PARAMETER_SHOW_ZEROS = true
+    PARAMETER_SHOW_SINGLEROWLINES = true
+    PARAMETER_DISPLAY_TYPE = "data"
+    PARAMETER_INC_VS_EXP = false
+    PARAMETER_GRAPH_TOP = 100001
+    PARAMETER_WEB_STORE = false
+    PARAMETER_ACTIVITY_ONLY = false
+    PARAMETER_ALLOW_WEBQUERY = true
+    PARAMETER_GRAPH_3D = false
+    PARAMETER_SHOW_CURRENCY_SYMBOL = true
+    PARAMETER_EXPAND_LEVEL = 100
+  }
+  criteria = [
+    {
+      descriptor = {
+        FIELD_ALIAS = "DDATE"
+        FIELD_OP_CLASS = "BETWEEN"
+        FILED_TYPE = "DATE"
+        SEQ_NUMBER = 0
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = true
+        FLAG_CUSTOM_FOOTER = false
+        FLAG_VIRTUAL_FIELD = true
+        FIELD_DESCRIPTOR = "cost,trandoc,ddate,x,x"
+        FLAG_IS_HIDDEN = false
+      }
+      values = [
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 0
+          FIELD_VALUE = "TM"
+        },
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 1
+          FIELD_VALUE = "2024-12-01 08:00:00.0 UTC"
+        },
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 2
+          FIELD_VALUE = "2024-12-31 08:00:00.0 UTC"
+        },
+        {
+          FIELD_DATE_FILTER_INDEX = 1
+          SEQ_NUMBER = 0
+          FIELD_VALUE = "LM"
+          FIELD_DATE_RANGE_TYPE = "REL_REPORT"
+        },
+        {
+          FIELD_DATE_FILTER_INDEX = 1
+          SEQ_NUMBER = 1
+          FIELD_VALUE = "2024-11-01 07:00:00.0 UTC"
+        },
+        {
+          FIELD_DATE_FILTER_INDEX = 1
+          SEQ_NUMBER = 2
+          FIELD_VALUE = "2024-11-30 08:00:00.0 UTC"
+        },
+      ]
+    },
+    {
+      descriptor = {
+        FIELD_ALIAS = "KSUBSIDIARY"
+        FIELD_OP_CLASS = "SUBSIDCHILDRENOF"
+        FILED_TYPE = "SELECT"
+        SEQ_NUMBER = 1
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = true
+        FLAG_CUSTOM_FOOTER = false
+        FLAG_VIRTUAL_FIELD = true
+        FIELD_DESCRIPTOR = "cost,tranline,ksubsidiary,x,x"
+        FLAG_IS_HIDDEN = false
+      }
+      values = [
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 0
+          FIELD_VALUE = 1
+        },
+      ]
+    },
+    {
+      descriptor = {
+        FIELD_ALIAS = "SBASESTATUS"
+        FIELD_OP_CLASS = "LESS"
+        FILED_TYPE = "TEXT"
+        SEQ_NUMBER = 2
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = false
+        FLAG_CUSTOM_FOOTER = true
+        FLAG_VIRTUAL_FIELD = false
+        FIELD_DESCRIPTOR = "cost,x,sbasestatus,x,x"
+        FLAG_IS_HIDDEN = false
+      }
+      values = [
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 0
+          FIELD_VALUE = "fasf"
+        },
+      ]
+    },
+    {
+      descriptor = {
+        FIELD_ALIAS = "KLOCATION"
+        FIELD_TABLE = "TRANLINE"
+        FIELD_FOREIGN_KEY = "ALLTRANLINELOC"
+        FIELD_OP_CLASS = "ISNULL"
+        FILED_TYPE = "SELECT"
+        SEQ_NUMBER = 3
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = false
+        FLAG_CUSTOM_FOOTER = true
+        FLAG_VIRTUAL_FIELD = false
+        FIELD_DESCRIPTOR = "cost,tranline,klocation,x,alltranlineloc"
+        FLAG_IS_HIDDEN = false
+      }
+    },
+  ]
+  flags = {
+    KEY_REPORT_ID = 310
+    KEY_SCRIPT_ID = "CUSTOMREPORT_310_T2257860_977"
+    FIELD_KEY = 310
+    FIELD_CODE = "QUICK_REPORT"
+    FIELD_DESCRIPTION = '''
+Options:
+ Show Zeros
+
+'''
+    FIELD_NAME = "ShalomTest - Custom Cost Summary"
+    FIELD_ORIGINAL_TITLE = "ShalomTest - Custom Cost Summary"
+    FIELD_PERM_TYPE = "REPO_INVENTORY"
+    KEY_FEATURE = "INVENTORY"
+    FLAG_PERIODS_ALLOWED = true
+    FLAG_DISPLAY_TYPE = "SUMMARY"
+    FLAG_ONE_DATE = false
+    FLAG_PRIMARY_OUTER_JOIN = false
+    FLAG_CUSTOM_MODE = true
+    FLAG_CASH_BASIS = false
+    FLAG_SHOW_ZEROS = true
+    FLAG_INACTIVE = false
+    FIELD_VERSION = 8
+    FLAG_PERIODS_ON = false
+    FLAG_USE_FISCAL_YEAR_RANGE = false
+    FLAG_USE_TAX_PERIODS = false
+    KEY_ENTITY = "7"
+    FLAG_SHOW_LINK = true
+    FLAG_SUPPORTS_CONSOL_SUBSIDIARY = true
+    FIELD_TOGGLE_TYPE = "NOTHING"
+    FLAG_AFFECTED_BY_COGS = false
+    FLAG_ACTIVITY_ONLY = false
+  }
+  _alias = "ShalomTest - Custom Cost Summary"
+}

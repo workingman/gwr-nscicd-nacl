@@ -1,0 +1,11 @@
+netsuite.folder SuiteScripts_InnerFolder7@d {
+  bundleable = false
+  
+  isprivate = false
+  path = "/SuiteScripts/InnerFolder7"
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "InnerFolder7"
+  isInactive = false
+}

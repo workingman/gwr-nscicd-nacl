@@ -1,0 +1,11 @@
+netsuite.folder SuiteScripts_hq_suitescript_folder01@dbb {
+  bundleable = false
+  
+  isprivate = false
+  path = "/SuiteScripts/hq-suitescript-folder01"
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "hq-suitescript-folder01"
+  isInactive = false
+}

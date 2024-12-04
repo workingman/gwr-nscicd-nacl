@@ -1,0 +1,50 @@
+netsuite.subsidiary Parent_Company_Germany@su {
+  name = "Germany"
+  parent = netsuite.subsidiary.instance.Parent_Company@s
+  isInactive = false
+  showSubsidiaryName = false
+  country = "_germany"
+  mainAddress = {
+    country = "_germany"
+    addrText = "abcEDITEDorder"
+    override = false
+    customFieldList = {
+      customField = [
+        {
+          value = false
+          scriptId = "custrecord_address_field"
+        },
+        {
+          value = false
+          scriptId = "custrecord_scs"
+        },
+      ]
+    }
+  }
+  isElimination = false
+  currency = netsuite.currency.instance.Euro
+  edition = "XX"
+  nexusList = {
+    nexus = [
+      {
+        nexusId = netsuite.nexus.instance._germany
+        country = "DE"
+      },
+    ]
+  }
+  checkLayout = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Standard Check Layout)"
+  }
+  classTranslationList = {
+    classTranslation = {
+      French__France_@sjk = {
+        language = "French (France)"
+      }
+      English__CA_@sjk = {
+        language = "English (CA)"
+      }
+    }
+  }
+  identifier = "Parent Company_Germany"
+  _alias = "Germany"
+}

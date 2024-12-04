@@ -1,0 +1,204 @@
+netsuite.savedcsvimport custimport_5_t2257860_569 {
+  scriptid = "custimport_5_t2257860_569"
+  charencoding = "windows-1252"
+  columndelimiter = "COMMA"
+  datahandling = "ADD"
+  decimaldelimiter = "PERIOD"
+  description = "My first customer import"
+  entryform = netsuite.entryForm.instance.custform_slt_customer_form.scriptid
+  ignorereadonly = true
+  importname = "Customer Record (imported"
+  logsystemnotescustfields = false
+  multiselectdelimiter = "|"
+  overwritemissingfields = false
+  overwritesublists = false
+  preventduplicates = false
+  recordtype = "CUSTOMER"
+  runserversuitescript = false
+  usemultithread = false
+  validatemandatorycustfields = true
+  audience = {
+    allemployees = false
+    allpartners = false
+    allroles = false
+    globaledit = false
+    ispublic = false
+  }
+  filemappings = {
+    filemapping = {
+      CUSTOMER = {
+        file = "CUSTOMER"
+      }
+    }
+  }
+  recordmappings = {
+    recordmapping = {
+      CUSTOMER = {
+        record = "CUSTOMER"
+        fieldmappings = {
+          fieldmapping = {
+            ACCOUNTNUMBER = {
+              field = "ACCOUNTNUMBER"
+              columnreference = {
+                column = "Account"
+                file = "CUSTOMER"
+                type = "NAME"
+              }
+            }
+            COMPANYNAME = {
+              field = "COMPANYNAME"
+              columnreference = {
+                column = "Company Name"
+                file = "CUSTOMER"
+                type = "NAME"
+              }
+            }
+            CURRENCY = {
+              field = "CURRENCY"
+              columnreference = {
+                column = "Currency"
+                file = "CUSTOMER"
+                type = "NAME"
+              }
+            }
+            custentity_cust_priority = {
+              field = netsuite.entitycustomfield.instance.custentity_cust_priority.scriptid
+              value = "5"
+            }
+            EMAIL = {
+              field = "EMAIL"
+              columnreference = {
+                column = "Email"
+                file = "CUSTOMER"
+                type = "NAME"
+              }
+            }
+            ENTITYSTATUS = {
+              field = "ENTITYSTATUS"
+              value = "13"
+            }
+            GIVEACCESS = {
+              field = "GIVEACCESS"
+              columnreference = {
+                column = "Login Access"
+                file = "CUSTOMER"
+                type = "NAME"
+              }
+            }
+            ISPERSON = {
+              field = "ISPERSON"
+              columnreference = {
+                column = "Is Individual"
+                file = "CUSTOMER"
+                type = "NAME"
+              }
+            }
+            PHONE = {
+              field = "PHONE"
+              columnreference = {
+                column = "Phone"
+                file = "CUSTOMER"
+                type = "NAME"
+              }
+            }
+            PRICELEVEL = {
+              field = "PRICELEVEL"
+              columnreference = {
+                column = "Price Level"
+                file = "CUSTOMER"
+                type = "NAME"
+              }
+            }
+            SALESREP = {
+              field = "SALESREP"
+              value = "-202"
+            }
+            SUBSIDIARY = {
+              field = "SUBSIDIARY"
+              columnreference = {
+                column = "Subsidiary"
+                file = "CUSTOMER"
+                type = "NAME"
+              }
+            }
+          }
+        }
+      }
+      CUSTOMER_ADDRESSBOOK_ADDRESSBOOKADDRESS@f = {
+        record = "CUSTOMER:ADDRESSBOOK:ADDRESSBOOKADDRESS"
+        fieldmappings = {
+          fieldmapping = {
+            ADDR1 = {
+              field = "ADDR1"
+              columnreference = {
+                column = "Billing Address 1"
+                file = "CUSTOMER"
+                type = "NAME"
+              }
+            }
+            ADDR2 = {
+              field = "ADDR2"
+              columnreference = {
+                column = "Billing Address 2"
+                file = "CUSTOMER"
+                type = "NAME"
+              }
+            }
+            CITY = {
+              field = "CITY"
+              columnreference = {
+                column = "Billing City"
+                file = "CUSTOMER"
+                type = "NAME"
+              }
+            }
+            COUNTRY = {
+              field = "COUNTRY"
+              columnreference = {
+                column = "Billing Country"
+                file = "CUSTOMER"
+                type = "NAME"
+              }
+            }
+            STATE = {
+              field = "STATE"
+              columnreference = {
+                column = "Billing State/Province"
+                file = "CUSTOMER"
+                type = "NAME"
+              }
+            }
+            ZIP = {
+              field = "ZIP"
+              columnreference = {
+                column = "Billing Zip"
+                file = "CUSTOMER"
+                type = "NAME"
+              }
+            }
+          }
+        }
+      }
+      CUSTOMER_ADDRESSBOOK@f = {
+        record = "CUSTOMER:ADDRESSBOOK"
+        fieldmappings = {
+          fieldmapping = {
+            DEFAULTBILLING = {
+              field = "DEFAULTBILLING"
+              value = "T"
+            }
+            LABEL = {
+              field = "LABEL"
+              columnreference = {
+                column = "Billing Address 1"
+                file = "CUSTOMER"
+                type = "NAME"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  _alias = "Customer Record (imported"
+}

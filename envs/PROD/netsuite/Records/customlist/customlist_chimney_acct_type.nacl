@@ -1,0 +1,26 @@
+netsuite.customlist customlist_chimney_acct_type {
+  scriptid = "customlist_chimney_acct_type"
+  ismatrixoption = false
+  isordered = true
+  name = "Bank Account Type"
+  customvalues = {
+    customvalue = {
+      val_715018_t2257860_938 = {
+        scriptid = "val_715018_t2257860_938"
+        abbreviation = "c"
+        value = "checking"
+        index = 0
+        isInactive = false
+      }
+      val_715019_t2257860_436 = {
+        scriptid = "val_715019_t2257860_436"
+        abbreviation = "S"
+        value = "Saving"
+        index = 1
+        isInactive = false
+      }
+    }
+  }
+  isInactive = false
+  _alias = "Bank Account Type"
+}

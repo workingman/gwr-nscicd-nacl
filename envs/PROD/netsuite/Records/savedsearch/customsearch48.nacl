@@ -1,0 +1,133 @@
+netsuite.savedsearch customsearch48 {
+  scriptid = "customsearch48"
+  definition = "ea7ca0a15cf02bb6189d3b9e32f4f185d366e5a2b3f4248fad2ae57b9f016a2a@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_BILLINGSTATUS"
+      FIELD_ATTRIBUTE = "T"
+      FIELD_TYPE = "CHECKBOX"
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_MAINLINE"
+      FIELD_ATTRIBUTE = "T"
+      FIELD_TYPE = "CHECKBOX"
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_TYPE"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "CustInvc"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Transaction_TRANDATE"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_NUMBER"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_NAME"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_MEMO"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_AMOUNT"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_DUEDATE"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Transaction_DUEDATE"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch48"
+  FIELD_DEFAULT_NAME = "Open Invoices by Due Date"
+  FIELD_SEARCH_TYPE = "Transaction"
+  FLAG_PUBLIC = true
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = true
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "Open Invoices by Due Date"
+}

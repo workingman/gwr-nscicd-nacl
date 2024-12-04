@@ -1,0 +1,14 @@
+netsuite.file SuiteScripts_testSuiteApp_com_saltoio_salto_build_src_salto_auth_js@ddvvddduv {
+  bundleable = false
+  
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/testSuiteApp/com.saltoio.salto/build/src/salto_auth.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/testSuiteApp/com.saltoio.salto/build/src/salto_auth.js")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_testSuiteApp_com_saltoio_salto_build_src@ddvvdd,
+  ]
+  _alias = "salto_auth.js"
+  isInactive = false
+}
