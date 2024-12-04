@@ -1,0 +1,11 @@
+type netsuite.employeeCorporateCardsList {
+  annotations {
+    hidden_string source {
+    }
+  }
+  "List<netsuite.employeeCorporateCards>" corporateCards {
+  }
+  boolean replaceAll {
+    isAttribute = true
+  }
+}

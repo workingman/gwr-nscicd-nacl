@@ -1,0 +1,120 @@
+netsuite.savedsearch customsearch_srd_used_roles {
+  scriptid = "customsearch_srd_used_roles"
+  definition = "8824f66c6c3351a8e4926bbb7c46ff036046274c0d49168e96594219150ba24e@GZC@2024.1.17@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "LA_LoginAudit_DATE"
+      FIELD_MODIFIER = "WITHIN"
+      FIELD_ATTRIBUTE = "LRY"
+      FIELD_TYPE = "DATETIME"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "2023-09-01 07:00:00.0 UTC"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "2024-09-01 06:59:00.0 UTC"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Role_NAME"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Role_CUSTOMSTANDARD"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "Role_NAME"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Role_CUSTOMSTANDARD"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Role_CENTERTYPE"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Role_FROMBUNDLE"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Role_NAME"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FIELD_DESCRIPTION = "SearchEvent_TSTDRV2480139"
+    FIELD_FREQUENCY = "NONE"
+    FIELD_PERIOD = 0
+    FIELD_START = "2024-09-24 07:00:00.0 UTC"
+    FIELD_FINAL = "2024-09-24 08:00:00.0 UTC"
+    FIELD_DURATION = "0.0416666666666667"
+    FIELD_TIMEZONE = "America/Los_Angeles"
+    FIELD_DOW = 0
+    FIELD_DOWIM = 0
+  }
+  KEY_SCRIPT_ID = "customsearch_srd_used_roles"
+  FIELD_DEFAULT_NAME = "SRD - roles used over the past year"
+  FIELD_SEARCH_TYPE = "Role"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = true
+  FLAG_SCHEDULED_ALERT_SUMMARIES = true
+  FLAG_SEND_EMPTY_RESULTS = true
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FIELD_CAL = "NLEvent(sDescr=&apos;SearchEvent_TSTDRV2480139&apos;, sFrequency=&apos;NONE&apos;, dFrom=TIMESTAMP &apos;2024-09-24 00:00:00 America/Los_Angeles&apos;, nDuration=0.0416666666666667, dFinal=TIMESTAMP &apos;2024-09-24 01:00:00 America/Los_Angeles&apos;, sTimeZone=&apos;America/Los_Angeles&apos;)"
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "SRD - roles used over the past year"
+}

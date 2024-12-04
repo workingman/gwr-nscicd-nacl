@@ -114,6 +114,15 @@ type netsuite.otherChargePurchaseItem {
   }
   netsuite.recordRef consumptionUnit {
   }
+  netsuite.account billQtyVarianceAcct {
+    isReference = true
+  }
+  netsuite.account billPriceVarianceAcct {
+    isReference = true
+  }
+  netsuite.account billExchRateVarianceAcct {
+    isReference = true
+  }
   netsuite.customFieldList customFieldList {
   }
   serviceid internalId {

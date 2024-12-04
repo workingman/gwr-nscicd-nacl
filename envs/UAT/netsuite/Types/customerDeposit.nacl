@@ -126,6 +126,8 @@ type netsuite.customerDeposit {
   }
   netsuite.accountingBookDetailList accountingBookDetailList {
   }
+  number salesOrderRequiredDepositDue {
+  }
   netsuite.customFieldList customFieldList {
   }
   serviceid internalId {

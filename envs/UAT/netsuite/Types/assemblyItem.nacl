@@ -306,6 +306,12 @@ type netsuite.assemblyItem {
   }
   number buildTime {
   }
+  number buildTimeLotSize {
+  }
+  number fixedBuildTime {
+  }
+  netsuite.recordRef planningItemCategory {
+  }
   number lastPurchasePrice {
   }
   string purchaseDescription {

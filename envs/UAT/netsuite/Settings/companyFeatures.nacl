@@ -50,6 +50,7 @@ netsuite.companyFeatures {
   INSTALLMENTS = false
   AMORTIZATION = false
   ADVANCEDREVENUERECOGNITION = false
+  ARMINCONFIGMODE = false
   RULEBASEDRECOGNITIONTREATMENT = false
   ADVTAXENGINE = true
   MOSS = false
@@ -88,6 +89,7 @@ netsuite.companyFeatures {
   ADVSUBSCRIPTIONBILLING = true
   COMMITPLUSOVERAGE = false
   INVOICEGROUP = false
+  PREPAYWITHDRAWDOWN = false
   CCTRACKING = true
   SOFTDESCRIPTORS = false
   PAYPALINTEGRATION = false

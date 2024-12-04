@@ -17,7 +17,7 @@ netsuite.role customrolecustom_sales_vp_role {
   subsidiaryoption = "OWN"
   subsidiaryviewingallowed = false
   tfaduration = "720"
-  tfarequired = "SMS"
+  tfarequired = "TOTP"
   permissions = {
     permission = {
       TRAN_PAYMENTAUDIT = {

@@ -177,6 +177,8 @@ type netsuite.customer {
   }
   unknown thirdPartyCountry {
   }
+  unknown thirdPartyCarrier {
+  }
   boolean giveAccess {
   }
   number estimatedBudget {
@@ -279,6 +281,8 @@ type netsuite.customer {
   netsuite.customerItemPricingList itemPricingList {
   }
   netsuite.customerTaxRegistrationList taxRegistrationList {
+  }
+  netsuite.recordRef defaultAllocationStrategy {
   }
   netsuite.customFieldList customFieldList {
   }

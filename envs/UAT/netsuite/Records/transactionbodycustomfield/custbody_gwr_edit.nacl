@@ -16,7 +16,6 @@ netsuite.transactionbodycustomfield custbody_gwr_edit {
   bodyjournal = false
   bodyopportunity = false
   bodyothertransaction = false
-  bodyperiodendjournal = false
   bodypickingticket = false
   bodyprintflag = false
   bodyprintpackingslip = false

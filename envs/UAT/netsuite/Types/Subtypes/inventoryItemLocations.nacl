@@ -35,6 +35,10 @@ type netsuite.inventoryItemLocations {
   }
   number buildTime {
   }
+  number fixedBuildTime {
+  }
+  number buildTimeLotSize {
+  }
   string lastInvtCountDate {
   }
   string nextInvtCountDate {

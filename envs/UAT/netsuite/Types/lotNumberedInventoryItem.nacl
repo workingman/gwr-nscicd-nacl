@@ -480,6 +480,8 @@ type netsuite.lotNumberedInventoryItem {
   }
   number upperWarningLimit {
   }
+  netsuite.recordRef planningItemCategory {
+  }
   netsuite.customFieldList customFieldList {
   }
   serviceid internalId {

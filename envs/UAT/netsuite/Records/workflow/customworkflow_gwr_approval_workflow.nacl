@@ -385,7 +385,7 @@ netsuite.workflow customworkflow_gwr_approval_workflow {
                 valuechecked = true
                 valuetype = "STATIC"
                 initcondition = {
-                  formula = "\"Total\" > 200000.00"
+                  formula = "\"Total\" > 200000.0"
                   type = "VISUAL_BUILDER"
                   parameters = {
                     parameter = {

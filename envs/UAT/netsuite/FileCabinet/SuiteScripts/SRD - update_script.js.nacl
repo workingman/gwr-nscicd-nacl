@@ -9,6 +9,11 @@ netsuite.file SuiteScripts_SRD___update_script_js@dsbsuv {
   _parent = [
     netsuite.folder.instance.SuiteScripts,
   ]
+  _generated_dependencies = [
+    {
+      reference = netsuite.transactionbodycustomfield.instance.custbody_srd_opp_source.scriptid
+    },
+  ]
   _alias = "SRD - update_script.js"
   
   isInactive = false

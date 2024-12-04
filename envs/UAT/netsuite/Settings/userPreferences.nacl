@@ -55,6 +55,7 @@ netsuite.userPreferences {
     text = "-100"
   }
   DEPARTMENTUNASSIGNED = false
+  DO_NOT_SHOW_IN_APP_POPUP = false
   TIMEFORMAT = {
     value = "h:mm a"
     text = "hh:mm AM/PM"
@@ -157,6 +158,7 @@ netsuite.userPreferences {
   EVENT_EDITFROMCALENDAR = false
   AUTOFILL = false
   UNLAYEREDTABS = false
+  USER_AI_CONFIRMATION = true
   DATEFORMAT = {
     value = "M/D/YYYY"
     text = "M/D/YYYY"
@@ -192,6 +194,7 @@ netsuite.userPreferences {
   }
   KEYWORDSEARCHPOPUP = false
   ONLYSHOWLASTSUBENT = false
+  REDWOOD = false
   KPIACCOUNTINGBOOK = {
     value = "1"
     text = "Primary Accounting Book"

@@ -21,7 +21,6 @@ invoicegroupSearchObj.run().each(function(result){
 }
 
 function print(getfield){
-    log.emergency("In Print")
 var currentUrl = document.location.href;
     var url = new URL(currentUrl);
     var recordid = url.searchParams.get("id");
@@ -30,11 +29,10 @@ window.open(newurl);
 }
 
 function download(getfield){
-  log.emergency("In Download")
 var currentUrl = document.location.href;
     var url = new URL(currentUrl);
     var recordid = url.searchParams.get("id");
-	var csvurl = "/app/common/search/searchresults.csv?printType=SEARCH&l=T&e=T&id=661&Transaction_GROUPEDTO=" + recordid +"&style=NORMAL&searchid=661&dle=T&sortcol=Transaction_NUMBER_raw&sortdir=ASC&size=1000&twbx=F&csv=Export&printtemplate=121&whence=%27";
+	var csvurl = "/app/common/search/downloads/searchresults.csv?printType=SEARCH&l=T&e=T&id=661&Transaction_GROUPEDTO=" + recordid +"&style=NORMAL&searchid=661&dle=T&sortcol=Transaction_NUMBER_raw&sortdir=ASC&size=1000&twbx=F&csv=Export&printtemplate=121&whence=%27";
 window.open(csvurl, 'visible=none', '');
 }
 

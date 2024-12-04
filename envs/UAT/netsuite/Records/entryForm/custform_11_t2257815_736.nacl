@@ -1903,6 +1903,22 @@ netsuite.entryForm custform_11_t2257815_736 {
         id = netsuite.subtab.instance.custtab_salto_test_tab.scriptid
         label = "test tab"
         visible = true
+        subItems = {
+          subTab = {
+            custtab_salto_child_test = {
+              id = netsuite.subtab.instance.custtab_salto_child_test.scriptid
+              label = "test child"
+              visible = true
+              index = 0
+            }
+          }
+        }
+        index = 11
+      }
+      custtab_42_t2257815_140 = {
+        id = netsuite.subtab.instance.custtab_42_t2257815_140.scriptid
+        label = "test tab"
+        visible = true
         fieldGroups = {
           defaultFieldGroup = {
             fields = {
@@ -1926,22 +1942,6 @@ netsuite.entryForm custform_11_t2257815_736 {
             }
           }
         }
-        subItems = {
-          subTab = {
-            custtab_salto_child_test = {
-              id = netsuite.subtab.instance.custtab_salto_child_test.scriptid
-              label = "test child"
-              visible = true
-              index = 0
-            }
-          }
-        }
-        index = 11
-      }
-      custtab_42_t2257815_140 = {
-        id = netsuite.subtab.instance.custtab_42_t2257815_140.scriptid
-        label = "test tab"
-        visible = true
         index = 12
       }
     }

@@ -1,5 +1,5 @@
 netsuite.subsidiary Parent_Company_GWR_Subsidiary1@sus {
-  name = "GWR Subsidiary1"
+  name = "GWR migration"
   parent = netsuite.subsidiary.instance.Parent_Company@s
   isInactive = false
   showSubsidiaryName = false
@@ -37,6 +37,6 @@ netsuite.subsidiary Parent_Company_GWR_Subsidiary1@sus {
     
     id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Standard Check Layout)"
   }
-  identifier = "Parent Company_GWR Subsidiary1"
-  _alias = "GWR Subsidiary1"
+  identifier = "Parent Company_GWR migration"
+  _alias = "GWR migration"
 }

@@ -78,6 +78,8 @@ type netsuite.expenseReport {
   }
   netsuite.recordRef subsidiaryTaxRegNum {
   }
+  boolean policyViolated {
+  }
   netsuite.customFieldList customFieldList {
   }
   serviceid internalId {

@@ -304,6 +304,12 @@ type netsuite.lotNumberedAssemblyItem {
   }
   number buildTime {
   }
+  number buildTimeLotSize {
+  }
+  number fixedBuildTime {
+  }
+  netsuite.recordRef planningItemCategory {
+  }
   number safetyStockLevel {
   }
   number safetyStockLevelDays {

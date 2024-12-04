@@ -1,4 +1,4 @@
-type netsuite.customrecord_dp_prospect {
+type netsuite.customrecord108 {
   annotations {
     serviceid scriptid {
     }
@@ -111,8 +111,8 @@ type netsuite.customrecord_dp_prospect {
   }
   netsuite.customRecordTranslationsList translationsList {
   }
-  string custom_custrecord_dp_prospect_field {
-    scriptid = "custrecord_dp_prospect_field"
+  string custom_custrecord1393 {
+    scriptid = "custrecord1393"
     accesslevel = "2"
     allowquickadd = false
     applyformatting = false
@@ -120,20 +120,20 @@ type netsuite.customrecord_dp_prospect {
     defaultchecked = false
     displaytype = "NORMAL"
     encryptatrest = false
-    fieldtype = "TEXT"
+    fieldtype = "PASSWORD"
     globalsearch = false
     isformula = false
     ismandatory = false
     isparent = false
-    label = "DP Prospect Field"
+    label = "DA Password"
     rolerestrict = false
     searchlevel = "2"
     showinlist = false
     storevalue = true
     index = 0
   }
-  string custom_custrecord1397 {
-    scriptid = "custrecord1397"
+  netsuite.fileReference custom_custrecord1394 {
+    scriptid = "custrecord1394"
     accesslevel = "2"
     allowquickadd = false
     applyformatting = false
@@ -141,20 +141,20 @@ type netsuite.customrecord_dp_prospect {
     defaultchecked = false
     displaytype = "NORMAL"
     encryptatrest = false
-    fieldtype = "TEXT"
+    fieldtype = "IMAGE"
     globalsearch = false
     isformula = false
     ismandatory = false
     isparent = false
-    label = "some field"
+    label = "DA Image"
     rolerestrict = false
     searchlevel = "2"
     showinlist = false
     storevalue = true
     index = 1
   }
-  string custom_custrecord1398 {
-    scriptid = "custrecord1398"
+  string custom_custrecord1395 {
+    scriptid = "custrecord1395"
     accesslevel = "2"
     allowquickadd = false
     applyformatting = false
@@ -162,20 +162,43 @@ type netsuite.customrecord_dp_prospect {
     defaultchecked = false
     displaytype = "NORMAL"
     encryptatrest = false
-    fieldtype = "TEXT"
+    fieldtype = "HELP"
     globalsearch = false
     isformula = false
     ismandatory = false
     isparent = false
-    label = "some other field"
+    label = "DA Help"
     rolerestrict = false
     searchlevel = "2"
     showinlist = false
-    storevalue = true
+    storevalue = false
     index = 2
   }
-  scriptid = "customrecord_dp_prospect"
-  accesstype = "CUSTRECORDENTRYPERM"
+  netsuite.customrecord108 custom_custrecord1396 {
+    scriptid = "custrecord1396"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "SELECT"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "DA Multi"
+    onparentdelete = "NO_ACTION"
+    rolerestrict = false
+    searchlevel = "2"
+    selectrecordtype = netsuite.customrecord108.attr.scriptid
+    showinlist = false
+    storevalue = true
+    index = 3
+  }
+  scriptid = "customrecord108"
+  accesstype = "NONENEEDED"
   allowattachments = true
   allowinlinedeleting = false
   allowinlinedetaching = true
@@ -185,7 +208,6 @@ type netsuite.customrecord_dp_prospect {
   allowquickadd = true
   allowquicksearch = false
   allowuiaccess = true
-  description = "DP Custom Record for demos"
   enabledle = true
   enablekeywords = true
   enablemailmerge = false
@@ -193,12 +215,14 @@ type netsuite.customrecord_dp_prospect {
   enablenumbering = false
   enableoptimisticlocking = true
   enablesystemnotes = true
+  externalrolepermissionlevel = "NONE"
   hierarchical = false
   iconbuiltin = true
   includeinsearchmenu = true
   includename = true
   isordered = false
-  recordname = "DP Prospect"
+  publicpermissionlevel = "NONE"
+  recordname = "DA Customrecord"
   showcreationdate = false
   showcreationdateonlist = false
   showid = false
@@ -208,23 +232,9 @@ type netsuite.customrecord_dp_prospect {
   showowner = false
   showownerallowchange = false
   showowneronlist = false
-  subtabs = {
-    subtab = {
-      tab_19_t2480139_483 = {
-        scriptid = "tab_19_t2480139_483"
-        tabtitle = "CE Notes"
-        index = 0
-      }
-      tab_18_t2480139_695 = {
-        scriptid = "tab_18_t2480139_695"
-        tabtitle = "Prospect Information"
-        index = 1
-      }
-    }
-  }
   metadataType = "customrecordtype"
   isInactive = false
-  _alias = "DP Prospect"
+  _alias = "DA Customrecord"
   _self_important_values = [
     {
       value = "description"

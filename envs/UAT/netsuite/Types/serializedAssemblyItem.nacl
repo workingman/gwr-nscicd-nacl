@@ -322,6 +322,12 @@ type netsuite.serializedAssemblyItem {
   }
   number buildTime {
   }
+  number buildTimeLotSize {
+  }
+  number fixedBuildTime {
+  }
+  netsuite.recordRef planningItemCategory {
+  }
   number safetyStockLevel {
   }
   string safetyStockLevelUnits {

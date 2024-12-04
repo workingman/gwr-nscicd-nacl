@@ -31,10 +31,10 @@ netsuite.workflow customworkflow_dp_email_test_2 {
                 contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
                 includerecordlink = false
                 includetransaction = false
-                recipient = "[ACCOUNT_SPECIFIC_VALUE]"
+                recipient = "[ACCOUNT_SPECIFIC_VALUE] (Hadas Birin)"
                 recipienttype = "SPECIFIC"
                 schedulemode = "DELAY"
-                sender = "[ACCOUNT_SPECIFIC_VALUE]"
+                sender = "[ACCOUNT_SPECIFIC_VALUE] (Salto User)"
                 sendertype = "SPECIFIC"
                 subject = "DP made a transaction"
                 usetemplate = false

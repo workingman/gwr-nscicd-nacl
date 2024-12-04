@@ -24,6 +24,7 @@ netsuite.entitycustomfield custentity1 {
   encryptatrest = false
   fieldtype = "TEXT"
   globalsearch = false
+  help = "This is help"
   isformula = false
   ismandatory = false
   isparent = false

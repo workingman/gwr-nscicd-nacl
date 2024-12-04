@@ -48,8 +48,6 @@ netsuite.workflow customworkflow_dp_demo1 {
         }
         index = 0
       }
-      
-      
       workflowstate460 = {
         scriptid = "workflowstate460"
         donotexitworkflow = false

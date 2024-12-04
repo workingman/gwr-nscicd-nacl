@@ -77,6 +77,20 @@ type netsuite.purchaseOrderItem {
   }
   netsuite.recordRef createdFrom {
   }
+  netsuite.recordRef assembly {
+  }
+  boolean createOutsourcedWO {
+  }
+  string productionEndDate {
+  }
+  netsuite.recordRef billOfMaterialsRevision {
+  }
+  string productionStartDate {
+  }
+  netsuite.recordRef assemblyUnits {
+  }
+  netsuite.recordRef billOfMaterials {
+  }
   "List<netsuite.recordRef>" linkedOrderList {
     isReference = true
   }

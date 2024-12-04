@@ -119,6 +119,10 @@ netsuite.role customrole_srd_customer_center {
         permkey = "LIST_EXPORT"
         permlevel = "CREATE"
       }
+      LIST_ITEM = {
+        permkey = "LIST_ITEM"
+        permlevel = "NONE"
+      }
       LIST_LOCATION = {
         permkey = "LIST_LOCATION"
         permlevel = "NONE"
@@ -129,7 +133,7 @@ netsuite.role customrole_srd_customer_center {
       }
       LIST_FIND = {
         permkey = "LIST_FIND"
-        permlevel = "FULL"
+        permlevel = "VIEW"
       }
       LIST_CRMMESSAGE = {
         permkey = "LIST_CRMMESSAGE"
@@ -142,6 +146,10 @@ netsuite.role customrole_srd_customer_center {
       ADMI_RESTWEBSERVICES = {
         permkey = "ADMI_RESTWEBSERVICES"
         permlevel = "FULL"
+      }
+      ADMI_SAMLSSO = {
+        permkey = "ADMI_SAMLSSO"
+        permlevel = "NONE"
       }
       ADMI_WEBSERVICES = {
         permkey = "ADMI_WEBSERVICES"

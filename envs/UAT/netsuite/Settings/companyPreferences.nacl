@@ -73,6 +73,10 @@ netsuite.companyPreferences {
   ALLOC_SCHEDULE_ALLOW_JE_USER_EVENTS = false
   PREPOPULATECONTACTADDRESS = true
   LOGSYSTEMNOTESONUPDATEONLY = false
+  USE_TSVC_FOR_VENDOR_BALANCE = {
+    value = "LEGACY"
+    text = "Use only old tables"
+  }
   UNRESTRICTED_SEARCH_FORMULA_FIELDS = true
   RATING_ENGINE_YEAR_LIMIT = 50
   LISTSEGMENTSIZE = 50
@@ -128,6 +132,10 @@ netsuite.companyPreferences {
     text = "Language Specific"
   }
   INTERCO_ORDER_GENERATION_BULK = true
+  RESTRICTIONTABLECHANGESLOGGING = {
+    value = "NONE"
+    text = "No logging"
+  }
   ITEMNUMBERING = false
   ABBREVIATESTATES = true
   TIMESELECTORSUSEFIRSTFISCALMONTH = true

@@ -169,6 +169,10 @@ netsuite.role customrole1014 {
         permkey = "ADMI_RESTWEBSERVICES"
         permlevel = "FULL"
       }
+      ADMI_SAMLSSO = {
+        permkey = "ADMI_SAMLSSO"
+        permlevel = "NONE"
+      }
       ADMI_WEBSERVICES = {
         permkey = "ADMI_WEBSERVICES"
         permlevel = "FULL"

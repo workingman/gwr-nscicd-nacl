@@ -203,6 +203,10 @@ settings netsuite.companyPreferences {
     label = "Pre-Populate Contact Address"
     type = "checkbox"
   }
+  netsuite.selectOption USE_TSVC_FOR_VENDOR_BALANCE {
+    label = "Use TSVC for Vendor Balance"
+    type = "select"
+  }
   boolean UNRESTRICTED_SEARCH_FORMULA_FIELDS {
     label = "Is usage of restricted search formula fields allowed"
     type = "checkbox"
@@ -374,6 +378,10 @@ settings netsuite.companyPreferences {
   boolean INTERCO_ORDER_GENERATION_BULK {
     label = "Run intercompany order autogeneration in background"
     type = "checkbox"
+  }
+  netsuite.selectOption RESTRICTIONTABLECHANGESLOGGING {
+    label = "Enable logging of restriction keys changes"
+    type = "select"
   }
   boolean ABBREVIATESTATES {
     label = "Use State Abbreviations in Addresses"

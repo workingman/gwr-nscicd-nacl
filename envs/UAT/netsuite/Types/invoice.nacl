@@ -301,6 +301,10 @@ type netsuite.invoice {
   }
   netsuite.taxDetailsList taxDetailsList {
   }
+  netsuite.installmentList installmentList {
+  }
+  boolean overrideInstallments {
+  }
   netsuite.customFieldList customFieldList {
   }
   serviceid internalId {

@@ -227,6 +227,8 @@ type netsuite.employee {
   }
   unknown bonusTargetPayFrequency {
   }
+  netsuite.employeeCorporateCardsList corporateCardsList {
+  }
   netsuite.customFieldList customFieldList {
   }
   serviceid internalId {

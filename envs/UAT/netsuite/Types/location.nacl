@@ -66,6 +66,10 @@ type netsuite.location {
   }
   boolean includeInControlTower {
   }
+  number soPredictedDays {
+  }
+  number soPredConfidence {
+  }
   netsuite.customFieldList customFieldList {
   }
   serviceid internalId {
