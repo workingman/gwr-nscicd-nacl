@@ -1,6 +1,5 @@
 netsuite {
   fetch = {
-    addBundles = true
     include = {
       types = [
         {

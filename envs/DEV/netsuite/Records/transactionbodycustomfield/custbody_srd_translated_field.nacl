@@ -1,5 +1,5 @@
-netsuite.transactionbodycustomfield custbody_srd_opp_source {
-  scriptid = "custbody_srd_opp_source"
+netsuite.transactionbodycustomfield custbody_srd_translated_field {
+  scriptid = "custbody_srd_translated_field"
   accesslevel = "2"
   applyformatting = false
   bodyassemblybuild = false
@@ -14,7 +14,7 @@ netsuite.transactionbodycustomfield custbody_srd_opp_source {
   bodyitemreceipt = false
   bodyitemreceiptorder = false
   bodyjournal = false
-  bodyopportunity = true
+  bodyopportunity = false
   bodyothertransaction = false
   bodyperiodendjournal = false
   bodypickingticket = false
@@ -34,10 +34,10 @@ netsuite.transactionbodycustomfield custbody_srd_opp_source {
   isformula = false
   ismandatory = false
   isparent = false
-  label = "SRD - Opportunity Source"
+  label = "SRD Translated field"
   searchlevel = "2"
   showhierarchy = false
   showinlist = false
   storevalue = true
-  _alias = "SRD - Opportunity Source"
+  _alias = "SRD Translated field"
 }

@@ -1851,9 +1851,9 @@ netsuite.transactionForm custform_eshed_invoice {
                     sameRowAsPrevious = false
                     index = 12
                   }
-                  custbody_srd_opp_source = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_srd_opp_source.scriptid
-                    label = "SRD - Opportunity Source"
+                  custbody_srd_translated_field = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_srd_translated_field.scriptid
+                    label = "SRD Translated field"
                     visible = false
                     mandatory = false
                     displayType = "NORMAL"

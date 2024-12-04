@@ -11,7 +11,7 @@ netsuite.file SuiteScripts_SRD___update_script_js@dsbsuv {
   ]
   _generated_dependencies = [
     {
-      reference = netsuite.transactionbodycustomfield.instance.custbody_gwr_second_lvl_approval.scriptid
+      reference = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
     },
   ]
   _alias = "SRD - update_script.js"

@@ -1,6 +1,5 @@
 workspace {
   uid = "87017283-09fc-4f6e-b60f-9625d7399943"
-  name = "env87017283-09fc-4f6e-b60f-9625d7399943"
   staleStateThresholdMinutes = undefined
   state = {
     provider = "s3"

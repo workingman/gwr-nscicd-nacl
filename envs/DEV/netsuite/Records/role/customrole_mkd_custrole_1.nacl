@@ -20,6 +20,10 @@ netsuite.role customrole_mkd_custrole_1 {
   tfarequired = "OFF"
   permissions = {
     permission = {
+      LIST_OTHER_ADDRESS = {
+        permkey = "LIST_OTHER_ADDRESS"
+        permlevel = "FULL"
+      }
       customrecord_mkd_custrec1 = {
         permkey = netsuite.customrecord_mkd_custrec1.attr.scriptid
         permlevel = "FULL"
