@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_gwr_gwr_ntnx3_js@dduv {
+  availablewithoutlogin = false
+  bundleable = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/gwr/gwr_ntnx3.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/gwr/gwr_ntnx3.js")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_gwr@d,
+  ]
+  _alias = "gwr_ntnx3.js"
+}

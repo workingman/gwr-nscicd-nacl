@@ -47,4 +47,5 @@ netsuite.transactionbodycustomfield custbody_aw_first_lvl_approval {
   bodybtegata = false
   bodyfulfillmentrequest = false
   bodystorepickup = false
+  bodyperiodendjournal = false
 }

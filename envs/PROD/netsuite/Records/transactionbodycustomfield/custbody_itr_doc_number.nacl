@@ -46,4 +46,5 @@ netsuite.transactionbodycustomfield custbody_itr_doc_number {
   bodybtegata = false
   bodyfulfillmentrequest = false
   bodystorepickup = false
+  bodyperiodendjournal = false
 }
