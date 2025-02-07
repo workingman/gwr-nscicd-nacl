@@ -3,7 +3,7 @@ type netsuite.reportdefinition {
     _required = true
     isAttribute = true
     _restriction = {
-      regex = "^customreport[0-9a-z_]+"
+      regex = "^[0-9a-z_]+"
     }
   }
   string definition {

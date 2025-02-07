@@ -1,0 +1,152 @@
+netsuite.savedsearch customsearch373 {
+  scriptid = "customsearch373"
+  definition = "e33ac17eeb130c90e8f7d78c763ee56090de1b8482e6efd97b1c400054e9de1d@GZC@2024.2.16@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_NAMETEXT"
+      FIELD_ATTRIBUTE = "KEYWORDS"
+      FIELD_TYPE = "TEXT"
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_TYPE"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "Check"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_TRANDATE"
+      FIELD_MODIFIER = "ON"
+      FIELD_ATTRIBUTE = "ALL"
+      FIELD_TYPE = "DATE"
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_MAINLINE"
+      FIELD_ATTRIBUTE = "T"
+      FIELD_TYPE = "CHECKBOX"
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Transaction_TRANDATE"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_TYPE"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_NUMBER"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_NAME"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_OTHERREFNUM"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_MEMO"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_AMOUNT"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Transaction_TRANDATE"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = false
+    FLAG_AUDIENCE_ALL_VENDORS = false
+    FIELD_AUDIENCE_ROLES = "6"
+  }
+  KEY_SCRIPT_ID = "customsearch373"
+  FIELD_DEFAULT_NAME = "ZGY Transaction Search"
+  FIELD_SEARCH_TYPE = "Transaction"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FIELD_CURRENCY_RATE_TYPE = "ACCTTYPE"
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "ANY"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = false
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 437
+  _alias = "ZGY Transaction Search"
+}

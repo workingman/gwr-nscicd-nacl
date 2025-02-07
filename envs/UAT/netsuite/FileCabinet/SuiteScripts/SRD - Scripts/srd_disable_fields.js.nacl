@@ -9,6 +9,14 @@ netsuite.file SuiteScripts_SRD___Scripts_srd_disable_fields_js@dsbsduuv {
   _parent = [
     netsuite.folder.instance.SuiteScripts_SRD___Scripts@dsbs,
   ]
+  _generated_dependencies = [
+    {
+      reference = netsuite.transactionbodycustomfield.instance.custbody_srd_opp_source.scriptid
+    },
+    {
+      reference = netsuite.transactionbodycustomfield.instance.custbody_srd_translated_field.scriptid
+    },
+  ]
   _alias = "srd_disable_fields.js"
   isInactive = false
 }

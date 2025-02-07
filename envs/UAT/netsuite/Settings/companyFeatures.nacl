@@ -201,7 +201,7 @@ netsuite.companyFeatures {
   SERVERSIDESCRIPTING = true
   WEBAPPLICATIONS = false
   WORKFLOW = true
-  CUSTOMGLLINES = false
+  CUSTOMGLLINES = true
   CUSTOMTRANSACTIONS = true
   CUSTOMSEGMENTS = true
   CREATESUITEBUNDLES = true
@@ -213,7 +213,7 @@ netsuite.companyFeatures {
   SAMLSSO = false
   TBA = true
   KILLSHA1FORTBA = false
-  OAUTH2 = false
+  OAUTH2 = true
   NSASOIDCPROVIDER = false
   KILLINBOUNDSSO = false
   TELEPHONY = false

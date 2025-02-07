@@ -264,6 +264,10 @@ netsuite.role customrole_gwr_role_ar {
         permkey = "ADMI_RESTWEBSERVICES"
         permlevel = "FULL"
       }
+      ADMI_REVIEW_CUSTOM_GL_RUNS = {
+        permkey = "ADMI_REVIEW_CUSTOM_GL_RUNS"
+        permlevel = "FULL"
+      }
       ADMI_WEBSERVICES = {
         permkey = "ADMI_WEBSERVICES"
         permlevel = "FULL"

@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_zgy_sample_plugin_impl@duuu {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/zgy_sample_plugin_impl"
+  content = file("netsuite/FileCabinet/SuiteScripts/zgy_sample_plugin_impl")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "zgy_sample_plugin_impl"
+}

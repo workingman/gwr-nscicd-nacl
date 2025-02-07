@@ -1,0 +1,47 @@
+          /**
+ * @NApiVersion 2.x
+ * @NScriptType plugintypeimpl
+ * @NModuleScope Public
+ */
+define(["N/render"], function (nsrender) {
+  /**
+   * inject - This function will provide the custom data source during the generation process
+   * @param {Object} params
+   * @param {String} params.transactionId
+   * @param {Object} params.transactionRecord
+   * @param {Object} params.transactionResponseRecId (only present if this data source is being used to create transaction response's response body)
+   *
+   * @returns {Object} result
+   * @returns {‌render.DataSource} result.alias
+   * @returns {string} result.format
+   * @returns {Object | Document | string} result.data
+   * @returns {Object} result
+   * @returns {Boolean} result.success
+   * @returns {string} result.eiAuditTrailMsg
+   */
+  function inject(params) {
+    var txnRecord = params.transactionRecord;
+    var txnId = params.transactionId;
+    // var transResponseId = params.transactionResponseId;
+    var customObj = {};
+    log.debug("Custom Object", customObj);
+    return {
+      customDataSources: [
+        {
+          format: nsrender.DataSource.OBJECT,
+          alias: "custom",
+          data: customObj
+        }
+      ],
+      result: {
+        success: true,
+        eiAuditTrailMsg: "Custom Data Source executed successfully"
+      }
+    };
+  }
+  return {
+    inject: inject
+  };
+}); 
+
+        

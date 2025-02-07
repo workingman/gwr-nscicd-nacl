@@ -1483,16 +1483,6 @@ netsuite.transactionForm custform_81_t2257815_452 {
                     sameRowAsPrevious = false
                     index = 5
                   }
-                  custbody_mkd_transaction_body_field_2 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_2.scriptid
-                    label = "MKD Transaction Body Field 2"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 6
-                  }
                   cseg_nbc = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg_nbc]"
                     label = "Nearest Big City"
@@ -1501,7 +1491,7 @@ netsuite.transactionForm custform_81_t2257815_452 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 7
+                    index = 6
                   }
                   cseg3 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg3]"
@@ -1511,7 +1501,7 @@ netsuite.transactionForm custform_81_t2257815_452 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 8
+                    index = 7
                   }
                   custbody_srd_opp_source = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_srd_opp_source.scriptid
@@ -1521,7 +1511,7 @@ netsuite.transactionForm custform_81_t2257815_452 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 9
+                    index = 8
                   }
                   custbody_srd_translated_field = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_srd_translated_field.scriptid
@@ -1531,7 +1521,7 @@ netsuite.transactionForm custform_81_t2257815_452 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 10
+                    index = 9
                   }
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
@@ -1541,7 +1531,7 @@ netsuite.transactionForm custform_81_t2257815_452 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 11
+                    index = 10
                   }
                   custbody_gwr_workflow_selector = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
@@ -1551,7 +1541,7 @@ netsuite.transactionForm custform_81_t2257815_452 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 12
+                    index = 11
                   }
                 }
                 index = 0

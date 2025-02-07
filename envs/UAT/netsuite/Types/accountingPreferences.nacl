@@ -939,6 +939,10 @@ settings netsuite.accountingPreferences {
     label = "SCM: Inventory: Commitment: Item Availability Tracking"
     type = "checkbox"
   }
+  boolean VIESAPITESTENVIRONMENT {
+    label = "Use VIES test API"
+    type = "checkbox"
+  }
   number MAXPURCHASES {
     label = "Maximum Purchase Lines to Consolidate"
     type = "integer"

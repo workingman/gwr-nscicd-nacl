@@ -1394,16 +1394,6 @@ netsuite.transactionForm custform_gwr_custom_order {
                     sameRowAsPrevious = false
                     index = 6
                   }
-                  custbody_mkd_transaction_body_field_2 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_2.scriptid
-                    label = "MKD Transaction Body Field 2"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 7
-                  }
                   custbody_eshed_superfield = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_eshed_superfield.scriptid
                     label = "Eshed's Super Field"
@@ -1412,7 +1402,7 @@ netsuite.transactionForm custform_gwr_custom_order {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 8
+                    index = 7
                   }
                   cseg3 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg3]"
@@ -1422,7 +1412,7 @@ netsuite.transactionForm custform_gwr_custom_order {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 9
+                    index = 8
                   }
                   cseg4 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg4]"
@@ -1432,7 +1422,7 @@ netsuite.transactionForm custform_gwr_custom_order {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 10
+                    index = 9
                   }
                   cseg5 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg5]"
@@ -1442,7 +1432,7 @@ netsuite.transactionForm custform_gwr_custom_order {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 11
+                    index = 10
                   }
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
@@ -1452,7 +1442,7 @@ netsuite.transactionForm custform_gwr_custom_order {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 12
+                    index = 11
                   }
                   custbody_gwr_workflow_selector = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
@@ -1462,7 +1452,7 @@ netsuite.transactionForm custform_gwr_custom_order {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 13
+                    index = 12
                   }
                 }
                 index = 0

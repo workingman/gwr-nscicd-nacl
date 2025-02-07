@@ -376,6 +376,7 @@ netsuite.accountingPreferences {
     value = "REGULAR"
     text = "Basic UOM Mismatch Checks"
   }
+  VIESAPITESTENVIRONMENT = false
   ENABLEITEMAVAILABILITYTRACKING = true
   MAXPURCHASES = 0
   VALIDATE_LOT_AVAIL_QTY_AT_COMMIT = false

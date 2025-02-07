@@ -44,6 +44,10 @@ netsuite.role customrole1030 {
         permkey = "ADMI_LOGIN_OAUTH"
         permlevel = "FULL"
       }
+      ADMI_LOGIN_OAUTH2 = {
+        permkey = "ADMI_LOGIN_OAUTH2"
+        permlevel = "FULL"
+      }
       ADMI_RESTWEBSERVICES = {
         permkey = "ADMI_RESTWEBSERVICES"
         permlevel = "FULL"
