@@ -1,0 +1,67 @@
+netsuite.centercategory custcentercategory_sw_chk_check_printing_setup {
+  scriptid = "custcentercategory_sw_chk_check_printing_setup"
+  center = "BASIC"
+  centertab = "BASICCENTERSETUP"
+  label = "Check Printing"
+  links = {
+    link = {
+      customscript_sw_chk_settings_sl_customdeploy_sw_chk_settings_sl@uuuuvuuuu = {
+        linklabel = "Settings"
+        linkobject = "[scriptid=customscript_sw_chk_settings_sl.customdeploy_sw_chk_settings_sl]"
+        linktasktype = "SCRIPT"
+        shortlist = false
+        index = 0
+      }
+      customrecord_sw_chk_format = {
+        linklabel = "Check Formats"
+        linkobject = "[scriptid=customrecord_sw_chk_format]"
+        linktasktype = "LIST"
+        shortlist = false
+        index = 1
+      }
+      customrecord_sw_chk_template = {
+        linklabel = "Check Templates"
+        linkobject = "[scriptid=customrecord_sw_chk_template]"
+        linktasktype = "LIST"
+        shortlist = false
+        index = 2
+      }
+      customrecord_sw_chk_signature = {
+        linklabel = "Check Images"
+        linkobject = "[scriptid=customrecord_sw_chk_signature]"
+        linktasktype = "LIST"
+        shortlist = false
+        index = 3
+      }
+      customrecord_sw_chk_check_template_field = {
+        linklabel = "Custom Template Fields"
+        linkobject = "[scriptid=customrecord_sw_chk_check_template_field]"
+        linktasktype = "LIST"
+        shortlist = false
+        index = 4
+      }
+      customrecord_sw_chk_print_job = {
+        linklabel = "Check Batches"
+        linkobject = "[scriptid=customrecord_sw_chk_print_job]"
+        linktasktype = "LIST"
+        shortlist = false
+        index = 5
+      }
+      customrecord_sw_chk_printer = {
+        linklabel = "Check Printers"
+        linkobject = "[scriptid=customrecord_sw_chk_printer]"
+        linktasktype = "LIST"
+        shortlist = false
+        index = 6
+      }
+      customrecord_sw_chk_log = {
+        linklabel = "Logs"
+        linkobject = "[scriptid=customrecord_sw_chk_log]"
+        linktasktype = "LIST"
+        shortlist = false
+        index = 7
+      }
+    }
+  }
+  _alias = "Check Printing"
+}

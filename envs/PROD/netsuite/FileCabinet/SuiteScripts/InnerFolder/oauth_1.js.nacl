@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_InnerFolder_oauth_1_js@dduv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/InnerFolder/oauth_1.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/InnerFolder/oauth_1.js")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_InnerFolder@d,
+  ]
+  _alias = "oauth_1.js"
+}

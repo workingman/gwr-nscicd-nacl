@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_InnerFolder_giphy_a@ddv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/InnerFolder/giphy.a"
+  content = file("netsuite/FileCabinet/SuiteScripts/InnerFolder/giphy.a")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_InnerFolder@d,
+  ]
+  _alias = "giphy.a"
+}

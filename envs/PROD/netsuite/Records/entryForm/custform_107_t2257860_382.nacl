@@ -1896,6 +1896,17 @@ netsuite.entryForm custform_107_t2257860_382 {
                     quickAdd = false
                     index = 11
                   }
+                  custentity_testt = {
+                    id = netsuite.entitycustomfield.instance.custentity_testt.scriptid
+                    label = "Amit3"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    quickAdd = false
+                    index = 12
+                  }
                 }
                 index = 0
               }

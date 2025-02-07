@@ -5,7 +5,7 @@ netsuite.restlet customscript_get_workflows {
   notifyadmins = false
   notifyowner = true
   notifyuser = false
-  scriptfile = netsuite.file.instance.SuiteScripts_get_workflows_js@duv.path
+  scriptfile = netsuite.file.instance.SuiteScripts_InnerFolder_get_workflows_js@dduv.path
   scriptdeployments = {
     scriptdeployment = {
       customdeploy_get_workflows = {

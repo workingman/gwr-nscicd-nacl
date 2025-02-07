@@ -1,0 +1,21 @@
+netsuite.file SuiteScripts_InnerFolder_fvr_sl_btr_handler_js@dduuuv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/InnerFolder/fvr_sl_btr_handler.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/InnerFolder/fvr_sl_btr_handler.js")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_InnerFolder@d,
+  ]
+  _generated_dependencies = [
+    {
+      reference = netsuite.file.instance.SuiteScripts_InnerFolder_crypto_js_js@dduv.path
+    },
+    {
+      reference = netsuite.file.instance.SuiteScripts_InnerFolder_oauth_1_js@dduv.path
+    },
+  ]
+  _alias = "fvr_sl_btr_handler.js"
+}

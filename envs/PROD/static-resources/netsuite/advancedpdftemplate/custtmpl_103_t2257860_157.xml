@@ -164,7 +164,7 @@
 	<td align="right" colspan="4">${item.rate}</td>
 	<td align="right" colspan="4">${item.amount}</td>
 	</tr>
-	</#list><!-- end items  --></table>
+	</#list><!-- end items 1 --></table>
 
 <hr /></#if>
 <table class="total" style="width: 100%; margin-top: 10px;"><tr class="totalrow">

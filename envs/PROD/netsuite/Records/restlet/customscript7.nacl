@@ -5,7 +5,7 @@ netsuite.restlet customscript7 {
   notifyadmins = true
   notifyowner = true
   notifyuser = false
-  scriptfile = netsuite.file.instance.SuiteScripts_scipt_2_0_js@duuv.path
+  scriptfile = netsuite.file.instance.SuiteScripts_InnerFolder_scipt_2_0_js@dduuv.path
   _alias = "script with 2.0 version"
   isInactive = false
 }

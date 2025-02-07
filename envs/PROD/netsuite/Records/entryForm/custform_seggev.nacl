@@ -400,7 +400,7 @@ netsuite.entryForm custform_seggev {
               id = netsuite.entitycustomfield.instance.custentity_responsible_ap.scriptid
               label = "Responsible AP"
               visible = true
-              mandatory = false
+              mandatory = true
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false

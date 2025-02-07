@@ -1,0 +1,10 @@
+netsuite.restlet customscript303 {
+  scriptid = "customscript303"
+  name = "DP SuiteQL"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_InnerFolder_dp_suiteql_js@ddbv.path
+  isInactive = false
+  _alias = "DP SuiteQL"
+}

@@ -9,6 +9,9 @@ netsuite {
           ids = [
             "customscript_lsa_cs_custom_button",
             "customscript_sw_sah_help_document_c",
+            "customscript_sw_avo_vendor_c",
+            "customscript_sw_chk_check_template_cs",
+            "customscript_sw_afb_settings_c",
           ]
         },
         {
@@ -18,6 +21,28 @@ netsuite {
             "customrecord_sw_sah_help_document",
             "customrecord_sw_sah_settings",
             "customrecord_sw_license_key",
+            "customrecord_sw_afb_settings",
+            "customrecord_sw_afb_form_req",
+            "customrecord_sw_afb_form_response",
+            "customrecord_sw_afb_form_metrics",
+            "customrecord_sw_afb_record",
+            "customrecord_sw_afb_form",
+            "customrecord_sw_afb_form_elem",
+            "customrecord_sw_afb_form_response_field",
+            "customrecord_sw_chk_log",
+            "customrecord_sw_chk_check_template_field",
+            "customrecord_sw_chk_format",
+            "customrecord_sw_chk_micr_font",
+            "customrecord_sw_afb_static_list_opt",
+            "customrecord_sw_chk_template",
+            "customrecord_sw_chk_signature",
+            "customrecord_sw_chk_print_job",
+            "customrecord_sw_avo_settings",
+            "customrecord_sw_chk_print_job_data",
+            "customrecord_sw_chk_printing_defaults",
+            "customrecord_sw_chk_settings",
+            "customrecord_sw_chk_printer",
+            "customrecord_sw_afb_static_list",
           ]
         },
         {
@@ -30,6 +55,10 @@ netsuite {
             "custentity_esc_no_of_employees",
             "custentity_date_lsa",
             "custentity_link_lsa",
+            "custentity_sw_afb_form_metrics",
+            "custentity_sw_avo_onboarding_status",
+            "custentity_sw_avo_vendor_requestor",
+            "custentity_sw_avo_w9",
           ]
         },
         {
@@ -49,6 +78,24 @@ netsuite {
             "custform_4_3368792_586",
             "custform_sw_sah_help_document",
             "custform_sw_sah_settings",
+            "custform_sw_afb_form_req",
+            "custform_sw_afb_form",
+            "custform_sw_afb_form_elem",
+            "custform_sw_afb_record",
+            "custform_sw_avo_settings",
+            "custform_sw_afb_settings",
+            "custform_sw_afb_form_response",
+            "custform_sw_afb_static_list_opt",
+            "custform_sw_chk_printing_defaults",
+            "custform_sw_chk_settings",
+            "custform_sw_chk_signature",
+            "custform_sw_chk_format",
+            "custform_sw_chk_micr_font",
+            "custform_sw_avo_new_vendor",
+            "custform_sw_chk_template",
+            "custform_sw_afb_form_response_field",
+            "custform_sw_afb_static_list",
+            "custform_sw_chk_log",
           ]
         },
         {
@@ -64,6 +111,8 @@ netsuite {
             "customrole_esc_sales_manager",
             "customrole_esc_sales_publisher",
             "customrole_esc_sales_rep",
+            "customrole_sw_chk_credit_lookup_role",
+            "customrole_sw_afb_form_submitter",
           ]
         },
         {
@@ -114,6 +163,9 @@ netsuite {
             "customsearch_esc_my_relationships",
             "customsearch_lsa_contacts",
             "customsearch_esc_opportunity_search",
+            "customsearch_sw_avo_vendor_queue",
+            "customsearch_sw_chk_log",
+            "customsearch_sw_avo_update_queue",
           ]
         },
         {
@@ -123,6 +175,24 @@ netsuite {
             "customscript_sw_sah_help_document_sl",
             "customscript_sw_sah_help_document_ldr_sl",
             "customscript_sw_sah_settings_sl",
+            "customscript_sw_avo_api_sl",
+            "customscript_sw_afb_form_response_sl",
+            "customscript_sw_afb_form_sl",
+            "customscript_sw_afb_request_more_info_sl",
+            "customscript_sw_chk_check_status_sl",
+            "customscript_sw_avo_update_queue_sl",
+            "customscript_sw_chk_open_pdf",
+            "customscript_sw_chk_print_job_sl",
+            "customscript_sw_avo_onboarding_queue_sl",
+            "customscript_sw_chk_job_status_api_sl",
+            "customscript_sw_avo_new_vendor_sl",
+            "customscript_sw_avo_settings_sl",
+            "customscript_sw_afb_form_template_sl",
+            "customscript_sw_afb_settings_sl",
+            "customscript_sw_chk_print_checks",
+            "customscript_sw_chk_settings_sl",
+            "customscript_sw_afb_form_preview_sl",
+            "customscript_afb_form_request_sl",
           ]
         },
         {
@@ -143,6 +213,8 @@ netsuite {
             "custbody_link_lsa",
             "custbody_esc_campaign_category",
             "custbody_esc_last_modified_date",
+            "custbody_sw_afb_form_metrics",
+            "custbody_sw_chk_approved_for_printing",
           ]
         },
         {
@@ -152,18 +224,77 @@ netsuite {
             "customscript_lsa_ue_communication",
             "customscript_sw_sah_help_document_ue",
             "customscript_sw_sah_main_ue",
+            "customscript_sw_afb_record_ue",
+            "customscript_sw_chk_template_ue",
+            "customscript_sw_afb_form_ue",
+            "customscript_sw_afb_settings_ue",
+            "customscript_sw_avo_vendor_ue",
+            "customscript_sw_chk_signature",
+            "customscript_sw_afb_form_request_ue",
+            "customscript_sw_chk_lookup_bill_cred_ue",
+            "customscript_sw_chk_micr_font",
           ]
         },
         {
           name = "customlist"
           ids = [
             "customlist_sw_sah_document_type",
+            "customlist_sw_afb_form_resp_review",
+            "customlist_sw_chk_log_level",
+            "customlist_sw_afb_form_resp_action",
+            "customlist_sw_avo_onboarding_status",
+            "customlist_sw_chk_remittance_order",
+            "customlist_sw_chk_data_type",
+            "customlist_sw_afb_form_col_layout",
+            "customlist_sw_afb_field_type",
+            "customlist_sw_afb_form_resp_status",
+            "customlist_sw_afb_form_deployment",
+            "customlist_sw_afb_form_resp_approval",
+            "customlist_sw_afb_follow_up_period",
+            "customlist_sw_chk_template_format",
+            "customlist_sw_afb_record_type",
+            "customlist_sw_chk_check_print_order",
+            "customlist_sw_chk_template_mode",
+            "customlist_sw_afb_select_type",
+            "customlist_sw_chk_record_type",
+            "customlist_sw_chk_check_position",
+            "customlist_sw_chk_print_mode",
           ]
         },
         {
           name = "scheduledscript"
           ids = [
             "customscript_sw_sah_analytics_ss",
+            "customscript_sw_avo_analytics_ss",
+            "customscript_sw_chk_analytics_ss",
+            "customscript_sw_afb_form_response_ss",
+          ]
+        },
+        {
+          name = "mapreducescript"
+          ids = [
+            "customscript_sw_chk_process_mr",
+            "customscript_sw_afb_form_expiration_mr",
+            "customscript_sw_afb_follow_up_mr",
+            "customscript_sw_afb_form_response_mr",
+          ]
+        },
+        {
+          name = "restlet"
+          ids = [
+            "customscript_sw_chk_print_api_rl",
+          ]
+        },
+        {
+          name = "workflow"
+          ids = [
+            "customworkflow_sw_afb_form_response",
+          ]
+        },
+        {
+          name = "workflowactionscript"
+          ids = [
+            "customscript_sw_afb_form_response_wa",
           ]
         },
       ]

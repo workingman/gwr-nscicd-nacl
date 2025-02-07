@@ -6,7 +6,7 @@ netsuite.clientscript customscriptt {
   notifyadmins = false
   notifyowner = true
   notifyuser = false
-  scriptfile = netsuite.file.instance.SuiteScripts_hq_employee_v2_js@dbbv.path
+  scriptfile = netsuite.file.instance.SuiteScripts_InnerFolder_hq_employee_v2_js@ddbbv.path
   _alias = "hq-employee-v2"
   isInactive = false
 }

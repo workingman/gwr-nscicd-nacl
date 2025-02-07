@@ -1,11 +1,11 @@
 netsuite.bundle bundle_450079 {
   id = "450079"
   name = "SQW Automate: Advanced Help"
-  version = "2024.2.1"
+  version = "2025.1.1"
   isManaged = false
   description = "SquareWorks Automate Advanced Document Management (Advanced Help): Easy access to internally managed help documentation directly within NetSuite."
   dateInstalled = "2024-06-05T02:57:08.000Z"
-  dateLastUpdated = "2024-08-20T03:47:43.000Z"
+  dateLastUpdated = "2025-01-31T23:35:45.000Z"
   installedFrom = "Production"
   publisher = {
     id = "TSTDRV2135883"

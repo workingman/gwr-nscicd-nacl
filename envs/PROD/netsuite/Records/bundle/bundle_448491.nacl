@@ -1,0 +1,20 @@
+netsuite.bundle bundle_448491 {
+  id = "448491"
+  name = "SQW Automate: Advanced Vendor Onboarding"
+  version = "2025.1.1"
+  isManaged = false
+  description = "SquareWorks Automate Advanced Vendor Onboarding: Send secure forms to vendors and let NetSuite auto-create or update vendor information"
+  dateInstalled = "2024-12-13T02:23:34.000Z"
+  dateLastUpdated = "2025-01-31T23:39:36.000Z"
+  installedFrom = "Production"
+  publisher = {
+    id = "TSTDRV2135883"
+    name = "SquareWorks Add-Ons (Release)"
+  }
+  installedBy = {
+    id = 7
+    name = "Salto User"
+  }
+  isPrivate = true
+  _alias = "SQW Automate: Advanced Vendor Onboarding"
+}

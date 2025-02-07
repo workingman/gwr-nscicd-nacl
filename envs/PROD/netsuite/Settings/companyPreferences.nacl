@@ -7,6 +7,7 @@ netsuite.companyPreferences {
   FICONNECTIVITYACCTSTARTBUFFERDAYS = 7
   COLLAPSEVSOEFIELDSET = true
   FREEFORMSTATES = false
+  custscript_sw_chk_entity_only = false
   FLP_CHECKS_LEGACY_SEARCH = 0
   MINPASSWORDLENGTH = 10
   ASSIGNTASKSTOPARTNERS = false
@@ -29,6 +30,10 @@ netsuite.companyPreferences {
     text = "Month D, YYYY"
   }
   DISABLE_CUSTOMER_SATISFACTION = false
+  custscript_sw_chk_check_print_order = {
+    value = "1"
+    text = "Date (ASC)"
+  }
   BANK_IMPORT_SCHEDULE_MIN_TIME = 400
   custscript_lsa_message = false
   custscript_lsa_marketingcampaign = false
@@ -69,6 +74,10 @@ netsuite.companyPreferences {
   FLP_CHECKS_RECORD_SERVICE_INTERNAL = 0
   SHOWQUICKADD = true
   USEOLDNUMBERFORMATTING = false
+  custscript_sw_afb_settings_pref = {
+    value = "1"
+    text = "1"
+  }
   CUSTOMERROLE = {
     value = "14"
     text = "Customer Center"
@@ -77,6 +86,10 @@ netsuite.companyPreferences {
   ALLOC_SCHEDULE_ALLOW_JE_USER_EVENTS = false
   PREPOPULATECONTACTADDRESS = true
   LOGSYSTEMNOTESONUPDATEONLY = false
+  custscript_sw_avo_settings_pref = {
+    value = "1"
+    text = "1"
+  }
   USE_TSVC_FOR_VENDOR_BALANCE = {
     value = "LEGACY"
     text = "Use only old tables"
@@ -110,6 +123,10 @@ netsuite.companyPreferences {
     text = "Demo: Blank US OneWorld Account"
   }
   SHOW_TRAN_NUMBERING_SETUP = true
+  custscript_sw_chk_settings_pref = {
+    value = "1"
+    text = "1"
+  }
   ALLOWLANGUAGE_DE_DE_ONLQA = false
   FLP_CHECKS_RECORD_SERVICE_EXTERNAL = 0
   MAXSEARCHROWS_BACKEND = 15000000
@@ -122,6 +139,7 @@ netsuite.companyPreferences {
     value = "STRONG"
     text = "Strong"
   }
+  custscript_sw_chk_use_approval = false
   DATEFORMAT = {
     value = "M/D/YYYY"
     text = "M/D/YYYY"
@@ -154,8 +172,11 @@ netsuite.companyPreferences {
   _alias = "Company Preferences"
   
   SHOWPROJECTTASKINNEWUI = true
+  custscript_sw_chk_allow_one_click_print = true
+  custscript_sw_chk_bill_credit_lines = true
   MAXPLANNEDTIMEPERPROJECTASSIGNMENT = 260
   ASYNCHRONOUS_PROJECT_RECALCULATION = false
+  custscript_sw_chk_allow_manual_print = true
   BUNDLE_FILES_PUBLIC = true
   custscript_sw_sah_settings_pref = {
     value = "1"

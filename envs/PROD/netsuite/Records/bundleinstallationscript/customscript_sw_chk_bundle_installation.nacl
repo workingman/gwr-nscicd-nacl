@@ -1,0 +1,21 @@
+netsuite.bundleinstallationscript customscript_sw_chk_bundle_installation {
+  scriptid = "customscript_sw_chk_bundle_installation"
+  name = "CHK Bundle Installation"
+  notifyadmins = false
+  notifyowner = true
+  scriptfile = "[/SuiteBundles/Bundle 288859/SW_CHK_Bundle_Install.js]"
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_sw_chk_bundle_installation = {
+        scriptid = "customdeploy_sw_chk_bundle_installation"
+        isdeployed = true
+        loglevel = "AUDIT"
+        runasrole = "ADMINISTRATOR"
+        status = "RELEASED"
+        title = "CHK Bundle Installation"
+      }
+    }
+  }
+  isInactive = false
+  _alias = "CHK Bundle Installation"
+}

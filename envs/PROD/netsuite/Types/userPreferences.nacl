@@ -177,6 +177,10 @@ settings netsuite.userPreferences {
     label = "Global Search Sort by Name/ID"
     type = "checkbox"
   }
+  boolean custscript_sw_chk_enable_one_click_print {
+    label = "Enable One-Click Printing [DEPRECATED]"
+    type = "checkbox"
+  }
   boolean REPORTGRID {
     label = "Show Reports in Grid"
     type = "checkbox"
@@ -345,12 +349,20 @@ settings netsuite.userPreferences {
     label = "Use Multicurrency Expense Reports"
     type = "checkbox"
   }
+  number custscript_sw_chk_one_click_print_port {
+    label = "One-Click Printing Port"
+    type = "integer"
+  }
   boolean LOCATIONUNASSIGNED {
     label = "Include Unassigned"
     type = "checkbox"
   }
   netsuite.selectOption MAPTYPE {
     label = "Address Mapping Type"
+    type = "select"
+  }
+  netsuite.selectOption custscript_sw_chk_print_job {
+    label = "Print Job"
     type = "select"
   }
   boolean GLOBALSEARCHBYTRANANDDOCNUMS {

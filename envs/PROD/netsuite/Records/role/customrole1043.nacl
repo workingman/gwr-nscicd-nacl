@@ -10,10 +10,10 @@ netsuite.role customrole1043 {
   issinglesignononly = false
   issupportrole = false
   iswebserviceonlyrole = false
-  name = "IBM Project Manager"
+  name = "IBM Project Manager - test"
   restrictbydevice = false
   restricttimeandexpenses = false
-  subsidiaryoption = "OWN"
+  subsidiaryoption = "SELECTED"
   subsidiaryviewingallowed = false
   tfaduration = "0"
   tfarequired = "OFF"
@@ -55,6 +55,10 @@ netsuite.role customrole1043 {
         permkey = "REPO_TIME"
         permlevel = "VIEW"
       }
+      LIST_OTHER_ADDRESS = {
+        permkey = "LIST_OTHER_ADDRESS"
+        permlevel = "FULL"
+      }
       LIST_CUSTJOB = {
         permkey = "LIST_CUSTJOB"
         permlevel = "VIEW"
@@ -78,5 +82,5 @@ netsuite.role customrole1043 {
     }
   }
   isInactive = false
-  _alias = "IBM Project Manager"
+  _alias = "IBM Project Manager - test"
 }

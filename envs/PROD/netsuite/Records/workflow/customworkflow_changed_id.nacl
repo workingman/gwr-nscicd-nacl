@@ -115,7 +115,7 @@ Complexity: Low
       workflowstate1 = {
         scriptid = "workflowstate1"
         donotexitworkflow = false
-        name = "Initiation"
+        name = netsuite.translationcollection.instance.custcollectiontranslations_workbook_10_a717ff476a904cc392eb.strings.string._workflow_state_name.scriptid
         positionx = 133
         positiony = 113
         workflowactions = {
@@ -193,6 +193,7 @@ Complexity: Low
           }
         }
         index = 0
+        nameTranslate = true
       }
       workflowstate2 = {
         scriptid = "workflowstate2"

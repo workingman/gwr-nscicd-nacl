@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_InnerFolder_hq_share_script01@dduu {
+  bundleable = true
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/InnerFolder/hq_share_script01"
+  content = file("netsuite/FileCabinet/SuiteScripts/InnerFolder/hq_share_script01")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_InnerFolder@d,
+  ]
+  _alias = "hq_share_script01"
+}

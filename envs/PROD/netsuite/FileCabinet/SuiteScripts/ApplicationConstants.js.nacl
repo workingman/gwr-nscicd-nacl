@@ -1,5 +1,5 @@
 netsuite.file SuiteScripts_ApplicationConstants_js@dv {
-  description = "some updated description updated from nacl and updated again1"
+  description = "some updated description updated from nacl and updated again2"
   bundleable = false
   
   availablewithoutlogin = false

@@ -155,7 +155,7 @@ type netsuite.customrecord_cseg1 {
         scriptid = "val_5915_2239021_234"
         
         name = "aSon"
-        parent = netsuite.customrecord_cseg1.attr.instances.instance.val_123.scriptid
+        parent = netsuite.customrecord_cseg1.attr.instances.instance.val_5913_2239021_335.scriptid
         index = 2
         isInactive = false
       }

@@ -1,0 +1,25 @@
+netsuite.centercategory custcentercategory_sw_chk_check_printing {
+  scriptid = "custcentercategory_sw_chk_check_printing"
+  center = "BASIC"
+  centertab = "BASICCENTERTRANSACTIONS"
+  label = "Check Printing"
+  links = {
+    link = {
+      customscript_sw_chk_print_checks_customdeploy_sw_chk_print_checks@uuuuvuuuu = {
+        linklabel = "Print Checks"
+        linkobject = "[scriptid=customscript_sw_chk_print_checks.customdeploy_sw_chk_print_checks]"
+        linktasktype = "SCRIPT"
+        shortlist = false
+        index = 0
+      }
+      customscript_sw_chk_check_status_sl_customdeploy_sw_chk_check_status_sl@uuuuuvuuuuu = {
+        linklabel = "Status"
+        linkobject = "[scriptid=customscript_sw_chk_check_status_sl.customdeploy_sw_chk_check_status_sl]"
+        linktasktype = "SCRIPT"
+        shortlist = false
+        index = 1
+      }
+    }
+  }
+  _alias = "Check Printing"
+}

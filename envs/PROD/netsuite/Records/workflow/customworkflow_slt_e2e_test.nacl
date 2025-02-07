@@ -9,7 +9,7 @@ netsuite.workflow customworkflow_slt_e2e_test {
   
   islogenabled = false
   keephistory = "ONLYWHENTESTING"
-  name = "created by e2e - 2736555"
+  name = "created by e2e - 0214089"
   recordtypes = "CASHREFUND"
   releasestatus = "NOTINITIATING"
   runasadmin = true
@@ -147,6 +147,6 @@ netsuite.workflow customworkflow_slt_e2e_test {
       }
     }
   }
-  _alias = "created by e2e - 2736555"
+  _alias = "created by e2e - 0214089"
   isInactive = false
 }

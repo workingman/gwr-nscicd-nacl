@@ -1,0 +1,26 @@
+netsuite.suitelet customscript_sw_afb_reject_response_sl {
+  scriptid = "customscript_sw_afb_reject_response_sl"
+  name = "AFB Reject Response (SL)"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = "[/SuiteBundles/Bundle 448491/com.squareworks.avo/AFB/SW_AFB_Reject_Response_SL.js]"
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_sw_afb_reject_response_sl = {
+        scriptid = "customdeploy_sw_afb_reject_response_sl"
+        allemployees = false
+        allpartners = false
+        allroles = true
+        isdeployed = true
+        isonline = false
+        loglevel = "AUDIT"
+        runasrole = "ADMINISTRATOR"
+        status = "RELEASED"
+        title = "AFB Reject Response (SL)"
+      }
+    }
+  }
+  isInactive = false
+  _alias = "AFB Reject Response (SL)"
+}

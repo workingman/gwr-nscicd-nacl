@@ -37,7 +37,26 @@ netsuite.workflow customworkflow_slt_e2e_test_invalid {
                 valuechecked = false
                 valuetype = "STATIC"
                 initcondition = {
+                  formula = "\"Entity:Status\" IN (\"Entity Status1\",\"Entity Status2\")"
                   type = "VISUAL_BUILDER"
+                  parameters = {
+                    parameter = {
+                      Entity_Status@f = {
+                        name = "Entity:Status"
+                        value = "STDBODYENTITY:STDENTITYSTATUS"
+                      }
+                      Entity_Status1@s = {
+                        name = "Entity Status1"
+                        selectrecordtype = "-104"
+                        value = "[ACCOUNT_SPECIFIC_VALUE] (Awarded)"
+                      }
+                      Entity_Status2@s = {
+                        name = "Entity Status2"
+                        selectrecordtype = "-104"
+                        value = "[ACCOUNT_SPECIFIC_VALUE] (Closed Lost)"
+                      }
+                    }
+                  }
                 }
                 index = 0
                 isInactive = false

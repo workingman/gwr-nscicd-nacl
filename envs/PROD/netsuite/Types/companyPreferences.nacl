@@ -39,6 +39,10 @@ settings netsuite.companyPreferences {
     label = "Allow Free-Form States in Addresses"
     type = "checkbox"
   }
+  boolean custscript_sw_chk_entity_only {
+    label = "Only Show Entity Name [DEPRECATED]"
+    type = "checkbox"
+  }
   number FLP_CHECKS_LEGACY_SEARCH {
     label = "Enable Field Access checking of standard fields in Legacy Search (0 - off, 1 - logging only, 2 - full control)"
     type = "integer"
@@ -82,6 +86,10 @@ settings netsuite.companyPreferences {
   boolean DISABLE_CUSTOMER_SATISFACTION {
     label = "Do not display customer satisfaction surveys"
     type = "checkbox"
+  }
+  netsuite.selectOption custscript_sw_chk_check_print_order {
+    label = "Check Print Order [DEPRECATED]"
+    type = "select"
   }
   number BANK_IMPORT_SCHEDULE_MIN_TIME {
     label = "Bank import schedule minimum time of day"
@@ -199,6 +207,10 @@ settings netsuite.companyPreferences {
     label = "Restore Old Number Formatting"
     type = "checkbox"
   }
+  netsuite.selectOption custscript_sw_afb_settings_pref {
+    label = "AFB Settings (SL)"
+    type = "select"
+  }
   netsuite.selectOption CUSTOMERROLE {
     label = "Default Role for New Customers"
     type = "select"
@@ -218,6 +230,10 @@ settings netsuite.companyPreferences {
   boolean PREPOPULATECONTACTADDRESS {
     label = "Pre-Populate Contact Address"
     type = "checkbox"
+  }
+  netsuite.selectOption custscript_sw_avo_settings_pref {
+    label = "AVO Settings"
+    type = "select"
   }
   netsuite.selectOption USE_TSVC_FOR_VENDOR_BALANCE {
     label = "Use TSVC for Vendor Balance"
@@ -319,6 +335,10 @@ settings netsuite.companyPreferences {
     label = "Show Transaction Numbering Setup"
     type = "checkbox"
   }
+  netsuite.selectOption custscript_sw_chk_settings_pref {
+    label = "CBP Settings"
+    type = "select"
+  }
   string ALLOWSUBSIDHIERARCHYCHANGE {
     label = "Allow subsidiary hierarchy to be modified [Max: 30 Days]"
     type = "date"
@@ -362,6 +382,10 @@ settings netsuite.companyPreferences {
   netsuite.selectOption PASSWORD_POLICY {
     label = "Password Policy"
     type = "select"
+  }
+  boolean custscript_sw_chk_use_approval {
+    label = "Use Approval Workflow Automation [DEPRECATED]"
+    type = "checkbox"
   }
   netsuite.selectOption DATEFORMAT {
     label = "Date Format"
@@ -445,12 +469,24 @@ settings netsuite.companyPreferences {
     label = "Show Project Task in new UI"
     type = "checkbox"
   }
+  boolean custscript_sw_chk_allow_one_click_print {
+    label = "Allow One-Click Printing [DEPRECATED]"
+    type = "checkbox"
+  }
+  boolean custscript_sw_chk_bill_credit_lines {
+    label = "Enable Vendor Credit Lines [DEPRECATED]"
+    type = "checkbox"
+  }
   number MAXPLANNEDTIMEPERPROJECTASSIGNMENT {
     label = "Maximum Planned Time Entries Per Project Task Assignment"
     type = "integer"
   }
   boolean ASYNCHRONOUS_PROJECT_RECALCULATION {
     label = "Asynchronous Job Plan Recalculation"
+    type = "checkbox"
+  }
+  boolean custscript_sw_chk_allow_manual_print {
+    label = "Allow Manual Printing [DEPRECATED]"
     type = "checkbox"
   }
   boolean BUNDLE_FILES_PUBLIC {

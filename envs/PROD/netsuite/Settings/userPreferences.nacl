@@ -71,6 +71,7 @@ netsuite.userPreferences {
     text = "Sunday"
   }
   GLOBALSEARCHSORTBYNAME = false
+  custscript_sw_chk_enable_one_click_print = false
   REPORTGRID = false
   SHOW_ID_FIELD = false
   FONT = {
@@ -147,6 +148,7 @@ netsuite.userPreferences {
   }
   USE_MC_ON_EXPREPT = true
   EMAILLIMITCC = false
+  custscript_sw_chk_one_click_print_port = 8734
   LOCATIONUNASSIGNED = false
   MAPTYPE = {
     value = "GOOGLE"

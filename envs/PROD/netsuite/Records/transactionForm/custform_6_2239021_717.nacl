@@ -1729,7 +1729,7 @@ netsuite.transactionForm custform_6_2239021_717 {
     }
   }
   customCode = {
-    scriptFile = netsuite.file.instance.SuiteScripts_clientScript_2_0_js@duuv.path
+    scriptFile = netsuite.file.instance.SuiteScripts_InnerFolder_clientScript_2_0_js@dduuv.path
   }
   actionbar = {
     buttons = {

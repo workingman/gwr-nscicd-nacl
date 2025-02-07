@@ -1,0 +1,32 @@
+netsuite.centercategory custcentercategory_sw_avo_acct_vendors {
+  scriptid = "custcentercategory_sw_avo_acct_vendors"
+  center = "ACCOUNTCENTER"
+  centertab = "ACCOUNTCENTERCENTERVENDORS"
+  label = "Advanced Vendor Onboarding"
+  links = {
+    link = {
+      customscript_sw_avo_new_vendor_sl_customdeploy_sw_avo_new_vendor_sl@uuuuuvuuuuu = {
+        linklabel = "New Vendor"
+        linkobject = "[scriptid=customscript_sw_avo_new_vendor_sl.customdeploy_sw_avo_new_vendor_sl]"
+        linktasktype = "SCRIPT"
+        shortlist = false
+        index = 0
+      }
+      customscript_sw_avo_onboarding_queue_sl_customdeploy_sw_avo_onboarding_queue_sl@uuuuuvuuuuu = {
+        linklabel = "Vendor Onboarding Queue"
+        linkobject = "[scriptid=customscript_sw_avo_onboarding_queue_sl.customdeploy_sw_avo_onboarding_queue_sl]"
+        linktasktype = "SCRIPT"
+        shortlist = false
+        index = 1
+      }
+      customscript_sw_avo_update_queue_sl_customdeploy_sw_avo_update_queue_sl@uuuuuvuuuuu = {
+        linklabel = "Vendor Update Queue"
+        linkobject = "[scriptid=customscript_sw_avo_update_queue_sl.customdeploy_sw_avo_update_queue_sl]"
+        linktasktype = "SCRIPT"
+        shortlist = false
+        index = 2
+      }
+    }
+  }
+  _alias = "Advanced Vendor Onboarding"
+}

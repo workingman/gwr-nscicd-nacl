@@ -1,0 +1,21 @@
+netsuite.file SuiteScripts_InnerFolder_test_js@ddv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/InnerFolder/test.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/InnerFolder/test.js")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_InnerFolder@d,
+  ]
+  _generated_dependencies = [
+    {
+      reference = netsuite.customsegment.instance.cseg_slt_order.scriptid
+    },
+    {
+      reference = netsuite.role.instance.customrole_controller1.scriptid
+    },
+  ]
+  _alias = "test.js"
+}

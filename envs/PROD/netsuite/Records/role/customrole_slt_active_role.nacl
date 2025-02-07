@@ -12,7 +12,7 @@ netsuite.role customrole_slt_active_role {
   issinglesignononly = false
   issupportrole = false
   iswebserviceonlyrole = false
-  name = "active2"
+  name = "active3"
   restrictbydevice = false
   restricttimeandexpenses = false
   subsidiaryoption = "SELECTED"
@@ -35,6 +35,6 @@ netsuite.role customrole_slt_active_role {
       }
     }
   }
-  _alias = "active2"
+  _alias = "active3"
   isInactive = false
 }

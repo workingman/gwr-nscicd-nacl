@@ -6,7 +6,7 @@ netsuite.clientscript customscript_slt_client_script_2_0 {
   notifyadmins = true
   notifyowner = true
   notifyuser = false
-  scriptfile = netsuite.file.instance.SuiteScripts_clientScript_2_0_js@duuv.path
+  scriptfile = netsuite.file.instance.SuiteScripts_InnerFolder_clientScript_2_0_js@dduuv.path
   buttons = {
     button = {
       Some_button@s = {

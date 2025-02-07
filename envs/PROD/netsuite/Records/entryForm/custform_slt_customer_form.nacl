@@ -1896,6 +1896,17 @@ netsuite.entryForm custform_slt_customer_form {
                     quickAdd = false
                     index = 11
                   }
+                  custentity_testt = {
+                    id = netsuite.entitycustomfield.instance.custentity_testt.scriptid
+                    label = "Amit3"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    quickAdd = false
+                    index = 12
+                  }
                 }
                 index = 0
               }
@@ -2148,7 +2159,7 @@ netsuite.entryForm custform_slt_customer_form {
     }
   }
   customCode = {
-    scriptFile = netsuite.file.instance.SuiteScripts_clientScript_2_0_js@duuv.path
+    scriptFile = netsuite.file.instance.SuiteScripts_InnerFolder_clientScript_2_0_js@dduuv.path
   }
   quickViewFields = {
     field = {

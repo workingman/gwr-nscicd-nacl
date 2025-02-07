@@ -366,4 +366,27 @@ type netsuite.customrecord1234567 {
     storevalue = true
     index = 7
   }
+  netsuite.customerStatus custom_custrecord_entity_status {
+    scriptid = "custrecord_entity_status"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "SELECT"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "entity status"
+    onparentdelete = "NO_ACTION"
+    rolerestrict = false
+    searchlevel = "2"
+    selectrecordtype = "-104"
+    showinlist = false
+    storevalue = true
+    index = 8
+  }
 }

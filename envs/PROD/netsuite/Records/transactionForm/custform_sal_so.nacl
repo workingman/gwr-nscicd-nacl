@@ -31,7 +31,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "TRANID"
                 label = "Order #"
                 visible = true
-                mandatory = false
+                mandatory = true
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -71,7 +71,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "STARTDATE"
                 label = "Start Date"
                 visible = true
-                mandatory = false
+                mandatory = true
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -81,7 +81,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "ENDDATE"
                 label = "End Date"
                 visible = true
-                mandatory = false
+                mandatory = true
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -91,7 +91,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "OTHERREFNUM"
                 label = "PO #"
                 visible = true
-                mandatory = false
+                mandatory = true
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -101,7 +101,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "MEMO"
                 label = "Memo"
                 visible = true
-                mandatory = false
+                mandatory = true
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -132,7 +132,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "TERMS"
                 label = "Terms"
                 visible = true
-                mandatory = false
+                mandatory = true
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -158,7 +158,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "SALESREP"
                 label = "Sales Rep"
                 visible = true
-                mandatory = false
+                mandatory = true
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -168,7 +168,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "OPPORTUNITY"
                 label = "Opportunity"
                 visible = true
-                mandatory = false
+                mandatory = true
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -178,7 +178,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "SALESEFFECTIVEDATE"
                 label = "Sales Effective Date"
                 visible = true
-                mandatory = false
+                mandatory = true
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -209,7 +209,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "LEADSOURCE"
                 label = "Lead Source"
                 visible = true
-                mandatory = false
+                mandatory = true
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -229,7 +229,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "PARTNER"
                 label = "Partner"
                 visible = true
-                mandatory = false
+                mandatory = true
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -255,7 +255,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "SUBSIDIARY"
                 label = "Subsidiary"
                 visible = true
-                mandatory = false
+                mandatory = true
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -265,7 +265,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "DEPARTMENT"
                 label = "Department"
                 visible = true
-                mandatory = false
+                mandatory = true
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -275,7 +275,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "CLASS"
                 label = "Class"
                 visible = true
-                mandatory = false
+                mandatory = true
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -285,7 +285,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "LOCATION"
                 label = "Location"
                 visible = true
-                mandatory = false
+                mandatory = true
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -295,7 +295,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "[type=transactionbodycustomfield, scriptid=cseg_slt_order]"
                 label = "Test Applications Order"
                 visible = false
-                mandatory = false
+                mandatory = true
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -305,7 +305,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "[type=transactionbodycustomfield, scriptid=cseg2]"
                 label = "Region"
                 visible = false
-                mandatory = false
+                mandatory = true
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -339,7 +339,7 @@ netsuite.transactionForm custform_sal_so {
                 id = "[scriptid=custbody_esc_created_date]"
                 label = "Created Date"
                 visible = true
-                mandatory = false
+                mandatory = true
                 displayType = "INLINETEXT"
                 columnBreak = false
                 sameRowAsPrevious = false
@@ -361,7 +361,7 @@ netsuite.transactionForm custform_sal_so {
               id = "DRACCOUNT"
               label = "Deferred Revenue Reclassification Account"
               visible = true
-              mandatory = false
+              mandatory = true
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
@@ -371,7 +371,7 @@ netsuite.transactionForm custform_sal_so {
               id = "RECURWEEKLY"
               label = "Weekly"
               visible = false
-              mandatory = false
+              mandatory = true
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
@@ -381,7 +381,7 @@ netsuite.transactionForm custform_sal_so {
               id = "RECURMONTHLY"
               label = "Monthly"
               visible = true
-              mandatory = false
+              mandatory = true
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
@@ -391,7 +391,7 @@ netsuite.transactionForm custform_sal_so {
               id = "RECURQUARTERLY"
               label = "Quarterly"
               visible = false
-              mandatory = false
+              mandatory = true
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
@@ -401,7 +401,7 @@ netsuite.transactionForm custform_sal_so {
               id = netsuite.transactionbodycustomfield.instance.custbody_bizdoc_buyer_name.scriptid
               label = "Buyer"
               visible = false
-              mandatory = false
+              mandatory = true
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
@@ -411,7 +411,7 @@ netsuite.transactionForm custform_sal_so {
               id = netsuite.transactionbodycustomfield.instance.custbody_approval_status.scriptid
               label = "Bill Approval Status"
               visible = false
-              mandatory = false
+              mandatory = true
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
@@ -421,7 +421,7 @@ netsuite.transactionForm custform_sal_so {
               id = "[scriptid=custbody_esc_campaign_category]"
               label = "Campaign Category"
               visible = false
-              mandatory = false
+              mandatory = true
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
@@ -441,7 +441,7 @@ netsuite.transactionForm custform_sal_so {
               id = netsuite.transactionbodycustomfield.instance.custbody_slt_created_date.scriptid
               label = "Created Date (2)"
               visible = true
-              mandatory = false
+              mandatory = true
               displayType = "DISABLED"
               columnBreak = false
               sameRowAsPrevious = false
@@ -451,7 +451,7 @@ netsuite.transactionForm custform_sal_so {
               id = netsuite.transactionbodycustomfield.instance.custbody_slt_customer_balance.scriptid
               label = "Customer Balance"
               visible = true
-              mandatory = false
+              mandatory = true
               displayType = "DISABLED"
               columnBreak = false
               sameRowAsPrevious = false
@@ -461,7 +461,7 @@ netsuite.transactionForm custform_sal_so {
               id = netsuite.transactionbodycustomfield.instance.custbody_slt_customer_balance_curr.scriptid
               label = "Customer Balance Currency"
               visible = true
-              mandatory = false
+              mandatory = true
               displayType = "DISABLED"
               columnBreak = false
               sameRowAsPrevious = false
@@ -471,7 +471,7 @@ netsuite.transactionForm custform_sal_so {
               id = netsuite.transactionbodycustomfield.instance.custbody_slt_last_modified_date.scriptid
               label = "Last Modified Date (2)"
               visible = true
-              mandatory = false
+              mandatory = true
               displayType = "DISABLED"
               columnBreak = false
               sameRowAsPrevious = false
@@ -481,7 +481,7 @@ netsuite.transactionForm custform_sal_so {
               id = netsuite.transactionbodycustomfield.instance.custbody_must_ship_by.scriptid
               label = "Must be Shipped By"
               visible = true
-              mandatory = false
+              mandatory = true
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
@@ -511,7 +511,7 @@ netsuite.transactionForm custform_sal_so {
               id = netsuite.transactionbodycustomfield.instance.custbody_dep_percent.scriptid
               label = "Deposit Percent"
               visible = true
-              mandatory = false
+              mandatory = true
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
@@ -521,7 +521,7 @@ netsuite.transactionForm custform_sal_so {
               id = netsuite.transactionbodycustomfield.instance.custbody_dep_formula.scriptid
               label = "Deposit Due"
               visible = true
-              mandatory = false
+              mandatory = true
               displayType = "INLINETEXT"
               columnBreak = false
               sameRowAsPrevious = false
@@ -531,7 +531,7 @@ netsuite.transactionForm custform_sal_so {
               id = netsuite.transactionbodycustomfield.instance.custbody_contactontrans.scriptid
               label = "Contact Name"
               visible = true
-              mandatory = false
+              mandatory = true
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
@@ -541,7 +541,7 @@ netsuite.transactionForm custform_sal_so {
               id = netsuite.transactionbodycustomfield.instance.custbody_contactphonenumber.scriptid
               label = "Contact Phone Number"
               visible = true
-              mandatory = false
+              mandatory = true
               displayType = "INLINETEXT"
               columnBreak = false
               sameRowAsPrevious = false
@@ -586,7 +586,7 @@ netsuite.transactionForm custform_sal_so {
                     id = "DISCOUNTITEM"
                     label = "Discount Item"
                     visible = true
-                    mandatory = false
+                    mandatory = true
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
@@ -596,7 +596,7 @@ netsuite.transactionForm custform_sal_so {
                     id = "DISCOUNTRATE"
                     label = "Rate"
                     visible = true
-                    mandatory = false
+                    mandatory = true
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
@@ -977,7 +977,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "SHIPDATE"
                       label = "Ship Date"
                       visible = true
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
@@ -987,7 +987,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "ACTUALSHIPDATE"
                       label = "Actual"
                       visible = true
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = true
@@ -1007,7 +1007,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "SHIPMETHOD"
                       label = "Shipping Method"
                       visible = true
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
@@ -1037,7 +1037,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "FOB"
                       label = "FOB"
                       visible = false
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
@@ -1058,7 +1058,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "SHIPPINGTAXCODE"
                       label = "Shipping Tax Code"
                       visible = true
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = true
                       sameRowAsPrevious = false
@@ -1068,7 +1068,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "SHIPPINGTAX1RATE"
                       label = "Shipping Tax Rate"
                       visible = true
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
@@ -1078,7 +1078,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "SHIPPINGTAX2RATE"
                       label = "Shipping Tax Rate 2"
                       visible = true
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
@@ -1088,7 +1088,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "HANDLINGTAXCODE"
                       label = "Handling Tax Code"
                       visible = true
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
@@ -1098,7 +1098,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "HANDLINGTAX1RATE"
                       label = "Handling Tax Rate"
                       visible = true
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
@@ -1108,7 +1108,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "HANDLINGTAX2RATE"
                       label = "Handling Tax Rate 2"
                       visible = true
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
@@ -1134,7 +1134,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "SHIPADDRESSLIST"
                       label = "Ship To Select"
                       visible = true
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
@@ -1144,7 +1144,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "SHIPADDRESS"
                       label = "Ship To"
                       visible = true
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
@@ -1208,7 +1208,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "BILLINGSCHEDULE"
                       label = "Billing Schedule"
                       visible = true
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
@@ -1234,7 +1234,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "BILLADDRESSLIST"
                       label = "Bill To Select"
                       visible = true
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
@@ -1244,7 +1244,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "BILLADDRESS"
                       label = "Bill To"
                       visible = true
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
@@ -1274,7 +1274,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "PAYMENTSESSIONAMOUNT"
                           label = "Payment Amount"
                           visible = false
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1284,7 +1284,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "PAYMENTMETHOD"
                           label = "Payment Method"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1294,7 +1294,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "CREDITCARD"
                           label = "Credit Card Select"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1304,7 +1304,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "CCNUMBER"
                           label = "Credit Card #"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1314,7 +1314,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "CCSECURITYCODE"
                           label = "CSC"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1324,7 +1324,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "CCEXPIREDATE"
                           label = "Expires (MM/YYYY)"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1334,7 +1334,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "CARDDATAPROVIDED"
                           label = "Card Data Provided"
                           visible = false
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1344,7 +1344,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "CCNAME"
                           label = "Name on Card"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1354,7 +1354,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "CCSTREET"
                           label = "Card Street"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1364,7 +1364,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "CCZIPCODE"
                           label = "Card Zip Code"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1374,7 +1374,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "CUSTOMERCODE"
                           label = "Customer Code"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1384,7 +1384,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "CREDITCARDPROCESSOR"
                           label = "Payment Processing Profile"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1416,7 +1416,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "PNREFNUM"
                           label = "P/N Ref."
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1426,7 +1426,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "AUTHCODE"
                           label = "Auth. Code"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1436,7 +1436,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "CCAVSSTREETMATCH"
                           label = "AVS Street Match"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1446,7 +1446,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "CCAVSZIPMATCH"
                           label = "AVS Zip Match"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1456,7 +1456,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "CCSECURITYCODEMATCH"
                           label = "CSC Match"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1466,7 +1466,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "IGNORECSC"
                           label = "Ignore CSC"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1476,7 +1476,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "CCISPURCHASECARDBIN"
                           label = "Purchase Card BIN"
                           visible = false
-                          mandatory = false
+                          mandatory = true
                           displayType = "DISABLED"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1486,7 +1486,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "CCPROCESSASPURCHASECARD"
                           label = "Send Line-Level Data"
                           visible = false
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1496,7 +1496,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "ISRECURRINGPAYMENT"
                           label = "Recurring Payment"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1506,7 +1506,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "SOFTDESCRIPTOR"
                           label = "Soft Descriptor"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1516,7 +1516,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "PAYMENTOPERATION"
                           label = "Payment Operation"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1610,7 +1610,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "TAXITEM"
                       label = "Tax"
                       visible = true
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
@@ -1620,7 +1620,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "TAXRATE"
                       label = "Tax %"
                       visible = true
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
@@ -1630,7 +1630,7 @@ netsuite.transactionForm custform_sal_so {
                       id = "VATREGNUM"
                       label = "Tax ID"
                       visible = true
-                      mandatory = false
+                      mandatory = true
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
@@ -1668,7 +1668,7 @@ netsuite.transactionForm custform_sal_so {
                     id = "REVRECSTARTDATE"
                     label = "Rev. Rec. Start Date"
                     visible = false
-                    mandatory = false
+                    mandatory = true
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
@@ -1678,7 +1678,7 @@ netsuite.transactionForm custform_sal_so {
                     id = "REVRECENDDATE"
                     label = "Rev. Rec. End Date"
                     visible = false
-                    mandatory = false
+                    mandatory = true
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
@@ -1762,7 +1762,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "MESSAGESEL"
                           label = "Select Message"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1772,7 +1772,7 @@ netsuite.transactionForm custform_sal_so {
                           id = "MESSAGE"
                           label = "Customer Message"
                           visible = true
-                          mandatory = false
+                          mandatory = true
                           displayType = "NORMAL"
                           columnBreak = false
                           sameRowAsPrevious = false
@@ -1985,7 +1985,7 @@ netsuite.transactionForm custform_sal_so {
                     id = "[type=transactionbodycustomfield, scriptid=cseg1]"
                     label = "Stam2"
                     visible = true
-                    mandatory = false
+                    mandatory = true
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
@@ -1995,7 +1995,7 @@ netsuite.transactionForm custform_sal_so {
                     id = "ONETIME"
                     label = "One Time"
                     visible = true
-                    mandatory = false
+                    mandatory = true
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
@@ -2005,7 +2005,7 @@ netsuite.transactionForm custform_sal_so {
                     id = "RECURANNUALLY"
                     label = "Annually"
                     visible = true
-                    mandatory = false
+                    mandatory = true
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
@@ -2015,7 +2015,7 @@ netsuite.transactionForm custform_sal_so {
                     id = netsuite.transactionbodycustomfield.instance.custbody_slt_opportunity_owner_modify.scriptid
                     label = "Opportunity owner"
                     visible = true
-                    mandatory = false
+                    mandatory = true
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
@@ -2025,7 +2025,7 @@ netsuite.transactionForm custform_sal_so {
                     id = netsuite.transactionbodycustomfield.instance.custbody_slt_sales_order_type.scriptid
                     label = "Sales order type"
                     visible = true
-                    mandatory = false
+                    mandatory = true
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
@@ -2035,7 +2035,7 @@ netsuite.transactionForm custform_sal_so {
                     id = "[scriptid=custbody_esc_last_modified_date]"
                     label = "Last Modified Date (2)"
                     visible = false
-                    mandatory = false
+                    mandatory = true
                     displayType = "INLINETEXT"
                     columnBreak = false
                     sameRowAsPrevious = false
@@ -2045,7 +2045,7 @@ netsuite.transactionForm custform_sal_so {
                     id = netsuite.transactionbodycustomfield.instance.custbodybundle_type.scriptid
                     label = "Bundle Type"
                     visible = false
-                    mandatory = false
+                    mandatory = true
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
@@ -2055,7 +2055,7 @@ netsuite.transactionForm custform_sal_so {
                     id = "[type=transactionbodycustomfield, scriptid=cseg_erp_property]"
                     label = "Kavel"
                     visible = true
-                    mandatory = false
+                    mandatory = true
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
@@ -2065,7 +2065,7 @@ netsuite.transactionForm custform_sal_so {
                     id = "[type=transactionbodycustomfield, scriptid=cseg3]"
                     label = "cseg6"
                     visible = false
-                    mandatory = false
+                    mandatory = true
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
@@ -2075,7 +2075,7 @@ netsuite.transactionForm custform_sal_so {
                     id = "[type=transactionbodycustomfield, scriptid=cseg4]"
                     label = "csegggg"
                     visible = false
-                    mandatory = false
+                    mandatory = true
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
@@ -2085,7 +2085,7 @@ netsuite.transactionForm custform_sal_so {
                     id = "[type=transactionbodycustomfield, scriptid=cseg_sales_region]"
                     label = "Sales Region"
                     visible = true
-                    mandatory = false
+                    mandatory = true
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
@@ -2095,7 +2095,7 @@ netsuite.transactionForm custform_sal_so {
                     id = "[type=transactionbodycustomfield, scriptid=cseg_test2]"
                     label = "test2"
                     visible = false
-                    mandatory = false
+                    mandatory = true
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
@@ -2105,7 +2105,7 @@ netsuite.transactionForm custform_sal_so {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
                     label = "GWR Amp doc number"
                     visible = false
-                    mandatory = false
+                    mandatory = true
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false

@@ -8,7 +8,7 @@ netsuite.workflow customworkflow_test {
   keephistory = "ONLYWHENTESTING"
   name = "daniel.1"
   recordtypes = netsuite.customrecord324.attr.scriptid
-  releasestatus = "TESTING"
+  releasestatus = "SUSPENDED"
   runasadmin = false
   initcondition = {
     type = "VISUAL_BUILDER"

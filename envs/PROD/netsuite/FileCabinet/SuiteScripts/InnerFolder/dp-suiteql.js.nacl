@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_InnerFolder_dp_suiteql_js@ddbv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/InnerFolder/dp-suiteql.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/InnerFolder/dp-suiteql.js")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_InnerFolder@d,
+  ]
+  _alias = "dp-suiteql.js"
+}

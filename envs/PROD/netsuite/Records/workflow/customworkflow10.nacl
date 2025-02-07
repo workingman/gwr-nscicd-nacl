@@ -6,7 +6,7 @@ netsuite.workflow customworkflow10 {
   
   islogenabled = false
   keephistory = "ONLYWHENTESTING"
-  name = "daniel9"
+  name = "daniel999"
   recordtypes = "ACCOUNT"
   releasestatus = "TESTING"
   runasadmin = false
@@ -50,6 +50,6 @@ netsuite.workflow customworkflow10 {
       }
     }
   }
-  _alias = "daniel9"
+  _alias = "daniel999"
   isInactive = false
 }

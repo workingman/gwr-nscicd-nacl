@@ -1,0 +1,3 @@
+type netsuite.emailtemplateReference {
+  originalType = netsuite.emailtemplate
+}

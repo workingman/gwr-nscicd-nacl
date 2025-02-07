@@ -10,6 +10,11 @@ netsuite.translationcollection custcollectiontranslations_workbook_10_a717ff476a
         description = "Name in workbook"
         index = 0
       }
+      _workflow_state_name = {
+        scriptid = "_workflow_state_name"
+        defaulttranslation = "workflow state name"
+        index = 1
+      }
     }
   }
   nameTranslate = true

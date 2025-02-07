@@ -987,6 +987,10 @@ settings netsuite.accountingPreferences {
     label = "SCM: Inventory: Commitment: Item Availability Tracking"
     type = "checkbox"
   }
+  boolean VIESAPITESTENVIRONMENT {
+    label = "Use VIES test API"
+    type = "checkbox"
+  }
   boolean USEINVOICEAPPROVALFORREVENUEPLANS {
     label = "Require Invoice Approval When Revenue Plans Are Created on Billing"
     type = "checkbox"

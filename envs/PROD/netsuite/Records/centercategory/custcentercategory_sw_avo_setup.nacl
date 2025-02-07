@@ -1,0 +1,18 @@
+netsuite.centercategory custcentercategory_sw_avo_setup {
+  scriptid = "custcentercategory_sw_avo_setup"
+  center = "BASIC"
+  centertab = "BASICCENTERSETUP"
+  label = "Advanced Vendor Onboarding"
+  links = {
+    link = {
+      customscript_sw_avo_settings_sl_customdeploy_sw_avo_settings_sl@uuuuvuuuu = {
+        linklabel = "Settings"
+        linkobject = "[scriptid=customscript_sw_avo_settings_sl.customdeploy_sw_avo_settings_sl]"
+        linktasktype = "SCRIPT"
+        shortlist = false
+        index = 0
+      }
+    }
+  }
+  _alias = "Advanced Vendor Onboarding"
+}

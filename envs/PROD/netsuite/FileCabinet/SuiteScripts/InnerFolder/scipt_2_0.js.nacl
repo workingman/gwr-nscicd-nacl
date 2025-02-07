@@ -1,0 +1,19 @@
+netsuite.file SuiteScripts_InnerFolder_scipt_2_0_js@dduuv {
+  description = "aaaaabbbb"
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/InnerFolder/scipt_2_0.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/InnerFolder/scipt_2_0.js")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_InnerFolder@d,
+  ]
+  _generated_dependencies = [
+    {
+      reference = netsuite.file.instance.SuiteScripts_InnerFolder_oauth_1_js@dduv.path
+    },
+  ]
+  _alias = "scipt_2_0.js"
+}

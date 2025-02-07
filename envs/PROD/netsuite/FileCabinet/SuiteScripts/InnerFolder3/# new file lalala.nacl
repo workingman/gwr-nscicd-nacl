@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_InnerFolder3___new_file_lalala@ddnsss {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/InnerFolder3/# new file lalala"
+  content = file("netsuite/FileCabinet/SuiteScripts/InnerFolder3/# new file lalala")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_InnerFolder3@d,
+  ]
+  _alias = "# new file lalala"
+}

@@ -5,7 +5,7 @@ netsuite.clientscript customscripthqclonesample01 {
   notifyadmins = false
   notifyowner = true
   notifyuser = false
-  scriptfile = netsuite.file.instance.SuiteScripts_hq_clone_sample01_js@dbbv.path
+  scriptfile = netsuite.file.instance.SuiteScripts_InnerFolder_hq_clone_sample01_js@ddbbv.path
   scriptdeployments = {
     scriptdeployment = {
       customdeploy1 = {

@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_InnerFolder_hq_employee_v2_js@ddbbv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/InnerFolder/hq-employee-v2.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/InnerFolder/hq-employee-v2.js")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_InnerFolder@d,
+  ]
+  _alias = "hq-employee-v2.js"
+}

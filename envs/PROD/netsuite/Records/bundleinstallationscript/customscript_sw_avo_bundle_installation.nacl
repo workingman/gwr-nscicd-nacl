@@ -1,0 +1,21 @@
+netsuite.bundleinstallationscript customscript_sw_avo_bundle_installation {
+  scriptid = "customscript_sw_avo_bundle_installation"
+  name = "AVO Bundle Installation"
+  notifyadmins = false
+  notifyowner = true
+  scriptfile = "[/SuiteBundles/Bundle 448491/com.squareworks.avo/AVO/SW_AVO_Bundle_Install.js]"
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_sw_avo_bundle_installation = {
+        scriptid = "customdeploy_sw_avo_bundle_installation"
+        isdeployed = true
+        loglevel = "AUDIT"
+        runasrole = "ADMINISTRATOR"
+        status = "RELEASED"
+        title = "AVO Bundle Installation"
+      }
+    }
+  }
+  isInactive = false
+  _alias = "AVO Bundle Installation"
+}

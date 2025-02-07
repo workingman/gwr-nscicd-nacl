@@ -359,6 +359,9 @@ type netsuite.customer {
     select_type_id = netsuite.customrecord2823.attr.scriptid
     field_instance = netsuite.entitycustomfield.instance.custentity_seggev.scriptid
   }
+  string custom_custentity_testt {
+    field_instance = netsuite.entitycustomfield.instance.custentity_testt.scriptid
+  }
   number custom_custentity_yearestablished {
     field_instance = netsuite.entitycustomfield.instance.custentity_yearestablished.scriptid
   }

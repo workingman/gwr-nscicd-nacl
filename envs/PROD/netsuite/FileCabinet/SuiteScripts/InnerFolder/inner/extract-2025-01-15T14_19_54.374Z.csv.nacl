@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_InnerFolder_inner_extract_2025_01_15T14_19_54_374Z_csv@dddbbbuuvv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/InnerFolder/inner/extract-2025-01-15T14_19_54.374Z.csv"
+  content = file("netsuite/FileCabinet/SuiteScripts/InnerFolder/inner/extract-2025-01-15T14_19_54.374Z.csv")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_InnerFolder_inner@d,
+  ]
+  _alias = "extract-2025-01-15T14_19_54.374Z.csv"
+}

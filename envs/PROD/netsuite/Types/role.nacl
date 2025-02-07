@@ -3,7 +3,7 @@ type netsuite.role {
     _required = true
     isAttribute = true
     _restriction = {
-      regex = "^customrole[0-9a-z_]+"
+      regex = "^customrole[0-9a-z_]*"
     }
   }
   string centertype {
