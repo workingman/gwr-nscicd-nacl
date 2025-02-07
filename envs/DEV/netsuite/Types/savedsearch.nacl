@@ -103,7 +103,7 @@ type netsuite.savedsearch {
     _required = true
     isAttribute = true
     _restriction = {
-      regex = "^customsearch[0-9a-z_]+"
+      regex = "^customsearch[0-9a-z_]*"
     }
   }
   string definition {

@@ -11,6 +11,10 @@ settings netsuite.accountingPreferences {
     label = "Maximum number of MLI locations"
     type = "integer"
   }
+  netsuite.selectOption CONTRACTCOSTEXPENSESOURCEACCOUNT {
+    label = "Contract Acquisition Expense Source Account"
+    type = "select"
+  }
   boolean ENABLEINVENTORYDEMANDTRACKING {
     label = "SCM: Inventory: Commitment: Enable Inventory Demand Table Tracking"
     type = "checkbox"
@@ -103,6 +107,10 @@ settings netsuite.accountingPreferences {
     label = "Default Payment Account"
     type = "select"
   }
+  netsuite.selectOption RECLASSIFICATIONJOURNALENTRYFORM {
+    label = "Default Reclassification Journal Entry Form"
+    type = "select"
+  }
   boolean USEINVENTORYCOSTINGSTRICTVALIDATION {
     label = "Perform strict validation in inventory costing 2.0"
     type = "checkbox"
@@ -119,6 +127,10 @@ settings netsuite.accountingPreferences {
     label = "Action"
     type = "select"
   }
+  boolean USETRANDATEASREVARRNGDATE {
+    label = "Use Transaction Date as Revenue Arrangement Date"
+    type = "checkbox"
+  }
   boolean APPLYTIMETHRESHOLDTOVENDORTIME {
     label = "Apply Time Threshold to Vendor Time"
     type = "checkbox"
@@ -130,6 +142,10 @@ settings netsuite.accountingPreferences {
   boolean PICKINGTICKETNONINVT {
     label = "Show Non-Inventory Items on Printed Forms"
     type = "checkbox"
+  }
+  number RETRY_WAIT_TIME_ON_ELEM_PLAN_UPDATE {
+    label = "Time in Between Each Retry in Bulk Revenue Element Plan Status Update (Milliseconds)"
+    type = "integer"
   }
   boolean CONSOLPAYMENTS {
     label = "Accept Payments through Top-level Customer"
@@ -178,6 +194,10 @@ settings netsuite.accountingPreferences {
   boolean DONTTRACKITEMCOUNT {
     label = "Do not track item on hand counts in parallel"
     type = "checkbox"
+  }
+  netsuite.selectOption REVRECJOURNALENTRYSUMMARIZATION {
+    label = "Create Revenue Journals in GL"
+    type = "select"
   }
   netsuite.selectOption COPYTIMESHEETOPTIONS {
     label = "Copy from Week Options"
@@ -247,6 +267,10 @@ settings netsuite.accountingPreferences {
     label = "Copy Service Item Description to Time memo"
     type = "checkbox"
   }
+  boolean USESYSCALCPCT4REVREC {
+    label = "Use System Percentage of Completion For Schedules"
+    type = "checkbox"
+  }
   boolean ENABLEVIRTUALCARDOPTIMIZATION {
     label = "Enable Virtual Card Optimization In Payment Automation SuiteApp"
     type = "checkbox"
@@ -307,6 +331,10 @@ settings netsuite.accountingPreferences {
     label = "Base Invoice Date on Billing Schedule Date"
     type = "checkbox"
   }
+  number MAXLINESPERCREATERECLASSSUBMISSION {
+    label = "Maximum number of lines to place in a single create reclassification je bulk processing submission"
+    type = "integer"
+  }
   boolean INV_COSTING_DELAYED_START {
     label = "SCM: Inventory: Costing: Whether or not to delay the start of inventory costing to allow for afterSubmit events to process."
     type = "checkbox"
@@ -331,6 +359,10 @@ settings netsuite.accountingPreferences {
     label = "Credit in Advance of Vendor Return"
     type = "checkbox"
   }
+  boolean CREATEREVENUEELEMENTUPONCLOSEDORDER {
+    label = "Create and maintain revenue element upon closed order"
+    type = "checkbox"
+  }
   netsuite.selectOption DUPLICATEWARNINGS {
     label = "Duplicate Number Warnings"
     type = "select"
@@ -343,6 +375,10 @@ settings netsuite.accountingPreferences {
     label = "Items Billable by Default"
     type = "checkbox"
   }
+  netsuite.selectOption REVENUEARRANGEMENTSYSTEMFORM {
+    label = "Default Revenue Arrangement Form"
+    type = "select"
+  }
   boolean BYPASS_ALLOCATION_DATA_FIX {
     label = "Bypass Allocation Data Migration Verification"
     type = "checkbox"
@@ -350,6 +386,10 @@ settings netsuite.accountingPreferences {
   boolean CURRENCY_RATE_ACCESS {
     label = "Grant access to historical currency rates data"
     type = "checkbox"
+  }
+  netsuite.selectOption DEFERREDREVENUEACCOUNT {
+    label = "Default Deferred Revenue Account"
+    type = "select"
   }
   boolean REALTIMECOGSORDERING {
     label = "SCM: Inventory: Costing: Real-time COGS Ordering"
@@ -367,6 +407,10 @@ settings netsuite.accountingPreferences {
     label = "Default COGS Account"
     type = "select"
   }
+  boolean OTHERRECORDNUMBERINGBYSEQ {
+    label = "Allow Gaps in Revenue Recognition Record Numbers"
+    type = "checkbox"
+  }
   boolean DEPTSPERLINE {
     label = "Allow Per-Line Departments"
     type = "checkbox"
@@ -379,6 +423,10 @@ settings netsuite.accountingPreferences {
     label = "Time Bills"
     type = "checkbox"
   }
+  netsuite.selectOption REVENUEARRANGEMENTUPDATEFREQUENCY {
+    label = "Revenue Arrangement Update Frequency"
+    type = "select"
+  }
   boolean SINGLEITEMBARCODING {
     label = "Scan Individual Items"
     type = "checkbox"
@@ -386,6 +434,10 @@ settings netsuite.accountingPreferences {
   boolean RESTRICTBALANCEVIEWING {
     label = "Restrict Account Balance Viewing for Employees with Classification Restrictions"
     type = "checkbox"
+  }
+  number RETRY_LIMIT_ON_ELEM_PLAN_UPDATE {
+    label = "Number of Retries in Bulk Revenue Element Plan Status Update"
+    type = "integer"
   }
   netsuite.selectOption DEFAULTSALESORDERCOMMITOPTION {
     label = "Default commit option on sales order"
@@ -402,6 +454,10 @@ settings netsuite.accountingPreferences {
   netsuite.selectOption ARACCOUNT {
     label = "Default Receivables Account"
     type = "select"
+  }
+  boolean CUSTOMAPPROVALREVARRNG {
+    label = "Revenue Arrangements"
+    type = "checkbox"
   }
   boolean NO_UPDATE_TRANSACTION_COGSASSETACCT {
     label = "Do Not Update COGS and Asset Accounts on Existing Transactions When Accounts Are Changed"
@@ -443,6 +499,10 @@ settings netsuite.accountingPreferences {
     label = "Show Unfulfilled Items on Invoices"
     type = "checkbox"
   }
+  boolean MIGRATEOPENREVENUETRANSACTIONS {
+    label = "Enable Migrate Revenue Arrangements and Plans"
+    type = "checkbox"
+  }
   boolean ENABLEINVFUTURESUPPLYTRACKING {
     label = "SCM: Inventory: Commitment: Enable Inventory Future Supply Table Tracking"
     type = "checkbox"
@@ -466,6 +526,10 @@ settings netsuite.accountingPreferences {
   netsuite.selectOption DEFAULTRECEIVINGEXCHANGERATE {
     label = "Default Receiving Exchange Rate"
     type = "select"
+  }
+  boolean MINIMIZEREVENUEWORKQUEUEITEMS {
+    label = "Minimize Revenue Work Queue Items"
+    type = "checkbox"
   }
   netsuite.selectOption FFCRFIXEDDATE {
     label = "Default Fixed Date Charge Rule Stage"
@@ -499,6 +563,10 @@ settings netsuite.accountingPreferences {
     label = "Combine Detail Items on Expense Reports"
     type = "checkbox"
   }
+  netsuite.selectOption DEFAULTPCTCOMPLETEREVRECRULE {
+    label = "Default Percent Complete Revenue Recognition Rule"
+    type = "select"
+  }
   boolean VERIFYINVENTORYDETAILITEM {
     label = "Perform backend checks to see if the item in the inventory detail subrecord matches the item in the transaction."
     type = "checkbox"
@@ -510,6 +578,10 @@ settings netsuite.accountingPreferences {
   boolean SETREVERSINGVARIANCEDATETOREVJES {
     label = "Set Reversal Variance Date Equal To The Reversing Journal Date When Voided Transaction Is In A Closed Period"
     type = "checkbox"
+  }
+  number NUMBEROFSHORTTERMREVENUEPERIODS {
+    label = "Number of short-term revenue periods"
+    type = "integer"
   }
   boolean ALLOWNONREIMBURSABLEEXPENSES {
     label = "Allow Non-Reimbursable Expenses"
@@ -555,6 +627,10 @@ settings netsuite.accountingPreferences {
     label = "SCM: Inventory: Costing: Maximum number of items on a quick distribution"
     type = "integer"
   }
+  netsuite.selectOption REVENUERECOGNITIONJOURNALENTRYFORM {
+    label = "Default Revenue Recognition Journal Entry Form"
+    type = "select"
+  }
   boolean VENDCREDLIMORDERS {
     label = "Vendor Credit Limit Includes Orders"
     type = "checkbox"
@@ -595,6 +671,10 @@ settings netsuite.accountingPreferences {
     label = "Validate Linked PO Vendor is same as in Vendor Bill"
     type = "checkbox"
   }
+  netsuite.selectOption DEFAULTDEFERREDREVENUEACCOUNT {
+    label = "Default Deferred Revenue Reclassification Account"
+    type = "select"
+  }
   boolean UNRECEIVEDBILLS {
     label = "Bill in Advance of Receipt"
     type = "checkbox"
@@ -625,6 +705,10 @@ settings netsuite.accountingPreferences {
   }
   boolean REQUIRETIMEFORWORKINGDAYS {
     label = "Require time for working days"
+    type = "checkbox"
+  }
+  boolean ALLOWPOSTINGDISCWITHDEFERREDREVREC {
+    label = "Allow Posting Discount With Deferred Revenue Recognition"
     type = "checkbox"
   }
   netsuite.selectOption LOCKTIMESHEETPERIOD {
@@ -675,6 +759,10 @@ settings netsuite.accountingPreferences {
     label = "Allow Default Email on Purchase Orders using Suiteflow Approval Routing"
     type = "select"
   }
+  boolean AUTOMANAGEREVENUEARRANGEMENTS {
+    label = "Auto Manage Revenue Arrangements"
+    type = "checkbox"
+  }
   boolean EMAIL_EMPLOYEE_ON_REJECTION {
     label = "Email employee on rejection"
     type = "checkbox"
@@ -709,6 +797,10 @@ settings netsuite.accountingPreferences {
   }
   boolean ENFORCE_MIN_QUANTITY_RET_AUTH {
     label = "Enforce Minimum Quantity on Return Authorizations"
+    type = "checkbox"
+  }
+  boolean EXCLUDECONTRACTASSETSFROMRECLASS {
+    label = "Exclude Contract Assets from FX Reclassification"
     type = "checkbox"
   }
   boolean EDITITEMACCOUNTS {
@@ -766,6 +858,18 @@ settings netsuite.accountingPreferences {
   boolean POEXPENSES {
     label = "Allow Expenses on Purchases"
     type = "checkbox"
+  }
+  netsuite.selectOption CONTRACTCOSTEXPENSEACCOUNT {
+    label = "Contract Acquisition Expense Account"
+    type = "select"
+  }
+  boolean USEPROJECTDATEASREVARRNGDATE {
+    label = "Use Project Date as Revenue Arrangement Date"
+    type = "checkbox"
+  }
+  netsuite.selectOption REVRECJOURNALDATEDEFAULT {
+    label = "Default Revenue Recognition Journal Date to"
+    type = "select"
   }
   boolean TERMDISCOUNTSINCLUDESHIPPING {
     label = "Include Shipping for Term Discounts"
@@ -827,6 +931,14 @@ settings netsuite.accountingPreferences {
     label = "Maximum # of Quantity-based Price Levels"
     type = "integer"
   }
+  boolean ENABLEADVANCEDCOSTAMORTIZATION {
+    label = "Enable Advanced Cost Amortization"
+    type = "checkbox"
+  }
+  boolean AUTORUNREVENUERECOGNITION {
+    label = "Auto Run Revenue Recognition Arrangement And Plan Creation"
+    type = "checkbox"
+  }
   number INVENTORYCOSTINGMAXLINESTOLOAD {
     label = "SCM: Inventory: Costing: Maximum number of lines to load in inventory costing 2.0"
     type = "integer"
@@ -834,6 +946,10 @@ settings netsuite.accountingPreferences {
   number INVENTORY_COSTING_LOG_LEVEL {
     label = "SCM: Inventory: Costing: Default Log Level (0=Error, 1=Information, 2=Debug)"
     type = "integer"
+  }
+  boolean USESUBSCRIPDATEASREVARRNGDATE {
+    label = "Use Subscription Billing Date as Revenue Arrangement Date"
+    type = "checkbox"
   }
   boolean AUTHORIZECUSTOMERCENTERORDERS {
     label = "Process an online payment with Sales Order creation at Customer Center"
@@ -863,9 +979,17 @@ settings netsuite.accountingPreferences {
     label = "SCM: Inventory: Allow Overage on Transfer Order Fulfillments"
     type = "checkbox"
   }
+  number MAX_LINES_PER_REALLOCATION_JE {
+    label = "Maximum number of lines per reallocation journal"
+    type = "integer"
+  }
   boolean ALLOWPAYFLOWADDITIONS {
     label = "Allow PayFlowPro Additions"
     type = "checkbox"
+  }
+  netsuite.selectOption DEFAULTCATCHUPPERIOD {
+    label = "Default Catch Up Period"
+    type = "select"
   }
   number MAX_LINES_PER_REVAL_BATCH {
     label = "Maximum number of lines per month end currency revaluation process"
@@ -878,6 +1002,10 @@ settings netsuite.accountingPreferences {
   boolean ALLOWCROSSSUBBILLABLES {
     label = "Allow cross-subsidiary billable time and expenses"
     type = "checkbox"
+  }
+  netsuite.selectOption REVENUEPLANUPDATEFREQUENCY {
+    label = "Revenue Plan Update Frequency"
+    type = "select"
   }
   boolean USEHEADERDEPTFORLINE {
     label = "Use Header Department as Default Line Item Value"
@@ -910,6 +1038,10 @@ settings netsuite.accountingPreferences {
   netsuite.selectOption TIMELIMITDAYMINACTION {
     label = "Action"
     type = "select"
+  }
+  boolean USERECLASSFLEXIBILITY {
+    label = "Permit Projected Carve Override for Reclassification"
+    type = "checkbox"
   }
   netsuite.selectOption NEWITEMCOMMITMENTLOGLEVEL {
     label = "New Item Commitment Engine Log Level"
@@ -967,13 +1099,25 @@ settings netsuite.accountingPreferences {
     label = "Do not perform unit of measure validation on transaction save."
     type = "select"
   }
+  boolean DISABLECREATIONFORECASTPLAN {
+    label = "Disable Creation of Forecast Plans"
+    type = "checkbox"
+  }
   boolean ENABLEITEMAVAILABILITYTRACKING {
     label = "SCM: Inventory: Commitment: Item Availability Tracking"
+    type = "checkbox"
+  }
+  boolean VIESAPITESTENVIRONMENT {
+    label = "Use VIES test API"
     type = "checkbox"
   }
   netsuite.selectOption DEFAULT_BS_CLOSING_ACCT {
     label = "Balance Sheet Closing Account"
     type = "select"
+  }
+  boolean USEINVOICEAPPROVALFORREVENUEPLANS {
+    label = "Require Invoice Approval When Revenue Plans Are Created on Billing"
+    type = "checkbox"
   }
   number MAXPURCHASES {
     label = "Maximum Purchase Lines to Consolidate"
@@ -1015,6 +1159,10 @@ settings netsuite.accountingPreferences {
     label = "Default Vendor Return Auth. Status"
     type = "select"
   }
+  netsuite.selectOption DEFAULTDEFERREDCOSTJOURNALENTRYFORM {
+    label = "Default Deferred Cost Journal Entry Form"
+    type = "select"
+  }
   number MAX_ITEM_COMMITMENT_CONTEXT_LINES {
     label = "SCM: Inventory: Commitment: Maximum number of lines to load into item commitment context"
     type = "integer"
@@ -1038,6 +1186,10 @@ settings netsuite.accountingPreferences {
   netsuite.selectOption CUSTOMERRETURNVARIANCEACCOUNT {
     label = "Default Customer Return Variance Account"
     type = "select"
+  }
+  boolean ADVANCEDREVENUECHANGEORDERS {
+    label = "Enable Change Orders in Advanced Revenue Management"
+    type = "checkbox"
   }
   netsuite.selectOption CUSTCREDLIMHANDLING {
     label = "Customer Credit Limit Handling"
@@ -1071,6 +1223,14 @@ settings netsuite.accountingPreferences {
     label = "Show Drop Ship Items on Packing Slips"
     type = "checkbox"
   }
+  number MAXLINESPERCREATEREVRECJESUBMISSION {
+    label = "Maximum number of lines to place in a single create revenue recognition journal entry bulk processing submission"
+    type = "integer"
+  }
+  boolean AUTOMANAGEREVENUEPLANS {
+    label = "Auto Manage Revenue Plans"
+    type = "checkbox"
+  }
   boolean ALLOWZEROQUANTITYINVADJST {
     label = "SCM: Inventory: Costing: Allow Zero Quantity Inventory Adjustments"
     type = "checkbox"
@@ -1099,6 +1259,10 @@ settings netsuite.accountingPreferences {
     label = "Display Current Count on Adjustments"
     type = "checkbox"
   }
+  boolean CONSIDERHOLDREVENUE {
+    label = "Consider Charges in “Hold” state as Revenue"
+    type = "checkbox"
+  }
   boolean NEWITEMCOMMITMENT {
     label = "SCM: Inventory: Commitment: Use New Item Commitment Engine"
     type = "checkbox"
@@ -1115,13 +1279,25 @@ settings netsuite.accountingPreferences {
     label = "Minimum Period Window Size"
     type = "integer"
   }
+  netsuite.selectOption CONTRACTCOSTDEFERREDEXPENSEACCOUNT {
+    label = "Contract Acquisition Deferred Expense Account"
+    type = "select"
+  }
   "List<netsuite.selectOption>" SALESTRANTYPES {
     label = "Transaction Types to Exclude from Sales Reports"
     type = "multiselect"
   }
+  netsuite.selectOption UNBILLEDCONTRACTASSETACCOUNT {
+    label = "Unbilled Contract Asset Account"
+    type = "select"
+  }
   netsuite.selectOption BILLQTYVARIANCEACCT {
     label = "Default Bill Quantity Variance Account"
     type = "select"
+  }
+  number NUMBEROFSHORTTERMEXPENSEPERIODS {
+    label = "Number of Short-term expense periods"
+    type = "integer"
   }
   netsuite.selectOption TIMELIMITDAYMAXACTION {
     label = "Action"
@@ -1130,6 +1306,10 @@ settings netsuite.accountingPreferences {
   netsuite.selectOption TIMELIMITWEEKMAX {
     label = "Maximum number of hours per week"
     type = "select"
+  }
+  boolean OLDTRANSACTIONREVENUEMEDIATION {
+    label = "Use the 16.1 version of transaction revenue mediation"
+    type = "checkbox"
   }
   boolean COPYTIMEMEMOS {
     label = "Copy Time Memos to Invoices"
@@ -1160,6 +1340,10 @@ settings netsuite.accountingPreferences {
     _hidden_value = true
   }
   _alias = "Accounting Preferences"
+  netsuite.selectOption DEFAULTREFORECASTMETHOD {
+    label = "Default Reforecast Method"
+    type = "select"
+  }
   boolean ARC_BETA_REENABLED {
     label = "ARC: Forcibly re-enable deprecated feature Record Customization (Beta)"
     type = "checkbox"
@@ -1167,6 +1351,10 @@ settings netsuite.accountingPreferences {
   boolean REST_BETA_RECORD_REENABLED {
     label = "REST WS: Forcibly re-enable deprecated feature REST Record Service (Beta)"
     type = "checkbox"
+  }
+  netsuite.selectOption DEFAULTSTANDARDREVRECRULE {
+    label = "Default Standard Revenue Recognition Rule"
+    type = "select"
   }
   number SCM_BULK_PROC_SUBMISSIONS_TO_DELETE {
     label = "SCM: Number of bulk processing submissions to delete per day"

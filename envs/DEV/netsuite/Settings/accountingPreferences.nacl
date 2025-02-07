@@ -33,6 +33,10 @@ netsuite.accountingPreferences {
   REQUIRE_PEJE_MEMO = false
   PAYBILLSSEGMENTSIZE = 500
   DECOMMIT_PENDING_APPROVAL_ZERO_QTY = false
+  RECLASSIFICATIONJOURNALENTRYFORM = {
+    value = "30"
+    text = "Standard Journal Entry"
+  }
   USEINVENTORYCOSTINGSTRICTVALIDATION = false
   MAXSUBSIDIARIES = 250
   CCSECURITYCODE = false
@@ -40,7 +44,9 @@ netsuite.accountingPreferences {
     value = "ERROR"
     text = "Do not allow time outside limit"
   }
+  USETRANDATEASREVARRNGDATE = false
   APPLYTIMETHRESHOLDTOVENDORTIME = true
+  RETRY_WAIT_TIME_ON_ELEM_PLAN_UPDATE = 500
   PICKINGTICKETNONINVT = false
   CONSOLPAYMENTS = false
   SEND_GIFT_CERTIFICATE_EMAILS = true
@@ -55,6 +61,10 @@ netsuite.accountingPreferences {
   }
   BS_YEAR_END_CLOSE_AND_OPEN = false
   PERFORMLIMITCHECKONAPPROVALACTION = false
+  REVRECJOURNALENTRYSUMMARIZATION = {
+    value = "DETAIL"
+    text = "Detail"
+  }
   DONTTRACKITEMCOUNT = false
   VENDPYMTTOPRINT = false
   COPYTIMESHEETOPTIONS = {
@@ -88,6 +98,7 @@ netsuite.accountingPreferences {
     text = "Available Qty"
   }
   COPYSERVITEMDESCTOMEMO = true
+  USESYSCALCPCT4REVREC = false
   ENABLEVIRTUALCARDOPTIMIZATION = false
   CUSTOMAPPROVALVENDORBILL = false
   CUSTOMCOSTING = false
@@ -111,6 +122,7 @@ netsuite.accountingPreferences {
   }
   DEFAULTUNFULFILLED = false
   INVOICEUSESCHEDULEDATE = true
+  MAXLINESPERCREATERECLASSSUBMISSION = 50000
   INV_COSTING_DELAYED_START = true
   ITEMVERSION = true
   ASSETCOGSITEMACCTS = false
@@ -120,19 +132,29 @@ netsuite.accountingPreferences {
     text = "Ready"
   }
   UNRETURNEDVENDAUTHS = false
+  CREATEREVENUEELEMENTUPONCLOSEDORDER = true
   DUPLICATEWARNINGS = {
     value = "WARN_ONLY"
     text = "Warn (UI only)"
   }
   SFTP_USE_LIST_TO_TEST_FILE_EXISTS = false
+  REVENUEARRANGEMENTSYSTEMFORM = {
+    value = "18"
+    text = "Standard Revenue Arrangement"
+  }
   DEFAULTITEMSBILLABLE = true
   BYPASS_ALLOCATION_DATA_FIX = false
   CURRENCY_RATE_ACCESS = false
+  DEFERREDREVENUEACCOUNT = {
+    value = "121"
+    text = "Deferred Revenue"
+  }
   REALTIMECOGSORDERING = false
   TIMELIMITWEEKMAXACTION = {
     value = "ERROR"
     text = "Do not allow time outside limit"
   }
+  OTHERRECORDNUMBERINGBYSEQ = true
   COGSACCOUNT = {
     value = "55"
     text = "Purchases"
@@ -140,8 +162,13 @@ netsuite.accountingPreferences {
   DEPTSPERLINE = true
   AUTONOTIFYSUPV = true
   CUSTOMAPPROVALTIMEBILL = false
+  REVENUEARRANGEMENTUPDATEFREQUENCY = {
+    value = "MANUAL"
+    text = "Manual"
+  }
   SINGLEITEMBARCODING = true
   RESTRICTBALANCEVIEWING = false
+  RETRY_LIMIT_ON_ELEM_PLAN_UPDATE = 0
   DEFAULTSALESORDERCOMMITOPTION = {
     value = "1"
     text = "Available Qty"
@@ -151,6 +178,7 @@ netsuite.accountingPreferences {
     value = "54"
     text = "Sales"
   }
+  CUSTOMAPPROVALREVARRNG = false
   NO_UPDATE_TRANSACTION_COGSASSETACCT = false
   INVENTORYNUMBEREXPRESSENTRYSIZE = 1000
   INVT_TRANS_DATE_PERIOD_MISMATCH = false
@@ -161,6 +189,7 @@ netsuite.accountingPreferences {
     text = "Purchase Discounts"
   }
   SHOWUNSHIPPEDITEMS = true
+  MIGRATEOPENREVENUETRANSACTIONS = false
   ENABLEINVFUTURESUPPLYTRACKING = true
   LOGEACHSSSCRIPTSTART = false
   DELETE_ALL_MONTH_END_REVALS = false
@@ -173,6 +202,7 @@ netsuite.accountingPreferences {
     value = "ORDERRATE"
     text = "Use Order Exchange Rate"
   }
+  MINIMIZEREVENUEWORKQUEUEITEMS = true
   FFCRFIXEDDATE = {
     value = "READY_FOR_BILLING"
     text = "Ready"
@@ -185,6 +215,10 @@ netsuite.accountingPreferences {
   }
   USE_ROLE_RESTRICTIONS_ON_APPLY = false
   USEPORECEIPTCOST = false
+  DEFAULTPCTCOMPLETEREVRECRULE = {
+    value = "3"
+    text = "Default Percent Complete"
+  }
   COMBINEEXPENSEITEMS = true
   VERIFYINVENTORYDETAILITEM = true
   CREATE_DEPOSIT_ON_SO_SALE_ROLE = {
@@ -192,6 +226,7 @@ netsuite.accountingPreferences {
     text = "Administrator"
   }
   SETREVERSINGVARIANCEDATETOREVJES = false
+  NUMBEROFSHORTTERMREVENUEPERIODS = 12
   ALLOWNONREIMBURSABLEEXPENSES = false
   CONSOLINVOICES = true
   PACKINGSLIPSTATUS = {
@@ -203,6 +238,10 @@ netsuite.accountingPreferences {
   RESTOCKRETURNS = true
   PICKINGTICKETKITITEMS = true
   ALLOW_NON_GL_CHANGES_BY_DEFAULT = false
+  REVENUERECOGNITIONJOURNALENTRYFORM = {
+    value = "30"
+    text = "Standard Journal Entry"
+  }
   MAXITEMSONQUICKDISTRIBUTION = 0
   VENDCREDLIMORDERS = false
   CUSTOM_SEGMENT_DELETION = false
@@ -226,6 +265,7 @@ netsuite.accountingPreferences {
   CUSTCREDLIMORDERS = false
   RECONCILIATIONALLTRANTYPES = false
   REQUIRETIMEFORWORKINGDAYS = false
+  ALLOWPOSTINGDISCWITHDEFERREDREVREC = false
   LOCKTIMESHEETPERIOD = {
     value = "NONE"
     text = "None"
@@ -250,6 +290,7 @@ netsuite.accountingPreferences {
     value = "DO_NOT_ALLOW"
     text = "Do Not Allow"
   }
+  AUTOMANAGEREVENUEARRANGEMENTS = false
   EMAIL_EMPLOYEE_ON_REJECTION = false
   DEFTRNFRORDSTATUS = {
     value = "FIRMPENDINGAPPROVAL"
@@ -261,6 +302,7 @@ netsuite.accountingPreferences {
   ENABLE_PEJE_INCOME_SUMMARY = false
   REVERSALVOIDING = true
   ALLOW_PERIODS_QUICK_CLOSE = false
+  EXCLUDECONTRACTASSETSFROMRECLASS = false
   ENFORCE_MIN_QUANTITY_RET_AUTH = true
   EDITITEMACCOUNTS = true
   CDLPERLINEONJE = false
@@ -279,7 +321,12 @@ netsuite.accountingPreferences {
     text = "Pending Approval"
   }
   POEXPENSES = false
+  USEPROJECTDATEASREVARRNGDATE = false
   TERMDISCOUNTSINCLUDESHIPPING = false
+  REVRECJOURNALDATEDEFAULT = {
+    value = "LASTDAYOFPERIOD"
+    text = "Last Day of Period"
+  }
   ALLOWNONREIMBURSABLEEXPENSESVISIBLE = true
   CUSTOMAPPROVALEXPENSE = false
   SALESDISCACCT = {
@@ -300,6 +347,9 @@ netsuite.accountingPreferences {
   }
   GIFT_CERTIFICATE_FIELDS_MANDATORY = true
   QTYPRICECOUNT = 5
+  ENABLEADVANCEDCOSTAMORTIZATION = false
+  AUTORUNREVENUERECOGNITION = false
+  USESUBSCRIPDATEASREVARRNGDATE = false
   INVENTORYCOSTINGMAXLINESTOLOAD = 25000
   INVENTORY_COSTING_LOG_LEVEL = 1
   LEGACY_TAX_HIGH_PRECISION_US_LOOKUP = 2
@@ -340,9 +390,18 @@ netsuite.accountingPreferences {
     text = "Ready"
   }
   OVERTRANSFERS = false
+  MAX_LINES_PER_REALLOCATION_JE = 1000
   ALLOWPAYFLOWADDITIONS = false
+  DEFAULTCATCHUPPERIOD = {
+    value = "CURRENT_PERIOD"
+    text = "Current Period"
+  }
   MAX_LINES_PER_REVAL_BATCH = 2000
   ONLY_COSTING_ENGINE_UPDATES_AVGCOST = false
+  REVENUEPLANUPDATEFREQUENCY = {
+    value = "MANUAL"
+    text = "Manual"
+  }
   ALLOWCROSSSUBBILLABLES = false
   USEHEADERDEPTFORLINE = true
   PRESERVE_TRAN_ON_HOLD_PAYMENT = false
@@ -355,6 +414,7 @@ netsuite.accountingPreferences {
     value = "ERROR"
     text = "Do not allow time outside limit"
   }
+  USERECLASSFLEXIBILITY = false
   SENDLEVEL3DATAWITHCYBSAUTH = true
   NEWITEMCOMMITMENTLOGLEVEL = {
     value = "DONOTLOG"
@@ -378,7 +438,10 @@ netsuite.accountingPreferences {
     value = "REGULAR"
     text = "Basic UOM Mismatch Checks"
   }
+  DISABLECREATIONFORECASTPLAN = false
+  VIESAPITESTENVIRONMENT = false
   ENABLEITEMAVAILABILITYTRACKING = true
+  USEINVOICEAPPROVALFORREVENUEPLANS = true
   MAXPURCHASES = 0
   VALIDATE_LOT_AVAIL_QTY_AT_COMMIT = false
   SHOW_WARN_TAX_RECEIPT = true
@@ -390,6 +453,10 @@ netsuite.accountingPreferences {
     value = "A"
     text = "Pending Approval"
   }
+  DEFAULTDEFERREDCOSTJOURNALENTRYFORM = {
+    value = "30"
+    text = "Standard Journal Entry"
+  }
   MAX_ITEM_COMMITMENT_CONTEXT_LINES = 100000
   LOCMANDATORY = false
   MAX_LINES_IN_REVAL_BUCKET = 4000000
@@ -398,6 +465,7 @@ netsuite.accountingPreferences {
     value = "WARNING"
     text = "Warn Only"
   }
+  ADVANCEDREVENUECHANGEORDERS = true
   EMAILCANCELORDER = false
   ALLOWADJUSTEDEXPIRATIONDATE = true
   VENDCREDLIMWARNINGS = true
@@ -405,6 +473,8 @@ netsuite.accountingPreferences {
   PRINT_PICK_TICKET_PER_QUANTITY = false
   ASYNCFIXREVRECTRANSACTIONS = false
   PACKINGSLIPDROPSHIP = false
+  MAXLINESPERCREATEREVRECJESUBMISSION = 50000
+  AUTOMANAGEREVENUEPLANS = false
   ALLOWZEROQUANTITYINVADJST = false
   USEHEADERCLASSFORLINE = true
   CLASSMANDATORY = false
@@ -414,6 +484,7 @@ netsuite.accountingPreferences {
   }
   REAPPROVESOONEDIT = false
   CURCOUNTONADJUSTMENTS = false
+  CONSIDERHOLDREVENUE = false
   NEWITEMCOMMITMENT = true
   CURCOUNTONWORKSHEETS = false
   TIMELIMITDAYMIN = {
@@ -450,6 +521,11 @@ netsuite.accountingPreferences {
       text = "Inventory Worksheet"
     },
   ]
+  UNBILLEDCONTRACTASSETACCOUNT = {
+    value = "362"
+    text = "Unbilled Receivable"
+  }
+  NUMBEROFSHORTTERMEXPENSEPERIODS = 12
   TIMELIMITWEEKMAX = {
     value = "DISABLED"
     text = "Disabled"
@@ -458,6 +534,7 @@ netsuite.accountingPreferences {
     value = "ERROR"
     text = "Do not allow time outside limit"
   }
+  OLDTRANSACTIONREVENUEMEDIATION = false
   COPYTIMEMEMOS = true
   SHOWOPENPACKSLIP = false
   ACCOUNTLEGALNAME = false
@@ -470,5 +547,9 @@ netsuite.accountingPreferences {
   _alias = "Accounting Preferences"
   ARC_BETA_REENABLED = false
   REST_BETA_RECORD_REENABLED = false
+  DEFAULTSTANDARDREVRECRULE = {
+    value = "1"
+    text = "Default Standard"
+  }
   SCM_BULK_PROC_SUBMISSIONS_TO_DELETE = 25
 }

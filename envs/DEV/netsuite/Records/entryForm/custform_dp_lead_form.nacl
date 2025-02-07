@@ -1345,6 +1345,17 @@ netsuite.entryForm custform_dp_lead_form {
               MIDDLE = {
                 position = "MIDDLE"
                 field = {
+                  DRACCOUNT = {
+                    id = "DRACCOUNT"
+                    label = "Deferred Revenue Account for Revenue Reclassification"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    quickAdd = false
+                    index = 0
+                  }
                   CURRENCYFORMATSAMPLE = {
                     id = "CURRENCYFORMATSAMPLE"
                     label = "Format Sample"
@@ -1354,7 +1365,7 @@ netsuite.entryForm custform_dp_lead_form {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 0
+                    index = 1
                   }
                   OVERRIDECURRENCYFORMAT = {
                     id = "OVERRIDECURRENCYFORMAT"
@@ -1365,7 +1376,7 @@ netsuite.entryForm custform_dp_lead_form {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 1
+                    index = 2
                   }
                   DISPLAYSYMBOL = {
                     id = "DISPLAYSYMBOL"
@@ -1376,7 +1387,7 @@ netsuite.entryForm custform_dp_lead_form {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 2
+                    index = 3
                   }
                   SYMBOLPLACEMENT = {
                     id = "SYMBOLPLACEMENT"
@@ -1387,7 +1398,7 @@ netsuite.entryForm custform_dp_lead_form {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 3
+                    index = 4
                   }
                   OVERDUEBALANCE = {
                     id = "OVERDUEBALANCE"
@@ -1398,7 +1409,7 @@ netsuite.entryForm custform_dp_lead_form {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 4
+                    index = 5
                   }
                   DAYSOVERDUE = {
                     id = "DAYSOVERDUE"
@@ -1409,7 +1420,7 @@ netsuite.entryForm custform_dp_lead_form {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 5
+                    index = 6
                   }
                   MONTHLYCLOSING = {
                     id = "MONTHLYCLOSING"
@@ -1420,7 +1431,7 @@ netsuite.entryForm custform_dp_lead_form {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 6
+                    index = 7
                   }
                 }
                 index = 0

@@ -1386,6 +1386,17 @@ netsuite.entryForm custform_19_t2257815_381 {
               MIDDLE = {
                 position = "MIDDLE"
                 field = {
+                  DRACCOUNT = {
+                    id = "DRACCOUNT"
+                    label = "Deferred Revenue Account for Revenue Reclassification"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    quickAdd = false
+                    index = 0
+                  }
                   BILLINGSCHEDULE = {
                     id = "BILLINGSCHEDULE"
                     label = "Billing Schedule"
@@ -1395,7 +1406,7 @@ netsuite.entryForm custform_19_t2257815_381 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 0
+                    index = 1
                   }
                   BILLINGTRANSACTIONTYPE = {
                     id = "BILLINGTRANSACTIONTYPE"
@@ -1406,7 +1417,7 @@ netsuite.entryForm custform_19_t2257815_381 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 1
+                    index = 2
                   }
                   BILLINGTRANSACTIONFORM = {
                     id = "BILLINGTRANSACTIONFORM"
@@ -1417,7 +1428,7 @@ netsuite.entryForm custform_19_t2257815_381 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 2
+                    index = 3
                   }
                 }
                 index = 0

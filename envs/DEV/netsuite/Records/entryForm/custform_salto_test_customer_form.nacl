@@ -1007,6 +1007,17 @@ netsuite.entryForm custform_salto_test_customer_form {
                       quickAdd = false
                       index = 1
                     }
+                    DRACCOUNT = {
+                      id = "DRACCOUNT"
+                      label = "Deferred Revenue Account for Revenue Reclassification"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      quickAdd = false
+                      index = 2
+                    }
                     STARTDATE = {
                       id = "STARTDATE"
                       label = "Start Date"
@@ -1016,7 +1027,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = false
                       quickAdd = false
-                      index = 2
+                      index = 3
                     }
                     DEFAULTBANKACCOUNT = {
                       id = "DEFAULTBANKACCOUNT"
@@ -1027,7 +1038,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = false
                       quickAdd = false
-                      index = 3
+                      index = 4
                     }
                     ENDDATE = {
                       id = "ENDDATE"
@@ -1038,7 +1049,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = false
                       quickAdd = false
-                      index = 4
+                      index = 5
                     }
                     REMINDERDAYS = {
                       id = "REMINDERDAYS"
@@ -1049,7 +1060,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = false
                       quickAdd = false
-                      index = 5
+                      index = 6
                     }
                     PRICELEVEL = {
                       id = "PRICELEVEL"
@@ -1060,7 +1071,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = false
                       quickAdd = false
-                      index = 6
+                      index = 7
                     }
                     CURRENCY = {
                       id = "CURRENCY"
@@ -1071,7 +1082,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = false
                       quickAdd = false
-                      index = 7
+                      index = 8
                     }
                     CURRENCYFORMATSAMPLE = {
                       id = "CURRENCYFORMATSAMPLE"
@@ -1082,7 +1093,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = false
                       quickAdd = false
-                      index = 8
+                      index = 9
                     }
                     OVERRIDECURRENCYFORMAT = {
                       id = "OVERRIDECURRENCYFORMAT"
@@ -1093,7 +1104,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = false
                       quickAdd = false
-                      index = 9
+                      index = 10
                     }
                     DISPLAYSYMBOL = {
                       id = "DISPLAYSYMBOL"
@@ -1104,7 +1115,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = false
                       quickAdd = false
-                      index = 10
+                      index = 11
                     }
                     MONTHLYCLOSING = {
                       id = "MONTHLYCLOSING"
@@ -1115,7 +1126,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = false
                       quickAdd = false
-                      index = 11
+                      index = 12
                     }
                     SYMBOLPLACEMENT = {
                       id = "SYMBOLPLACEMENT"
@@ -1126,7 +1137,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = false
                       quickAdd = false
-                      index = 12
+                      index = 13
                     }
                     TERMS = {
                       id = "TERMS"
@@ -1137,7 +1148,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = false
                       quickAdd = false
-                      index = 13
+                      index = 14
                     }
                     CREDITLIMIT = {
                       id = "CREDITLIMIT"
@@ -1148,7 +1159,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = false
                       quickAdd = false
-                      index = 14
+                      index = 15
                     }
                     CREDITHOLDOVERRIDE = {
                       id = "CREDITHOLDOVERRIDE"
@@ -1159,7 +1170,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = true
                       quickAdd = false
-                      index = 15
+                      index = 16
                     }
                     PREFCCPROCESSOR = {
                       id = "PREFCCPROCESSOR"
@@ -1170,7 +1181,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = false
                       quickAdd = false
-                      index = 16
+                      index = 17
                     }
                     BILLINGSCHEDULE = {
                       id = "BILLINGSCHEDULE"
@@ -1181,7 +1192,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = false
                       quickAdd = false
-                      index = 17
+                      index = 18
                     }
                     BILLINGTRANSACTIONTYPE = {
                       id = "BILLINGTRANSACTIONTYPE"
@@ -1192,7 +1203,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = false
                       quickAdd = false
-                      index = 18
+                      index = 19
                     }
                     BILLINGTRANSACTIONFORM = {
                       id = "BILLINGTRANSACTIONFORM"
@@ -1203,7 +1214,7 @@ netsuite.entryForm custform_salto_test_customer_form {
                       columnBreak = false
                       sameRowAsPrevious = false
                       quickAdd = false
-                      index = 19
+                      index = 20
                     }
                   }
                   index = 0

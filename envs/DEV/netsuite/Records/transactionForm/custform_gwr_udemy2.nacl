@@ -357,6 +357,16 @@ netsuite.transactionForm custform_gwr_udemy2 {
         MIDDLE = {
           position = "MIDDLE"
           field = {
+            DRACCOUNT = {
+              id = "DRACCOUNT"
+              label = "Deferred Revenue Reclassification Account"
+              visible = true
+              mandatory = false
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              index = 0
+            }
             ONETIME = {
               id = "ONETIME"
               label = "One Time"
@@ -365,7 +375,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
-              index = 0
+              index = 1
             }
             RECURWEEKLY = {
               id = "RECURWEEKLY"
@@ -375,7 +385,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
-              index = 1
+              index = 2
             }
             RECURMONTHLY = {
               id = "RECURMONTHLY"
@@ -385,7 +395,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
-              index = 2
+              index = 3
             }
             RECURQUARTERLY = {
               id = "RECURQUARTERLY"
@@ -395,7 +405,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
-              index = 3
+              index = 4
             }
             RECURANNUALLY = {
               id = "RECURANNUALLY"
@@ -405,7 +415,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
-              index = 4
+              index = 5
             }
             custbody_slt_opportunity_owner = {
               id = netsuite.transactionbodycustomfield.instance.custbody_slt_opportunity_owner.scriptid
@@ -415,7 +425,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
-              index = 5
+              index = 6
             }
             custbody_slt_sales_order_type = {
               id = netsuite.transactionbodycustomfield.instance.custbody_slt_sales_order_type.scriptid
@@ -425,7 +435,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
-              index = 6
+              index = 7
             }
             custbody_rg_valid_forto_po = {
               id = netsuite.transactionbodycustomfield.instance.custbody_rg_valid_forto_po.scriptid
@@ -436,7 +446,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
               columnBreak = false
               sameRowAsPrevious = false
               checkBoxDefault = "USE_FIELD_DEFAULT"
-              index = 7
+              index = 8
             }
             custbody_svb_vb_to_bell_dist_sched = {
               id = netsuite.transactionbodycustomfield.instance.custbody_svb_vb_to_bell_dist_sched.scriptid
@@ -446,7 +456,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
-              index = 8
+              index = 9
             }
             custbody_svb_schedule_is_intercompany = {
               id = netsuite.transactionbodycustomfield.instance.custbody_svb_schedule_is_intercompany.scriptid
@@ -457,7 +467,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
               columnBreak = false
               sameRowAsPrevious = false
               checkBoxDefault = "USE_FIELD_DEFAULT"
-              index = 9
+              index = 10
             }
             custbody_esc_last_modified_date = {
               id = "[scriptid=custbody_esc_last_modified_date]"
@@ -467,7 +477,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
               displayType = "INLINETEXT"
               columnBreak = false
               sameRowAsPrevious = false
-              index = 10
+              index = 11
             }
             custbody_esc_created_date = {
               id = "[scriptid=custbody_esc_created_date]"
@@ -477,7 +487,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
               displayType = "INLINETEXT"
               columnBreak = false
               sameRowAsPrevious = false
-              index = 11
+              index = 12
             }
             custbody_esc_campaign_category = {
               id = "[scriptid=custbody_esc_campaign_category]"
@@ -487,7 +497,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
-              index = 12
+              index = 13
             }
           }
           index = 0
@@ -666,191 +676,203 @@ netsuite.transactionForm custform_gwr_udemy2 {
                     visible = true
                     index = 21
                   }
+                  REVRECSTARTDATE = {
+                    id = "REVRECSTARTDATE"
+                    label = "Rev. Rec. Start Date"
+                    visible = true
+                    index = 22
+                  }
                   TAXRATE2 = {
                     id = "TAXRATE2"
                     label = "PST"
                     visible = true
-                    index = 22
+                    index = 23
                   }
                   GROSSAMT = {
                     id = "GROSSAMT"
                     label = "Gross Amt"
                     visible = true
-                    index = 23
+                    index = 24
+                  }
+                  REVRECENDDATE = {
+                    id = "REVRECENDDATE"
+                    label = "Rev. Rec. End Date"
+                    visible = true
+                    index = 25
                   }
                   TAX1AMT = {
                     id = "TAX1AMT"
                     label = "Tax Amt"
                     visible = true
-                    index = 24
+                    index = 26
                   }
                   ISTAXABLE = {
                     id = "ISTAXABLE"
                     label = "Tax"
                     visible = true
-                    index = 25
+                    index = 27
                   }
                   OPTIONS = {
                     id = "OPTIONS"
                     label = "Options"
                     visible = true
-                    index = 26
+                    index = 28
                   }
                   TOBEFULFILLED = {
                     id = "TOBEFULFILLED"
                     label = "To Be Fulfilled"
                     visible = false
-                    index = 27
+                    index = 29
                   }
                   DEPARTMENT = {
                     id = "DEPARTMENT"
                     label = "Department"
                     visible = false
-                    index = 28
+                    index = 30
                   }
                   CLASS = {
                     id = "CLASS"
                     label = "Class"
                     visible = false
-                    index = 29
+                    index = 31
                   }
                   LOCATION = {
                     id = "LOCATION"
                     label = "Location"
                     visible = false
-                    index = 30
+                    index = 32
                   }
                   BILLINGSCHEDULE = {
                     id = "BILLINGSCHEDULE"
                     label = "Billing Schedule"
                     visible = false
-                    index = 31
+                    index = 33
                   }
                   EXPECTEDSHIPDATE = {
                     id = "EXPECTEDSHIPDATE"
                     label = "Expected Ship Date"
                     visible = true
-                    index = 32
+                    index = 34
                   }
                   CREATEWO = {
                     id = "CREATEWO"
                     label = "Create WO"
                     visible = true
-                    index = 33
+                    index = 35
                   }
                   EXCLUDEFROMRATEREQUEST = {
                     id = "EXCLUDEFROMRATEREQUEST"
                     label = "Exclude Item from Rate Request"
                     visible = true
-                    index = 34
+                    index = 36
                   }
                   ISCLOSED = {
                     id = "ISCLOSED"
                     label = "Closed"
                     visible = true
-                    index = 35
+                    index = 37
                   }
                   FROMJOB = {
                     id = "FROMJOB"
                     label = "Project Item"
                     visible = true
-                    index = 36
+                    index = 38
                   }
                   ISESTIMATE = {
                     id = "ISESTIMATE"
                     label = "Billable Estimate"
                     visible = true
-                    index = 37
+                    index = 39
                   }
                   CHARGERULE = {
                     id = "CHARGERULE"
                     label = "Project Charge Rule"
                     visible = false
-                    index = 38
+                    index = 40
                   }
                   FREEGIFTPROMOTION = {
                     id = "FREEGIFTPROMOTION"
                     label = "Free Gift Promotion"
                     visible = true
-                    index = 39
+                    index = 41
                   }
                   CHARGETYPE = {
                     id = "CHARGETYPE"
                     label = "Charge Type"
                     visible = true
-                    index = 40
+                    index = 42
                   }
                   custcol_slt_billable = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_slt_billable.scriptid
                     label = "Billable"
                     visible = true
-                    index = 41
+                    index = 43
                   }
                   custcol_slt_e2e_test = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_slt_e2e_test.scriptid
                     label = "created by oss e2e - 8060213"
                     visible = true
-                    index = 42
+                    index = 44
                   }
                   custcoltransactionterms = {
                     id = netsuite.transactioncolumncustomfield.instance.custcoltransactionterms.scriptid
                     label = "Terms"
                     visible = false
-                    index = 43
+                    index = 45
                   }
                   custcol_gwr_return_reason = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_return_reason.scriptid
                     label = "GWR Return Reason"
                     visible = true
-                    index = 44
+                    index = 46
                   }
                   custcol_gwr_rma1 = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_rma1.scriptid
                     label = "GWR RMA custom field"
                     visible = true
-                    index = 45
+                    index = 47
                   }
                   cseg2 = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg2]"
                     label = "Region"
                     visible = false
-                    index = 46
+                    index = 48
                   }
                   cseg1 = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg1]"
                     label = "Stam"
                     visible = true
-                    index = 47
+                    index = 49
                   }
                   csegcseg_rg_seg_cc = {
                     id = "[type=transactioncolumncustomfield, scriptid=csegcseg_rg_seg_cc]"
                     label = "Cost Center"
                     visible = true
-                    index = 48
+                    index = 50
                   }
                   PERCENTCOMPLETE = {
                     id = "PERCENTCOMPLETE"
                     label = "% Complete"
                     visible = false
-                    index = 49
+                    index = 51
                   }
                   cseg3 = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg3]"
                     label = "zgy_music"
                     visible = false
-                    index = 51
+                    index = 53
                   }
                   cseg_nbc = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg_nbc]"
                     label = "Nearest Big City"
                     visible = false
-                    index = 52
+                    index = 54
                   }
                   custcol1 = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol1.scriptid
                     label = "dge_transaction_line_field"
                     visible = false
-                    index = 50
+                    index = 52
                   }
                   DISPLAYNAME = {
                     id = "DISPLAYNAME"
@@ -862,7 +884,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_suiteworld_column.scriptid
                     label = "SuiteWorld Column"
                     visible = true
-                    index = 53
+                    index = 55
                   }
                 }
               }
@@ -1600,6 +1622,36 @@ netsuite.transactionForm custform_gwr_udemy2 {
               index = 3
             }
           }
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  REVRECSTARTDATE = {
+                    id = "REVRECSTARTDATE"
+                    label = "Rev. Rec. Start Date"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 0
+                  }
+                  REVRECENDDATE = {
+                    id = "REVRECENDDATE"
+                    label = "Rev. Rec. End Date"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 1
+                  }
+                }
+                index = 0
+              }
+            }
+          }
         }
         subItems = {
           subTab = {
@@ -2058,16 +2110,6 @@ netsuite.transactionForm custform_gwr_udemy2 {
                     sameRowAsPrevious = false
                     index = 11
                   }
-                  custbody_srd_translated_field = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_srd_translated_field.scriptid
-                    label = "SRD Translated field"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 13
-                  }
                   cseg3 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg3]"
                     label = "zgy_music"
@@ -2076,7 +2118,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 14
+                    index = 13
                   }
                 }
                 index = 0
@@ -2551,6 +2593,14 @@ netsuite.transactionForm custform_gwr_udemy2 {
       }
       CUSTOMROLE43 = {
         id = "CUSTOMROLE43"
+        preferred = false
+      }
+      REVENUE_ACCOUNTANT = {
+        id = "REVENUE_ACCOUNTANT"
+        preferred = false
+      }
+      REVENUE_MANAGER = {
+        id = "REVENUE_MANAGER"
         preferred = false
       }
       SALES_ADMINISTRATOR = {

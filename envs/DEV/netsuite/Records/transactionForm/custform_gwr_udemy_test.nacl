@@ -1328,16 +1328,6 @@ netsuite.transactionForm custform_gwr_udemy_test {
                     sameRowAsPrevious = false
                     index = 11
                   }
-                  custbody_srd_translated_field = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_srd_translated_field.scriptid
-                    label = "SRD Translated field"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 13
-                  }
                   cseg3 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg3]"
                     label = "zgy_music"
@@ -1346,7 +1336,7 @@ netsuite.transactionForm custform_gwr_udemy_test {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 14
+                    index = 13
                   }
                 }
                 index = 0
@@ -1597,6 +1587,14 @@ netsuite.transactionForm custform_gwr_udemy_test {
       }
       CUSTOMROLE43 = {
         id = "CUSTOMROLE43"
+        preferred = false
+      }
+      REVENUE_ACCOUNTANT = {
+        id = "REVENUE_ACCOUNTANT"
+        preferred = false
+      }
+      REVENUE_MANAGER = {
+        id = "REVENUE_MANAGER"
         preferred = false
       }
       SALES_ADMINISTRATOR = {

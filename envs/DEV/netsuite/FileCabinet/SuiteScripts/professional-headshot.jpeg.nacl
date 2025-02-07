@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_professional_headshot_jpeg@dbv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/professional-headshot.jpeg"
+  content = file("netsuite/FileCabinet/SuiteScripts/professional-headshot.jpeg")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+  _alias = "professional-headshot.jpeg"
+}

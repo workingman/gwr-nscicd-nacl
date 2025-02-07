@@ -658,65 +658,77 @@ netsuite.transactionForm custform_81_t2257815_452 {
                     visible = false
                     index = 24
                   }
+                  REVRECSTARTDATE = {
+                    id = "REVRECSTARTDATE"
+                    label = "Rev. Rec. Start Date"
+                    visible = true
+                    index = 25
+                  }
                   cseg1 = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg1]"
                     label = "Stam"
                     visible = false
-                    index = 25
+                    index = 26
                   }
                   GLNUMBER = {
                     id = "GLNUMBER"
                     label = "GL #"
                     visible = true
-                    index = 26
+                    index = 27
+                  }
+                  REVRECENDDATE = {
+                    id = "REVRECENDDATE"
+                    label = "Rev. Rec. End Date"
+                    visible = true
+                    index = 28
                   }
                   GLSEQUENCE = {
                     id = "GLSEQUENCE"
                     label = "GL Audit Numbering Sequence"
                     visible = true
-                    index = 27
+                    index = 29
                   }
                   CHARGETYPE = {
                     id = "CHARGETYPE"
                     label = "Charge Type"
                     visible = true
-                    index = 28
+                    index = 30
                   }
                   CHARGES = {
                     id = "CHARGES"
                     label = "Charges"
                     visible = true
-                    index = 29
+                    index = 31
                   }
                   custcol_gwr_return_reason = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_return_reason.scriptid
                     label = "GWR Return Reason"
                     visible = true
-                    index = 30
+                    index = 32
                   }
                   custcol_gwr_rma1 = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_rma1.scriptid
                     label = "GWR RMA custom field"
                     visible = true
-                    index = 31
+                    index = 33
                   }
                   csegcseg_rg_seg_cc = {
                     id = "[type=transactioncolumncustomfield, scriptid=csegcseg_rg_seg_cc]"
                     label = "Cost Center"
                     visible = true
-                    index = 32
+                    index = 34
                   }
                   cseg_nbc = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg_nbc]"
                     label = "Nearest Big City"
                     visible = false
-                    index = 33
+                    index = 35
                   }
                   custcol1 = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol1.scriptid
                     label = "dge_transaction_line_field"
                     visible = false
-                    index = 34
+                    index = 36
                   }
                   DISPLAYNAME = {
                     id = "DISPLAYNAME"
@@ -728,13 +740,13 @@ netsuite.transactionForm custform_81_t2257815_452 {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg3]"
                     label = "zgy_music"
                     visible = false
-                    index = 35
+                    index = 37
                   }
                   custcol_suiteworld_column = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_suiteworld_column.scriptid
                     label = "SuiteWorld Column"
                     visible = true
-                    index = 36
+                    index = 38
                   }
                 }
               }
@@ -1124,6 +1136,36 @@ netsuite.transactionForm custform_81_t2257815_452 {
               showTitle = true
               singleColumn = true
               index = 3
+            }
+          }
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  REVRECSTARTDATE = {
+                    id = "REVRECSTARTDATE"
+                    label = "Rev. Rec. Start Date"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 0
+                  }
+                  REVRECENDDATE = {
+                    id = "REVRECENDDATE"
+                    label = "Rev. Rec. End Date"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 1
+                  }
+                }
+                index = 0
+              }
             }
           }
         }
@@ -1580,16 +1622,6 @@ netsuite.transactionForm custform_81_t2257815_452 {
                     sameRowAsPrevious = false
                     index = 13
                   }
-                  custbody_srd_translated_field = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_srd_translated_field.scriptid
-                    label = "SRD Translated field"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 14
-                  }
                   cseg3 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg3]"
                     label = "zgy_music"
@@ -1598,7 +1630,7 @@ netsuite.transactionForm custform_81_t2257815_452 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 15
+                    index = 14
                   }
                 }
                 index = 0
@@ -1877,6 +1909,14 @@ netsuite.transactionForm custform_81_t2257815_452 {
       }
       CUSTOMROLE43 = {
         id = "CUSTOMROLE43"
+        preferred = false
+      }
+      REVENUE_ACCOUNTANT = {
+        id = "REVENUE_ACCOUNTANT"
+        preferred = false
+      }
+      REVENUE_MANAGER = {
+        id = "REVENUE_MANAGER"
         preferred = false
       }
     }
