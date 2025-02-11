@@ -1329,51 +1329,6 @@ netsuite.transactionForm custform_81_t2257815_452 {
         id = "TRANSACTIONSYSTEMINFORMATION"
         label = "System Information"
         visible = true
-        fieldGroups = {
-          defaultFieldGroup = {
-            fields = {
-              MIDDLE = {
-                position = "MIDDLE"
-                field = {
-                  custbody_gwr_second_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_second_lvl_approval.scriptid
-                    label = "GWR Amp 2nd Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 0
-                  }
-                  custbody_gwr_first_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_first_lvl_approval.scriptid
-                    label = "GWR Amp 1st Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 1
-                  }
-                  custbody_gwr_edit = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_edit.scriptid
-                    label = "GWR Amp Edit - WA"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 2
-                  }
-                }
-                index = 0
-              }
-            }
-          }
-        }
         subItems = {
           subList = {
             SYSTEMNOTES = {
@@ -1522,26 +1477,6 @@ netsuite.transactionForm custform_81_t2257815_452 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     index = 9
-                  }
-                  custbody_itr_doc_number = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
-                    label = "GWR Amp doc number"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 10
-                  }
-                  custbody_gwr_workflow_selector = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
-                    label = "GWR Workflow selector"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 11
                   }
                 }
                 index = 0
