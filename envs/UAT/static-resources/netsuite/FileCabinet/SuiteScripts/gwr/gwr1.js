@@ -12,8 +12,11 @@ define(['N/record', 'N/search'],
  */
 function(record, search) {
 
-    // GR 20240313-123224 20250211-101810
+    // GR 20240313-123224
+
+    
     // GR 241203 
+
 
     // GR 20240503-132414
 
@@ -29,12 +32,14 @@ function(record, search) {
      * @since 2015.2
      */
     function pageInit(scriptContext) {
-        const s = "20240313-122646 20250211-101831"
-        alert("Selamat pagi, semua")
+
+        const s = "20240313-122646"
+        alert("Hello world")
+
 
     }
     return {
         // non-conflicting change 20250211-101911
         pageInit: pageInit,
     };
-});
+})
