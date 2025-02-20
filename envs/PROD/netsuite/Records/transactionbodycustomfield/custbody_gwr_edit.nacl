@@ -1,9 +1,7 @@
-netsuite.transactionbodycustomfield custbody_itr_doc_number {
-  scriptid = "custbody_itr_doc_number"
+netsuite.transactionbodycustomfield custbody_gwr_edit {
+  scriptid = "custbody_gwr_edit"
   accesslevel = "2"
   applyformatting = false
-  
-  
   bodyassemblybuild = false
   bodybom = false
   bodycustomerpayment = false
@@ -18,30 +16,29 @@ netsuite.transactionbodycustomfield custbody_itr_doc_number {
   bodyjournal = false
   bodyopportunity = false
   bodyothertransaction = false
-  
   bodyperiodendjournal = false
   bodypickingticket = false
   bodyprintflag = false
   bodyprintpackingslip = false
   bodyprintstatement = false
   bodypurchase = false
-  bodysale = false
+  bodysale = true
   bodytransferorder = false
   bodyvendorpayment = false
   checkspelling = false
   defaultchecked = false
-  description = "new description"
   displaytype = "NORMAL"
   encryptatrest = false
-  fieldtype = "TEXT"
+  fieldtype = "CHECKBOX"
   globalsearch = false
   isformula = false
   ismandatory = false
   isparent = false
-  label = "GWR Amp doc number"
+  label = "GWR Amp Edit - WA"
   searchlevel = "2"
   showhierarchy = false
   showinlist = false
   storevalue = true
-  _alias = "GWR Amp doc number"
+  subtab = "TRANSACTIONSYSTEMINFORMATION"
+  _alias = "GWR Amp Edit - WA"
 }
